@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+{% include header.html %}
+
+{% include splash.html %}
+
+<div class="white-stripe">
+  <div class="container">
+    <div class="row">
+      <div class="page-title"></div>
+      <h1>{{ page.title }}</h1>
+      <div id="content" class="content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}

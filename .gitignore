@@ -1,0 +1,6 @@
+_site/
+*.DS_Store
+*.log
+*.out
+*.aux
+*.pdf
