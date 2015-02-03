@@ -234,6 +234,10 @@ ul > li > strong {
   color: #9CC47C;
 }
 
+.turquoise {
+  color: #1C7B73;
+}
+
 .gray {
   color: #95A5A6;
 }
@@ -562,7 +566,10 @@ p.triangle  {
 
 .keynote-speaker a:link, .keynote-speaker a:visited,
 .speaker a:link, .speaker a:visited {
+  /*color: #1C7B73;*/
+  color: #9CC47C;
   font-weight: 800;
+  border: 0;
 }
 
 .organizer a:hover {
