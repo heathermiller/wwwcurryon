@@ -242,6 +242,10 @@ ul > li > strong {
   color: #95A5A6;
 }
 
+.dark-blue {
+  color: #073642;
+}
+
 .semibold {
   font-weight: 600;
 }
@@ -759,6 +763,7 @@ a.btn-outline {
 }
 
 .mc-field-group > .txt-label {
+  color: #073642;
 }
 
 .mc-field-group > ul {
@@ -879,7 +884,8 @@ input:focus {
   font-style: italic;
   font-weight: 100;
   font-size: 20px;
-  color: #95A5A6;
+  /*color: #95A5A6;*/
+  margin-top: 18px;
   margin-bottom: 10px;
 }
 
