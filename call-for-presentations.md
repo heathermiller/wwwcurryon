@@ -6,7 +6,6 @@ title: Call for Presentations
 Curry On aims to be a conference about practice.
 
 ## Deadlines
-
   - **Call for presentation ends**: April 3<sup>rd</sup>, 2015
 
 

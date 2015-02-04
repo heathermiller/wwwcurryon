@@ -61,8 +61,8 @@ h2 {
 
 p {
   display: block;
-  margin-before: 1em;
-  margin-after: 1em;
+  margin-top: 1.3em;
+  margin-bottom: 1.3em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
 }
@@ -943,15 +943,18 @@ input:focus {
 }
 
 .inner-page-wrap {
-  font-family: "ronnia",sans-serif;
-  font-style: italic;
-  font-weight: 100;
+  /*font-family: "ronnia",sans-serif;*/
+  font-family: "petala-pro",sans-serif;
+  /*font-style: italic;*/
+  font-weight: 300;
   color: #95A5A6;
-  line-height: 1.3em;
-  font-size: 22px;
+  line-height: 1.4em;
+  font-size: 21px;
 }
 
 .inner-page-title {
+  font-family: "ronnia",sans-serif;
+  font-style: italic;
   margin-top: 38px;
   margin-bottom: 14px;
   color: #ffffff;
@@ -964,6 +967,7 @@ input:focus {
 
 .inner-page-wrap b, .inner-page-wrap strong {
   color: #1C7B73;
+  font-weight: 600;
 }
 
 a.btn.btn-outline-inverse.btn-lg:hover {
