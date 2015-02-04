@@ -901,9 +901,9 @@ input:focus {
 }
 
 .fyi a:link, .fyi a:visited {
-  color: #9CC47C;
+  color: #95A5A6;
   font-weight: 300;
-  border: 0;
+  /*border: 0;*/
 }
 
 .fyi a:hover {
