@@ -61,31 +61,31 @@ h2 {
 
 p {
   display: block;
-  margin-top: 1.3em;
+  /*margin-top: 1.3em;*/
   margin-bottom: 1.3em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
 }
 
-li {
+/*li {
   line-height: 1.5em;
   color: #57676e;
   margin-bottom: 0.5em;
   -webkit-margin-start: 6px;
   -webkit-margin-end: 0px;
+}*/
+
+ul, ol {
+  margin-bottom: 1.3em;
 }
 
-ul {
-  list-style-image: url({{ site.baseurl }}/resources/img/arrow.png);
-}
-
-ul > li {
- color: #073642;
+ul > li, ol > li  {
+ /*color: #073642;*/
  margin-left: 24px;
 }
 
 ul > li > strong {
-  color: #E74C3C;
+  /*color: #E74C3C;*/
 }
 
 .splash {
@@ -942,6 +942,10 @@ input:focus {
   margin-top: 15px;
 }
 
+.emblem > a:link {
+  border: 0;
+}
+
 .inner-page-wrap {
   /*font-family: "ronnia",sans-serif;*/
   font-family: "petala-pro",sans-serif;
@@ -966,7 +970,7 @@ input:focus {
 }
 
 .inner-page-wrap b, .inner-page-wrap strong {
-  color: #1C7B73;
+  /*color: #1C7B73;*/
   font-weight: 600;
 }
 
