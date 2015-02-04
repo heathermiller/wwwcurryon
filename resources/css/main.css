@@ -42,22 +42,21 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   margin-top: 1em;
-  font-family: "petala-pro",sans-serif;
+  font-family: "ronnia",sans-serif;
 }
 
 h1 {
-  color: #E74C3C;
-  font-family: "museo-slab",serif;
+  color: #ffffff;
+  /*font-family: "museo-slab",serif;*/
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
 }
 
 h2 {
-  color: #073642;
-  font-style: italic;
-  font-weight: 600;
-  color: #073642;
+  color: #9CC47C;
+  font-style: normal;
+  font-weight: 800;
 }
 
 p {
@@ -900,15 +899,80 @@ input:focus {
   margin-bottom: 10px;
 }
 
-.fyi a:link, .fyi a:visited {
+.fyi a:link, .fyi a:visited.
+.inner-page-wrap a:link, .inner-page-wrap a:visited {
   color: #95A5A6;
   font-weight: 300;
   /*border: 0;*/
 }
 
-.fyi a:hover {
+.fyi a:hover,
+.inner-page-wrap a:hover {
   color: #E66E32;
 }
+
+.top-banner {
+  position: relative;
+  background: url({{ site.baseurl }}/resources/img/prague-top-banner.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+}
+
+.blue-stripe-top-banner {
+  position: relative;
+  z-index: 100;
+  background-color: rgba(7, 54, 66, 0.7);
+  margin-top: -40px;
+  height: 40px;
+}
+
+.curry-on-emblem-wrap {
+  position: relative;
+  margin-left: -6px;
+  /*right: 0px;*/
+  /*text-align: center;*/
+  z-index: 200;
+}
+
+.emblem {
+  margin-top: 15px;
+}
+
+.inner-page-wrap {
+  font-family: "ronnia",sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  color: #95A5A6;
+  line-height: 1.3em;
+  font-size: 22px;
+}
+
+.inner-page-title {
+  margin-top: 38px;
+  margin-bottom: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 32px;
+  font-style: italic;
+  line-height: 1.3em;
+  /*text-align: right;*/
+}
+
+.inner-page-wrap b, .inner-page-wrap strong {
+  color: #1C7B73;
+}
+
+a.btn.btn-outline-inverse.btn-lg:hover {
+  color: #073642;
+}
+
+
+
+
 
 
 

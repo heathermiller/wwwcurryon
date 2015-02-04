@@ -1,0 +1,41 @@
+---
+layout: inner
+---
+
+{% include header.html %}
+
+<div class="top-banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="curry-on-emblem-wrap">
+          <div class="emblem">
+            <img src="{{ site.baseurl }}/resources/img/curry-on-logo-top-bar.png">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+</div>
+
+<div class="blue-stripe-top-banner">
+  <div class="container">
+  </div>
+</div>
+
+<div class="inner-page-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="inner-page-title">{{ page.title }}</div>
+        {{ content }}
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+</div>
+
+{% include footer.html %}
