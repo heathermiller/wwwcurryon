@@ -41,7 +41,7 @@ Each accepted talk will get a 40 minute talk slot.
 
 ## Admission and Travel
 
-- Speakers will receive free admission to Strange Loop.
+- Speakers will receive free admission to Curry On.
 
 We are striving to provide some form of travel grant to assist with the costs
 of attending. We'll post details here once a budget is finalized.
