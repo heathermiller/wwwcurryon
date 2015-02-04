@@ -516,6 +516,17 @@ p.triangle  {
   }.
 }
 
+.circular.bodil {
+  background-image: url('{{ site.baseurl }}/resources/img/bodil.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.bodil {
+    background-image: url('{{ site.baseurl }}/resources/img/bodil@2x.png');
+    background-size: 125px 125px;
+  }.
+}
+
 .circular.filip {
   background-image: url('{{ site.baseurl }}/resources/img/filip.png');
 }
