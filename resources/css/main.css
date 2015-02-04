@@ -900,6 +900,15 @@ input:focus {
   margin-bottom: 10px;
 }
 
+.fyi a:link, .fyi a:visited {
+  color: #9CC47C;
+  font-weight: 300;
+  border: 0;
+}
+
+.fyi a:hover {
+  color: #E66E32;
+}
 
 
 
