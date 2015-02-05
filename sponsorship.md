@@ -27,7 +27,7 @@ Benefits include:
 - Your recognition on website and print at **Bronze** level
 - Your logo on display on the conference website
 - Links to sponsor website
-- Conference attendee list with email addresses, subject to agreement
+<!-- - Conference attendee list with email addresses, subject to agreement -->
 
 ### Silver – $5,000 (3 of 3 available)
 
@@ -35,7 +35,7 @@ Benefits include:
 - Your recognition on website and print at the **Silver** level
 - Your logo on display on the conference website
 - Links to sponsor website
-- Conference attendee list with email addresses, subject to agreement
+<!-- - Conference attendee list with email addresses, subject to agreement -->
 - Sponsor logo on shirts of student volunteers
 - One complimentary one-day pass
 - Give presentations in the exhibition area or an industrial demo
@@ -47,7 +47,7 @@ Benefits include:
 - Your recognition on website and print at the **Gold** level
 - Your logo on display on the conference website
 - Links to sponsor website
-- Conference attendee list with email addresses, subject to agreement
+<!-- - Conference attendee list with email addresses, subject to agreement -->
 - Sponsor logo on shirts of student volunteers
 - Give presentations in the exhibition area or an industrial demo
 - Choice of 1 complimentary ticket for the conference or 3 one-day passes
@@ -59,7 +59,7 @@ Benefits include:
 - Your recognition on website and print at the **Diamond** level
 - Your logo on display on the conference website
 - Links to sponsor website
-- Conference attendee list with email addresses, subject to agreement
+<!-- - Conference attendee list with email addresses, subject to agreement -->
 - Sponsor logo on shirts of student volunteers
 - One complimentary one-day pass
 - Give presentations in the exhibition area or an industrial demo
