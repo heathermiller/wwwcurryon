@@ -739,18 +739,6 @@ a.btn-outline {
   margin-bottom: -60px;
 }
 
-/*.exclamation-point {
-  position: relative;
-  z-index: 200;
-  color: #E66E32;
-  font-family: "ff-market-web",cursive;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 60pt;
-  margin-top: -170px;
-  margin-left: 110px;
-}*/
-
 .call-ends {
   position: relative;
   color: #E66E32;
@@ -981,9 +969,128 @@ input:focus {
   font-weight: 600;
 }
 
+a.btn.btn-outline-inverse.btn-lg:link,
+a.btn.btn-outline-inverse.btn-lg:visited {
+  color: #ffffff;
+}
+
 a.btn.btn-outline-inverse.btn-lg:hover {
   color: #073642;
 }
+
+.footer {
+  /*font-family: "ronnia",sans-serif;*/
+  font-family: "petala-pro",sans-serif;
+  position: relative;
+  z-index: 10;
+  background: #073642;
+  /*text-align: center;*/
+  color: #fff;
+  padding-top: 50px;
+  /*margin-top: 20px;*/
+}
+
+.copyright {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.2em;
+  /*font-family: "museo-slab", serif;*/
+  position: relative;
+  float: left;
+}
+
+.copyright > a:link,
+.copyright > a:visited {
+  font-weight: 300;
+  color: #9CC47C;
+}
+
+.copyright a:hover {
+  color: #E66E32;
+}
+
+.footer > p {
+  vertical-align: bottom;
+}
+
+.footer ul {
+  -moz-box-sizing: content-box;
+  float: left;
+  list-style: none outside none;
+  margin: 0;
+  padding: 10px 0 20px 0;
+  width: 188px;
+}
+
+.footer a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  border: none;
+}
+
+.footer a:hover {
+  color: #E66E32;
+  text-decoration: none;
+}
+
+.footer li {
+  /*font-family: "museo-slab", serif;*/
+  text-align: left;
+}
+
+.footer ul:last-child {
+    padding-right: 0;
+}
+
+.footer ul li a {
+    /*color: rgba(255, 255, 255, 0.7);*/
+    /*color: #839496;*/
+    font-weight: 300;
+    /*font-style: italic;*/
+    color: #95A5A6;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: none;
+    color: #E66E32;
+}
+
+.footer ul li h5 {
+    /*border-bottom: 1px solid rgba(131, 148, 150, 0.6);*/
+    /*color: rgba(255, 255, 255, 0.9);*/
+    font-family: "vinyl", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    font-size: 22px;
+    /*line-height: 20px;*/
+    color: #fff;
+    /*margin-bottom: 10px;*/
+    /*padding-bottom: 10px;*/
+    /*text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);*/
+    text-transform: uppercase;
+}
+.footer ul li h5 a {
+    font-size: 14px;
+    opacity: 1;
+    border: none;
+}
+
+.scala-logo-footer {
+  position: relative;
+  float: right;
+  margin-top: 70px;
+  margin-right: 20px;
+}
+
+
+
 
 
 
