@@ -263,6 +263,7 @@ p.triangle  {
   border-bottom: 24px solid rgba(28, 123, 115, 0.45);
   border-left: 34px solid transparent;
   margin-left: 18px;
+  margin-bottom: 10px;
 }
 
 .speech-text {
@@ -792,6 +793,7 @@ a.btn-outline {
 
 .mc-field-group > ul > li > label {
   font-weight: 400;
+  color: #073642;
 }
 
 .mc-field-group > ul > li:first-child {
@@ -899,9 +901,9 @@ input:focus {
   margin-bottom: 10px;
 }
 
-.fyi a:link, .fyi a:visited.
+.fyi a:link, .fyi a:visited,
 .inner-page-wrap a:link, .inner-page-wrap a:visited {
-  color: #95A5A6;
+  color: #9CC47C;
   font-weight: 300;
   /*border: 0;*/
 }
