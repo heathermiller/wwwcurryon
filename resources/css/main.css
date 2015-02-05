@@ -59,6 +59,11 @@ h2 {
   font-weight: 800;
 }
 
+h3 {
+  color: #1C7B73;
+  font-weight: 800;
+}
+
 p {
   display: block;
   /*margin-top: 1.3em;*/
