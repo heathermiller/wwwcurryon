@@ -72,7 +72,7 @@ Benefits include:
 
 ## à la carte Sponsorship
 
-### Diversity Sponsor – $3,000
+### Diversity Sponsor – $3,000 (1 of 3 available) 
 
 Help us bring underrepresented groups to Curry On and ECOOP!
 
