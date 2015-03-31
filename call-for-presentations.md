@@ -36,8 +36,8 @@ Each accepted talk will get a 40 minute talk slot.
 
 ## Deadlines
 
-- **<span class="white">Call for presentations closes</span>**: Friday, April 3<sup>rd</sup>, 2015
-- **<span class="white">Speakers notified</span>**: Friday, April 17<sup>th</sup>, 2015
+- **<span class="white">Call for presentations closes</span>**: Friday, April 8<sup>th</sup>, 2015
+- **<span class="white">Speakers notified/program announced</span>**: Friday, April 17<sup>th</sup>, 2015
 
 ## Admission and Travel
 
