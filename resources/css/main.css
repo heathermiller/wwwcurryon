@@ -291,7 +291,7 @@ p.triangle  {
 .speech-bubble {
   z-index: 100;
   position: relative;
-  width: 420px;
+  width: 490px;
   /*margin-left: 50px;*/
   margin-top: -45px;
 }
