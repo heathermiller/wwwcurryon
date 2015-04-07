@@ -100,7 +100,7 @@ materials.
 
 If your organization is interested in any of these packages (or if you'd like
 to build your own), please contact **both**:
-- **Heather Miller** – [heather@curry-on.org](mailto:heather@curry-on.org)
-- **Jan Vitek** – [jan@curry-on.org](mailto:jan@curry-on.org)
+- **Heather Miller** – <a href="mailto:heather@curry-on.org">heather@curry-on.org</a>
+- **Jan Vitek** – <a href="mailto:jan@curry-on.org">jan@curry-on.org</a>
 
 <div class="pad-bottom"></div>

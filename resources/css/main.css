@@ -1089,6 +1089,24 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   margin-right: 20px;
 }
 
+.orange-box {
+  padding: 14px;
+  padding-left: 24px;
+  padding-right: 24px;
+  /*background-color: rgba(232, 11, 38, 0.6);*/
+  background-color: #7D381C;
+}
+
+.orange-box > h3 {
+  color: #ffffff;
+}
+
+
+
+
+
+
+
 
 
 

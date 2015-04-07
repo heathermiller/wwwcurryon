@@ -34,6 +34,43 @@ Areas of particular interest to the conference include:
 
 Each accepted talk will get a 40 minute talk slot.
 
+We will additionally offer . Presenters have a choice between giving a
+_standard_ talk slot, or giving a _chess-timer_ talk.
+(There will be a limited number of chess-timer talk slots.)
+
+<div class="orange-box">
+
+<h3 id="chesstimer_talks">Chess-Timer Talks</h3>
+
+<p>One of Curry On's prime goals is to <b>bring industry and academia together
+to have an open conversation.</b> But one speaker addressing hundreds of people
+is hardly a conversation. So, we're changing that.</p>
+
+<p>We also call ourselves "a new and unusual non-profit conference focused on
+programming languages & emerging challenges in industry."</p>
+
+<p><b>Chess-timer talks</b> are our unusual solution to making tech conferences a
+more interactive, more fun, and better place for learning and discussions.</p>
+
+<p>Chess-timer talks primarily seek to get more audience members participating in
+the presentation. Speakers who choose to give a chess-timer talk are allowed
+20 minutes of solo speaking time, and 20 minutes of discussion time. A Curry
+On representative operates a chess-timer during the presentation, switching
+between solo + discussion time budgets. When an audience member interrupts the
+talk to ask a question, for example, we switch the timer to deduct from
+discussion time. This style of giving talks has been demoed in small (20-30
+person) academic workshops to great success. In those workshops, it has
+incentivized speakers to strategically insert fodder for discussion points
+into their presentations so as to try and elicit audience members to ask
+questions.</p>
+
+<p>Speakers with selected talks will have the opportunity to choose whether or
+not they would like to give a chess-timer talk. Curry On will feature a
+<i>limited number</i> of chess-timer sessions, meaning that a majority of talks
+will still be standard conference talks.</p>
+
+</div>
+
 ## Deadlines
 
 - **<span class="white">Call for presentations closes</span>**: Wednesday, April 8<sup>th</sup>, 2015
