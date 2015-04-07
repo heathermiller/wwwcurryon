@@ -34,9 +34,9 @@ Areas of particular interest to the conference include:
 
 Each accepted talk will get a 40 minute talk slot.
 
-We will additionally offer . Presenters have a choice between giving a
-_standard_ talk slot, or giving a _chess-timer_ talk.
-(There will be a limited number of chess-timer talk slots.)
+There are two different sorts of talk slots. Presenters have a choice between
+giving a _standard_ talk slot, or giving a _chess-timer_ talk. (There will be
+a limited number of chess-timer talk slots.)
 
 <div class="orange-box">
 
