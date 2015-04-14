@@ -56,7 +56,7 @@ Benefits include:
 - Official support for two student volunteers in the name of your organization
 
 ### Platinum – $15,000 (1 of 1 available)
-- Your recognition on website and print at the **Diamond** level
+- Your recognition on website and print at the **Platinum** level
 - Your logo on display on the conference website
 - Links to sponsor website
 <!-- - Conference attendee list with email addresses, subject to agreement -->
