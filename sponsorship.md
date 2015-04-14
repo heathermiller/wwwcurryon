@@ -72,7 +72,7 @@ Benefits include:
 
 ## à la carte Sponsorship
 
-### Diversity Sponsor – $3,000 (1 of 3 available) 
+### Diversity Sponsor – $3,000 (0 of 2 available) 
 
 Help us bring underrepresented groups to Curry On and ECOOP!
 
@@ -80,7 +80,7 @@ In return, you'll receive recognition on the website, Twitter, during the
 Curry On opening remarks, and in printed conference materials as a diversity
 sponsor.
 
-### Video Sponsor – $2,000 (3 of 3 available) 
+### Video Sponsor – $3,000 (2 of 2 available) 
 
 Help us record Curry On talks and make them rapidly available (within days) on
 YouTube!
