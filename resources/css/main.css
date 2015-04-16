@@ -1101,6 +1101,9 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   color: #ffffff;
 }
 
+.sponsorship > a:link {
+  border: 0px;
+}
 
 
 
