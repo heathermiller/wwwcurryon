@@ -250,6 +250,10 @@ ul > li > strong {
   color: #073642;
 }
 
+.white {
+  color: #ffffff;
+}
+
 .semibold {
   font-weight: 600;
 }
@@ -1101,707 +1105,89 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   color: #ffffff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.circle-yellow {
-  position: relative;
-  margin-top: 20px;
-  width: 200px;
-  height: 200px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  /*background-color: rgba(243, 156, 18, 0.6);*/
-  /*background-color: rgba(241, 196, 15, 0.7);*/
-  /*background-color: rgba(241, 254, 126, 0.5);*/
-}
-
-.circle-blue {
-  position: relative;
-  z-index: 0;
-  margin-left: 60px;
-  margin-top: 160px;
-  width: 400px;
-  height: 400px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  background-color: rgba(19, 63, 75, 0.8);
-}
-
-.scala2014 {
-  text-align: center;
-  padding-top: 20px;
-  font-size: 70px;
-}
-
-.scala {
-  font-family: "museo-slab",serif;
-  font-style: normal;
-  font-weight: 800;
-  color: #ffffff;
-}
-
-.scala > a:link, .scala > a:visited, .scala > a:hover {
-  font-style: normal;
-  border: none;
-  color: #ffffff;
-}
-
-.year {
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 100;
-  color: #E74C3C;
-}
-
-
-.year > a:link, .year > a:visited, .year > a:hover {
-  font-style: italic;
-  font-weight: 100;
-  border: none;
-  color: #E74C3C;
-}
-
-
-.annual {
-  padding-top: 80px;
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 100;
-  font-size: 24px;
-  color: #95A5A6;
-  text-align: center;
-}
-
-.location {
-  font-family: "petala-pro",sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #ffffff;
-  letter-spacing: .1em;
-  font-size: 18px;
-  padding-top: 14px;
-  padding-left: 80px;
-}
-
-.sweden {
-  margin-top: -200px;
-  margin-left: 240px;
-  height: 380px;
-  width: 235px;
-  background-image: url('{{ site.baseurl }}/resources/img/sweden.png');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .sweden {
-    background-image: url('{{ site.baseurl }}/resources/img/sweden@2x.png');
-    background-size: 235px 380px;
-  }
-}
-
-.inner-third{
-  height: 100%;
-  width: 100%;
-  background: #E74C3C;
-  border: none;
-  border-radius: 50%;
-  padding: 6px;
-  box-sizing: border-box;
-}
-
-.inner-second{
-  height: 100%;
-  width: 100%;
-  background: transparent;
-  border: 6px solid #E74C3C;
-  border-radius: 50%;
-  padding: 6px;
-  box-sizing: border-box;
-}
-
-.inner-first{
-  height: 100%;
-  width: 100%;
-  background: transparent;
-  border: 3px solid #E74C3C;
-  border-radius: 50%;
-  padding: 1px;
-  box-sizing: border-box;
-}
-.map-marker {
-  position: relative;
-  left: 318px;
-  top: -150px;
-  width: 48px;
-  height: 48px;
-  margin: 1%;
-}
-
-.coloc {
-  width: 150px;
-  position: relative;
-  top: -182px;
-  left: 80px;
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 100;
+.program {
+  font-family: "ronnia",sans-serif;
   font-size: 20px;
-  color: #95A5A6;
-  line-height: 0.9em;
-  text-align: right;
-}
-
-.coloc a:link, .coloc a:visited {
-  font-weight: 100;
-  color: #95A5A6;
-}
-
-.coloc a:hover {
-  color: #E74C3C;
-}
-
-.scala-font {
-  font-family: "museo-slab",serif;
-  font-style: normal;
-  font-weight: 800;
-}
-
-.red {
-  color: #E74C3C;
-}
-
-.white {
-  color: #fff;
-}
-
-.red-stripe {
-  background-color: #E74C3C;
-  min-height: 40px;
-  color: #fff;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.red-stripe > .container > center > a:link, .red-stripe > .container > center > a:visited {
-  color: #073642;
   font-style: italic;
-  border: 0;
-}
-
-.red-stripe > .container > center > a:hover {
-  color: #fff;
-}
-
-.white-stripe {
-  background-color: #fff;
-}
-
-.yellow-stripe {
-  margin-top: -50px;
-  /*min-height: 400px;*/
-  /*background-color: #F1FE7E;*/
-  /*background-color: rgba(241, 254, 126, 1);*/
-  /*background-color: #F1C40F;*/
-  /*background-color: rgba(241, 196, 15, 1);*/
-  /*background-color: #fff;*/
-  /*background-color: #95A5A6;*/
-  background-color: rgba(243, 156, 18, 1);
-}
-
-.arrow-down {
-  z-index: 2;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 0;
-  height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-}
-
-.blue {
-  border-top: 50px solid #073642;
-}
-
-.yellow {
-  border-top: 50px solid rgba(243, 156, 18, 1);
-}
-
-/*.white {
-  border-top: 50px solid #fff;
-}*/
-
-/*.gray {
-  border-top: 50px solid #95A5A6;
-}*/
-
-.transp-blue {
-  background-color: rgba(19, 63, 75, 0.2);
-  min-height: 30px;
-  padding-top: 10px;
-  padding-bottom: 16px;
-}
-
-.transp-blue-arrow {
-  z-index: 1;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 0;
-  height: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-top: 100px solid rgba(19, 63, 75, 0.2);
-}
-
-.inside-stripe {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.after-arrow {
-  margin-top: -100px;
-}
-
-.transp-yellow {
-  background-color: rgba(243, 156, 18, 0.2);
-  min-height: 30px;
-}
-
-.transp-yellow-arrow {
-  z-index: 1;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 0;
-  height: 0;
-  border-left: 100px solid transparent;
-  border-right: 100px solid transparent;
-  border-top: 100px solid rgba(243, 156, 18, 0.2);
-}
-
-.sponsors {
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 32px;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.sponsors-text, .need-sponsors {
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 100;
-  color: #95A5A6;
-  font-size: 24px;
-  text-align: center;
-  margin-bottom: 32px;
-  line-height: 1.3em;
-}
-
-.need-sponsors {
-  font-size: 32px;
-  margin-top: 32px;
-  color: #E74C3C;
-  font-weight: 600;
-}
-
-.sponsor-logos a:link, .sponsor-logos a:visited {
-  border: none;
-}
-
-.contact {
-  margin-top: 20px;
-  color: #fff;
-}
-
-.contact a:hover {
-  color: #fff;
-}
-
-.copyright {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  color: #fff;
-  font-size: 12px;
-  line-height: 1.2em;
-  position: relative;
-  float: left;
-}
-
-.scala-logo-footer {
-  position: relative;
-  float: right;
-  margin-top: 70px;
-  margin-right: 20px;
-}
-
-/*.white-text {
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 32px;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 20px;
-}*/
-
-.red-text {
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 32px;
-  color: #E74C3C;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.format {
-  color: #fff;
-}
-
-.format .title {
-  text-align: center;
-  border-bottom: 3px solid rgba(149, 165, 166, 0.4);
-}
-
-.format h1 {
-  color: #fff;
-}
-
-.format .title > h1 {
-  display:inline-block;
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 600;
-  text-transform: none;
-  font-size:36px;
-  position:relative;
-  top: 26px;
-  background:#073642;
-  padding:0 12px;
-  color: #fff;
-}
-
-.format > .academic {
-
-}
-
-.tile-wrapper {
-  position: relative;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  min-width: 720px;
-}
-
-.tile {
-  z-index: 3;
-  position: relative;
-  width: 260px;
-  min-height: 280px;
-  background-color: #1E4853;
-  color: #fff;
-  padding: 10px;
-    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 1px 4px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-}
-
-.tile > .title {
-  text-align: center;
-  border-bottom: 3px solid #E74C3C;
-}
-
-.tile > .title > h1 {
-  font-family: "petala-pro",sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  border-color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 18px;
-  text-shadow: none;
-  top: 18px;
-  background: #1E4853;
-  padding:0 8px;
-  margin-top: 8px;
-}
-
-.tile > .text {
-  margin-top: 18px;
-  font-family: "petala-pro",sans-serif;
-  font-style: normal;
   font-weight: 300;
-  color: #95A5A6;
+  color: #042630;
+  line-height: 1.4em;
 }
 
-.tile.research-papers {
-  height: 320px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.tile.student-talks {
-  z-index: 2;
-  position: absolute;
-  left: 0px;
-  margin-top: 20px;
-  height: 280px;
-}
-
-.tile.tool-demos {
-  z-index: 2;
-  position: absolute;
-  right: 0px;
-  margin-top: 20px;
-  height: 280px;
-}
-
-.format > h1 {
-  text-align: center;
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 600;
-  font-size: 36px;
-  text-shadow: none;
-  text-transform: none;
-}
-
-.format > .industrial > .text {
-  margin-top: 18px;
-  font-family: "petala-pro",sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  color: #95A5A6;
-}
-
-.format > .industrial > .text b {
-  font-family: "petala-pro",sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.keynote-info, .author-info {
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 100;
-  font-size: 22px;
-  color: rgba(149, 165, 166, 1);
-  line-height: 0.6em;
-}
-
-.pc-wrap {
-  width: 99%;
-  position: relative;
-}
-
-.pc {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 18px;
-  font-weight: normal;
-  line-height: 1.1em;
-  text-align: left;
-  width: 760px;
-}
-
-.pc > b {
-  color: #E74C3C;
-}
-
-.pc a:link, .pc a:visited {
-  color: #E74C3C;
-  border: none;
-}
-
-.pc a:hover {
-  color: #fff;
-  border: none;
-}
-
-.and-open-source, .small-italic {
-  z-index: 2;
-  position: relative;
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  text-align: center;
-  font-weight: 300;
-  font-size: 28px;
-  color: rgba(255, 255, 255, 0.6);
-  margin-top: 12px;
-}
-
-
-.papers-talks-due {
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 600;
-  color: #E74C3C;
-  font-size: 22px;
-}
-
-.abstracts-due {
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 100;
-  color: #95A5A6;
-  margin-bottom: 22px;
-}
-
-.panel-title {
-  font-family: "petala-pro",sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  color: #E74C3C;
-  text-align: center;
-  font-size: 28px;
-  line-height: 1em;
-  margin-top: 32px;
-}
-
-.panelists {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 16px;
-  margin-bottom: 52px;
-  font-family: "petala-pro",sans-serif;
-  font-style: italic;
-  font-weight: 100;
-  position: relative;
-  width: 450px;
-  font-size: 22px;
-  color: rgba(149, 165, 166, 1);
-}
-
-.to-confirm, .to-confirm > b {
-  color: rgba(149, 165, 166, 0.3);
-}
-
-.content {
-  font-family: "petala-pro",sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  color: #073642;
-  padding-bottom: 80px;
-  line-height: 1.3em;
-}
-
-.important-dates {
-  position: relative;
-  width: 480px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.important-dates li {
-  margin-bottom: 0px;
-}
-
-.scala-logo-footer a:link, .scala-logo-footer a:visited,
-.copyright a:link, .copyright a:visited {
-  border: none;
-}
-
-@font-face {
-    font-family: 'BaskervilleLibre';
-    src: url('{{ site.baseurl }}/resources/glyphs/librebaskerville-italic-webfont.eot');
-    src: url('{{ site.baseurl }}/resources/glyphs/librebaskerville-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('{{ site.baseurl }}/resources/glyphs/librebaskerville-italic-webfont.woff') format('woff'),
-         url('{{ site.baseurl }}/resources/glyphs/librebaskerville-italic-webfont.ttf') format('truetype'),
-         url('{{ site.baseurl }}/resources/glyphs/librebaskerville-italic-webfont.svg#libre_baskervilleitalic') format('svg');
-    font-weight: normal;
-    font-style: italic;
-
-}
-
-.times, .thin, .thin a, .thin a:hover {
-  font-family: "petala-pro",sans-serif;
-  font-weight: 100;
-  color: #333;
-}
-
-.thin a {
-  border-bottom: 1px solid #333;
-}
-
-.lines {
-  border-top: 2px solid rgba(19, 63, 75, 0.2);
-  border-bottom: 2px solid rgba(19, 63, 75, 0.2);
-}
-
-.line {
-  border-bottom: 2px solid rgba(19, 63, 75, 0.2);
-}
-
-.transp-blue {
-  background-color: rgba(19, 63, 75, 0.2);
-}
-
-.talk-header {
-  font-size: 22px;
-}
-
-.talk {
+.pad {
+  padding-top: 12px;
   padding-bottom: 12px;
 }
 
-.talk-title {
+.time {
+  font-style: normal;
+  /*vertical-align: to p;*/
+  padding-left: 6px;
+}
+
+.tr-dark {
+  background-color: rgba(7, 54, 66, 0.3);
+}
+
+.tr-green {
+  background-color: rgba(156, 196, 124, 0.3);
+}
+
+.tr-bottom {
+  border-bottom: solid 3px rgba(7, 54, 66, 0.3);
+}
+
+
+.td-title, .td-speaker {
   font-family: "petala-pro",sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 1.1em;
 }
 
-.dark {
-  color: #333;
-}
-
-.paper-title > a {
+.td-title {
   font-size: 24px;
-  border: 0px;
 }
 
-.paper-title > a:hover {
-  text-decoration: none;
-  color: #E74C3C;
+.td-speaker {
+  font-size: 20px;
+  color: #9CC47C;
 }
 
-.paper {
-  margin-bottom: 32px;
+.td-affiliation {  
+  color: #95A5A6;
 }
 
-.papers {
-  margin-bottom: 48px;
+.rounded-orange {
+    -moz-border-radius:3px 3px 3px 3px;
+    border-radius:3px 3px 3px 3px;
+    border: solid 0px;
+    background-color:#E66E32;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
 }
+
+.right {
+  padding-right: 20px;
+}
+
+.td-twitter > a:link,
+.td-twitter > a:visited {
+  color: #9CC47C;
+  font-weight: 100;
+  border: 0;
+  font-size: 18px;
+}
+
+.td-twitter > a:hover {
+  color: #ffffff;
+}  
+
+
+
+
