@@ -1188,6 +1188,24 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   color: #ffffff;
 }  
 
+.rounded-dark-blue {
+    -moz-border-radius:3px 3px 3px 3px;
+    border-radius:3px 3px 3px 3px;
+    border: solid 0px;
+    background-color:#073642;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    /*color: #9CC47C;*/
+    color: #95A5A6;
+    /*color: #ffffff;*/
+    /*color: rgba(255, 255, 255, 0.9);*/
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-right: 6px;
+}
 
 
 
