@@ -471,12 +471,12 @@ p.triangle  {
 }
 
 .circular.marc {
-  background-image: url('{{ site.baseurl }}/resources/img/marc.png');
+  background-image: url('{{ site.baseurl }}/resources/img/marc.jpg');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.marc {
-    background-image: url('{{ site.baseurl }}/resources/img/marc@2x.png');
+    background-image: url('{{ site.baseurl }}/resources/img/marc@2x.jpg');
     background-size: 125px 125px;
   }.
 }
@@ -1319,3 +1319,38 @@ a.btn.btn-outline-inverse.btn-lg:hover {
     background-size: 125px 125px;
   }
 }
+
+
+.circular.roland {
+  background-image: url('{{ site.baseurl }}/resources/img/roland.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.roland {
+    background-image: url('{{ site.baseurl }}/resources/img/roland@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.ary {
+  background-image: url('{{ site.baseurl }}/resources/img/ary.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.ary {
+    background-image: url('{{ site.baseurl }}/resources/img/ary@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.juan {
+  background-image: url('{{ site.baseurl }}/resources/img/juan.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.juan {
+    background-image: url('{{ site.baseurl }}/resources/img/juan@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
