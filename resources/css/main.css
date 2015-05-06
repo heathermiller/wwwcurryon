@@ -1426,4 +1426,50 @@ code {
   }
 }
 
+.circular.david {
+  background-image: url('{{ site.baseurl }}/resources/img/david.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.david {
+    background-image: url('{{ site.baseurl }}/resources/img/david@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+
+.circular.francisco {
+  background-image: url('{{ site.baseurl }}/resources/img/francisco.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.francisco {
+    background-image: url('{{ site.baseurl }}/resources/img/francisco@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.joshua {
+  background-image: url('{{ site.baseurl }}/resources/img/joshua.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.joshua {
+    background-image: url('{{ site.baseurl }}/resources/img/joshua@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.anton {
+  background-image: url('{{ site.baseurl }}/resources/img/anton.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.anton {
+    background-image: url('{{ site.baseurl }}/resources/img/anton@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+
 
