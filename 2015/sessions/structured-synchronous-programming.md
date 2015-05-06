@@ -2,12 +2,11 @@
 layout: abstract
 title: "Structured Synchronous Programming"
 by: Francisco Sant'Anna
+affiliation: PUC-Rio, Brazil
 profpic-class: francisco
 ---
 
 [@fsantanna_puc](https://twitter.com/fsantanna_puc)
-
-<br>
 
 ### Abstract 
 

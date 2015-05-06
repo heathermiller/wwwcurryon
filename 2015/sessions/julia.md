@@ -2,6 +2,7 @@
 layout: abstract
 title: "Julia"
 by: Jeff Bezanson & Stefan Karpinski
+affiliation: MIT
 profpic-class: jeff-stefan
 ---
 

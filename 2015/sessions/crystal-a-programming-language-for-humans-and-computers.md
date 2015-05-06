@@ -2,14 +2,17 @@
 layout: abstract
 title: "Crystal: a programming language for humans and computers"
 by: Ary Borenszweig & Juan Wajnerman
+affiliation: Manas
 profpic-class: ary
 ---
 
-**Manas**
+
+[@asterite](https://twitter.com/asterite)
 
 <div class="circular juan" style="float: left; margin-top: -20px; margin-right: 18px; "></div>
 
-[@asterite](https://twitter.com/asterite)
+<br> <br> <br> <br> 
+
 
 ### Abstract 
 

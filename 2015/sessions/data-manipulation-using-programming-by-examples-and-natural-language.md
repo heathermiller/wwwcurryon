@@ -2,10 +2,9 @@
 layout: abstract
 title: "Data Manipulation using Programming By Examples and Natural Language"
 by: Sumit Gulwani
+affiliation: Microsoft Research
 profpic-class: sumit
 ---
-
-<br>
 
 ### Abstract 
 

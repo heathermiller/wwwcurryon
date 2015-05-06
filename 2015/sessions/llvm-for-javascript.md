@@ -2,12 +2,11 @@
 layout: abstract
 title: "LLVM for JavaScript"
 by: Filip Pizlo
+affiliation: Apple
 profpic-class: filip
 ---
 
 [@filpizlo](https://twitter.com/filpizlo)
-
-<br> 
 
 ### Abstract 
 

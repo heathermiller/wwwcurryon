@@ -2,6 +2,7 @@
 layout: abstract
 title: "Everything old is new again: Quoted domain specific languages"
 by: Philip Wadler
+affiliation: University of Edinburgh
 profpic-class: phil
 ---
 

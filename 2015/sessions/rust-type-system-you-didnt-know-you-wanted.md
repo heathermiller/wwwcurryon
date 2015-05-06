@@ -2,6 +2,7 @@
 layout: abstract
 title: "Rust: A Type System You Didn't Know You Wanted"
 by: Felix Klock
+affiliation: Mozilla
 profpic-class: felix
 ---
 

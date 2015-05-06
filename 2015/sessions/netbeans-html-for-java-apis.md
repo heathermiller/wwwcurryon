@@ -2,6 +2,7 @@
 layout: abstract
 title: "NetBeans HTML for Java APIs"
 by: Anton Epplenet
+affiliation: NetBeans
 profpic-class: anton
 ---
 

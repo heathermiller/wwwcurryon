@@ -2,12 +2,11 @@
 layout: abstract
 title: "Science Imitates Code"
 by: Joshua Ballanco
+affiliation: Manhattan Metric
 profpic-class: joshua
 ---
 
 [@manhattanmetric](https://twitter.com/manhattanmetric)
-
-<br> 
 
 ### Abstract 
 

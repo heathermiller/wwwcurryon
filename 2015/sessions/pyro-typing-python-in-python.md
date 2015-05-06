@@ -2,10 +2,11 @@
 layout: abstract
 title: "Pyro – Typing Python in Python"
 by: Alex Muscar
+affiliation: Lyst
 profpic-class: alex
 ---
 
-<br><br>
+<br>
 
 ### Abstract 
 

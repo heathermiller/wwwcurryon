@@ -2,10 +2,11 @@
 layout: abstract
 title: "Bits of Advice for VM Writers"
 by: Cliff Click
+affiliation: H2O
 profpic-class: cliff
 ---
 
-<br><br>
+<br>
 
 ### Abstract 
 

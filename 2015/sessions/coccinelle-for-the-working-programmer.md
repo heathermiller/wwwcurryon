@@ -2,10 +2,11 @@
 layout: abstract
 title: "Coccinelle for the Working Programmer"
 by: Julia Lawall
+affiliation: Inria/LIP6/UPMC/Sorbonne University
 profpic-class: julia
 ---
 
-<br> <br>
+<br>
 
 ### Abstract 
 

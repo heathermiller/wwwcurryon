@@ -2,11 +2,11 @@
 layout: abstract
 title: "How to be a good host: miniKanren as a case study"
 by: Daniel Friedman & Jason Hemann
+affiliation: Indiana University
 profpic-class: dan
 ---
 
-[@dfried00](https://twitter.com/dfried00)
-<br>[@jhemann](https://twitter.com/jhemann)
+[@dfried00](https://twitter.com/dfried00) & [@jhemann](https://twitter.com/jhemann)
 
 ### Abstract 
 

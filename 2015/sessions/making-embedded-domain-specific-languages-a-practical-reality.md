@@ -2,10 +2,10 @@
 layout: abstract
 title: "Making Embedded Domain Specific Languages a Practical Reality"
 by: Jurriaan Hage
+affiliation: Utrecht University
 profpic-class: jurriaan
 ---
 
-<br>
 
 ### Abstract 
 

@@ -2,10 +2,9 @@
 layout: abstract
 title: "Empowering Spreadsheet Users with Probabilistic Programs"
 by: Andrew D. Gordon
+affiliation: Microsoft Research
 profpic-class: andy
 ---
-
-<br>
 
 ### Abstract 
 

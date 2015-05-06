@@ -2,6 +2,7 @@
 layout: abstract
 title: "Elm"
 by: Evan Czaplicki
+affiliation: Prezi
 profpic-class: evan
 ---
 

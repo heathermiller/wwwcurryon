@@ -2,6 +2,7 @@
 layout: abstract
 title: "Kotlin: Challenges in language design"
 by: Andrey Breslav
+affiliation: JetBrains
 profpic-class: andrey
 ---
 

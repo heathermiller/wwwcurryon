@@ -2,12 +2,11 @@
 layout: abstract
 title: "It Probably Works"
 by: Tyler McMullen
+affiliation: Fastly
 profpic-class: tyler
 ---
 
 [@tbmcmullen](https://twitter.com/tbmcmullen)
-
-<br>
 
 ### Abstract 
 

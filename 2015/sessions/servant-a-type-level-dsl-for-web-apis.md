@@ -2,10 +2,11 @@
 layout: abstract
 title: "Servant: a type-level DSL for web APIs"
 by: Julian Arni
+affiliation: Zalora
 profpic-class: julian
 ---
 
-<br><br>
+<br>
 
 ### Abstract 
 

@@ -2,12 +2,11 @@
 layout: abstract
 title: "QuickCheck: from invention to product"
 by: Thomas Arts
+affiliation: Quviq
 profpic-class: thomas
 ---
 
 [@quviq](https://twitter.com/quviq)
-
-<br>
 
 ### Abstract 
 

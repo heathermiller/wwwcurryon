@@ -1241,6 +1241,12 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   line-height: 1em;
 }
 
+.abstract-page-affiliation {
+  font-family: "ronnia",sans-serif;
+  font-size: 24px;
+  font-style: italic;  
+  color: #95A5A6;
+}
 
 .circular.felix {
   background-image: url('{{ site.baseurl }}/resources/img/felix.jpg');

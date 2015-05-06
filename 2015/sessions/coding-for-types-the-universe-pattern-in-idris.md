@@ -2,6 +2,7 @@
 layout: abstract
 title: "Coding for Types: The Universe Pattern in Idris"
 by: David Christiansen
+affiliation: IT University of Copenhagen
 profpic-class: david
 ---
 

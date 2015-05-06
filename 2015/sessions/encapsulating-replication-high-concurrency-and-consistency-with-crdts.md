@@ -2,6 +2,7 @@
 layout: abstract
 title: "Encapsulating replication, high concurrency and consistency with CRDTs"
 by: Marc Shapiro
+affiliation: Inria/LIP6
 profpic-class: marc
 ---
 

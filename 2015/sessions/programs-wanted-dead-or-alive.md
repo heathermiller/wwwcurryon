@@ -2,6 +2,7 @@
 layout: abstract
 title: "Programs Wanted: Dead or Alive"
 by: Gilad Bracha
+affiliation: Google
 profpic-class: gilad
 ---
 

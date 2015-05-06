@@ -2,6 +2,7 @@
 layout: abstract
 title: "Speed at a Price: The Evolution of V8 and the Challenges of Research in a Billion User VM"
 by: Ben Titzer
+affiliation: Google
 profpic-class: ben
 ---
 

@@ -2,12 +2,11 @@
 layout: abstract
 title: "Java @ Twitter - a bird's eye view"
 by: Tony Printezis
+affiliation: Twitter
 profpic-class: tony
 ---
 
 [@tonyprintezis](https://twitter.com/tonyprintezis)
-
-<br>
 
 ### Abstract 
 

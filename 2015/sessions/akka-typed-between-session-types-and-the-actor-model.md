@@ -2,6 +2,7 @@
 layout: abstract
 title: "Akka Typed: Between Session Types and the Actor Model"
 by: Roland Kuhn
+affiliation: Typesafe
 profpic-class: roland
 ---
 

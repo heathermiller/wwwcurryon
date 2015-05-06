@@ -2,12 +2,11 @@
 layout: abstract
 title: "Some of the Things That Macros Do"
 by: Zach Tellman
+affiliation: Factual
 profpic-class: zach
 ---
 
 [@ztellman](https://twitter.com/ztellman)
-
-<br>
 
 ### Abstract 
 
