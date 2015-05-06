@@ -1354,3 +1354,76 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   }
 }
 
+.circular.ben {
+  background-image: url('{{ site.baseurl }}/resources/img/ben.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.ben {
+    background-image: url('{{ site.baseurl }}/resources/img/ben@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.tyler {
+  background-image: url('{{ site.baseurl }}/resources/img/tyler.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.tyler {
+    background-image: url('{{ site.baseurl }}/resources/img/tyler@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.tony {
+  background-image: url('{{ site.baseurl }}/resources/img/tony.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.tony {
+    background-image: url('{{ site.baseurl }}/resources/img/tony@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.julian {
+  background-image: url('{{ site.baseurl }}/resources/img/julian.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.julian {
+    background-image: url('{{ site.baseurl }}/resources/img/julian@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+code {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.circular.jurriaan {
+  background-image: url('{{ site.baseurl }}/resources/img/jurriaan.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.jurriaan {
+    background-image: url('{{ site.baseurl }}/resources/img/jurriaan@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.bjarne {
+  background-image: url('{{ site.baseurl }}/resources/img/bjarne.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.bjarne {
+    background-image: url('{{ site.baseurl }}/resources/img/bjarne@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+
