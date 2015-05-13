@@ -1477,5 +1477,14 @@ code {
   }
 }
 
+.circular.ron {
+  background-image: url('{{ site.baseurl }}/resources/img/ron.jpg');
+}
 
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.ron {
+    background-image: url('{{ site.baseurl }}/resources/img/ron@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
 
