@@ -37,7 +37,7 @@ Benefits include:
 - Links to sponsor website
 <!-- - Conference attendee list with email addresses, subject to agreement -->
 - Sponsor logo on shirts of student volunteers
-- One complimentary one-day pass
+- One complimentary Curry On/ECOOP pass (good for the whole week)
 - Give presentations in the exhibition area or an industrial demo
 - Official support for one student volunteer in the name of your organization
 
@@ -50,7 +50,7 @@ Benefits include:
 <!-- - Conference attendee list with email addresses, subject to agreement -->
 - Sponsor logo on shirts of student volunteers
 - Give presentations in the exhibition area or an industrial demo
-- Choice of 1 complimentary ticket for the conference or 3 one-day passes
+- One complimentary Curry On/ECOOP pass (good for the whole week)
 - Sponsor logo on attendees' bags
 - Inclusion of sponsor material in attendees' bags
 - Official support for two student volunteers in the name of your organization
@@ -61,7 +61,7 @@ Benefits include:
 - Links to sponsor website
 <!-- - Conference attendee list with email addresses, subject to agreement -->
 - Sponsor logo on shirts of student volunteers
-- One complimentary one-day pass
+- One complimentary Curry On/ECOOP pass (good for the whole week)
 - Give presentations in the exhibition area or an industrial demo
 - Official support for one student volunteer named for your organisation
 - Choice of one ticket for the conference or 3 one-day passes
