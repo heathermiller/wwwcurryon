@@ -1281,6 +1281,17 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   }
 }
 
+.circular.alexi {
+  background-image: url('{{ site.baseurl }}/resources/img/alexi.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.alexi {
+    background-image: url('{{ site.baseurl }}/resources/img/alexi@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .circular.sumit {
   background-image: url('{{ site.baseurl }}/resources/img/sumit.jpg');
 }
