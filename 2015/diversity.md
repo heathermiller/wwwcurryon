@@ -10,7 +10,7 @@ Applicants should be **both**:
 1. a member of an underrepresented group in tech; women, LGBT, African, Hispanic, people with disabilities, or other underrepresented groups not listed.
 2. unable to attend without some financial assistance. 
 
-In an effort to stretch our scholarship funds as far as possible, we have a preference for European applicants.
+In an effort to stretch our scholarship funds as far as possible, we have a preference for applicants based in Europe.
 
 ### Award
 
