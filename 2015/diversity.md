@@ -22,10 +22,18 @@ Please fill in the form below to apply for the Curry On Diversity Scholarship. A
 
 All attendees are expected to adhere to our [Code of Conduct](http://curry-on.org/code-of-conduct.html).
 
-We need your help! If you are interested in supporting the scholarship program as an individual, please let us know! If you are interested in supporting the program as a company or non-registered individual, please contact heather@curry-on.org.
+We need your help! If you are interested in supporting the scholarship program as an individual, please let us know! If you are interested in supporting the program as a company or non-registered individual, please contact [heather@curry-on.org](mailto:heather@curry-on.org).
 
 
 <center><a href="https://docs.google.com/forms/d/1NPMHIcJfWTFpX0-Yevlkk18vN_XfjMCZ9a54PYBTjic/viewform" class="btn btn-outline-inverse btn-lg">Apply Now!</a></center>
 
-<br><br><br><br>
+<br>
+<center>
+<h1><i>Thank you!</i></h1>
+...for making diversity scholarships possible!
+<br><br>
+<a style="border: 0px;" href="http://www.typesafe.com"><img src="{{ site.baseurl }}/resources/img/typesafe.png"></a><br>
+<a style="border: 0px;" href="http://underscore.io"><img src="{{ site.baseurl }}/resources/img/underscore.png"></a>
+</center>
+<br><br><br>
 
