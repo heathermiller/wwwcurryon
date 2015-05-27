@@ -1536,13 +1536,31 @@ code {
 
 .biggish {
   font-size: 20px;
-  color: #fff;
+  /*color: #fff;*/
   font-weight: 400;
-  text-align: center;
+  /*text-align: center;*/
   margin-bottom: 24px;
 }
 
 .biggen {
   font-size: 22px;
   font-weight: bold;
+}
+
+.our-goal {
+  position: relative;
+  color: #9dc37f;
+  font-family: "ff-market-web",cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26pt;
+  /*margin-top: 14px;*/
+  /*margin-bottom: 14px;*/
+}
+
+.chess-timer-text {
+  font-size: 20px;
+  /*font-weight: 400;*/
+  color: #fff;
+  line-height: 1.3em;
 }
