@@ -1126,6 +1126,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   font-weight: 300;
   color: #042630;
   line-height: 1.4em;
+  border: 0px;
 }
 
 .pad {
