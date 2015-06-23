@@ -10,7 +10,7 @@ profpic-class: julia
 
 ### Abstract 
 
-Coccinelle is a program matching and transformation tool for C code, targeting bug finding and fixing, as well as the automation of pervasive source code evolutions. It can also be used for applications such as code understanding and calculation of software metrics, making it relevant to both software developers and software researchers. A unique feature of Coccinelle is its combination of configurability and accessibility, relying on a patch-like notation that allows developers to specify patterns and transformations that are specific to their software project. This interactive tutorial will give an overview of Coccinelle, in terms of examples from real software. Note: Attendees should if possible have Coccinelle and the source code of Linux 3.2 installed on their machine.
+Coccinelle is a program matching and transformation tool for C code, targeting bug finding and fixing, as well as the automation of pervasive source code evolutions. It can also be used for applications such as code understanding and calculation of software metrics. A unique feature of Coccinelle is its combination of configurability and accessibility, relying on a patch-like notation that allows developers to specify patterns and transformations that are specific to their software project. This talk will provide an overview of Coccinelle and illustrate how it has been used in a large scale study assessing the quality of Linux code.
 
 
 ### Bio
