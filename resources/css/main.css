@@ -1514,6 +1514,38 @@ code {
   }
 }
 
+.circular.sophia {
+  background-image: url('{{ site.baseurl }}/resources/img/sophia.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.sophia {
+    background-image: url('{{ site.baseurl }}/resources/img/sophia@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.sebastian {
+  background-image: url('{{ site.baseurl }}/resources/img/sebastian.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.sebastian {
+    background-image: url('{{ site.baseurl }}/resources/img/sebastian@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.valentin {
+  background-image: url('{{ site.baseurl }}/resources/img/valentin.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.valentin {
+    background-image: url('{{ site.baseurl }}/resources/img/valentin@2x.jpg');
+    background-size: 125px 125px;
+  }
+
 .atypical {
   margin-top: 14px;
   text-align: left;
