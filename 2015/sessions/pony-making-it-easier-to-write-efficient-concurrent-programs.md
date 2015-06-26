@@ -3,12 +3,15 @@ layout: abstract
 title: "Pony: making it easy to write efficient, concurrent, data-race free programs"
 by: Sylvan Clebsch, Sebastian Blessing, Sophia Drossopoulou
 affiliation: Imperial College
-profpic-class: sophia
+profpic-class: sylvan
 ---
+<br>
 
 <div class="circular sebastian" style="float: left; margin-top: -20px; margin-right: 18px; "></div>
+<div class="circular sophia" style="float: left; margin-top: -20px; margin-right: 18px; "></div>
+
+ <br> <br> <br> <br> <br>
 [@ponylang](https://twitter.com/ponylang)
- <br> <br> <br><br>
 
 ### Abstract 
 

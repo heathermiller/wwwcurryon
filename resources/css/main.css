@@ -1545,6 +1545,18 @@ code {
     background-image: url('{{ site.baseurl }}/resources/img/valentin@2x.jpg');
     background-size: 125px 125px;
   }
+}
+
+.circular.sylvan {
+  background-image: url('{{ site.baseurl }}/resources/img/sylvan.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.sylvan {
+    background-image: url('{{ site.baseurl }}/resources/img/sylvan@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
 
 .atypical {
   margin-top: 14px;
