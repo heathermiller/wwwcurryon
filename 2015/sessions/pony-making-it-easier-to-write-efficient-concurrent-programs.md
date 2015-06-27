@@ -2,7 +2,7 @@
 layout: abstract
 title: "Pony: making it easy to write efficient, concurrent, data-race free programs"
 by: Sylvan Clebsch, Sebastian Blessing, Sophia Drossopoulou
-affiliation: Imperial College
+affiliation: Casuality and Imperial College
 profpic-class: sylvan
 ---
 <br>
