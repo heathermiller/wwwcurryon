@@ -1134,6 +1134,11 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   padding-bottom: 12px;
 }
 
+.pad a:link,
+.pad a:visited {
+  color: #9CC47C;
+}
+
 .time {
   font-style: normal;
   /*vertical-align: to p;*/
