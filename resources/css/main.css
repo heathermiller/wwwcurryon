@@ -1184,6 +1184,18 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   color: #95A5A6;
 }
 
+.td-title, .td-room {
+  font-family: "petala-pro",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1em;
+}
+
+.light {
+  font-weight: 100;
+}
+
 .rounded-orange {
     -moz-border-radius:3px 3px 3px 3px;
     border-radius:3px 3px 3px 3px;
@@ -1608,4 +1620,8 @@ code {
   /*font-weight: 400;*/
   color: #fff;
   line-height: 1.3em;
+}
+
+.orange-bg {
+  background-color: rgba(230, 110, 50, 0.5);
 }
