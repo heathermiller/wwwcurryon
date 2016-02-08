@@ -1,8 +1,8 @@
 ---
-layout: abstract
+layout: default
 ---
 
-{% include header.html %}
+{% include 2015-header.html %}
 
 <div class="top-banner">
   <div class="container">
@@ -30,10 +30,7 @@ layout: abstract
     <div class="row">
       <div class="col-md-2"></div>
       <div class="col-md-8">
-        <div class="circular {{ page.profpic-class }}" style="float: left; margin-top: 42px; margin-right: 18px; "></div>
-        <div class="abstract-page-title">{{ page.title }}</div>
-        <div class="abstract-page-by">{{ page.by }}</div>
-        {% if page.affiliation %}<div class="abstract-page-affiliation">{{ page.affiliation }}</div>{% endif %}
+        <div class="inner-page-title">{{ page.title }}</div>
         {{ content }}
       </div>
       <div class="col-md-2"></div>
@@ -41,4 +38,4 @@ layout: abstract
   </div>
 </div>
 
-{% include footer.html %}
+{% include 2015-footer.html %}

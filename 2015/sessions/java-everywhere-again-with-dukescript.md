@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Java everywhere again - with DukeScript!"
 by: Anton Epple
 affiliation: NetBeans
@@ -8,7 +8,7 @@ profpic-class: anton
 
 [@monacotoni](https://twitter.com/monacotoni)
 
-### Abstract 
+### Abstract
 
 In this session you’ll learn how to manage development costs and cost of
 ownership for cross-platform single-source applications that run on Desktop,

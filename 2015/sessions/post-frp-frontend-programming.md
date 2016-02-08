@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Post-FRP Frontend Programming"
 by: Bodil Stokke
 profpic-class: bodil
@@ -9,7 +9,7 @@ profpic-class: bodil
 
 <br>
 
-### Abstract 
+### Abstract
 
 Functional Reactive Programming was a thing that happened in the 90s. We’ve been rehashing these ideas, usually not even getting them right, for the past 20 years, and very little has happened to advance the state of the art.
 

@@ -1,12 +1,12 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "What, if anything, have we learned from C++?"
 by: Bjarne Stroustrup
 affiliation: Morgan Stanley
 profpic-class: bjarne
 ---
 
-### Abstract 
+### Abstract
 
 Coming soon.
 

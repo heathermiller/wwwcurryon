@@ -1,5 +1,5 @@
 ---
-layout: inner
+layout: 2016-inner
 title: Sponsorship Opportunities
 ---
 

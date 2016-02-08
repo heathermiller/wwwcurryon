@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "It Probably Works"
 by: Tyler McMullen
 affiliation: Fastly
@@ -8,7 +8,7 @@ profpic-class: tyler
 
 [@tbmcmullen](https://twitter.com/tbmcmullen)
 
-### Abstract 
+### Abstract
 
 Probabilistic algorithms are an awesome and underused tool for engineers building very large scale systems. Making calculations or consistency guarantees “with high probability” instead of “exactly” is often easier to scale and surprisingly reliable. This talk presents two widely useful probabilistic algorithms which have seen successful deployments at massive scale: Bimodal Multicast, an algorithm used for reliably sending messages to a widely-distributed network of servers; Locality-sensitive Hashing, an algorithm used for calculating the similarity of vectors, which can be used in nearest-neighbor search, recommendation systems, and plagiarism detectors.
 

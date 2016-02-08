@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Pony: making it easy to write efficient, concurrent, data-race free programs"
 by: Sylvan Clebsch, Sebastian Blessing, Sophia Drossopoulou
 affiliation: Casuality and Imperial College
@@ -13,7 +13,7 @@ profpic-class: sylvan
  <br> <br> <br> <br> <br>
 [@ponylang](https://twitter.com/ponylang)
 
-### Abstract 
+### Abstract
 
 Pony is an object oriented, imperative, actor based programming language which makes it easy to write super-fast programs. Its development started as vision in Sylvan’s mind about 5 years ago, followed by a concerted effort 1 year ago, and open sourcing in May.
 

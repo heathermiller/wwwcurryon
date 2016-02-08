@@ -1,12 +1,12 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Encapsulating replication, high concurrency and consistency with CRDTs"
 by: Marc Shapiro
 affiliation: Inria/LIP6
 profpic-class: marc
 ---
 
-### Abstract 
+### Abstract
 
 In clouds and other large-scale distributed systems, data is shared by replicating it a different geographical locations. This creates a fundamental trade-off between availability, scalability, and correctnes: Strong consistency is easy to program against, but is slow, expensive, and is unavailable when the system partitions; whereas Eventual consistency (EC) can be cheaper, faster, and more scalable, but remains very ad-hoc, and is hard to understand and to use correctly. But would it be possible to have replicas that remain available for both reads and writes with fast response times, to tolerate slow and unreliable network links, and yet to ensure consistency?
 

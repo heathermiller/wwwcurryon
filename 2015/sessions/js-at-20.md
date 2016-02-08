@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "JS @ 20"
 by: Brendan Eich
 profpic-class: brendan
@@ -7,9 +7,9 @@ profpic-class: brendan
 
 [@BrendanEich](https://twitter.com/BrendanEich)
 
-<br> 
+<br>
 
-### Abstract 
+### Abstract
 
 Coming soon.
 

@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Coding for Types: The Universe Pattern in Idris"
 by: David Christiansen
 affiliation: IT University of Copenhagen
@@ -8,7 +8,7 @@ profpic-class: david
 
 [@d_christiansen](https://twitter.com/d_christiansen)
 
-### Abstract 
+### Abstract
 
 Some libraries need to be generic over only some of the available types. For instance, a serialization library might only support a pre-defined collection of types, a DSL for GPU computation might require that its inputs be arrays of types that map nicely to OpenCL, and a database library might ensure a relationship between queries and their schemas.
 

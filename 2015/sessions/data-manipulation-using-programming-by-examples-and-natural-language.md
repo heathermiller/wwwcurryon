@@ -1,12 +1,12 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Data Manipulation using Programming By Examples and Natural Language"
 by: Sumit Gulwani
 affiliation: Microsoft Research
 profpic-class: sumit
 ---
 
-### Abstract 
+### Abstract
 
 Data is locked up in semi-structured formats (such as spreadsheets, text/log files, webpages, pdf documents) in both consumer and enterprise space. Getting data out of these documents into structured formats that allow the data to be explored and analyzed is time consuming and error prone. While data scientists typically spend 80% of their time cleaning data, programmatic solutions to data manipulation are beyond the expertise of 99% of those end users who do not know programming.
 

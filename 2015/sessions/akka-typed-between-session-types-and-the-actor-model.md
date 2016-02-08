@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Akka Typed: Between Session Types and the Actor Model"
 by: Roland Kuhn
 affiliation: Typesafe
@@ -9,7 +9,7 @@ profpic-class: roland
 [@rolandkuhn](https://twitter.com/rolandkuhn)
 
 
-### Abstract 
+### Abstract
 
 No matter how we look at it—from the standpoint of the Reactive Manifesto or through the subtly changed implications of Moore’s law—the most pressing challenge for the implementation, validation and verification of computing systems is distribution. While the choice to distribute a program across concurrent execution units allows us to achieve both elasticity and resilience, it also entails a new set of problems that are not present in purely local programs.
 

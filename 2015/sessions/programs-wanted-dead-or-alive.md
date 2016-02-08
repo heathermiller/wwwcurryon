@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Programs Wanted: Dead or Alive"
 by: Gilad Bracha
 affiliation: Google
@@ -8,9 +8,9 @@ profpic-class: gilad
 
 [@Gilad_Bracha](https://twitter.com/Gilad_Bracha)
 
-<br> 
+<br>
 
-### Abstract 
+### Abstract
 
 For many years, work on programming tools and environments has been regarded with disdain by many in the academic programming language community. The recent flood of interest in live programming is changing this situation for the better, albeit belatedly. Rather than thinking about programming languages in isolation, we need to think of programming language systems with a holistic view of the programming experience. There are still important research opportunities in this area, whose roots run deep in the Lisp and Smalltalk traditions.
 

@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Crystal: a programming language for humans and computers"
 by: Ary Borenszweig & Juan Wajnerman
 affiliation: Manas
@@ -11,10 +11,10 @@ profpic-class: ary
 
 <div class="circular juan" style="float: left; margin-top: -20px; margin-right: 18px; "></div>
 
-<br> <br> <br> <br> 
+<br> <br> <br> <br>
 
 
-### Abstract 
+### Abstract
 
 Crystal is a new programming language that focuses on developer productivity, type safety and execution performance. It is statically checked and compiles to native (machine) code. It combines a global type inference algorithm, compile-time macros, compile-time type introspection, automatic union types and Ruby-like syntax, allowing quick prototyping and generating efficient computer programs. It provides a Garbage Collector, uses LLVM as its backend and doesn’t run on a Virtual Machine. In this talk we will show some examples and patterns that arise from combining all these language features.
 

@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Bits of Advice for VM Writers"
 by: Cliff Click
 affiliation: H2O
@@ -8,7 +8,7 @@ profpic-class: cliff
 
 <br>
 
-### Abstract 
+### Abstract
 
 This is a talk about the choices one makes when building a Virtual Machine. Many of these choices aren’t even obviously being made when you first get the machine running - it’s not until years later when you look at your limitations that you even realize there was a choice. There’s the obvious Big VM (server, desktop, laptop, cell phone?) vs Small VM (embedded device, cell phone?) choice. But also: GC-or-no-GC. Portable or not (X86 vs ARM? vs Power/Sparc/tiny-DSP)? Multi-threaded or not? Run any “native” code - or only highly cooperative code? Run inside a pre-emptive multi-tasking OS? Or bare metal? Interpret bytecodes/p-codes vs dumb template-JIT vs Multi-tier-highly-optimizing-JIT? The set of choices goes on and on.
 

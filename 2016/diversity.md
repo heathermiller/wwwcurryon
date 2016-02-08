@@ -1,5 +1,5 @@
 ---
-layout: 2015-inner
+layout: 2016-inner
 title: "Diversity Scholarships"
 ---
 

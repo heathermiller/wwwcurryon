@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Julia: Numerical Applications Pushing the Limits of Language Design"
 by: Jeff Bezanson & Stefan Karpinski
 affiliation: MIT
@@ -8,9 +8,9 @@ profpic-class: jeff-stefan
 
 [@jeffbezanson](https://twitter.com/jeffbezanson) & [@stefankarpinski](https://twitter.com/stefankarpinski)
 
-<br> 
+<br>
 
-### Abstract 
+### Abstract
 
 A major goal of Julia is allowing people to write fast, generic numeric libraries cleanly and easily. In the process of designing the language, we have found that this requires some surprisingly advanced language features, including:
 

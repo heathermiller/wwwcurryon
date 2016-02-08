@@ -1,3 +1,3 @@
 ---
-layout: frontpage
+layout: default
 ---

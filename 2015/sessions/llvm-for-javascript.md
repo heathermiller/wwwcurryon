@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "LLVM for JavaScript"
 by: Filip Pizlo
 affiliation: Apple
@@ -8,7 +8,7 @@ profpic-class: filip
 
 [@filpizlo](https://twitter.com/filpizlo)
 
-### Abstract 
+### Abstract
 
 Dynamic languages have exploded in popularity, and are increasingly being used for high-performance applications. Many projects have sprung up attempting to write compilers for these languages. Lower-level languages, like C, already have well-engineered compilers that can generate fast code. This begs the question: can we reuse existing C compiler infrastructures to generate good code for a dynamic language? I’ll dive into the engineering of the WebKit Fourth-Tier LLVM (FTL) JIT compiler, a production-strength compiler for JavaScript that uses the LLVM C compiler optimization pipeline and backend. At the outset, LLVM had no prior support for JavaScript semantics or even a way to represent a dynamic type, nor did it have support for self-modifying code or on-stack replacement. Bridging the gap between JavaScript and LLVM required adding new dynamism features to LLVM as well as carefully architecting WebKit’s side of the compiler pipeline, runtime, and garbage collector to fit with LLVM’s constraints. Three aspects of FTL will be covered: mostly-accurate garbage collection, new LLVM features for self-modifying code, and the FTL front-end compilation pipeline.
 

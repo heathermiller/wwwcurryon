@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Pyro – Typing Python in Python"
 by: Alex Muscar
 affiliation: Lyst
@@ -8,7 +8,7 @@ profpic-class: alex
 
 <br>
 
-### Abstract 
+### Abstract
 
 At Lyst, we use Python quite heavily. Our code base is around 500k lines of code, spanning multiple domains, from your run of the mill Django web app to machine learning algorithms. Now, we all know that, while Python is good for quickly prototyping apps, its latent typing doesn’t make scaling a large code base easy. Couple this with fast iteration cycles—tens of commits and a couple of releases each day—and you’re sure to get a vast—and interesting—collection of bugs. Motivated by the above, we decided to develop an in-house type checker for Python. While there are plenty of similar projects, most notably MyPy, they all fall short with respect to one or more of our constraints:
 

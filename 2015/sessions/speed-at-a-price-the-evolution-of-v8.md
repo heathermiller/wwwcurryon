@@ -1,12 +1,12 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Speed at a Price: The Evolution of V8 and the Challenges of Research in a Billion User VM"
 by: Ben Titzer
 affiliation: Google
 profpic-class: ben
 ---
 
-### Abstract 
+### Abstract
 
 Google Chrome catapulted JavaScript performance from a toy scripting language to a fast and smooth platform for rich applications, igniting a browser war that’s seen at least four vendors competing neck-and-neck with increasingly performant JSVMs. This talk will outline in broad strokes the initial design pressures in V8 and catalog some turning points along its history as it evolved to support new applications, new and significant language changes, and the changing nature of web applications. JavaScript bloopers, flaws, corner cases, wild crashers from the web, and technical debt all have a role to play in the day to day march of development. But is it just a maintenance mode nightmare? I argue that it is not, and outline several successful research ideas that have been conceived, implemented, shipped, and published in V8.
 

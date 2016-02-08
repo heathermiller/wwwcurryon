@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Rust: A Type System You Didn't Know You Wanted"
 by: Felix Klock
 affiliation: Mozilla
@@ -8,7 +8,7 @@ profpic-class: felix
 
 [@pnkfelix](https://twitter.com/pnkfelix)
 
-### Abstract 
+### Abstract
 
 [Rust](http://www.rust-lang.org/) is a new system
 programming language that provides memory safety and data-race freedom

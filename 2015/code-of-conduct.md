@@ -1,5 +1,5 @@
 ---
-layout: inner
+layout: 2015-inner
 title: Code of Conduct
 ---
 

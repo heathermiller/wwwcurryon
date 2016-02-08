@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Pull > Push: Please stop polluting our imperative languages with pure concepts"
 by: Ron Pressler
 affiliation: Parallel Universe
@@ -9,7 +9,7 @@ profpic-class: ron
 [@puniverseco](https://twitter.com/puniverseco)
 
 
-### Abstract 
+### Abstract
 
 The past few years have seen an influx of ideas from functional programming languages to mainstream languages. Not only lambdas and higher-order functions have found their way into Java and other languages, but even more advanced concepts like monads, imported from the purest of FP languages. In this talk we’ll explore the validity and applicability of those concepts to imperative languages (or, rather, lack thereof), and the motivation for their inclusion. In particular, we’ll discuss:
 

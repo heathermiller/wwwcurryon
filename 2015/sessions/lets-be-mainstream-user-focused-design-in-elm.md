@@ -1,5 +1,5 @@
 ---
-layout: abstract
+layout: 2015-abstract
 title: "Let's be mainstream! User-focused design in Elm"
 by: Evan Czaplicki
 affiliation: Prezi
@@ -8,9 +8,9 @@ profpic-class: evan
 
 [@czaplic](https://twitter.com/czaplic)
 
-<br> 
+<br>
 
-### Abstract 
+### Abstract
 
 If functional programming is so great, why is it still niche? We have a product that can practically eliminate runtime errors, make refactoring much easier, lighten the testing burden, all while being quite delightful to use. What's the hold up?
 
