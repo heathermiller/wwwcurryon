@@ -662,7 +662,7 @@ a.btn-outline {
 
 .call-ends {
   position: relative;
-  color: #E66E32;
+  color: #fdaa40;
   font-family: "ff-market-web",cursive;
   font-style: normal;
   font-weight: 400;
@@ -689,7 +689,7 @@ a.btn-outline {
 }
 
 .mc-field-group > .txt-label {
-  color: #073642;
+  color: #ffffff;
 }
 
 .mc-field-group > ul {
@@ -708,7 +708,7 @@ a.btn-outline {
 
 .mc-field-group > ul > li > label {
   font-weight: 400;
-  color: #073642;
+  color: #ffffff;
 }
 
 .mc-field-group > ul > li:first-child {
@@ -736,13 +736,13 @@ input {
 
 input:focus {
   box-shadow: 0;
-  border: 3px solid #073642;
-  color: #073642;
+  border: 3px solid #fdaa40;
+  color: #fdaa40;
   outline: none;
 }
 
 #mc-embedded-subscribe {
-  background-color: #073642;
+  background-color: #ce4844;
   color: #fff;
   font-family: "petala-pro",sans-serif;
   font-style: normal;
@@ -762,8 +762,9 @@ input:focus {
 }
 
 #mc-embedded-subscribe:hover {
-  background-color: #E66E31;
-  color: #fff;
+  background-color: #fff;
+  color: #302e44;
+  /*border: 3px solid #fff;*/
   -webkit-transition: color .2s ease-in;
   -moz-transition: color .2s ease-in;
   -ms-transition: color .2s ease-in;
@@ -897,7 +898,7 @@ a.btn.btn-outline-inverse.btn-lg:visited {
 }
 
 a.btn.btn-outline-inverse.btn-lg:hover {
-  color: #073642;
+  color: #302e44;
 }
 
 .footer {

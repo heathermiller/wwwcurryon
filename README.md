@@ -1,6 +1,9 @@
-# Website for Curry On Prague 2015
+# Website for Curry On
 
-Co-located with ECOOP'15.
+Co-located with ECOOP. Two editions so far:
+
+- [Curry On Rome 2016](http://curry-on.org/2016)
+- [Curry On Prague 2015](http://curry-on.org/2015)
 
 ## Dependencies ##
 
