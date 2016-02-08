@@ -1185,7 +1185,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   color: #9CC47C;
 }
 
-.td-affiliation {  
+.td-affiliation {
   color: #95A5A6;
 }
 
@@ -1230,7 +1230,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
 
 .td-twitter > a:hover {
   color: #ffffff;
-}  
+}
 
 .rounded-dark-blue {
     -moz-border-radius:3px 3px 3px 3px;
@@ -1268,7 +1268,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   font-weight: 600;
   color: #9CC47C;
   margin-top: 8px;
-  margin-bottom: 14px;  
+  margin-bottom: 14px;
   font-size: 26px;
   line-height: 1em;
 }
@@ -1276,7 +1276,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
 .abstract-page-affiliation {
   font-family: "ronnia",sans-serif;
   font-size: 24px;
-  font-style: italic;  
+  font-style: italic;
   color: #95A5A6;
 }
 
@@ -1582,7 +1582,7 @@ code {
   font-style: italic;
   font-weight: 300;
   color: #073642;
-  line-height: 1.2em;  
+  line-height: 1.2em;
 }
 
 .early-registration {
