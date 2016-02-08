@@ -4,7 +4,7 @@ title: Sponsorship Opportunities
 ---
 
 Curry On began as an academic event, associated with a top academic
-programming languages conference ([ECOOP](http://2015.ecoop.org)). As such,
+programming languages conference ([ECOOP](http://2016.ecoop.org)). As such,
 roughly half of participants are expected to hail from top universities all
 over the world, and half are expected to be talented and forward-thinking
 software developers from continental Europe. Both represent some of the best
@@ -27,27 +27,24 @@ Benefits include:
 - Your recognition on website and print at **Bronze** level
 - Your logo on display on the conference website
 - Links to sponsor website
-<!-- - Conference attendee list with email addresses, subject to agreement -->
 
-### Silver – $5,000 (3 of 3 available)
+### Silver – $5,000
 
 Benefits include:
 - Your recognition on website and print at the **Silver** level
 - Your logo on display on the conference website
 - Links to sponsor website
-<!-- - Conference attendee list with email addresses, subject to agreement -->
 - Sponsor logo on shirts of student volunteers
 - One complimentary Curry On/ECOOP pass (good for the whole week)
 - Give presentations in the exhibition area or an industrial demo
 - Official support for one student volunteer in the name of your organization
 
-### Gold – $10,000 (2 of 2 available)
+### Gold – $10,000
 
 Benefits include:
 - Your recognition on website and print at the **Gold** level
 - Your logo on display on the conference website
 - Links to sponsor website
-<!-- - Conference attendee list with email addresses, subject to agreement -->
 - Sponsor logo on shirts of student volunteers
 - Give presentations in the exhibition area or an industrial demo
 - One complimentary Curry On/ECOOP pass (good for the whole week)
@@ -55,11 +52,10 @@ Benefits include:
 - Inclusion of sponsor material in attendees' bags
 - Official support for two student volunteers in the name of your organization
 
-### Platinum – $15,000 (1 of 1 available)
+### Platinum – $15,000
 - Your recognition on website and print at the **Platinum** level
 - Your logo on display on the conference website
 - Links to sponsor website
-<!-- - Conference attendee list with email addresses, subject to agreement -->
 - Sponsor logo on shirts of student volunteers
 - One complimentary Curry On/ECOOP pass (good for the whole week)
 - Give presentations in the exhibition area or an industrial demo
@@ -72,7 +68,7 @@ Benefits include:
 
 ## à la carte Sponsorship
 
-### Diversity Sponsor – $3,000 (0 of 2 available) 
+### Diversity Sponsor – $3,000
 
 Help us bring underrepresented groups to Curry On and ECOOP!
 
@@ -80,7 +76,7 @@ In return, you'll receive recognition on the website, Twitter, during the
 Curry On opening remarks, and in printed conference materials as a diversity
 sponsor.
 
-### Video Sponsor – $3,000 (2 of 2 available) 
+### Video Sponsor – $3,000
 
 Help us record Curry On talks and make them rapidly available (within days) on
 YouTube!
@@ -88,7 +84,7 @@ YouTube!
 In return, you'll receive recognition on the title screen of the videos, on the
 website, Twitter, and in printed conference materials.
 
-### Lanyard Sponsor – $2,000 (1 of 1 available)
+### Lanyard Sponsor – $2,000
 
 Help us provide lanyards and name tags for all conference attendees.
 

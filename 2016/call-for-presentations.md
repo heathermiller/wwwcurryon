@@ -76,8 +76,8 @@ will still be standard conference talks.</p>
 
 ## Deadlines
 
-- **<span class="white">Call for presentations closes</span>**: Wednesday, April 8<sup>th</sup>, 2015
-- **<span class="white">Speakers notified/program announced</span>**: Friday, April 17<sup>th</sup>, 2015
+- **<span class="white">Call for presentations closes</span>**: Friday, April 8<sup>th</sup>, 2016
+- **<span class="white">Speakers notified/program announced</span>**: Friday, April 22<sup>nd</sup>, 2016
 
 ## Admission and Travel
 
@@ -87,7 +87,7 @@ We are striving to provide some form of travel grant to assist with the costs
 of attending. We'll post details here once a budget is finalized.
 
 
-<center><a href="https://docs.google.com/forms/d/1BGDfgnUUR4EH7XULV0Wqo_MG2HDzkVnVn0qlpMur4u8/viewform" class="btn btn-outline-inverse btn-lg">Propose a Talk</a></center>
+<center><a href="https://docs.google.com/forms/d/1weRQFmp5-G2gpFH11mOxMyXUP1ibKfVte_gJCgOzEYc/viewform" class="btn btn-outline-inverse btn-lg">Propose a Talk</a></center>
 
 
 <div class="pad-bottom"></div>
