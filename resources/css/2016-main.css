@@ -313,7 +313,7 @@ p.triangle  {
   /*color: rgba(255, 255, 255, 0.7);*/
   color: #95A5A6;
   margin-top: -10px;
-  padding: 16px;
+  padding: 26px;
   line-height: 1.2em;
 }
 
@@ -474,6 +474,108 @@ p.triangle  {
   }
 }
 
+.circular.ulfar {
+  background-image: url('{{ site.baseurl }}/resources/img/ulfar.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.ulfar {
+    background-image: url('{{ site.baseurl }}/resources/img/ulfar@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.kaspar {
+  background-image: url('{{ site.baseurl }}/resources/img/kaspar.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.kaspar {
+    background-image: url('{{ site.baseurl }}/resources/img/kaspar@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.peterohearn {
+  background-image: url('{{ site.baseurl }}/resources/img/peterohearn.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.peterohearn {
+    background-image: url('{{ site.baseurl }}/resources/img/peterohearn@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.kathi {
+  background-image: url('{{ site.baseurl }}/resources/img/kathi.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.kathi {
+    background-image: url('{{ site.baseurl }}/resources/img/kathi@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.jaroslav {
+  background-image: url('{{ site.baseurl }}/resources/img/jaroslav.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.jaroslav {
+    background-image: url('{{ site.baseurl }}/resources/img/jaroslav@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.manuel {
+  background-image: url('{{ site.baseurl }}/resources/img/manuel.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.manuel {
+    background-image: url('{{ site.baseurl }}/resources/img/manuel@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.jamesnoble {
+  background-image: url('{{ site.baseurl }}/resources/img/jamesnoble.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.jamesnoble {
+    background-image: url('{{ site.baseurl }}/resources/img/jamesnoble@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.cristinac {
+  background-image: url('{{ site.baseurl }}/resources/img/cristinac.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.cristinac {
+    background-image: url('{{ site.baseurl }}/resources/img/cristinac@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.sean {
+  background-image: url('{{ site.baseurl }}/resources/img/sean.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.sean {
+    background-image: url('{{ site.baseurl }}/resources/img/sean@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+
+
+
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
   font-style: normal;
@@ -490,11 +592,11 @@ p.triangle  {
 .organizer a:link, .organizer a:visited {
   border: none;
   font-weight: 800;
-  color: #302e44;
+  color: #fdaa40;
 }
 
 .organizer a:hover {
-  color: #fdaa40;
+  color: #fc5a4a;
 }
 
 .keynote-speaker a:link, .keynote-speaker a:visited,
@@ -506,7 +608,7 @@ p.triangle  {
 
 .keynote-speaker a:hover,
 .speaker a:hover  {
-  color: #E66E32;
+  color: #fdaa40;
   font-weight: 800;
 }
 
@@ -707,7 +809,8 @@ a.btn-outline {
 }
 
 .mc-field-group > ul > li > label {
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 16px;
   color: #ffffff;
 }
 
@@ -717,6 +820,7 @@ a.btn-outline {
 .txt-label {
   color: #fff;
   font-weight: 700;
+  font-size: 18px;
 }
 
 input {
@@ -819,7 +923,7 @@ input:focus {
 
 .fyi a:link, .fyi a:visited,
 .inner-page-wrap a:link, .inner-page-wrap a:visited {
-  color: #9CC47C;
+  color: #fdaa40;
   font-weight: 300;
   /*border: 0;*/
 }
@@ -1185,299 +1289,9 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   color: #95A5A6;
 }
 
-.circular.felix {
-  background-image: url('{{ site.baseurl }}/resources/img/felix.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.felix {
-    background-image: url('{{ site.baseurl }}/resources/img/felix@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.marjin {
-  background-image: url('{{ site.baseurl }}/resources/img/marjin.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.marjin {
-    background-image: url('{{ site.baseurl }}/resources/img/marjin@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.alex {
-  background-image: url('{{ site.baseurl }}/resources/img/alex.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.alex {
-    background-image: url('{{ site.baseurl }}/resources/img/alex@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.alexi {
-  background-image: url('{{ site.baseurl }}/resources/img/alexi.png');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.alexi {
-    background-image: url('{{ site.baseurl }}/resources/img/alexi@2x.png');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.sumit {
-  background-image: url('{{ site.baseurl }}/resources/img/sumit.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.sumit {
-    background-image: url('{{ site.baseurl }}/resources/img/sumit@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.zach {
-  background-image: url('{{ site.baseurl }}/resources/img/zach.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.zach {
-    background-image: url('{{ site.baseurl }}/resources/img/zach@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.thomas {
-  background-image: url('{{ site.baseurl }}/resources/img/thomas.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.thomas {
-    background-image: url('{{ site.baseurl }}/resources/img/thomas@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-
-.circular.dan {
-  background-image: url('{{ site.baseurl }}/resources/img/dan.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.dan {
-    background-image: url('{{ site.baseurl }}/resources/img/dan@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-
-.circular.roland {
-  background-image: url('{{ site.baseurl }}/resources/img/roland.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.roland {
-    background-image: url('{{ site.baseurl }}/resources/img/roland@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.ary {
-  background-image: url('{{ site.baseurl }}/resources/img/ary.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.ary {
-    background-image: url('{{ site.baseurl }}/resources/img/ary@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.juan {
-  background-image: url('{{ site.baseurl }}/resources/img/juan.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.juan {
-    background-image: url('{{ site.baseurl }}/resources/img/juan@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.ben {
-  background-image: url('{{ site.baseurl }}/resources/img/ben.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.ben {
-    background-image: url('{{ site.baseurl }}/resources/img/ben@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.tyler {
-  background-image: url('{{ site.baseurl }}/resources/img/tyler.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.tyler {
-    background-image: url('{{ site.baseurl }}/resources/img/tyler@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.tony {
-  background-image: url('{{ site.baseurl }}/resources/img/tony.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.tony {
-    background-image: url('{{ site.baseurl }}/resources/img/tony@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.julian {
-  background-image: url('{{ site.baseurl }}/resources/img/julian.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.julian {
-    background-image: url('{{ site.baseurl }}/resources/img/julian@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
 code {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-
-.circular.jurriaan {
-  background-image: url('{{ site.baseurl }}/resources/img/jurriaan.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.jurriaan {
-    background-image: url('{{ site.baseurl }}/resources/img/jurriaan@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.bjarne {
-  background-image: url('{{ site.baseurl }}/resources/img/bjarne.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.bjarne {
-    background-image: url('{{ site.baseurl }}/resources/img/bjarne@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.david {
-  background-image: url('{{ site.baseurl }}/resources/img/david.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.david {
-    background-image: url('{{ site.baseurl }}/resources/img/david@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-
-.circular.francisco {
-  background-image: url('{{ site.baseurl }}/resources/img/francisco.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.francisco {
-    background-image: url('{{ site.baseurl }}/resources/img/francisco@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.joshua {
-  background-image: url('{{ site.baseurl }}/resources/img/joshua.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.joshua {
-    background-image: url('{{ site.baseurl }}/resources/img/joshua@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.anton {
-  background-image: url('{{ site.baseurl }}/resources/img/anton.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.anton {
-    background-image: url('{{ site.baseurl }}/resources/img/anton@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.ron {
-  background-image: url('{{ site.baseurl }}/resources/img/ron.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.ron {
-    background-image: url('{{ site.baseurl }}/resources/img/ron@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.sophia {
-  background-image: url('{{ site.baseurl }}/resources/img/sophia.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.sophia {
-    background-image: url('{{ site.baseurl }}/resources/img/sophia@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.sebastian {
-  background-image: url('{{ site.baseurl }}/resources/img/sebastian.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.sebastian {
-    background-image: url('{{ site.baseurl }}/resources/img/sebastian@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.valentin {
-  background-image: url('{{ site.baseurl }}/resources/img/valentin.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.valentin {
-    background-image: url('{{ site.baseurl }}/resources/img/valentin@2x.jpg');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.sylvan {
-  background-image: url('{{ site.baseurl }}/resources/img/sylvan.jpg');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.sylvan {
-    background-image: url('{{ site.baseurl }}/resources/img/sylvan@2x.jpg');
-    background-size: 125px 125px;
-  }
 }
 
 .atypical {
