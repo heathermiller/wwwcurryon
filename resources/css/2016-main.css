@@ -54,13 +54,13 @@ h1 {
 }
 
 h2 {
-  color: #9CC47C;
+  color: #ce4844;
   font-style: normal;
   font-weight: 800;
 }
 
 h3 {
-  color: #1C7B73;
+  color: #fdaa40;
   font-weight: 800;
 }
 
@@ -127,6 +127,18 @@ ul > li, ol > li  {
   margin-left: -8px;
   display: inline-block;
   color: #fc5a4a;
+  font-family: "ff-market-web",cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100pt;
+}
+
+.rome-inner {
+  position: relative;
+  margin-top: 16px;
+  /*margin-left: -8px;*/
+  display: inline-block;
+  color: #ffffff;
   font-family: "ff-market-web",cursive;
   font-style: normal;
   font-weight: 400;
@@ -1120,8 +1132,8 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   padding: 14px;
   padding-left: 24px;
   padding-right: 24px;
-  /*background-color: rgba(232, 11, 38, 0.6);*/
-  background-color: #7D381C;
+  background-color: rgba(206, 72, 68, 0.5);
+  color: #ffffff;
 }
 
 .orange-box > h3 {
