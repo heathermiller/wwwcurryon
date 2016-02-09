@@ -24,6 +24,7 @@ There are two ways of sponsoring Curry On.
 ### Bronze – $2,000
 
 Benefits include:
+
 - Your recognition on website and print at **Bronze** level
 - Your logo on display on the conference website
 - Links to sponsor website
@@ -31,6 +32,7 @@ Benefits include:
 ### Silver – $5,000
 
 Benefits include:
+
 - Your recognition on website and print at the **Silver** level
 - Your logo on display on the conference website
 - Links to sponsor website
@@ -42,6 +44,7 @@ Benefits include:
 ### Gold – $10,000
 
 Benefits include:
+
 - Your recognition on website and print at the **Gold** level
 - Your logo on display on the conference website
 - Links to sponsor website
@@ -53,6 +56,7 @@ Benefits include:
 - Official support for two student volunteers in the name of your organization
 
 ### Platinum – $15,000
+
 - Your recognition on website and print at the **Platinum** level
 - Your logo on display on the conference website
 - Links to sponsor website
