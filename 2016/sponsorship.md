@@ -16,8 +16,8 @@ is a great place to start.
 
 There are two ways of sponsoring Curry On.
 
-1. Select a [sponsorship level](#sponsorship_levels) (bronze, silver, gold, or platinum).
-2. Select [individual aspects of the event that you would like to support](#_la_carte_sponsorship), such as video recording.
+1. Select a [sponsorship level](#sponsorship-levels) (bronze, silver, gold, or platinum).
+2. Select [individual aspects of the event that you would like to support](#la-carte-sponsorship), such as video recording.
 
 ## Sponsorship Levels
 
