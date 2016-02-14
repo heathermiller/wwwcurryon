@@ -585,8 +585,16 @@ p.triangle  {
   }
 }
 
+.circular.michael {
+  background-image: url('{{ site.baseurl }}/resources/img/michael.png');
+}
 
-
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.michael {
+    background-image: url('{{ site.baseurl }}/resources/img/michael@2x.png');
+    background-size: 125px 125px;
+  }
+}
 
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
@@ -1364,4 +1372,23 @@ code {
 
 .orange-bg {
   background-color: rgba(230, 110, 50, 0.5);
+}
+
+.looking-for {
+  /*rgba(252, 90, 74, 1)*/
+  color: #302e44;
+  text-align: right;
+  font-family: "ronnia",sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  /*font-size: 20px;*/
+}
+
+.looking-for > a:link, .looking-for > a:visited {
+  color: #302e44;
+  border-bottom: 2px solid rgba(48, 46, 68, 0.6);
+}
+
+.looking-for > a:hover {
+  color: rgba(252, 90, 74, 1);
 }
