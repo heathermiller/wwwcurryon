@@ -596,6 +596,39 @@ p.triangle  {
   }
 }
 
+.circular.crista {
+  background-image: url('{{ site.baseurl }}/resources/img/crista.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.crista {
+    background-image: url('{{ site.baseurl }}/resources/img/crista@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.yuan {
+  background-image: url('{{ site.baseurl }}/resources/img/yuan.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.yuan {
+    background-image: url('{{ site.baseurl }}/resources/img/yuan@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.francesco {
+  background-image: url('{{ site.baseurl }}/resources/img/francesco.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.francesco {
+    background-image: url('{{ site.baseurl }}/resources/img/francesco@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
   font-style: normal;
