@@ -1186,7 +1186,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   font-size: 20px;
   font-style: italic;
   font-weight: 300;
-  color: #042630;
+  color: #fff;
   line-height: 1.4em;
   border: 0px;
 }
@@ -1198,7 +1198,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
 
 .pad a:link,
 .pad a:visited {
-  color: #9CC47C;
+  color: #ce4844;
 }
 
 .time {
@@ -1208,15 +1208,15 @@ a.btn.btn-outline-inverse.btn-lg:hover {
 }
 
 .tr-dark {
-  background-color: rgba(7, 54, 66, 0.3);
+  background-color: rgba(255, 255, 255, 0.08);
 }
 
-.tr-green {
-  background-color: rgba(156, 196, 124, 0.3);
+.tr-keynote-bg {
+  background-color: rgba(253, 170, 64, 0.26);
 }
 
 .tr-bottom {
-  border-bottom: solid 3px rgba(7, 54, 66, 0.3);
+  border-bottom: solid 3px rgba(255, 255, 255, 0.1);
 }
 
 
@@ -1232,19 +1232,19 @@ a.btn.btn-outline-inverse.btn-lg:hover {
 
 .td-title > a:link,
 .td-title > a:visited {
-  color: #042630;
+  color: #fff; /*#ce4844*/
   border: 0px;
   /*border-bottom: solid 2px rgba(4, 38, 48, 0.3);*/
 }
 
 .td-title > a:hover {
-  color: #fff;
+  color: #ce4844;
   border: 0px;
 }
 
 .td-speaker {
   font-size: 20px;
-  color: #9CC47C;
+  color: #fdaa40;
 }
 
 .td-affiliation {
@@ -1263,11 +1263,11 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   font-weight: 100;
 }
 
-.rounded-orange {
+.rounded-label {
     -moz-border-radius:3px 3px 3px 3px;
     border-radius:3px 3px 3px 3px;
     border: solid 0px;
-    background-color:#E66E32;
+    background-color:#fc5a4a;
     padding: 2px;
     padding-left: 4px;
     padding-right: 4px;
@@ -1284,7 +1284,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
 
 .td-twitter > a:link,
 .td-twitter > a:visited {
-  color: #9CC47C;
+  color: #fdaa40;
   font-weight: 100;
   border: 0;
   font-size: 18px;
@@ -1298,14 +1298,15 @@ a.btn.btn-outline-inverse.btn-lg:hover {
     -moz-border-radius:3px 3px 3px 3px;
     border-radius:3px 3px 3px 3px;
     border: solid 0px;
-    background-color:#073642;
+    /*background-color:#754050;*/
+    background-color: rgba(206, 72, 68, 0.55);
     padding: 2px;
     padding-left: 4px;
     padding-right: 4px;
     /*color: #9CC47C;*/
-    color: #95A5A6;
+    /*color: #95A5A6;*/
     /*color: #ffffff;*/
-    /*color: rgba(255, 255, 255, 0.9);*/
+    color: rgba(255, 255, 255, 0.8);
     font-size: 11px;
     font-weight: bold;
     text-transform: uppercase;
@@ -1404,7 +1405,7 @@ code {
 }
 
 .orange-bg {
-  background-color: rgba(230, 110, 50, 0.5);
+  background-color: rgba(206, 72, 68, 0.35);
 }
 
 .looking-for {
