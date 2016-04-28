@@ -1,6 +1,6 @@
 ---
 layout: 2016-abstract
-title: "Doing data science with Clojure: the ugly, the sad, the joyful"
+title: "Functional Programming and Foreign Language Interfaces: Essentials in Distributed Computing"
 by: Jörgen Brandt
 affiliation: Humboldt University
 profpic-class: joergenbrandt
