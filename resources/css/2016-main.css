@@ -783,6 +783,16 @@ p.triangle  {
   }
 }
 
+.circular.silviacrafa {
+  background-image: url('{{ site.baseurl }}/resources/img/silviacrafa.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.silviacrafa {
+    background-image: url('{{ site.baseurl }}/resources/img/silviacrafa@2x.png');
+    background-size: 125px 125px;
+  }
+}
 
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
