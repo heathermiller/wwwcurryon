@@ -816,6 +816,29 @@ p.triangle  {
   }
 }
 
+.circular.julienrf {
+  background-image: url('{{ site.baseurl }}/resources/img/julienrf.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.julienrf {
+    background-image: url('{{ site.baseurl }}/resources/img/julienrf@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.andream {
+  background-image: url('{{ site.baseurl }}/resources/img/andream.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.andream {
+    background-image: url('{{ site.baseurl }}/resources/img/andream@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
   font-style: normal;

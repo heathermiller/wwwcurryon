@@ -2,6 +2,7 @@
 layout: 2016-abstract
 title: "Become a Polyglot by learning Java!"
 by: Jaroslav Tulach
+affiliation: Oracle Labs
 profpic-class: jaroslav
 ---
 
