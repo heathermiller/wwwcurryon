@@ -794,6 +794,17 @@ p.triangle  {
   }
 }
 
+.circular.renzo {
+  background-image: url('{{ site.baseurl }}/resources/img/renzo.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.renzo {
+    background-image: url('{{ site.baseurl }}/resources/img/renzo@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
   font-style: normal;
