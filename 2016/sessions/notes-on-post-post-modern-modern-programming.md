@@ -1,6 +1,6 @@
 ---
 layout: 2016-abstract
-title: "The Functional Programming Languages Nomad"
+title: "Notes on Post-Post-Modern-Modern Programming"
 by: James Noble
 affiliation: Victoria University of Wellington
 profpic-class: jamesnoble
