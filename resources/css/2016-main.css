@@ -750,6 +750,17 @@ p.triangle  {
   }
 }
 
+.circular.seangrove {
+  background-image: url('{{ site.baseurl }}/resources/img/seangrove.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.seangrove {
+    background-image: url('{{ site.baseurl }}/resources/img/seangrove@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
   font-style: normal;
