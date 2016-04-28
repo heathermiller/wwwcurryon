@@ -805,6 +805,17 @@ p.triangle  {
   }
 }
 
+.circular.juanlulkin {
+  background-image: url('{{ site.baseurl }}/resources/img/juanlulkin.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.juanlulkin {
+    background-image: url('{{ site.baseurl }}/resources/img/juanlulkin@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
   font-style: normal;
