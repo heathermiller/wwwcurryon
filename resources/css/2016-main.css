@@ -629,6 +629,105 @@ p.triangle  {
   }
 }
 
+.circular.andreykuzmin {
+  background-image: url('{{ site.baseurl }}/resources/img/andreykuzmin.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.andreykuzmin {
+    background-image: url('{{ site.baseurl }}/resources/img/andreykuzmin@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.koljawilcke {
+  background-image: url('{{ site.baseurl }}/resources/img/koljawilcke.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.koljawilcke {
+    background-image: url('{{ site.baseurl }}/resources/img/koljawilcke@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.ron {
+  background-image: url('{{ site.baseurl }}/resources/img/ron.jpg');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.ron {
+    background-image: url('{{ site.baseurl }}/resources/img/ron@2x.jpg');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.caitie {
+  background-image: url('{{ site.baseurl }}/resources/img/caitie.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.caitie {
+    background-image: url('{{ site.baseurl }}/resources/img/caitie@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.frankwang {
+  background-image: url('{{ site.baseurl }}/resources/img/frankwang.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.frankwang {
+    background-image: url('{{ site.baseurl }}/resources/img/frankwang@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.tijs {
+  background-image: url('{{ site.baseurl }}/resources/img/tijs.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.tijs {
+    background-image: url('{{ site.baseurl }}/resources/img/tijs@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.simonbelak {
+  background-image: url('{{ site.baseurl }}/resources/img/simonbelak.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.simonbelak {
+    background-image: url('{{ site.baseurl }}/resources/img/simonbelak@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.michaelbernstein {
+  background-image: url('{{ site.baseurl }}/resources/img/michaelbernstein.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.michaelbernstein {
+    background-image: url('{{ site.baseurl }}/resources/img/michaelbernstein@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.oskar {
+  background-image: url('{{ site.baseurl }}/resources/img/oskar.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.oskar {
+    background-image: url('{{ site.baseurl }}/resources/img/oskar@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
   font-style: normal;
@@ -1329,7 +1428,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   font-family: "petala-pro",sans-serif;
   font-style: normal;
   font-weight: 600;
-  color: #9CC47C;
+  color: #ce4844;
   margin-top: 8px;
   margin-bottom: 14px;
   font-size: 26px;
