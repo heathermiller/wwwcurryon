@@ -728,6 +728,28 @@ p.triangle  {
   }
 }
 
+.circular.joergenbrandt {
+  background-image: url('{{ site.baseurl }}/resources/img/joergenbrandt.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.joergenbrandt {
+    background-image: url('{{ site.baseurl }}/resources/img/joergenbrandt@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.rosstate {
+  background-image: url('{{ site.baseurl }}/resources/img/rosstate.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.rosstate {
+    background-image: url('{{ site.baseurl }}/resources/img/rosstate@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
   font-style: normal;
