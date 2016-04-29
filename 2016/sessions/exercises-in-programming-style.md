@@ -6,7 +6,7 @@ affiliation: University of California, Irvine
 profpic-class: crista
 ---
 
-[@sbelak](https://twitter.com/sbelak)
+[@cristalopes](https://twitter.com/cristalopes)
 
 ### Abstract
 
