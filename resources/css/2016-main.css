@@ -838,6 +838,17 @@ p.triangle  {
   }
 }
 
+.circular.torsten {
+  background-image: url('{{ site.baseurl }}/resources/img/torsten.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.torsten {
+    background-image: url('{{ site.baseurl }}/resources/img/torsten@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
