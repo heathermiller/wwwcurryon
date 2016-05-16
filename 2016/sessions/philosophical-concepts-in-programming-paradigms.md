@@ -1,6 +1,6 @@
 ---
 layout: 2016-abstract
-title: "Philosophical concepts in programming paradigms"
+title: "What is programming?"
 by: Juan Lulkin
 profpic-class: juanlulkin
 ---
