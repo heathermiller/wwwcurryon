@@ -849,6 +849,16 @@ p.triangle  {
   }
 }
 
+.circular.eugeneburmako {
+  background-image: url('{{ site.baseurl }}/resources/img/eugeneburmako.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.eugeneburmako {
+    background-image: url('{{ site.baseurl }}/resources/img/eugeneburmako@2x.png');
+    background-size: 125px 125px;
+  }
+}
 
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
