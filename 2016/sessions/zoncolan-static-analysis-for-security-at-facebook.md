@@ -1,6 +1,6 @@
 ---
 layout: 2016-abstract
-title: "Zoncolan: Static analysis for security at the Facebook scale"
+title: "Static analysis for security at the Facebook scale"
 by: Francesco Logozzo
 affiliation: Facebook
 profpic-class: francesco
@@ -13,14 +13,14 @@ profpic-class: francesco
 
 The scale and continuous growth of commercial code bases are the greatest
 challenges for adoption of automated analysis tools in Industry. Alas, scale is
-largely ignored by academic research. Zoncolan is a static analysis tool for
-security from Facebook. It relies on abstract interpretation to focus on the
-properties that really matter to security engineers and provides fine control on
-the cost/precision ratio. Zoncolan was designed from day one for “real world”
-security and privacy problems at scale. Facebook codebase is huge, and Zoncolan
-can analyze it, from scratch in 20 minutes. This talk will give attendees a peek
+largely ignored by academic research. We developped  a new static analysis tool
+for security to scale to Facebook scale. It relies on abstract interpretation to
+focus on the properties that really matter to security engineers and provides
+fine control on the cost/precision ratio. It was designed from day one for “real
+world” security and privacy problems at scale. Facebook codebase is huge, and we
+can analyze it, from scratch in 13 minutes. This talk will give attendees a peek
 at some of the secret sauce we use to achieve such amazing performance and
-precision.
+precision
 
 ### Bio
 
