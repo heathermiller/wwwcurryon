@@ -5,3 +5,5 @@ _site/
 *.aux
 *.pdf
 .jekyll-metadata
+*.swp
+*.swo
