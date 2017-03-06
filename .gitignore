@@ -4,3 +4,4 @@ _site/
 *.out
 *.aux
 *.pdf
+.jekyll-metadata
