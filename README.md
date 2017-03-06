@@ -29,11 +29,20 @@ Install Jekyll using the gem package manager:
 
 ## Building & Viewing ##
 
-cd into the `scala.github.com` directory, and build by:
+Build by:
 
     jekyll --server
 
+or:
+
+    jekyll serve
+
 The generated site is available at `http://localhost:4000`
+
+
+To build incrementally, run:
+
+    jekyll serve --incremental
 
 If you get `incompatible encoding` errors when generating the site under Windows, then ensure that the
 console in which you are running jekyll can work with UTF-8 characters. As described in the blog
