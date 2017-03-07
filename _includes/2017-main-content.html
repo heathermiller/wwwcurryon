@@ -103,29 +103,10 @@
       <span style="font-weight: 800; font-size: 44px;"><span class="light-orange">Four</span> exciting keynotes</span>
     </div>
     <div class="row">
-      <div class="col-md-3 centered">
-        <div class="circular daveherman"></div>
-        <span class="gray-text centered keynote-speaker"><a href="http://calculist.org/">Dave Herman</a></a></span><br/>
-        <span class="keynote-affiliation">Mozilla</span><br/>
-        <span class="keynote-known-for">Rust</span>
-      </div>
-      <div class="col-md-3 centered">
-        <div class="circular davidnolen"></div>
-        <span class="gray-text centered keynote-speaker"><a href="http://swannodette.github.io/">David Nolen</a></span><br/>
-        <span class="keynote-affiliation">Cognitect</span><br/>
-        <span class="keynote-known-for">ClojureScript</span>
-      </div>
-      <div class="col-md-3 centered">
-        <div class="circular matthias"></div>
-        <span class="gray-text centered keynote-speaker"><a href="http://www.ccs.neu.edu/home/matthias/">Matthias Felleisen</a></span><br/>
-        <span class="keynote-affiliation">Northeastern University</span><br/>
-        <span class="keynote-known-for">Racket</span>
-      </div>
-      <div class="col-md-3 centered">
-        <div class="circular larry"></div>
-        <span class="gray-text centered keynote-speaker"><a href="http://www.wall.org/~larry/">Larry Wall</a></span><br/>
-        <span class="keynote-known-for">Perl</span>
-      </div>
+      <!-- KEYNOTES -->
+      {% for keynote in site.data["2017-keynotes"] %}
+      {% include 2017-keynote.html keynote=keynote %}
+      {% endfor %}
     </div>
     <div class="pad-bottom"></div>
   </div>

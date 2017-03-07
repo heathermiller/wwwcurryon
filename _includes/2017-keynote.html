@@ -1,0 +1,12 @@
+<div class="col-md-3 centered">
+  <div class="circular {{ include.keynote.css-circular }}"></div>
+  <span class="gray-text centered keynote-speaker">
+    <a href="{{ include.keynote.url }}">{{ include.keynote.name }}</a>
+  </span>
+  <br/>
+  {% if include.keynote.affiliation %}
+  <span class="keynote-affiliation">{{ include.keynote.affiliation }}</span>
+  <<br/>
+  {% endif %}
+  <span class="keynote-known-for">{{ include.keynote.known-for }}</span>
+</div>
