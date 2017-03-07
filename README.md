@@ -52,3 +52,7 @@ you have to execute `chcp 65001`. This command is best added to the `jekyll.bat`
 ## Markdown ##
 
 The markdown used in this site uses [Maruku](http://maruku.rubyforge.org/maruku.html) extensions.
+
+## Content
+
+- `_data/2017-keynotes.yml` contains the list of keynotes
