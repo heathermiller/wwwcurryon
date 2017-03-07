@@ -442,49 +442,21 @@ p.triangle  {
   }.
 }
 
-.circular.davidnolen {
-  background-image: url('{{ site.baseurl }}/resources/img/davidnolen.png');
+
+/* keynotes images */
+{% for keynote in site.data["2017-keynotes"] %}
+.circular.{{ keynote.id }} {
+  background-image: url('{{ site.baseurl }}/resources/img/{{ keynote.id }}.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.davidnolen {
-    background-image: url('{{ site.baseurl }}/resources/img/davidnolen@2x.png');
+  .circular.{{ keynote.id }} {
+    background-image: url('{{ site.baseurl }}/resources/img/{{ keynote.id }}@2x.png');
     background-size: 125px 125px;
   }
 }
+{% endfor %}
 
-.circular.daveherman {
-  background-image: url('{{ site.baseurl }}/resources/img/daveherman.png');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.daveherman {
-    background-image: url('{{ site.baseurl }}/resources/img/daveherman@2x.png');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.larry {
-  background-image: url('{{ site.baseurl }}/resources/img/larry.png');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.larry {
-    background-image: url('{{ site.baseurl }}/resources/img/larry@2x.png');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.matthias {
-  background-image: url('{{ site.baseurl }}/resources/img/matthias.png');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.matthias {
-    background-image: url('{{ site.baseurl }}/resources/img/matthias@2x.png');
-    background-size: 125px 125px;
-  }
-}
 
 .circular.ulfar {
   background-image: url('{{ site.baseurl }}/resources/img/ulfar.png');

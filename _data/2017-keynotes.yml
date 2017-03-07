@@ -1,24 +1,23 @@
-- name: Dave Herman
-  url: http://calculist.org/
-  affiliation: Mozilla
-  known-for: Rust
-  css-circular: daveherman
+- id: jose_valim
+  name: José Valim
+  url: https://github.com/josevalim
+  affiliation: Platformatec
+  known-for: Elixir
  
-- name: David Nolen
-  url: http://swannodette.github.io/
-  affiliation: Cognitect
-  known-for: ClojureScript
-  css-circular: davidnolen
- 
-- name: Matthias Felleisen
-  url: http://www.ccs.neu.edu/home/matthias/
-  affiliation: Northeastern University
-  known-for: Racket
-  css-circular: matthias
- 
-- name: Larry Wall
-  url: http://www.wall.org/~larry/
-  affiliation: 
-  known-for: Perl
-  css-circular: larry
- 
+- id: roberto_ierusalimschy
+  name: Roberto Ierusalimschy
+  url: http://www.inf.puc-rio.br/~roberto/
+  affiliation: Pontifical Catholic University of Rio de Janeiro
+  known-for: Lua
+   
+- id: brian_goetz
+  name: Brian Goetz
+  url: http://briangoetz.blogspot.com/
+  affiliation: Oracle
+  known-for: Java Concurrency
+   
+- id: martin_odersky
+  name: Martin Odersky
+  url: http://lampwww.epfl.ch/~odersky/
+  affiliation: EPFL
+  known-for: Scala
