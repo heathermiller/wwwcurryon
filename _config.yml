@@ -1,6 +1,9 @@
 title: "Curry On Barcelona! 2017"
 baseurl: ""
 
+# use locally localhost instead of 127.0.0.1 so the typekit.net works
+host: localhost
+
 markdown: kramdown
 
 # destination: ../../public_html/scala2013
