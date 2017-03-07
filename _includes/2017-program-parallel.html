@@ -1,0 +1,9 @@
+<tr class="tr-bottom">
+  <td class="time">{{ include.session.time }}</td>
+  <td class="pad right {% if include.session.room-1.chess %}orange-bg{% endif %}">
+    {% include 2017-program-session.html session=include.session.room-1 %}
+  </td>
+  <td class="pad {% if include.session.room-2.chess %}orange-bg{% endif %}">
+    {% include 2017-program-session.html session=include.session.room-2 %}
+  </td>
+</tr>

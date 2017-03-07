@@ -1,0 +1,10 @@
+<tr class="tr-dark pad">
+  <td class="time">{{ include.session.time }}</td>
+  <td class="pad" colspan="2">
+    <span class="td-title">{{ include.session.title }}</span>{% if include.session.subtitle %}, {{ include.session.subtitle }}{% endif %}
+    {% if include.session.speaker %}
+    <br/>
+    {{ include.session.speaker.name }}
+    {% endif %}
+  </td>
+</tr>
