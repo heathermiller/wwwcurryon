@@ -12,30 +12,55 @@ previous_editions:
 show_program: false
 sold_out: false
 
-keynotes:
+promoted_talks:
   - id: jose_valim
+    type: keynote
     name: José Valim
     url: https://github.com/josevalim
     affiliation: Platformatec
     known-for: Elixir
  
   - id: roberto_ierusalimschy
+    type: keynote
     name: Roberto Ierusalimschy
     url: http://www.inf.puc-rio.br/~roberto/
     affiliation: Pontifical Catholic University of Rio de Janeiro
     known-for: Lua
    
   - id: brian_goetz
+    type: keynote
     name: Brian Goetz
     url: http://briangoetz.blogspot.com/
     affiliation: Oracle
     known-for: Java Concurrency
    
   - id: martin_odersky
+    type: keynote
     name: Martin Odersky
     url: http://lampwww.epfl.ch/~odersky/
     affiliation: EPFL
     known-for: Scala
+
+  - id: dave_thomas
+    type: invited
+    name: Dave Thomas
+    url: http://www.davethomas.net/
+    affiliation: Kx Systems
+    known-for: Array Programming
+ 
+  - id: jean_yang
+    type: invited
+    name: Jean Yang
+    url: https://people.csail.mit.edu/jeanyang/
+    affiliation: MIT
+    known-for: InfoLeaks
+   
+  - id: julien_verlaguet
+    type: invited
+    name: Julien Verlaguet
+    url: https://www.facebook.com/julien.verlaguet
+    affiliation: Facebook
+    known-for: Hack
 
 program:
   - day: Monday, July 18<sup>th</sup>

@@ -111,10 +111,24 @@
     </div>
     <div class="row">
       <!-- KEYNOTES -->
-      {% for keynote in settings.keynotes %}
-      {% include 2017-keynote.html keynote=keynote %}
+      {% for talk in settings.promoted_talks %}
+      {% if talk.type == "keynote" %}
+      {% include 2017-keynote.html keynote=talk %}
+      {% endif %}
       {% endfor %}
     </div>
+    <br/>
+    <div class="big-white-italic centered">
+      <span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> invited talks</span>
+    </div>
+    <div class="row">
+      <!-- INVITED -->
+      {% for talk in settings.promoted_talks %}
+      {% if talk.type == "invited" %}
+      {% include 2017-keynote.html keynote=talk %}
+      {% endif %}
+      {% endfor %}
+    </div>    
     <div class="pad-bottom"></div>
   </div>
 </div>

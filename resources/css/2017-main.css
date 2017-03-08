@@ -445,20 +445,19 @@ p.triangle  {
 }
 
 
-/* keynotes images */
-{% for keynote in settings.keynotes %}
-.circular.{{ keynote.id }} {
-  background-image: url('{{ site.baseurl }}/resources/img/{{ keynote.id }}.png');
+/* promoted talks images */
+{% for item in settings.promoted_talks %}
+.circular.{{ item.id }} {
+  background-image: url('{{ site.baseurl }}/resources/img/{{ item.id }}.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.{{ keynote.id }} {
-    background-image: url('{{ site.baseurl }}/resources/img/{{ keynote.id }}@2x.png');
+  .circular.{{ item.id }} {
+    background-image: url('{{ site.baseurl }}/resources/img/{{ item.id }}@2x.png');
     background-size: 125px 125px;
   }
 }
 {% endfor %}
-
 
 .circular.ulfar {
   background-image: url('{{ site.baseurl }}/resources/img/ulfar.png');
