@@ -252,3 +252,7 @@ program:
         type: single
         title: Curry On Party!
   
+sponsors:
+  - id: oraclelabs
+    name: Oracle Labs
+    url: http://www.labs.oracle.com/

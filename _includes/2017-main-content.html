@@ -182,33 +182,11 @@
   <br/><br/>
   <div class="container centered sponsorship">
     <span class="big-white-italic">We <span style="color: #ce4844;" class="entypo heart"></span> these folks</span><br/><br/>
+    {% for sponsor in settings.sponsors %}
+    <a style="border: 0px;" href="{{ sponsor.url }}"><img alt="{{ sponsor.name }}" src="{{ site.baseurl }}/resources/img/{{ sponsor.id }}.png"></a>
     <br/><br/>
-    <a style="border: 0px;" href="http://www.google.com"><img src="{{ site.baseurl }}/resources/img/google.png"></a>
-    <br/><br/>
-    <a style="border: 0px;" href="http://research.facebook.com"><img src="{{ site.baseurl }}/resources/img/fb.png"></a>
-    <br/><br/>
-    <a style="border: 0px;" href="https://tech.zalando.de"><img src="{{ site.baseurl }}/resources/img/zalando.png"></a>
-    <br/><br/>
-    <a style="border: 0px;" href="https://www.mozilla.org/en-US/research/"><img src="{{ site.baseurl }}/resources/img/mozilla.png"></a>
-    <br/><br/>
-    <a style="border: 0px;" href="http://www.labs.oracle.com/"><img src="{{ site.baseurl }}/resources/img/oraclelabs.png"></a>
-    <br/><br/>
-    <a style="border: 0px;" href="https://nextjournal.com/"><img src="{{ site.baseurl }}/resources/img/nextjournal.png"></a>
-    <br/><br/>
-    <a style="border: 0px;" href="http://www.logicblox.com/"><img src="{{ site.baseurl }}/resources/img/logicblox.png"></a>
-    <br/><br/>
-    <a style="border: 0px;" href="http://www.huawei.com/en/"><img src="{{ site.baseurl }}/resources/img/huawei.png"></a>
-    <br/><br/>
-    <a style="border: 0px;" href="http://www.six-group.com/about/en/home.html"><img src="{{ site.baseurl }}/resources/img/six.png">
-    <br/><br/>
-    <a style="border: 0px;" href="http://www.ibm.com/us-en/"><img src="{{ site.baseurl }}/resources/img/ibm.png"></a>
-    <br/><br/>
-    <a style="border: 0px;" href="https://www.tomtom.com"><img src="{{ site.baseurl }}/resources/img/tomtom.png"></a>
-    <br/><br/>
-    <a style="border: 0px;" href="http://www.workday.com/company/careers/jobs.php#~/q=software&region_location=EMEA_Dublin%2C%20Ireland/~"><img src="{{ site.baseurl }}/resources/img/workday.png"></a>
-    <br/><br/>
-    <a style="border: 0px;" href="http://empear.com/"><img src="{{ site.baseurl }}/resources/img/empear.png"></a>
-    <br/><br/><br/>
+    {% endfor %}
+    <br/>
     <div class="wanna-help" style="margin-bottom: 18px;">Wanna help?</div>
     <a href="{{ site.baseurl }}/2017/sponsorship.html" class="btn btn-outline-inverse btn-lg">Sponsorship Opportunities</a>
     <div class="pad-bottom"></div>
