@@ -32,7 +32,9 @@
     <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div>
     <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a>
     {% else %}
+    {% if settings.register_url %}
     <a href="{{ settings.register_url }}" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    {% endif %}
     <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a>
     <br>
     <div class="early-registration">Early Registration Deadline: {{ settings.early_registration_deadline }}</div>
@@ -171,7 +173,9 @@
     </div>
     {% else %}
     <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div>
+    {% if settings.register_url %}
     <a href="{{ settings.register_url }}" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    {% endif %}
     <div class="pad-bottom"></div>
     {% endif %}
    </div>
