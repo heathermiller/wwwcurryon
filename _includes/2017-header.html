@@ -1,8 +1,9 @@
+{% assign settings = site.data["2017"] %}
 <!DOCTYPE html>
 <html>
   <head>
 
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}Curry On {{ settings.city }}! {{ settings.year }}</title>
     {% if page.description %}
     <meta name="description" content="{{ page.description }}" />
     {% endif %}
