@@ -8,8 +8,9 @@
               <li><h5>Conference</h5></li>
               <li><a href="{{ site.baseurl }}/2017/call-for-presentations.html">Call for Presentations</a></li>
               <li><a href="{{ site.baseurl }}/2017/sponsorship.html">Sponsorship</a></li>
-              <li><a href="{{ site.baseurl }}/2016">Curry On 2016</a></li>
-              <li><a href="{{ site.baseurl }}/2015">Curry On 2015</a></li>
+              {% for year in site.data["2017-settings"].previous_editions %}
+              <li><a href="{{ site.baseurl }}/{{ year }}">Curry On {{ year }}</a></li>
+              {% endfor %}
             </ul>
           </div>
           <div class="col-md-2">
