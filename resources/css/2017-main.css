@@ -1,7 +1,7 @@
 ---
 ---
 
-{% assign settings = site.data[site.settings] %}
+{% assign settings = site.data["2017"] %}
 
 /* ==========================================================================
    Author's custom styles

@@ -1,3 +1,4 @@
+{% assign settings = site.data["2017"] %}
     <div class="footer">
       <div class="container">
         <div class="row">
@@ -8,7 +9,7 @@
               <li><h5>Conference</h5></li>
               <li><a href="{{ site.baseurl }}/2017/call-for-presentations.html">Call for Presentations</a></li>
               <li><a href="{{ site.baseurl }}/2017/sponsorship.html">Sponsorship</a></li>
-              {% for year in site.data["2017-settings"].previous_editions %}
+              {% for year in settings.previous_editions %}
               <li><a href="{{ site.baseurl }}/{{ year }}">Curry On {{ year }}</a></li>
               {% endfor %}
             </ul>
