@@ -1,6 +1,8 @@
 ---
 ---
 
+{% assign settings = site.data[site.settings] %}
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -444,7 +446,7 @@ p.triangle  {
 
 
 /* keynotes images */
-{% for keynote in site.data["2017-keynotes"] %}
+{% for keynote in settings.keynotes %}
 .circular.{{ keynote.id }} {
   background-image: url('{{ site.baseurl }}/resources/img/{{ keynote.id }}.png');
 }

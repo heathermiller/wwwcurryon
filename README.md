@@ -55,5 +55,5 @@ The markdown used in this site uses [Maruku](http://maruku.rubyforge.org/maruku.
 
 ## Content
 
-- `_data/2017-keynotes.yml` contains the list of keynotes
-- `_data/2017-program.yml` contains the list of sessions
+- `_data/2017-settings.yml` contains the conference configuration
+

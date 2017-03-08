@@ -1,3 +1,5 @@
+{% assign settings = site.data[site.settings] %}
+
 <div class="purple-stripe-splash">
   <div class="container">
   </div>
@@ -25,14 +27,17 @@
 
 <div class="reddish-orange-stripe">
   <div class="container centered">
-   <div class="pad-top">&nbsp;</div>
-    <!-- <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div> -->
-    <!-- <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a> -->
-    <a href="https://regmaster4.com/2016conf/CURRYON16/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
-    <a href="{{ site.baseurl }}/2016/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a>
+    <div class="pad-top">&nbsp;</div>
+    {% if settings.sold_out %}
+    <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div>
+    <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a>
+    {% else %}
+    <a href="{{ settings.register_url }}" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a>
     <br>
-    <div class="early-registration">Early Registration Deadline: {{ site.data["2017-settings"].early_registration_deadline }}</div>
-    <iframe src="http://free.timeanddate.com/countdown/i4oxvawr/n43/cf12/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cacf2b698/cpcf2b698/pct/tcfff/fs100/szw320/szh135/iso2015-06-06T23:59:59" allowTransparency="true" frameborder="0" width="113" height="31"></iframe>
+    <div class="early-registration">Early Registration Deadline: {{ settings.early_registration_deadline }}</div>
+    <iframe src="{{ settings.registration_countdown_url }}" allowTransparency="true" frameborder="0" width="120" height="31"></iframe>
+    {% endif %}
   </div>
   <div class="pad-bottom">&nbsp;</div>
 </div>
@@ -58,7 +63,7 @@
      <div class="col-md-2"></div>
      <div class="col-md-8 about">
        <br/>
-       <b>Join us for two days of fruitful and mind-altering ideas and discussions, and maybe a few beers.</b>
+       <b>Join us for two days of fruitful and mind-altering ideas and discussions, and maybe a few beers or a sip of coffee.</b>
      </div>
      <div class="col-md-2"></div>
    </div>
@@ -104,7 +109,7 @@
     </div>
     <div class="row">
       <!-- KEYNOTES -->
-      {% for keynote in site.data["2017-keynotes"] %}
+      {% for keynote in settings.keynotes %}
       {% include 2017-keynote.html keynote=keynote %}
       {% endfor %}
     </div>
@@ -114,13 +119,13 @@
 
     <!-- Join designers of exciting emerging languages, popular languages, emerging paradigms and more. Add your voice to the conversation. -->
 
-{% if site.data["2017-settings"].show_program %}
+{% if settings.show_program %}
 <div class="purple-stripe">
   <div class="container">
     <div id="program" class="big-white-italic centered" style="font-weight: 700; font-size: 38px;">
       Program
     </div>
-    {% for day in site.data["2017-program"] %}
+    {% for day in settings.program %}
     <div class="big-white-italic centered" style="font-weight: 700; font-size: 34px; margin-top: -20px; color: #fc5a4a">
       {{ day.day }}
     </div>
@@ -159,14 +164,14 @@
 
 <div class="reddish-orange-stripe">
   <div class="container centered">
-    {% if site.data["2017-settings"].sold_out %}
+    {% if settings.sold_out %}
     <div class="tagline">Sorry, we sold out of tickets! :/</div>
     <div class="subtagline" style="font-weight: 300; color: #073642; margin-bottom: 10px;">
       Ticket trasfers are allowed. If you're looking for a ticket, tweet to <a href="http://www.twitter.com/curry_on_conf">@curry_on_conf</a>, we're happy to RT all requests for ticket transfers!
     </div>
     {% else %}
-    <div class="call-ends">Tickets go on sale {{ site.data["2017-settings"].tickets_sale_due }}</div>
-    <a href="https://regmaster4.com/2016conf/CURRYON16/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div>
+    <a href="{{ settings.register_url }}" class="btn btn-outline-inverse btn-lg">Register Now!</a>
     <div class="pad-bottom"></div>
     {% endif %}
    </div>
