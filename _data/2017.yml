@@ -48,6 +48,13 @@ promoted_talks:
     affiliation: Carnegie Mellon University
     known-for: Privacy & Security + PL
 
+  - id: niko_matsakis
+    type: invited
+    name: Niko Matsakis
+    url: http://smallcultfollowing.com/babysteps/
+    affiliation: Mozilla Research
+    known-for: Rust
+
   - id: julien_verlaguet
     type: invited
     name: Julien Verlaguet
