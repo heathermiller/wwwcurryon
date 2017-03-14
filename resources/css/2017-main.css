@@ -56,7 +56,7 @@ h1 {
 }
 
 h2 {
-  color: #ce4844;
+  color: #6cb1dd;
   font-style: normal;
   font-weight: 800;
 }
@@ -126,9 +126,9 @@ ul > li, ol > li  {
 .rome {
   position: relative;
   margin-top: 16px;
-  margin-left: -8px;
+  margin-left: 70px;
   display: inline-block;
-  color: #fc5a4a;
+  color: #fdaa40;
   font-family: "ff-market-web",cursive;
   font-style: normal;
   font-weight: 400;
@@ -138,7 +138,7 @@ ul > li, ol > li  {
 .rome-inner {
   position: relative;
   margin-top: 16px;
-  /*margin-left: -8px;*/
+  margin-left: 70px;
   display: inline-block;
   color: #ffffff;
   font-family: "ff-market-web",cursive;
@@ -152,7 +152,7 @@ ul > li, ol > li  {
   font-style: normal;
   font-weight: 400;
   text-transform: uppercase;
-  color: #fdaa40; /*9CC47C*/
+  color: #6cb1dd; /*fdaa40*/ /*9CC47C*/
   letter-spacing: .08em;
   font-size: 18px;
   padding-top: 4px;
@@ -178,8 +178,8 @@ ul > li, ol > li  {
   position: relative;
   z-index: 100;
   background-color: rgba(48, 46, 68, 0.7);
-  margin-top: -180px;
-  height: 180px;
+  margin-top: -173px;
+  height: 210px;
 }
 
 .purple-stripe {
@@ -196,7 +196,7 @@ ul > li, ol > li  {
 
 .reddish-orange-stripe {
   position: relative;
-  background-color: #ce4844;
+  background-color: #5e6695;
   min-height: 140px;
 }
 
@@ -270,8 +270,13 @@ ul > li, ol > li  {
 }
 
 .reddish-orange {
-  color: #fc5a4a;
+  color: #6cb1dd;
 }
+/*original: fc5a4a*/
+/*dark: ce4844*/
+/*d9646f*/
+
+/*light blue: 6cb1dd*/
 
 /*get rid of me*/
 .turquoise {
@@ -307,7 +312,7 @@ p.triangle  {
   /*border-bottom: 22px solid rgba(230, 110, 50, 0.6);*/
   /*border-bottom: 22px solid rgba(156, 196, 124, 0.4);*/
   /*border-bottom: 24px solid rgba(28, 123, 115, 0.45);*/
-  border-bottom: 24px solid rgba(23, 21, 42, 0.55);
+  border-bottom: 24px solid rgba(175, 144, 149, 0.35); /*rgba(23, 21, 42, 0.55);*/
   border-left: 34px solid transparent;
   margin-left: 18px;
   margin-bottom: 10px;
@@ -318,7 +323,7 @@ p.triangle  {
   /*background: rgba(230, 110, 50, 0.6);*/
   /*background: rgba(156, 196, 124, 0.4);*/
   /*background: rgba(28, 123, 115, 0.45);*/
-  background: rgba(23, 21, 42, 0.55);
+  background: rgba(175, 144, 149, 0.35); /*rgba(23, 21, 42, 0.55);*/
   font-family: "ronnia",sans-serif;
   font-style: italic;
   /*letter-spacing: 1px;*/
@@ -336,7 +341,7 @@ p.triangle  {
   position: relative;
   width: 490px;
   /*margin-left: 50px;*/
-  margin-top: -45px;
+  margin-top: -60px;
 }
 
 .speech-bubble-wrap {
@@ -396,7 +401,7 @@ p.triangle  {
 }
 
 .about > a:hover {
-  color: #E66E32;
+  color: #6cb1dd;
   font-weight: 400;
 }
 
@@ -865,12 +870,12 @@ p.triangle  {
 }
 
 .organizer a:hover {
-  color: #fc5a4a;
+  color: #6cb1dd;
 }
 
 .keynote-speaker a:link, .keynote-speaker a:visited,
 .speaker a:link, .speaker a:visited {
-  color: #fc5a4a;
+  color: #6cb1dd;
   font-weight: 800;
   border: 0;
 }
@@ -1168,7 +1173,7 @@ input:focus {
   line-height: 0;
 }
 
-.entypo.heart:before{ content:'\2665'; color: #E66E32; font-style: normal;}
+.entypo.heart:before{ content:'\2665'; color: #6cb1dd; font-style: normal;}
 
 .wanna-help {
   position: relative;
@@ -1328,7 +1333,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
 }
 
 .footer a:hover {
-  color: #E66E32;
+  color: #6cb1dd;
   text-decoration: none;
 }
 
@@ -1354,7 +1359,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
 
 .footer ul li a:hover {
     text-decoration: none;
-    color: #E66E32;
+    color: #6cb1dd;
 }
 
 .footer ul li h5 {

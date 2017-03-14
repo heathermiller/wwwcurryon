@@ -19,21 +19,7 @@ promoted_talks:
     url: https://github.com/josevalim
     affiliation: Platformatec
     known-for: Elixir
- 
-  - id: roberto_ierusalimschy
-    type: keynote
-    name: Roberto Ierusalimschy
-    url: http://www.inf.puc-rio.br/~roberto/
-    affiliation: Pontifical Catholic University of Rio de Janeiro
-    known-for: Lua
-   
-  - id: brian_goetz
-    type: keynote
-    name: Brian Goetz
-    url: http://briangoetz.blogspot.com/
-    affiliation: Oracle
-    known-for: Java Concurrency
-   
+
   - id: martin_odersky
     type: keynote
     name: Martin Odersky
@@ -41,26 +27,41 @@ promoted_talks:
     affiliation: EPFL
     known-for: Scala
 
-  - id: dave_thomas
-    type: invited
-    name: Dave Thomas
-    url: http://www.davethomas.net/
-    affiliation: Kx Systems
-    known-for: Array Programming
- 
+  - id: brian_goetz
+    type: keynote
+    name: Brian Goetz
+    url: http://briangoetz.blogspot.com/
+    affiliation: Oracle
+    known-for: Java
+
+  - id: roberto_ierusalimschy
+    type: keynote
+    name: Roberto Ierusalimschy
+    url: http://www.inf.puc-rio.br/~roberto/
+    affiliation: PUC-Rio
+    known-for: Lua
+
   - id: jean_yang
     type: invited
     name: Jean Yang
     url: https://people.csail.mit.edu/jeanyang/
-    affiliation: MIT
-    known-for: InfoLeaks
-   
+    affiliation: Carnegie Mellon University
+    known-for: Privacy & Security + PL
+
   - id: julien_verlaguet
     type: invited
     name: Julien Verlaguet
     url: https://www.facebook.com/julien.verlaguet
     affiliation: Facebook
     known-for: Hack
+
+  - id: dave_thomas
+    type: invited
+    name: Dave Thomas
+    url: http://www.davethomas.net/
+    affiliation: Kx Systems
+    known-for: Array Programming
+
 
 program:
   - day: Monday, July 18<sup>th</sup>
@@ -70,7 +71,7 @@ program:
         title: Curry On opening remarks
         speaker:
           name: Jan Vitek and Heather Miller
-    
+
       - time: 9:00-9:50
         type: keynote
         room: Auditorium Loyola
@@ -84,12 +85,12 @@ program:
         tags:
           - clojurescript
           - clojure
-    
+
       - time: 9:50-10:05
         type: single
         title: Coffee break
         subtitle: served outside of lecture hall
-    
+
       - time: 10:05-10:45
         type: parallel
         room-1:
@@ -110,11 +111,11 @@ program:
           video: https://www.youtube.com/watch?v=fd-92QqUdBU
           tags:
             - functional programming
-    
+
       - time: 12:35-13:50
         type: single
         title: Lunch
-      
+
       - time: 13:50-14:30
         type: parallel
         room-1:
@@ -137,12 +138,12 @@ program:
           video: https://www.youtube.com/watch?v=bE-NQqhd3xo
           tags:
             - security
-      
+
       - time: 15:30-16:00
         type: single
         title: Coffee break
         subtitle: served outside of lecture hall
-      
+
       - time: 16:00-16:40
         type: parallel
         room-1:
@@ -165,11 +166,11 @@ program:
           tags:
             - functional programming
             - monads
-      
+
       - time: 19:30-22:00
         type: single
         title: Curry On Party!
-    
+
   - day: Tuesday, July 19<sup>th</sup>
     sessions:
       - time: 8:45-9:00
@@ -177,7 +178,7 @@ program:
         title: Curry On opening remarks
         speaker:
           name: Jan Vitek and Heather Miller
-      
+
       - time: 9:00-9:50
         type: keynote
         room: Auditorium Loyola
@@ -191,12 +192,12 @@ program:
         tags:
           - clojurescript
           - clojure
-          
+
       - time: 9:50-10:05
         type: single
         title: Coffee break
         subtitle: served outside of lecture hall
-      
+
       - time: 10:05-10:45
         type: parallel
         room-1:
@@ -217,11 +218,11 @@ program:
           video: https://www.youtube.com/watch?v=fd-92QqUdBU
           tags:
             - functional programming
-      
+
       - time: 12:35-13:50
         type: single
         title: Lunch
-      
+
       - time: 13:50-14:30
         type: parallel
         room-1:
@@ -244,12 +245,12 @@ program:
           video: https://www.youtube.com/watch?v=bE-NQqhd3xo
           tags:
             - security
-      
+
       - time: 15:30-16:00
         type: single
         title: Coffee break
         subtitle: served outside of lecture hall
-      
+
       - time: 16:00-16:40
         type: parallel
         room-1:
@@ -272,11 +273,11 @@ program:
           tags:
             - functional programming
             - monads
-      
+
       - time: 19:30-22:00
         type: single
         title: Curry On Party!
-  
+
 sponsors:
   - id: oraclelabs
     name: Oracle Labs

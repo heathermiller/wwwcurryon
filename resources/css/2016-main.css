@@ -1195,7 +1195,7 @@ input:focus {
   line-height: 0;
 }
 
-.entypo.heart:before{ content:'\2665'; color: #E66E32; font-style: normal;}
+.entypo.heart:before{ content:'\2665'; color: #ce4844; font-style: normal;}
 
 .wanna-help {
   position: relative;
