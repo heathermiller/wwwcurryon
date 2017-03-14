@@ -76,8 +76,8 @@ will still be standard conference talks.</p>
 
 ## Deadlines
 
-- **<span class="white">Call for presentations closes</span>**: Friday, April 8<sup>th</sup>, 2016
-- **<span class="white">Speakers notified/program announced</span>**: Friday, April 22<sup>nd</sup>, 2016
+- **<span class="white">Call for presentations closes</span>**: Friday, April 14<sup>th</sup>, 2017
+- **<span class="white">Speakers notified/program announced</span>**: Friday, April 21<sup>st</sup>, 2017
 
 ## Admission and Travel
 
