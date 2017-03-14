@@ -44,7 +44,7 @@ promoted_talks:
   - id: jean_yang
     type: invited
     name: Jean Yang
-    url: https://people.csail.mit.edu/jeanyang/
+    url: http://jeanyang.com/
     affiliation: Carnegie Mellon University
     known-for: Privacy & Security + PL
 
