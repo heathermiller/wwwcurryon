@@ -29,11 +29,20 @@ Install Jekyll using the gem package manager:
 
 ## Building & Viewing ##
 
-cd into the `scala.github.com` directory, and build by:
+Build by:
 
     jekyll --server
 
+or:
+
+    jekyll serve
+
 The generated site is available at `http://localhost:4000`
+
+
+To build incrementally, run:
+
+    jekyll serve --incremental
 
 If you get `incompatible encoding` errors when generating the site under Windows, then ensure that the
 console in which you are running jekyll can work with UTF-8 characters. As described in the blog
@@ -43,3 +52,8 @@ you have to execute `chcp 65001`. This command is best added to the `jekyll.bat`
 ## Markdown ##
 
 The markdown used in this site uses [Maruku](http://maruku.rubyforge.org/maruku.html) extensions.
+
+## Content
+
+- `_data/2017-settings.yml` contains the conference configuration
+

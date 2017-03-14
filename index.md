@@ -1,6 +1,6 @@
 ---
 layout: default
-currentyear: "2016"
+currentyear: "2017"
 ---
 <script type="text/javascript">
   window.location.replace("{{ site.baseurl }}/{{ page.currentyear }}");

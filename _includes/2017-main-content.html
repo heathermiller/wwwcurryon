@@ -1,0 +1,230 @@
+{% assign settings = site.data["2017"] %}
+
+<div class="purple-stripe-splash">
+  <div class="container">
+  </div>
+</div>
+
+<div class="purple-stripe">
+  <div class="container centered">
+    <div class="speech-bubble-wrap">
+      <div class="speech-bubble">
+        <p class="triangle">this is a triangle</p>
+        <div class="speech-text">
+          A new and unusual <span class="reddish-orange">non-profit</span> conference focused on <span class="white normal">programming languages</span> <span class="amp">&amp;</span> <span class="white normal">emerging challenges in industry</span>.
+        </div>
+      </div>
+    </div>
+    <div class="tagline">
+      Academia and industry <span class="light-orange">need to have a talk</span>.
+    </div>
+    <div class="subtagline">
+      Or rather, they just need to talk in general.
+    </div>
+    <!-- <div class="pad-bottom"></div> -->
+  </div>
+</div>
+
+<div class="reddish-orange-stripe">
+  <div class="container centered">
+    <div class="pad-top">&nbsp;</div>
+    {% if settings.sold_out %}
+    <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div>
+    <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a>
+    {% else %}
+    {% if settings.register_url %}
+    <a href="{{ settings.register_url }}" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    {% endif %}
+    <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a>
+    <br>
+    <div class="early-registration">Early Registration Deadline: {{ settings.early_registration_deadline }}</div>
+    <iframe src="{{ settings.registration_countdown_url }}" allowTransparency="true" frameborder="0" width="120" height="31"></iframe>
+    {% endif %}
+  </div>
+  <div class="pad-bottom">&nbsp;</div>
+</div>
+
+<div class="purple-stripe">
+  <div class="container">
+   <div class="pad-top">&nbsp;</div>
+   <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-4 about">
+      Curry On is a new conference focused on the <b>intersection of emerging languages and emerging challenges in industry</b> (e.g. big data or security), as well as new ideas and paradigms in software development.
+      <br/><br/>
+      Curry On also seeks to act as a conduit for ferrying understanding and ideas back and forth between industry and academic programming languages, software engineering, and systems research communities (amongst others).
+    </div>
+    <div class="col-md-4 about">
+      Curry On is a rare event where academic minds responsible for concepts and tools now invaluable to everyday software development – like functional programming, or generics in Java – collide with the movers and shakers in industry that are building next-generation systems and developing software engineering practices central to our entire industry.
+      <br/><br/>
+      Curry On will be held in a different European city year-to-year, and it will always be co-located with one of the top academic conferences in programming languages. This year, it's co-located with <a href="http://2017.ecoop.org/">ECOOP</a>.
+    </div>
+    <div class="col-md-2"></div>
+   </div>
+   <div class="row">
+     <div class="col-md-2"></div>
+     <div class="col-md-8 about">
+       <br/>
+       <b>Join us for two days of fruitful and mind-altering ideas and discussions, and maybe a few beers or a sip of coffee.</b>
+     </div>
+     <div class="col-md-2"></div>
+   </div>
+  </div>
+  <div class="pad-bottom">&nbsp;</div>
+</div>
+
+<div class="reddish-orange-stripe">
+  <div class="container centered">
+   <div class="pad-top">&nbsp;</div>
+   <div class="call-ends" style="color: #ffffff;">Atypical?</div>
+   <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 atypical">
+      <div class="our-goal">Our goal:</div>
+      <div class="biggish"><span class="purple biggen">Bring industry and academia together to have a conversation.</span></div>
+      <div class="our-goal">But...</div>
+      <div class="biggish"><span class="purple biggen">One speaker addressing hundreds of people is hardly a conversation.</span></div>
+      <div class="big-white-vinyl centered"><span style="font-size: 44px;">So, let's change that.</span></div>
+      <div class="our-goal">Introducing</div>
+      <div class="call-ends" style="color: #fdaa40;">Chess-Timer talks</div>
+      <div class="chess-timer-text">
+        Chess-timer talks are our unusual solution to making tech conferences a more interactive, more fun, and better place for learning and discussions.
+        <br><br>
+        Speakers who choose to give a chess-timer talk are allowed 20 minutes of solo speaking time, and 20 minutes of discussion time. A Curry On representative operates a chess-timer during the presentation, switching between solo + discussion time budgets. When an audience member interrupts the talk to ask a question, for example, we switch the timer to deduct from discussion time.
+        <br><br>
+        Curry On will feature a limited number of chess-timer sessions, meaning that a majority of talks will still be standard conference talks.
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+  </div>
+  <div class="pad-bottom">&nbsp;</div>
+</div>
+
+<div class="purple-stripe">
+  <div class="container">
+    <!-- <div class="title centered">Keynotes</div> -->
+    <div class="big-white-italic centered">
+      <span class="light-orange">Two</span> days, <span class="light-orange">two</span> tracks.
+      <br/><!-- <br/><img src="{{ site.baseurl }}/resources/img/two-tracks.png"/><br/> -->
+      <span style="font-weight: 800; font-size: 44px;"><span class="light-orange">Four</span> exciting keynotes</span>
+    </div>
+    <div class="row">
+      <!-- KEYNOTES -->
+      {% for talk in settings.promoted_talks %}
+      {% if talk.type == "keynote" %}
+      {% include 2017-keynote.html keynote=talk %}
+      {% endif %}
+      {% endfor %}
+    </div>
+    <br/>
+    <div class="big-white-italic centered">
+      <span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> invited talks</span>
+    </div>
+    <div class="row">
+      <!-- INVITED -->
+      {% for talk in settings.promoted_talks %}
+      {% if talk.type == "invited" %}
+      {% include 2017-keynote.html keynote=talk %}
+      {% endif %}
+      {% endfor %}
+    </div>    
+    <div class="pad-bottom"></div>
+  </div>
+</div>
+
+    <!-- Join designers of exciting emerging languages, popular languages, emerging paradigms and more. Add your voice to the conversation. -->
+
+{% if settings.show_program %}
+<div class="purple-stripe">
+  <div class="container">
+    <div id="program" class="big-white-italic centered" style="font-weight: 700; font-size: 38px;">
+      Program
+    </div>
+    {% for day in settings.program %}
+    <div class="big-white-italic centered" style="font-weight: 700; font-size: 34px; margin-top: -20px; color: #fc5a4a">
+      {{ day.day }}
+    </div>
+    <div class="">
+      <table class="table-responsive program centered-div">
+      <!-- style="undefined;table-layout: fixed; width: 802px; text-alignment: left;" -->
+      <colgroup>
+      <col style="width: 200px">
+      <col style="width: 500px">
+      <col style="width: 500px">
+      </colgroup>
+      <tr>
+        <th class="tg-031e"></th>
+        <th class="tg-031e">Room 1: Auditorium Loyola</th>
+        <th class="tg-031e">Room 2: Foscolo</th>
+      </tr>
+      <!-- SESSIONS -->
+      {% for session in day.sessions %}
+      {% if session.type == "single" %}
+      {% include 2017-program-single.html session=session %}
+      {% elsif session.type == "keynote" %}
+      {% include 2017-program-keynote.html session=session %}      
+      {% elsif session.type == "parallel" %}
+      {% include 2017-program-parallel.html session=session %}      
+      {% endif %}
+      {% endfor %}
+      </table>
+    </div>
+    <br/><br/><br/><br/>
+    {% endfor %}
+
+    <div class="pad-bottom"></div>
+  </div>
+</div>
+{% endif %}
+
+<div class="reddish-orange-stripe">
+  <div class="container centered">
+    {% if settings.sold_out %}
+    <div class="tagline">Sorry, we sold out of tickets! :/</div>
+    <div class="subtagline" style="font-weight: 300; color: #073642; margin-bottom: 10px;">
+      Ticket trasfers are allowed. If you're looking for a ticket, tweet to <a href="http://www.twitter.com/curry_on_conf">@curry_on_conf</a>, we're happy to RT all requests for ticket transfers!
+    </div>
+    {% else %}
+    <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div>
+    {% if settings.register_url %}
+    <a href="{{ settings.register_url }}" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    {% endif %}
+    <div class="pad-bottom"></div>
+    {% endif %}
+   </div>
+</div>
+
+<div class="purple-stripe">
+  <div class="pad-top">&nbsp;</div>
+  <br/><br/>
+  <div class="container centered sponsorship">
+    <span class="big-white-italic">We <span style="color: #ce4844;" class="entypo heart"></span> these folks</span><br/><br/>
+    {% for sponsor in settings.sponsors %}
+    <a style="border: 0px;" href="{{ sponsor.url }}"><img alt="{{ sponsor.name }}" src="{{ site.baseurl }}/resources/img/{{ sponsor.id }}.png"></a>
+    <br/><br/>
+    {% endfor %}
+    <br/>
+    <div class="wanna-help" style="margin-bottom: 18px;">Wanna help?</div>
+    <a href="{{ site.baseurl }}/2017/sponsorship.html" class="btn btn-outline-inverse btn-lg">Sponsorship Opportunities</a>
+    <div class="pad-bottom"></div>
+  </div>
+  <br/>
+</div>
+
+<div class="purple-stripe">
+  <div class="container">
+    <div class="organizers-title centered">
+      Organizers
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-2"><div class="circular heather"></div><div class="white-text centered organizer"><a href="http://heather.miller.am">Heather Miller</a><br/>EPFL<br/><span class="organizer-chair"></span></div></div>
+      <div class="col-md-2"><div class="circular jan"></div><div class="white-text centered organizer"><a href="http://janvitek.github.io/">Jan Vitek</a><br/>Northeastern University<br/><span class="organizer-chair"></span></div></div>
+      <div class="col-md-2"><div class="circular chris"></div><div class="white-text centered organizer"><a href="http://christophermeiklejohn.com/">Christopher Meiklejohn</a><br/>UCL<br/><span class="organizer-chair"></span></div></div>
+      <div class="col-md-2"><div class="circular torsten"></div><div class="white-text centered organizer"><a href="https://www.linkedin.com/in/torsten-layda-964884">Torsten Layda</a><br/>SIX Global IT<br/><span class="organizer-chair"></span></div></div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="pad-bottom"></div>
+  </div>
+</div>
