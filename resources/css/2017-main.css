@@ -850,6 +850,17 @@ p.triangle  {
   }
 }
 
+.circular.silhouette {
+  background-image: url('{{ site.baseurl }}/resources/img/silhouette.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.silhouette {
+    background-image: url('{{ site.baseurl }}/resources/img/silhouette@2x.png');
+    background-size: 125px 125px;
+  }.
+}
+
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
   font-style: normal;

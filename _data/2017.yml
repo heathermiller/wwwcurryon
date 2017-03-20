@@ -69,6 +69,34 @@ promoted_talks:
     affiliation: Kx Systems
     known-for: Array Programming
 
+  - id:
+    type: invited
+    name:
+    url:
+    affiliation:
+    known-for:
+
+  - id: helena_edelson
+    type: invited
+    name: Helena Edelson
+    url: https://twitter.com/helenaedelson
+    affiliation: (Tentative)
+    known-for: Big Data, Distributed Systems, Scala
+
+  - id:
+    type: invited
+    name:
+    url:
+    affiliation:
+    known-for:
+
+  - id:
+    type: invited
+    name:
+    url:
+    affiliation:
+    known-for:
+
 
 program:
   - day: Monday, July 18<sup>th</sup>
