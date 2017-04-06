@@ -69,13 +69,6 @@ promoted_talks:
     affiliation: Kx Systems
     known-for: Array Programming
 
-  - id:
-    type: invited
-    name:
-    url:
-    affiliation:
-    known-for:
-
   - id: helena_edelson
     type: invited
     name: Helena Edelson
@@ -83,12 +76,19 @@ promoted_talks:
     affiliation: (Tentative)
     known-for: Big Data, Distributed Systems, Scala
 
-  - id:
+  - id: martin_abadi
     type: invited
-    name:
-    url:
-    affiliation:
-    known-for:
+    name: Martin Abadi
+    url: https://research.google.com/pubs/abadi.html
+    affiliation: Google
+    known-for: Security, Programming Languages
+
+  - id: matt_might
+    type: invited
+    name: Matt Might
+    url: http://matt.might.net/
+    affiliation: University of Utah
+    known-for: Precision Medicine, Static Analysis
 
   - id:
     type: invited
@@ -96,7 +96,6 @@ promoted_talks:
     url:
     affiliation:
     known-for:
-
 
 program:
   - day: Monday, July 18<sup>th</sup>
