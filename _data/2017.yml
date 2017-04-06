@@ -81,7 +81,7 @@ promoted_talks:
     name: Martin Abadi
     url: https://research.google.com/pubs/abadi.html
     affiliation: Google
-    known-for: Security, Programming Languages
+    known-for: Security, Programming Languages, TensorFlow
 
   - id: matt_might
     type: invited
