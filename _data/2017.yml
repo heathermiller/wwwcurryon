@@ -90,12 +90,12 @@ promoted_talks:
     affiliation: University of Utah
     known-for: Precision Medicine, Static Analysis
 
-  - id:
+  - id: john_hughes
     type: invited
-    name:
-    url:
-    affiliation:
-    known-for:
+    name: John Hughes
+    url: http://www.cse.chalmers.se/~rjmh/
+    affiliation: Chalmers University
+    known-for: Quickcheck, FP, Haskell
 
 program:
   - day: Monday, July 18<sup>th</sup>
