@@ -1109,6 +1109,7 @@ a.btn-outline {
 }
 
 input {
+  color: #757575;
   font-family: "ronnia",sans-serif;
   font-style: italic;
   font-weight: 400;
@@ -1126,7 +1127,8 @@ input {
 input:focus {
   box-shadow: 0;
   border: 3px solid #fdaa40;
-  color: #fdaa40;
+  /*color: #fdaa40;*/
+  color: #757575;
   outline: none;
 }
 
