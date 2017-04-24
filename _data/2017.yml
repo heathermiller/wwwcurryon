@@ -229,6 +229,25 @@ accepted-talks:
     title: "Impromptu: A Lightweight, dependently-typed async framework for Scala"
     speaker-affiliation: "Propensive Ltd"
 
+  - speaker-name: Renzo Borgatti
+    title: Clojure Transducers In The Wild
+    speaker-affiliation: "uSwitch.com"
+
+  - speaker-name: "Eelco Visser"
+    title: "Scope Graphs: A Fresh Look at Name Binding in Programming Languages"
+    speaker-affiliation: "TU Delft"
+
+  - speaker-name: "Julia Nguyen"
+    title: "Two Households, Both Alike in Dignity: A Not-So-Tragedy of Refactoring Front-end APIs"
+    speaker-affiliation: "Indiegogo"
+
+  - speaker-name: "Radu Popescu"
+    title: "The CernVM File System - Beyond Static Content Distribution"
+    speaker-affiliation: "CERN"
+
+  - speaker-name: "Marijn Haverbeke"
+    title: "Grammar-based language modes for text editors"
+    speaker-affiliation: ""    
 
 program:
   - day: Monday, July 18<sup>th</sup>
