@@ -247,7 +247,7 @@ accepted-talks:
 
   - speaker-name: "Marijn Haverbeke"
     title: "Grammar-based language modes for text editors"
-    speaker-affiliation: ""    
+    speaker-affiliation: ""
 
 program:
   - day: Monday, July 18<sup>th</sup>
@@ -465,6 +465,10 @@ program:
         title: Curry On Party!
 
 sponsors:
+  - id: google
+    name: Google
+    url: http://www.google.com/
+
   - id: oraclelabs
     name: Oracle Labs
     url: http://www.labs.oracle.com/
