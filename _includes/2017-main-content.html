@@ -25,7 +25,7 @@
   </div>
 </div>
 
-<!-- <div class="reddish-orange-stripe">
+<div class="reddish-orange-stripe">
   <div class="container centered">
     <div class="pad-top">&nbsp;</div>
     {% if settings.sold_out %}
@@ -35,14 +35,15 @@
     {% if settings.register_url %}
     <a href="{{ settings.register_url }}" class="btn btn-outline-inverse btn-lg">Register Now!</a>
     {% endif %}
-    <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a>
+    <!-- <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a> -->
+    <a href="{{ site.baseurl }}/{{ settings.year }}#accepted-talks" class="btn btn-outline-inverse btn-lg">Accepted Talks</a>
     <br>
-    <div class="early-registration">Early Registration Deadline: {{ settings.early_registration_deadline }}</div>
-    <iframe src="{{ settings.registration_countdown_url }}" allowTransparency="true" frameborder="0" width="120" height="31"></iframe>
+    <!-- <div class="early-registration">Early Registration Deadline: {{ settings.early_registration_deadline }}</div> -->
+    <!-- <iframe src="{{ settings.registration_countdown_url }}" allowTransparency="true" frameborder="0" width="120" height="31"></iframe> -->
     {% endif %}
   </div>
   <div class="pad-bottom">&nbsp;</div>
-</div> -->
+</div>
 
 <div class="purple-stripe">
   <div class="container">
@@ -129,22 +130,11 @@
       {% endif %}
       {% endfor %}
     </div>
-    <div class="row" style="height: 40px;"></div>
-    <div class="row">
-      <div class="col-md-5 centered"></div>
-      <div class="col-md-2 centered">
-        <div class="circular silhouette"></div>
-        <span class="gray-text centered speaker"><a href="">Your Name Here</a></span><br/>
-        <!-- <span class="keynote-affiliation">INRIA</span><br/> -->
-        <!-- <span class="keynote-known-for">Coccinelle</span> -->
-      </div>
-      <div class="col-md-5 centered"></div>
-    </div>
     <div class="pad-bottom"></div>
   </div>
 </div>
 
-<div class="reddish-orange-stripe">
+<!-- <div class="reddish-orange-stripe">
   <div class="container centered">
     <div class="hand-drawn"><img src="{{ site.baseurl }}/resources/img/hand-drawn.png"></div>
     <div class="tagline">
@@ -158,10 +148,28 @@
     <div class="call-ends">Deadline: April 14<sup>th</sup></div>
     <div class="pad-bottom"></div>
   </div>
-</div>
+</div> -->
 
 
     <!-- Join designers of exciting emerging languages, popular languages, emerging paradigms and more. Add your voice to the conversation. -->
+
+<div class="reddish-orange-stripe">
+  <div class="container">
+    <div id="accepted-talks" class="big-white-italic centered" style="font-weight: 700; font-size: 38px;">
+      Accepted talks
+    </div>
+    <ul class="accepted-talks">
+    {% for talk in settings.accepted-talks %}
+      <li>
+        <span class="talk-title">{{ talk.title }}</span>
+        <br/><span class="speaker-name">{{ talk.speaker-name }}</span>, <span class="speaker-affiliation">{{ talk.speaker-affiliation }}</span>
+      </li>
+    {% endfor %}
+    </ul>
+    <div class="pad-bottom"></div>
+  </div>
+</div>
+
 
 {% if settings.show_program %}
 <div class="purple-stripe">

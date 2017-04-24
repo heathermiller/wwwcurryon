@@ -97,6 +97,139 @@ promoted_talks:
     affiliation: Chalmers University
     known-for: Quickcheck, FP, Haskell
 
+
+
+
+accepted-talks:
+  - speaker-name: Avik Chaudhuri
+    title: "Flow Reloaded: New Challenges and New Opportunities"
+    speaker-affiliation: Facebook
+
+  - speaker-name: Manu Sridharan
+    title: "Moving Fast with High Reliability: Program Analysis at Uber"
+    speaker-affiliation: Uber Technologies
+
+  - speaker-name: Ron Pressler
+    title: "The Practice and Theory of TLA+"
+    speaker-affiliation: "Oracle + Parallel Universe"
+
+  - speaker-name: Martin Kleppmann
+    title: "Making decentralisation available for all"
+    speaker-affiliation: University of Cambridge
+
+  - speaker-name: Erik Romijn
+    title: "Helping communities & products thrive by fostering empathy"
+    speaker-affiliation: ""
+
+  - speaker-name: Daniel King
+    title: "Building Tools and Languages for Terabyte Scale Biology: A Call to Action"
+    speaker-affiliation: Broad Institute
+
+  - speaker-name: Mira Mezini
+    title: Modular Composition of Reactive Applications
+    speaker-affiliation: TU Darmstadt
+
+  - speaker-name: Peter Hawkins
+    title: "Compiled Machine Learning: Accelerated Linear Algebra (XLA) for TensorFlow"
+    speaker-affiliation: Google
+
+  - speaker-name: Silvia Moura Pina
+    title: "The Programmer’s Guide to Ideology"
+    speaker-affiliation: Zalando SE
+
+  - speaker-name: Valentin Kasas
+    title: "Carpenters & Cartographers"
+    speaker-affiliation: "Kanaka"
+
+  - speaker-name: Brandon Dail
+    title: Building Web Apps with Reason
+    speaker-affiliation: Formidable Labs
+
+  - speaker-name: Brandon Kase
+    title: Composable Caching in Swift
+    speaker-affiliation: Pinterest
+
+  - speaker-name: Adil Akhter
+    title: Orchestrate ING with Petri Net
+    speaker-affiliation: ING
+
+  - speaker-name: Luka Jacobowitz
+    title: "Reactive Programming in the Browser with Scala.js and PureScript"
+    speaker-affiliation: codecentric AG
+
+  - speaker-name: Luke Zarko
+    title: "Scalable cross-references across languages"
+    speaker-affiliation: Google
+
+  - speaker-name: Sylvan Clebsch
+    title: "Pony: 714 Days Later"
+    speaker-affiliation: Microsoft Research
+
+  - speaker-name: Sztefan Edwards
+    title: "On Being a type-heavy Scheme programer in InfoSec, or, how I learnt to hate everything & love better type systems"
+    speaker-affiliation: nVisium LLC
+
+  - speaker-name: Martin Kavalar
+    title: "Making Science Reproducible with Functional Programming Concepts"
+    speaker-affiliation: Nextjournal
+
+  - speaker-name: Deian Stefan
+    title: Finding and Preventing Bugs in JavaScript Bindings
+    speaker-affiliation: UC San Diego
+
+  - speaker-name: Jurriaan Hage
+    title: "Domain-Specific Type Error Diagnosis in the Glasgow Haskell Compiler"
+    speaker-affiliation: Utrecht University
+
+  - speaker-name: Chris Ford
+    title: "Computational Musicology, ????, Profit"
+    speaker-affiliation: ThoughtWorks
+
+  - speaker-name: Mark Allen
+    title: The Sharp Edges of Leaky Abstraction
+    speaker-affiliation: Alert Logic
+
+  - speaker-name: Jeremy Gibbons
+    title: "Profunctor Optics: Modular Data Accessors"
+    speaker-affiliation: "University of Oxford"
+
+  - speaker-name: "Santiago M. Mola"
+    title: "Babelfish: Universal Code Parsing Server"
+    speaker-affiliation: "source{d}"
+
+  - speaker-name: Allison McMillan
+    title: Angelina Ballerina Learns About Memory Allocation
+    speaker-affiliation: Collective Idea
+
+  - speaker-name: Ali Shoker
+    title: "There are no BFT Fans Anymore... About Secure Eventual Consistency"
+    speaker-affiliation: "HASLab, INESC TEC & University of Minho"
+
+  - speaker-name: Michael Steindorfer
+    title: "With Age comes Beauty - Past, Present, and Future of Efficient Immutable Collections"
+    speaker-affiliation: Delft University of Technology
+
+  - speaker-name: Andy Wingo
+    title: "Channels, Concurrency, and Cores: A new Concurrent ML implementation"
+    speaker-affiliation: "Igalia, S.L."
+
+  - speaker-name: Tiark Rompf
+    title: How types can turn a SQL interpreter into a SQL compiler
+    speaker-affiliation: "Purdue University"
+
+  - speaker-name: "Manuel Chakravarty"
+    title: "Haskell SpriteKit — A Case Study in Turning a Stateful into a Purely Functional API"
+    speaker-affiliation: "UNSW Australia & Applicative"
+
+  - speaker-name: "Jonathan Winandy"
+    title: "Centrifuge: Data quality in Spark without the costs!"
+    speaker-affiliation: ""
+
+  - speaker-name: "Jon Pretty"
+    title: "Impromptu: A Lightweight, dependently-typed async framework for Scala"
+    speaker-affiliation: "Propensive Ltd"
+
+
 program:
   - day: Monday, July 18<sup>th</sup>
     sessions:

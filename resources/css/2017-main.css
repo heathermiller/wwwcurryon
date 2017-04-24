@@ -1698,3 +1698,36 @@ code {
 .looking-for > a:hover {
   color: rgba(252, 90, 74, 1);
 }
+
+.accepted-talks {
+  text-align: center;
+}
+
+.accepted-talks > li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 0.6em;
+}
+
+.accepted-talks > li > .talk-title {
+  font-family: "petala-pro",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.accepted-talks > li > .speaker-name {
+  font-family: "petala-pro",sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #302e44;
+}
+
+.accepted-talks > li > .speaker-affiliation {
+  font-family: "ronnia",sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  color: #95A5A6;
+}
