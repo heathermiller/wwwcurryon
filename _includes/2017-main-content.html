@@ -161,8 +161,8 @@
     <ul class="accepted-talks">
     {% for talk in settings.accepted-talks %}
       <li>
-        <span class="talk-title">{{ talk.title }}</span>
-        <br/><span class="speaker-name">{{ talk.speaker-name }}</span>, <span class="speaker-affiliation">{{ talk.speaker-affiliation }}</span>
+          <span class="talk-title"><a href="{{ talk.url }}">{{ talk.title }}</a></span>
+          <br/><span class="speaker-name">{{ talk.speaker-name }}</span>{% if talk.speaker-affiliation != "" %}, <span class="speaker-affiliation">{{ talk.speaker-affiliation }}</span>{% endif %}
       </li>
     {% endfor %}
     </ul>

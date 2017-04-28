@@ -1,0 +1,20 @@
+---
+layout: 2017-abstract
+title: "Making Science Reproducible with Functional Programming Concepts"
+by: Martin Kavalar
+affiliation: Nextjournal
+profpic-class: martin_kavalar
+---
+
+[@mkvlr](https://twitter.com/mkvlr)
+
+<br/>
+
+### Abstract
+
+Applying and idea from a scientific paper and applying it to another problem can take weeks, if not months, of work. Static PDF files can't describe the millions of lines of code and data that lead to those discoveries. This is an increasingly important problem in the face of growing mistrust in science, and a reproducibility crisis plaguing the sciences.At Nextjournal, we're building a notebook-style multi-language programming environment focused on deep, long-term reproducibility. In this talk you'll learn about our journey building Nextjournal based on ideas from functional programming.  I'll touch on: - Using Elixir and GenStage to reactively evaluate dependencies  between code across languages- Using immutable process snapshots and application images to ensure reproducibility and address &quot;software rot&quot; -  Using immutable, append-only storage for everything for editor operations and file storage for complete and accurate versioning - Using data models in articles as reusable functions - Time permitted, how ClojureScript works as functional extension for building our editor's frontend components Given the depth of these topics, I propose a chess timer talk to openly discuss the merits of these approaches as they apply to reproducible research and reusable data models.
+
+### Bio
+
+Berlin-based software developer and co-founder of nextjournal.com and sauspiel.de. With a background in molecular biology, my experience writing and reading scientific papers led me to build a better way to spread scientific knowledge.
+

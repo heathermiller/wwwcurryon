@@ -27,7 +27,7 @@ layout: default
         <div class="circular {{ page.profpic-class }}" style="float: left; margin-top: 42px; margin-right: 18px; "></div>
         <div class="abstract-page-title">{{ page.title }}</div>
         <div class="abstract-page-by">{{ page.by }}</div>
-        {% if page.affiliation %}<div class="abstract-page-affiliation">{{ page.affiliation }}</div>{% endif %}
+        {% if page.affiliation != "" %}<div class="abstract-page-affiliation">{{ page.affiliation }}</div>{% endif %}
         {{ content }}
       </div>
       <div class="col-md-2"></div>

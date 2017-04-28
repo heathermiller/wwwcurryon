@@ -1,0 +1,20 @@
+---
+layout: 2017-abstract
+title: "Impromptu: A Lightweight, dependently-typed async framework for Scala"
+by: Jon Pretty
+affiliation: Propensive Ltd
+profpic-class: jon_pretty
+---
+
+[@propensive](https://twitter.com/propensive)
+
+<br/>
+
+### Abstract
+
+Writing safe asynchronous code is often an uneasy fit in a strict, impure functional language like Scala. While high-level constructions like futures facilitate asynchronous programming, syntactic limitations often make blocking calls, or the unchecked access of asynchronously-computed values more natural than the safer alternatives. This talk will introduce Impromptu, a lightweight Scala API for safely defining and executing graphs of dependent tasks, without blocking or unsafe-access of asynchronously-computed values. Impromptu uses Scala's type system and type inference to automatically encode a task's dependencies within its type, then utilizes these types as constraints to restrict access to values produced by tasks declared as dependencies, and thereby known to be complete. This results in very lightweight and natural syntax, without blocking or unsafe access. Furthermore, Impromptu will take advantage of current research into implicit functions in the Dotty compiler to remove a small amount of remaining boilerplate syntax for each task.
+
+### Bio
+
+Jon has been involved in the Scala community for over a decade, having launched the first commercial and open-source Scala software back in 2005. Since then, he has successfully deployed Scala projects into everything from startups to government. He is best known for his work on his open-source projects, Rapture and Contextual, as organizer of Scala World, and chair of the Scala Center Advisory Board.
+
