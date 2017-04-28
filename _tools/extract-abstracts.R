@@ -22,7 +22,7 @@ template_css <-
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.{{id}} {
-    background-image: url(\'{{ site.baseurl }}/resources/img/2017/people{{big_photo}}\');
+    background-image: url(\'{{ site.baseurl }}/resources/img/2017/people/{{big_photo}}\');
     background-size: 125px 125px;
   }
 }
