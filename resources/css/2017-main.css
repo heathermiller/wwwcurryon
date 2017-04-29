@@ -1718,7 +1718,8 @@ code {
   font-size: 1.2em;
 }
 
-.accepted-talks > li > .talk-title a:link {
+.accepted-talks > li > .talk-title a:link,
+.accepted-talks > li > .talk-title a:visited {
   color: #ffffff;
 }
 
