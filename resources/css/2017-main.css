@@ -62,7 +62,7 @@ h2 {
 }
 
 h3 {
-  color: #fdaa40;
+  color: #69b2dd;
   font-weight: 800;
 }
 
@@ -1601,7 +1601,7 @@ a.btn.btn-outline-inverse.btn-lg:hover {
   font-family: "petala-pro",sans-serif;
   font-style: normal;
   font-weight: 600;
-  color: #ce4844;
+  color: #ffa940;
   margin-top: 8px;
   margin-bottom: 14px;
   font-size: 26px;
@@ -1716,6 +1716,14 @@ code {
   font-weight: 600;
   color: #ffffff;
   font-size: 1.2em;
+}
+
+.accepted-talks > li > .talk-title a:link {
+  color: #ffffff;
+}
+
+.accepted-talks > li > .talk-title a:hover {
+  color: #95a5a6;
 }
 
 .accepted-talks > li > .speaker-name {
