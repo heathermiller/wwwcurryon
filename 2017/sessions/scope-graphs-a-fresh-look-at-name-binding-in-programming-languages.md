@@ -1,0 +1,20 @@
+---
+layout: 2017-abstract
+title: "Scope Graphs: A Fresh Look at Name Binding in Programming Languages"
+by: Eelco Visser
+affiliation: Delft University of Technology (TU Delft)
+profpic-class: eelco_visser
+---
+
+[@eelcovisser](https://twitter.com/eelcovisser)
+
+<br/>
+
+### Abstract
+
+Names are crucial for organizing and understanding programs. Yet names and name binding get a second class treatment in programming language definition. We have a fairly standardized approach based on context-free grammars to provide tool independent descriptions of the syntax of programming languages. There is no analog for describing the name binding rules of programming languages. It is hard to explain the rules and they are encoded in many different ways in implementations of programming language tools. In this talk I present scope graphs, a new approach to defining the name binding rules of programming languages. A scope graph represents the name binding facts of a program using the basic concepts of declarations and reference associated with scopes that are connected by edges. Name resolution is defined by searching for paths from references to declarations in a scope graph. Scope graph diagrams provide an illuminating visual notation for explaining the bindings in programs. But scope graphs are more than pretty pictures. The foundational resolution calculus provides the basis for generic, language-independent implementation of a range of tools involving name binding. I will demonstrate how the Spoofax language workbench uses scope graphs to implement name resolution in IDEs and memory models in interpreters.
+
+### Bio
+
+Eelco Visser is professor at Delft University of Technology where he chairs the Programming Languages group and teaches concepts of programming languages and compiler construction. In his research he pursues techniques to enable declarative language definition; high-level description of programming language features from which a range of tools can be generated. The results are integrated in the Spoofax Language Workbench. One of the applications of his research is the design and development of the WebDSL web programming language and its application to programming education in the browser (WebLab), conference website hosting (researchr), and other tools that lighten the burdens of academic life.
+

@@ -5,5 +5,8 @@ host: localhost
 
 markdown: kramdown
 
+exclude:
+  - _tools
+
 # destination: ../../public_html/scala2013
 # baseurl: www.curryon2015.heathermiller.net

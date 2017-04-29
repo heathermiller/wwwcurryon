@@ -101,153 +101,192 @@ promoted_talks:
 
 
 accepted-talks:
-  - speaker-name: Avik Chaudhuri
-    title: "Flow Reloaded: New Challenges and New Opportunities"
-    speaker-affiliation: Facebook
-
-  - speaker-name: Manu Sridharan
+  - speaker-name: "Manu Sridharan"
     title: "Moving Fast with High Reliability: Program Analysis at Uber"
-    speaker-affiliation: Uber Technologies
+    speaker-affiliation: "Uber Technologies"
+    url: "sessions/moving-fast-with-high-reliability-program-analysis-at-uber.html"
 
-  - speaker-name: Ron Pressler
+  - speaker-name: "Avik Chaudhuri"
+    title: "Flow Reloaded: New Challenges and New Opportunities"
+    speaker-affiliation: "Facebook"
+    url: "sessions/flow-reloaded-new-challenges-and-new-opportunities.html"
+
+  - speaker-name: "Ron Pressler"
     title: "The Practice and Theory of TLA+"
     speaker-affiliation: "Oracle + Parallel Universe"
+    url: "sessions/the-practice-and-theory-of-tla-.html"
 
-  - speaker-name: Martin Kleppmann
+  - speaker-name: "Martin Kleppmann"
     title: "Making decentralisation available for all"
-    speaker-affiliation: University of Cambridge
+    speaker-affiliation: "University of Cambridge"
+    url: "sessions/making-decentralisation-available-for-all.html"
 
-  - speaker-name: Erik Romijn
-    title: "Helping communities & products thrive by fostering empathy"
+  - speaker-name: "Erik Romijn"
+    title: "Helping communities &amp; products thrive by fostering empathy"
     speaker-affiliation: ""
+    url: "sessions/helping-communities-products-thrive-by-fostering-empathy.html"
 
-  - speaker-name: Daniel King
+  - speaker-name: "Daniel King"
     title: "Building Tools and Languages for Terabyte Scale Biology: A Call to Action"
-    speaker-affiliation: Broad Institute
+    speaker-affiliation: "Broad Institute"
+    url: "sessions/building-tools-and-languages-for-terabyte-scale-biology-a-call-to-action.html"
 
-  - speaker-name: Mira Mezini
-    title: Modular Composition of Reactive Applications
-    speaker-affiliation: TU Darmstadt
+  - speaker-name: "Mira Mezini"
+    title: "Modular Composition of Reactive Applications"
+    speaker-affiliation: "TU Darmstadt"
+    url: "sessions/modular-composition-of-reactive-applications.html"
 
-  - speaker-name: Peter Hawkins
+  - speaker-name: "Peter Hawkins"
     title: "Compiled Machine Learning: Accelerated Linear Algebra (XLA) for TensorFlow"
-    speaker-affiliation: Google
+    speaker-affiliation: "Google"
+    url: "sessions/compiled-machine-learning-accelerated-linear-algebra-xla-for-tensorflow.html"
 
-  - speaker-name: Silvia Moura Pina
+  - speaker-name: "Silvia Moura Pina"
     title: "The Programmer’s Guide to Ideology"
-    speaker-affiliation: Zalando SE
+    speaker-affiliation: "Zalando SE"
+    url: "sessions/the-programmer-s-guide-to-ideology.html"
 
-  - speaker-name: Valentin Kasas
-    title: "Carpenters & Cartographers"
-    speaker-affiliation: "Kanaka"
+  - speaker-name: "Valentin Kasas"
+    title: "Carpenters &amp; Cartographers"
+    speaker-affiliation: "self-employed @ Kanaka"
+    url: "sessions/carpenters-cartographers.html"
 
-  - speaker-name: Brandon Dail
-    title: Building Web Apps with Reason
-    speaker-affiliation: Formidable Labs
+  - speaker-name: "Brandon Dail"
+    title: "Building Web Apps with Reason"
+    speaker-affiliation: "Formidable Labs"
+    url: "sessions/building-web-apps-with-reason.html"
 
-  - speaker-name: Brandon Kase
-    title: Composable Caching in Swift
-    speaker-affiliation: Pinterest
+  - speaker-name: "Brandon Kase"
+    title: "Composable Caching in Swift"
+    speaker-affiliation: "Pinterest"
+    url: "sessions/composable-caching-in-swift.html"
 
-  - speaker-name: Adil Akhter
-    title: Orchestrate ING with Petri Net
-    speaker-affiliation: ING
+  - speaker-name: "Adil Akhter"
+    title: "Orchestrate ING with Petri Net"
+    speaker-affiliation: "ING"
+    url: "sessions/orchestrate-ing-with-petri-net.html"
 
-  - speaker-name: Luka Jacobowitz
+  - speaker-name: "Luka Jacobowitz"
     title: "Reactive Programming in the Browser with Scala.js and PureScript"
-    speaker-affiliation: codecentric AG
+    speaker-affiliation: "codecentric AG"
+    url: "sessions/reactive-programming-in-the-browser-with-scala-js-and-purescript.html"
 
-  - speaker-name: Luke Zarko
+  - speaker-name: "Luke Zarko"
     title: "Scalable cross-references across languages"
-    speaker-affiliation: Google
+    speaker-affiliation: "Google, Inc"
+    url: "sessions/scalable-cross-references-across-languages.html"
 
-  - speaker-name: Sylvan Clebsch
+  - speaker-name: "Sylvan Clebsch"
     title: "Pony: 714 Days Later"
-    speaker-affiliation: Microsoft Research
+    speaker-affiliation: "Microsoft Research"
+    url: "sessions/pony-714-days-later.html"
 
-  - speaker-name: Sztefan Edwards
-    title: "On Being a type-heavy Scheme programer in InfoSec, or, how I learnt to hate everything & love better type systems"
-    speaker-affiliation: nVisium LLC
+  - speaker-name: "Sztefan Edwards"
+    title: "On Being a type-heavy Scheme programer in InfoSec, or, how I learnt to hate everything &amp; love better type systems"
+    speaker-affiliation: "nVisium LLC"
+    url: "sessions/on-being-a-type-heavy-scheme-programer-in-infosec-or-how-i-learnt-to-hate-everything-love-better-type-systems.html"
 
-  - speaker-name: Martin Kavalar
+  - speaker-name: "Martin Kavalar"
     title: "Making Science Reproducible with Functional Programming Concepts"
-    speaker-affiliation: Nextjournal
+    speaker-affiliation: "Nextjournal"
+    url: "sessions/making-science-reproducible-with-functional-programming-concepts.html"
 
-  - speaker-name: Deian Stefan
-    title: Finding and Preventing Bugs in JavaScript Bindings
-    speaker-affiliation: UC San Diego
+  - speaker-name: "Deian Stefan"
+    title: "Finding and Preventing Bugs in JavaScript Bindings"
+    speaker-affiliation: "UC San Diego"
+    url: "sessions/finding-and-preventing-bugs-in-javascript-bindings.html"
 
-  - speaker-name: Jurriaan Hage
+  - speaker-name: "Jurriaan Hage"
     title: "Domain-Specific Type Error Diagnosis in the Glasgow Haskell Compiler"
-    speaker-affiliation: Utrecht University
+    speaker-affiliation: "Utrecht University"
+    url: "sessions/domain-specific-type-error-diagnosis-in-the-glasgow-haskell-compiler.html"
 
-  - speaker-name: Chris Ford
+  - speaker-name: "Chris Ford"
     title: "Computational Musicology, ????, Profit"
-    speaker-affiliation: ThoughtWorks
+    speaker-affiliation: "ThoughtWorks"
+    url: "sessions/computational-musicology-profit.html"
 
-  - speaker-name: Mark Allen
-    title: The Sharp Edges of Leaky Abstraction
-    speaker-affiliation: Alert Logic
+  - speaker-name: "Mark Allen"
+    title: "The Sharp Edges of Leaky Abstraction"
+    speaker-affiliation: "Alert Logic"
+    url: "sessions/the-sharp-edges-of-leaky-abstraction.html"
 
-  - speaker-name: Jeremy Gibbons
+  - speaker-name: "Jeremy Gibbons"
     title: "Profunctor Optics: Modular Data Accessors"
     speaker-affiliation: "University of Oxford"
+    url: "sessions/profunctor-optics-modular-data-accessors.html"
+
+  - speaker-name: "Allison McMillan"
+    title: "Angelina Ballerina Learns About Memory Allocation"
+    speaker-affiliation: "Collective Idea"
+    url: "sessions/angelina-ballerina-learns-about-memory-allocation.html"
 
   - speaker-name: "Santiago M. Mola"
     title: "Babelfish: Universal Code Parsing Server"
     speaker-affiliation: "source{d}"
+    url: "sessions/babelfish-universal-code-parsing-server.html"
 
-  - speaker-name: Allison McMillan
-    title: Angelina Ballerina Learns About Memory Allocation
-    speaker-affiliation: Collective Idea
-
-  - speaker-name: Ali Shoker
+  - speaker-name: "Ali Shoker"
     title: "There are no BFT Fans Anymore... About Secure Eventual Consistency"
-    speaker-affiliation: "HASLab, INESC TEC & University of Minho"
+    speaker-affiliation: "HASLab, INESC TEC &amp; University of Minho"
+    url: "sessions/there-are-no-bft-fans-anymore-about-secure-eventual-consistency.html"
 
-  - speaker-name: Michael Steindorfer
+  - speaker-name: "Michael Steindorfer"
     title: "With Age comes Beauty - Past, Present, and Future of Efficient Immutable Collections"
-    speaker-affiliation: Delft University of Technology
+    speaker-affiliation: "Delft University of Technology"
+    url: "sessions/with-age-comes-beauty-past-present-and-future-of-efficient-immutable-collections.html"
 
-  - speaker-name: Andy Wingo
+  - speaker-name: "Andy Wingo"
     title: "Channels, Concurrency, and Cores: A new Concurrent ML implementation"
     speaker-affiliation: "Igalia, S.L."
+    url: "sessions/channels-concurrency-and-cores-a-new-concurrent-ml-implementation.html"
 
-  - speaker-name: Tiark Rompf
-    title: How types can turn a SQL interpreter into a SQL compiler
+  - speaker-name: "Jonathan Winandy"
+    title: "Centrifuge : Data quality in Spark without the costs!"
+    speaker-affiliation: "NA"
+    url: "sessions/centrifuge-data-quality-in-spark-without-the-costs-.html"
+
+  - speaker-name: "Tiark Rompf"
+    title: "How types can turn a SQL interpreter into a SQL compiler"
     speaker-affiliation: "Purdue University"
+    url: "sessions/how-types-can-turn-a-sql-interpreter-into-a-sql-compiler.html"
 
   - speaker-name: "Manuel Chakravarty"
     title: "Haskell SpriteKit — A Case Study in Turning a Stateful into a Purely Functional API"
-    speaker-affiliation: "UNSW Australia & Applicative"
-
-  - speaker-name: "Jonathan Winandy"
-    title: "Centrifuge: Data quality in Spark without the costs!"
-    speaker-affiliation: ""
+    speaker-affiliation: "UNSW Australia &amp; Applicative"
+    url: "sessions/haskell-spritekit-a-case-study-in-turning-a-stateful-into-a-purely-functional-api.html"
 
   - speaker-name: "Jon Pretty"
     title: "Impromptu: A Lightweight, dependently-typed async framework for Scala"
     speaker-affiliation: "Propensive Ltd"
+    url: "sessions/impromptu-a-lightweight-dependently-typed-async-framework-for-scala.html"
 
-  - speaker-name: Renzo Borgatti
-    title: Clojure Transducers In The Wild
+  - speaker-name: "Renzo Borgatti"
+    title: "Clojure Transducers In The Wild"
     speaker-affiliation: "uSwitch.com"
+    url: "sessions/clojure-transducers-in-the-wild.html"
 
   - speaker-name: "Eelco Visser"
     title: "Scope Graphs: A Fresh Look at Name Binding in Programming Languages"
-    speaker-affiliation: "TU Delft"
+    speaker-affiliation: "Delft University of Technology (TU Delft)"
+    url: "sessions/scope-graphs-a-fresh-look-at-name-binding-in-programming-languages.html"
 
   - speaker-name: "Julia Nguyen"
     title: "Two Households, Both Alike in Dignity: A Not-So-Tragedy of Refactoring Front-end APIs"
     speaker-affiliation: "Indiegogo"
+    url: "sessions/two-households-both-alike-in-dignity-a-not-so-tragedy-of-refactoring-front-end-apis.html"
 
   - speaker-name: "Radu Popescu"
     title: "The CernVM File System - Beyond Static Content Distribution"
     speaker-affiliation: "CERN"
+    url: "sessions/the-cernvm-file-system-beyond-static-content-distribution.html"
 
   - speaker-name: "Marijn Haverbeke"
     title: "Grammar-based language modes for text editors"
-    speaker-affiliation: ""
+    speaker-affiliation: "Independent"
+    url: "sessions/grammar-based-language-modes-for-text-editors.html"
+
+
 
 program:
   - day: Monday, July 18<sup>th</sup>
