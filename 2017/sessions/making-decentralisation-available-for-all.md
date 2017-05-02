@@ -16,5 +16,4 @@ First, the Internet was designed to be decentralised, with no single point of fa
 
 ### Bio
 
-Martin Kleppmann is a researcher in distributed systems and security at the University of Cambridge. Previously he was a software engineer and entrepreneur at Internet companies including LinkedIn and Rapportive, where he worked on large-scale data infrastructure. He is now working on TRVE DATA, a project that aims to bring end-to-end encryption and decentralisation to a wide range of applications.
-
+Martin Kleppmann is a researcher in distributed systems and security at the University of Cambridge, and author of Designing Data-Intensive Applications (O'Reilly Media, 2017). Previously he was a software engineer and entrepreneur at Internet companies including LinkedIn and Rapportive, where he worked on large-scale data infrastructure. He is now working on TRVE DATA, a project that aims to bring end-to-end encryption and decentralisation to a wide range of applications.

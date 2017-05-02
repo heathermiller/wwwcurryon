@@ -17,4 +17,3 @@ Programming is a very peculiar activity that uses abstract techniques in an atte
 ### Bio
 
 Valentin has come a long way from C++ programming on little machines with 4 MB of unmanaged memory to big clusters with terabytes of RAM. Along the way, he progressively abandoned his old imperative habits to embrace the functional way—a journey that seems to never come to an end.
-
