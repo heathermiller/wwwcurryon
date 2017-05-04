@@ -510,7 +510,7 @@ sponsors:
 
   - id: oraclelabs
     name: Oracle Labs
-    url: http://www.labs.oracle.com/
+    url: "https://labs.oracle.com/pls/apex/f?p=LABS:10::::::"
 
   - id: huawei
     name: Huawei
