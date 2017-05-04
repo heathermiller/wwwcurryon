@@ -4,7 +4,7 @@ conference_dates: June 19-20<sup>th</sup>, 2017
 early_registration_deadline: June 6, 2017
 registration_countdown_url:  http://free.timeanddate.com/countdown/i4oxvawr/n43/cf12/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cacf2b698/cpcf2b698/pct/tcfff/fs100/szw320/szh135/iso2017-06-06T23:59:59
 tickets_sale_date: May 4<sup>th</sup>, at 5pm CEST
-register_url: false #https://regmaster4.com/2017conf/CURRYON17/register.php
+register_url: true #https://regmaster4.com/2017conf/CURRYON17/register.php
 previous_editions:
   - 2016
   - 2015

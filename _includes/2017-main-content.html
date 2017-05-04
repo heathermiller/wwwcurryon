@@ -33,11 +33,12 @@
     <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a>
     {% else %}
     {% if settings.register_url %}
+    <div class="call-ends">Tickets on sale now!</div>
     <a href="{{ settings.register_url }}" class="btn btn-outline-inverse btn-lg">Register Now!</a>
     {% endif %}
     <!-- <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a> -->
     <a href="{{ site.baseurl }}/{{ settings.year }}#accepted-talks" class="btn btn-outline-inverse btn-lg">Accepted Talks</a>
-    <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div>
+    <!-- <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div> -->
     <br>
     <!-- <div class="early-registration">Early Registration Deadline: {{ settings.early_registration_deadline }}</div> -->
     <!-- <iframe src="{{ settings.registration_countdown_url }}" allowTransparency="true" frameborder="0" width="120" height="31"></iframe> -->
@@ -107,7 +108,7 @@
   <div class="container">
     <!-- <div class="title centered">Keynotes</div> -->
     <div class="big-white-italic centered">
-      <span class="light-orange">Two</span> days, <span class="light-orange">two</span> tracks.
+      <span class="light-orange">Two</span> days, <span class="light-orange">three</span> tracks.
       <br/><!-- <br/><img src="{{ site.baseurl }}/resources/img/two-tracks.png"/><br/> -->
       <span style="font-weight: 800; font-size: 44px;"><span class="light-orange">Four</span> exciting keynotes</span>
     </div>
@@ -233,23 +234,6 @@
 </div>
 
 <!-- Interested in joining us? If -->
-<div class="purple-stripe">
-  <div class="container centered">
-    <div class="tagline">Interested in attending?</div><br/>
-    <div class="subtagline" style="font-weight: 300; color: #fff; margin-bottom: 10px;">Help us make sure we book enough space to accommodate everyone.
-    <div class="fyi white">
-      Leave your name and email address so we can let you know when tickets become available.
-      <br/>Fret not, we'll use your email address only to contact you to inform you when tickets go on sale. (Max ~3 emails.)
-    </div>
-    <div class="fyi gray">
-      Tickets are estimated to cost <strike>&euro; 500-600</strike> &euro; 450, and will be good for all of Curry On, <a href="http://2017.ecoop.org/">ECOOP workshops</a>, and
-      <br/>the Curry On party. PS, there will be a student rate too!
-    </div>
-    <br/>
-    {% include mailchimp.html %}
-    <div class="pad-bottom"></div>
-  </div>
-</div>
 
 <div class="purple-stripe">
   <div class="pad-top">&nbsp;</div>
