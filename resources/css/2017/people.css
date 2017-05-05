@@ -262,13 +262,13 @@
   }
 }
 
-.circular.santiago_m._mola {
-  background-image: url('/resources/img/2017/people/santiago_m._mola.png');
+.circular.santiago_m_mola {
+  background-image: url('/resources/img/2017/people/santiago_m_mola.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.santiago_m._mola {
-    background-image: url('/resources/img/2017/people/santiago_m._mola@2x.png');
+  .circular.santiago_m_mola {
+    background-image: url('/resources/img/2017/people/santiago_m_mola@2x.png');
     background-size: 125px 125px;
   }
 }
