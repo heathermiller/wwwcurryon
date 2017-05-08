@@ -3,7 +3,7 @@ layout: 2017-abstract
 title: "Babelfish: Universal Code Parsing Server"
 by: Santiago M. Mola
 affiliation: source{d}
-profpic-class: santiago_m._mola
+profpic-class: santiago_m_mola
 ---
 
 [@mola_io](https://twitter.com/mola_io)

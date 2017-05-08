@@ -104,11 +104,11 @@ process_image <- function(row) {
         if (info$width < 250 || info$height < 250) {
             message("- image is too small ", info$width, "x", info$height)
         } else {
-            img1x <- image_scale(img, "125x125")
+            img1x <- image_scale(img, "125")
             image_write(img1x, img1x_fname, format="png")
             message("- written ", img1x_fname)
 
-            img2x <- image_scale(img, "250x250")
+            img2x <- image_scale(img, "250")
             image_write(img2x, img2x_fname, format="png")
             message("- written ", img2x_fname)
 
