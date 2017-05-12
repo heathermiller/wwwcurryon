@@ -243,7 +243,7 @@ accepted-talks:
 
   - speaker-name: "Jonathan Winandy"
     title: "Centrifuge : Data quality in Spark without the costs!"
-    speaker-affiliation: "NA"
+    speaker-affiliation: "Univalence"
     url: "sessions/centrifuge-data-quality-in-spark-without-the-costs-.html"
 
   - speaker-name: "Tiark Rompf"
