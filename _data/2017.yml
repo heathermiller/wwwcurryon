@@ -69,13 +69,6 @@ promoted_talks:
     affiliation: Kx Systems
     known-for: Array Programming
 
-  - id: helena_edelson
-    type: invited
-    name: Helena Edelson
-    url: https://twitter.com/helenaedelson
-    affiliation: (Tentative)
-    known-for: Big Data, Distributed Systems, Scala
-
   - id: martin_abadi
     type: invited
     name: Martin Abadi
@@ -97,6 +90,12 @@ promoted_talks:
     affiliation: Chalmers University
     known-for: Quickcheck, FP, Haskell
 
+  - id:
+    type:
+    name:
+    url:
+    affiliation:
+    known-for: 
 
 
 
