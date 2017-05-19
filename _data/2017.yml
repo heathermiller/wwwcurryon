@@ -73,6 +73,7 @@ promoted_talks:
     url: http://www.davethomas.net/
     affiliation: Kx Systems
     known-for: Array Programming
+    url: "sessions/the-joy-of-vector-programming.html"
 
   - id: martin_abadi
     type: invited
