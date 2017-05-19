@@ -33,6 +33,7 @@ promoted_talks:
     url: http://briangoetz.blogspot.com/
     affiliation: Oracle
     known-for: Java
+    url: "sessions/fp-is-dead-long-live-fp.html"
 
   - id: roberto_ierusalimschy
     type: keynote
@@ -95,7 +96,7 @@ promoted_talks:
     name:
     url:
     affiliation:
-    known-for: 
+    known-for:
 
 
 
