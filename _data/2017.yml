@@ -26,6 +26,7 @@ promoted_talks:
     url: http://lampwww.epfl.ch/~odersky/
     affiliation: EPFL
     known-for: Scala
+    url: "sessions/what-to-leave-implicit.html"
 
   - id: brian_goetz
     type: keynote
