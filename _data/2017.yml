@@ -58,6 +58,7 @@ promoted_talks:
     url: http://smallcultfollowing.com/babysteps/
     affiliation: Mozilla Research
     known-for: Rust
+    url: "sessions/rust-putting-ownership-to-use.html"
 
   - id: julien_verlaguet
     type: invited
