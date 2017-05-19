@@ -50,6 +50,7 @@ promoted_talks:
     url: http://jeanyang.com/
     affiliation: Carnegie Mellon University
     known-for: Privacy & Security + PL
+    url: "sessions/preventing-information-leaks-by-construction.html"
 
   - id: niko_matsakis
     type: invited
