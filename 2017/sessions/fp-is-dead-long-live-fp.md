@@ -19,8 +19,8 @@ classical FP, and then strive to rise above them both.
 
 ### Bio
 
-Brian Goetz is the Java Language Architect at Oracle, and was the
-specification lead for JSR-335 (Lambda Expressions for the Java
-Language.)  He is the author of the best-selling book "Java
-Concurrency in Practice" and is a frequent presenter at major industry
-conferences.
+Brian Goetz is the Java Language Architect at Oracle Corporation, and was the
+specification lead for JSR-335 (Lambda Expressions for the Java Programming
+Language.) He is the author of the best-selling Java Concurrency in Practice, as
+well as over 75 articles on Java development, and has been fascinated by
+programming since Jimmy Carter was President.
