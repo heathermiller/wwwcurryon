@@ -19,7 +19,7 @@ promoted_talks:
     url: https://github.com/josevalim
     affiliation: Platformatec
     known-for: Elixir
-    url: "sessions/research-embrace-expand.html"
+    url: "sessions/idioms-for-building-distributed-fault-tolerant-applications-with-elixir.html"
 
   - id: martin_odersky
     type: keynote

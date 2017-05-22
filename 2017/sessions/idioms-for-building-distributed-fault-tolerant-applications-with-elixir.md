@@ -1,6 +1,6 @@
 ---
 layout: 2017-abstract
-title: "Research. Embrace. Expand."
+title: "Idioms for building distributed fault-tolerant applications with Elixir"
 by: José Valim
 affiliation: Plataformatec
 profpic-class: jose_valim
@@ -12,12 +12,10 @@ profpic-class: jose_valim
 
 ### Abstract
 
-
-In this talk, José Valim will share the background that led for the creation of
-the Elixir programming language, a dynamic, functional language designed for
-building scalable and maintainable applications on top of the Erlang VM. He will
-explore the lessons learned along the way and how they shaped the language
-itself and its growth.
+This talk will introduce developers to Elixir and the underlying Erlang VM and
+show how they provide a new vocabulary which shapes how developers design and
+build concurrent, distributed and fault-tolerant applications. The talk will
+also focus on the design goals behind Elixir and include some live demos
 
 ### Bio
 
