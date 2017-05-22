@@ -50,4 +50,5 @@ Associate Professor of Pharmaceutical Chemistry at the University of
 Utah; a Co-founder of Pairnomix, LLC, and the President of the NGLY1
 Foundation.
 
-Matt tweets from @mattmight and blogs from http://blog.might.net/
+Matt tweets from @mattmight and blogs from
+[http://blog.might.net/](http://blog.might.net/)

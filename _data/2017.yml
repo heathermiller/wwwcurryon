@@ -77,10 +77,11 @@ promoted_talks:
 
   - id: martin_abadi
     type: invited
-    name: Martin Abadi
+    name: Martín Abadi
     url: https://research.google.com/pubs/abadi.html
     affiliation: Google
     known-for: Security, Programming Languages, TensorFlow
+    url: "sessions/machine-learning-systems-with-privacy-and-for-privacy.html"
 
   - id: matt_might
     type: invited
