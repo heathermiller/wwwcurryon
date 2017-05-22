@@ -87,7 +87,7 @@ promoted_talks:
     type: invited
     name: Matt Might
     url: http://matt.might.net/
-    affiliation: University of Utah
+    affiliation: Harvard Medical School
     known-for: Precision Medicine, Static Analysis
     url: "sessions/winning-the-war-on-error.html"
 

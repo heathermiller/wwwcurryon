@@ -2,7 +2,7 @@
 layout: 2017-abstract
 title: "Winning the War on Error: Solving the Halting Problem and Curing Cancer"
 by: Matt Might
-affiliation: University of Utah
+affiliation: Harvard Medical School
 profpic-class: matt_might
 ---
 
