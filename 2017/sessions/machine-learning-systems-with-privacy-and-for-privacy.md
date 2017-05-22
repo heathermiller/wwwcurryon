@@ -1,6 +1,6 @@
 ---
 layout: 2017-abstract
-title: "Machine learning systems with privacy and for privacy: TensorFlow and PATE-G"
+title: "Machine learning systems with privacy and for privacy: TensorFlow & PATE-G"
 by: Martín Abadi
 affiliation: Google
 profpic-class: martin_abadi
