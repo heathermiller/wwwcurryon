@@ -3,7 +3,7 @@ layout: 2017-abstract
 title: "The Joy of Vector Programming: Why Vector Programming Matters"
 by: Dave Thomas
 affiliation: Kx Systems
-profpic-class: martin_kleppmann
+profpic-class: dave_thomas
 ---
 
 [@kxsystems](https://twitter.com/kxsystems)
