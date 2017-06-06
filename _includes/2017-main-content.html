@@ -30,14 +30,14 @@
     <div class="pad-top">&nbsp;</div>
     {% if settings.sold_out %}
     <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div>
-    <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a>
     {% else %}
     {% if settings.register_url %}
     <div class="call-ends">Tickets on sale now!</div>
     <a href="https://regmaster4.com/2017conf/CURRYON17/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
     {% endif %}
     <!-- <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a> -->
-    <a href="{{ site.baseurl }}/{{ settings.year }}#accepted-talks" class="btn btn-outline-inverse btn-lg">Accepted Talks</a>
+    <!--<a href="{{ site.baseurl }}/{{ settings.year }}#accepted-talks" class="btn btn-outline-inverse btn-lg">Accepted Talks</a>-->
+    <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a>
     <!-- <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div> -->
     <br>
     <div class="early-registration">Early Registration Deadline: {{ settings.early_registration_deadline }}</div>
