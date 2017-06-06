@@ -451,17 +451,19 @@ p.triangle  {
 
 
 /* promoted talks images */
-{% for item in settings.promoted_talks %}
-.circular.{{ item.id }} {
-  background-image: url('{{ site.baseurl }}/resources/img/{{ item.id }}.png');
+{% for item in settings.talks %}
+{% if item.speaker.id %}
+.circular.{{ item.speaker.id }} {
+  background-image: url('{{ site.baseurl }}/resources/img/{{ item.speaker.id }}.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.{{ item.id }} {
-    background-image: url('{{ site.baseurl }}/resources/img/{{ item.id }}@2x.png');
+  .circular.{{ item.speaker.id }} {
+    background-image: url('{{ site.baseurl }}/resources/img/{{ item.speaker.id }}@2x.png');
     background-size: 125px 125px;
   }
 }
+{% endif %}
 {% endfor %}
 
 .circular.ulfar {

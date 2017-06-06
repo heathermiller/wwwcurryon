@@ -1,10 +1,12 @@
+{% assign settings = site.data["2017"] %}
+{% assign talk = settings.talks | where:"title", include.session.talk | first %}
 <tr class="tr-dark pad">
   <td class="time">{{ include.session.time }}</td>
-  <td class="pad" colspan="2">
-    <span class="td-title">{{ include.session.title }}</span>{% if include.session.subtitle %}, {{ include.session.subtitle }}{% endif %}
-    {% if include.session.speaker %}
+  <td class="pad" colspan="3">
+    <span class="td-title">{{ talk.title }}</span>{% if talk.subtitle %}, {{ talk.subtitle }}{% endif %}
+    {% if talk.speaker.name %}
     <br/>
-    {{ include.session.speaker.name }}
+    {{ talk.speaker.name }}
     {% endif %}
   </td>
 </tr>

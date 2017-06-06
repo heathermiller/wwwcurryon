@@ -42,6 +42,3 @@ PUC-Rio (the Pontifical Catholic University of Rio de Janeiro), where
 he works with programming-language design and implementation. He is the
 leading architect of the Lua programming language and the author of the
 book "Programming in Lua".
-
-
-
