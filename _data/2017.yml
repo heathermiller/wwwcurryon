@@ -9,506 +9,562 @@ previous_editions:
   - 2016
   - 2015
 
-show_program: false
+show_program: true
+show_accepted_talks: false
 sold_out: false
 
-promoted_talks:
-  - id: jose_valim
-    type: keynote
-    name: José Valim
-    url: https://github.com/josevalim
-    affiliation: Platformatec
-    known-for: Elixir
-    url: "sessions/idioms-for-building-distributed-fault-tolerant-applications-with-elixir.html"
+talks:
+  # MISC
+  - type: misc
+    title: Curry On opening remarks
+    speaker:
+      name: Jan Vitek and Heather Miller
 
-  - id: martin_odersky
-    type: keynote
-    name: Martin Odersky
-    url: http://lampwww.epfl.ch/~odersky/
-    affiliation: EPFL
-    known-for: Scala
-    url: "sessions/what-to-leave-implicit.html"
+  - type: misc
+    title: Coffee break
+    subtitle: served outside of lecture hall
 
-  - id: brian_goetz
-    type: keynote
-    name: Brian Goetz
-    url: http://briangoetz.blogspot.com/
-    affiliation: Oracle
-    known-for: Java
+  - type: misc
+    title: Lunch
+
+  - type: misc
+    title: Curry On Party!
+
+  # KEYNOTES
+  - type: keynote
+    title: What to Leave Implicit
+    speaker:
+      id: martin_odersky
+      name: Martin Odersky
+      affiliation: EPFL
+      url: http://lampwww.epfl.ch/~odersky/
+      known-for: Scala
+    url: sessions/what-to-leave-implicit.html
+    tags:
+      - scala
+  - type: keynote
+    title: 'FP is Dead: Long Live FP'
+    speaker:
+      id: brian_goetz
+      name: Brian Goetz
+      affiliation: Oracle
+      url: http://briangoetz.blogspot.com/
+      known-for: Java
     url: "sessions/fp-is-dead-long-live-fp.html"
+    tags:
+      - java
+  - type: keynote
+    title: 'Idioms for building distributed fault-tolerant applications with Elixir'
+    speaker:
+      id: jose_valim
+      name: José Valim
+      affiliation: Platformatec
+      url: https://github.com/josevalim
+      known-for: Elixir
+    url: "sessions/idioms-for-building-distributed-fault-tolerant-applications-with-elixir.html"
+    tags:
+      - elixir
+  - type: keynote
+    title: 'Roberto Ierusalimschy' # TODO: fill
+    speaker:
+      id: roberto_ierusalimschy
+      name: Roberto Ierusalimschy
+      affiliation: PUC-Rio
+      url: http://www.inf.puc-rio.br/~roberto/
+      known-for: Lua
+    url: '' # TODO: fill
+    tags:
+      - lua
 
-  - id: roberto_ierusalimschy
-    type: keynote
-    name: Roberto Ierusalimschy
-    url: http://www.inf.puc-rio.br/~roberto/
-    affiliation: PUC-Rio
-    known-for: Lua
+  # PLDI
+  - type: pldi
+    title: 'PLDI Keynote'
 
-  - id: jean_yang
-    type: invited
-    name: Jean Yang
-    url: http://jeanyang.com/
-    affiliation: Carnegie Mellon University
-    known-for: Privacy & Security + PL
-    url: "sessions/preventing-information-leaks-by-construction.html"
-
-  - id: niko_matsakis
-    type: invited
-    name: Niko Matsakis
-    url: http://smallcultfollowing.com/babysteps/
-    affiliation: Mozilla Research
-    known-for: Rust
-    url: "sessions/rust-putting-ownership-to-use.html"
-
-  - id: julien_verlaguet
-    type: invited
-    name: Julien Verlaguet
-    url: https://www.facebook.com/julien.verlaguet
-    affiliation: Facebook
-    known-for: Hack
-
-  - id: dave_thomas
-    type: invited
-    name: Dave Thomas
-    url: http://www.davethomas.net/
-    affiliation: Kx Systems
-    known-for: Array Programming
-    url: "sessions/the-joy-of-vector-programming.html"
-
-  - id: martin_abadi
-    type: invited
-    name: Martín Abadi
-    url: https://research.google.com/pubs/abadi.html
-    affiliation: Google
-    known-for: Security, Programming Languages, TensorFlow
-    url: "sessions/machine-learning-systems-with-privacy-and-for-privacy.html"
-
-  - id: matt_might
-    type: invited
-    name: Matt Might
-    url: http://matt.might.net/
-    affiliation: Harvard Medical School
-    known-for: Precision Medicine, Static Analysis
-    url: "sessions/winning-the-war-on-error.html"
-
-  - id: john_hughes
-    type: invited
-    name: John Hughes
-    url: http://www.cse.chalmers.se/~rjmh/
-    affiliation: Chalmers University
-    known-for: Quickcheck, FP, Haskell
-
-  - id:
-    type:
-    name:
-    url:
-    affiliation:
-    known-for:
-
-
-
-accepted-talks:
-  - speaker-name: "Manu Sridharan"
-    title: "Moving Fast with High Reliability: Program Analysis at Uber"
-    speaker-affiliation: "Uber Technologies"
-    url: "sessions/moving-fast-with-high-reliability-program-analysis-at-uber.html"
-
-  - speaker-name: "Avik Chaudhuri"
-    title: "Flow Reloaded: New Challenges and New Opportunities"
-    speaker-affiliation: "Facebook"
-    url: "sessions/flow-reloaded-new-challenges-and-new-opportunities.html"
-
-  - speaker-name: "Ron Pressler"
-    title: "The Practice and Theory of TLA+"
-    speaker-affiliation: "Oracle + Parallel Universe"
-    url: "sessions/the-practice-and-theory-of-tla-.html"
-
-  - speaker-name: "Martin Kleppmann"
-    title: "Making decentralisation available for all"
-    speaker-affiliation: "University of Cambridge"
-    url: "sessions/making-decentralisation-available-for-all.html"
-
-  - speaker-name: "Erik Romijn"
-    title: "Helping communities &amp; products thrive by fostering empathy"
-    speaker-affiliation: ""
-    url: "sessions/helping-communities-products-thrive-by-fostering-empathy.html"
-
-  - speaker-name: "Daniel King"
-    title: "Building Tools and Languages for Terabyte Scale Biology: A Call to Action"
-    speaker-affiliation: "Broad Institute"
-    url: "sessions/building-tools-and-languages-for-terabyte-scale-biology-a-call-to-action.html"
-
-  - speaker-name: "Mira Mezini"
-    title: "Modular Composition of Reactive Applications"
-    speaker-affiliation: "TU Darmstadt"
-    url: "sessions/modular-composition-of-reactive-applications.html"
-
-  - speaker-name: "Peter Hawkins"
-    title: "Compiled Machine Learning: Accelerated Linear Algebra (XLA) for TensorFlow"
-    speaker-affiliation: "Google"
-    url: "sessions/compiled-machine-learning-accelerated-linear-algebra-xla-for-tensorflow.html"
-
-  - speaker-name: "Silvia Moura Pina"
-    title: "The Programmer’s Guide to Ideology"
-    speaker-affiliation: "Zalando SE"
-    url: "sessions/the-programmer-s-guide-to-ideology.html"
-
-  - speaker-name: "Valentin Kasas"
-    title: "Carpenters &amp; Cartographers"
-    speaker-affiliation: "self-employed @ Kanaka"
-    url: "sessions/carpenters-cartographers.html"
-
-  - speaker-name: "Brandon Dail"
-    title: "Building Web Apps with Reason"
-    speaker-affiliation: "Formidable Labs"
-    url: "sessions/building-web-apps-with-reason.html"
-
-  - speaker-name: "Brandon Kase"
-    title: "Composable Caching in Swift"
-    speaker-affiliation: "Pinterest"
-    url: "sessions/composable-caching-in-swift.html"
-
-  - speaker-name: "Adil Akhter"
-    title: "Orchestrate ING with Petri Net"
-    speaker-affiliation: "ING"
-    url: "sessions/orchestrate-ing-with-petri-net.html"
-
-  - speaker-name: "Luka Jacobowitz"
-    title: "Reactive Programming in the Browser with Scala.js and PureScript"
-    speaker-affiliation: "codecentric AG"
-    url: "sessions/reactive-programming-in-the-browser-with-scala-js-and-purescript.html"
-
-  - speaker-name: "Luke Zarko"
-    title: "Scalable cross-references across languages"
-    speaker-affiliation: "Google, Inc"
-    url: "sessions/scalable-cross-references-across-languages.html"
-
-  - speaker-name: "Sylvan Clebsch"
-    title: "Pony: 714 Days Later"
-    speaker-affiliation: "Microsoft Research"
-    url: "sessions/pony-714-days-later.html"
-
-  - speaker-name: "Sztefan Edwards"
-    title: "On Being a type-heavy Scheme programer in InfoSec, or, how I learnt to hate everything &amp; love better type systems"
-    speaker-affiliation: "nVisium LLC"
-    url: "sessions/on-being-a-type-heavy-scheme-programer-in-infosec-or-how-i-learnt-to-hate-everything-love-better-type-systems.html"
-
-  - speaker-name: "Martin Kavalar"
-    title: "Making Science Reproducible with Functional Programming Concepts"
-    speaker-affiliation: "Nextjournal"
-    url: "sessions/making-science-reproducible-with-functional-programming-concepts.html"
-
-  - speaker-name: "Deian Stefan"
-    title: "Finding and Preventing Bugs in JavaScript Bindings"
-    speaker-affiliation: "UC San Diego"
-    url: "sessions/finding-and-preventing-bugs-in-javascript-bindings.html"
-
-  - speaker-name: "Jurriaan Hage"
-    title: "Domain-Specific Type Error Diagnosis in the Glasgow Haskell Compiler"
-    speaker-affiliation: "Utrecht University"
-    url: "sessions/domain-specific-type-error-diagnosis-in-the-glasgow-haskell-compiler.html"
-
-  - speaker-name: "Chris Ford"
-    title: "Computational Musicology, ????, Profit"
-    speaker-affiliation: "ThoughtWorks"
-    url: "sessions/computational-musicology-profit.html"
-
-  - speaker-name: "Mark Allen"
-    title: "The Sharp Edges of Leaky Abstraction"
-    speaker-affiliation: "Alert Logic"
-    url: "sessions/the-sharp-edges-of-leaky-abstraction.html"
-
-  - speaker-name: "Jeremy Gibbons"
-    title: "Profunctor Optics: Modular Data Accessors"
-    speaker-affiliation: "University of Oxford"
-    url: "sessions/profunctor-optics-modular-data-accessors.html"
-
-  - speaker-name: "Allison McMillan"
-    title: "Angelina Ballerina Learns About Memory Allocation"
-    speaker-affiliation: "Collective Idea"
-    url: "sessions/angelina-ballerina-learns-about-memory-allocation.html"
-
-  - speaker-name: "Santiago M. Mola"
-    title: "Babelfish: Universal Code Parsing Server"
-    speaker-affiliation: "source{d}"
-    url: "sessions/babelfish-universal-code-parsing-server.html"
-
-  - speaker-name: "Ali Shoker"
-    title: "There are no BFT Fans Anymore... About Secure Eventual Consistency"
-    speaker-affiliation: "HASLab, INESC TEC &amp; University of Minho"
-    url: "sessions/there-are-no-bft-fans-anymore-about-secure-eventual-consistency.html"
-
-  - speaker-name: "Michael Steindorfer"
-    title: "With Age comes Beauty - Past, Present, and Future of Efficient Immutable Collections"
-    speaker-affiliation: "Delft University of Technology"
-    url: "sessions/with-age-comes-beauty-past-present-and-future-of-efficient-immutable-collections.html"
-
-  - speaker-name: "Andy Wingo"
-    title: "Channels, Concurrency, and Cores: A new Concurrent ML implementation"
-    speaker-affiliation: "Igalia, S.L."
-    url: "sessions/channels-concurrency-and-cores-a-new-concurrent-ml-implementation.html"
-
-  - speaker-name: "Jonathan Winandy"
-    title: "Centrifuge : Data quality in Spark without the costs!"
-    speaker-affiliation: "Univalence"
-    url: "sessions/centrifuge-data-quality-in-spark-without-the-costs-.html"
-
-  - speaker-name: "Tiark Rompf"
-    title: "How types can turn a SQL interpreter into a SQL compiler"
-    speaker-affiliation: "Purdue University"
-    url: "sessions/how-types-can-turn-a-sql-interpreter-into-a-sql-compiler.html"
-
-  - speaker-name: "Manuel Chakravarty"
-    title: "Haskell SpriteKit — A Case Study in Turning a Stateful into a Purely Functional API"
-    speaker-affiliation: "UNSW Australia &amp; Applicative"
-    url: "sessions/haskell-spritekit-a-case-study-in-turning-a-stateful-into-a-purely-functional-api.html"
-
-  - speaker-name: "Jon Pretty"
-    title: "Impromptu: A Lightweight, dependently-typed async framework for Scala"
-    speaker-affiliation: "Propensive Ltd"
-    url: "sessions/impromptu-a-lightweight-dependently-typed-async-framework-for-scala.html"
-
-  - speaker-name: "Renzo Borgatti"
-    title: "Clojure Transducers In The Wild"
-    speaker-affiliation: "uSwitch.com"
-    url: "sessions/clojure-transducers-in-the-wild.html"
-
-  - speaker-name: "Eelco Visser"
-    title: "Scope Graphs: A Fresh Look at Name Binding in Programming Languages"
-    speaker-affiliation: "Delft University of Technology (TU Delft)"
-    url: "sessions/scope-graphs-a-fresh-look-at-name-binding-in-programming-languages.html"
-
-  - speaker-name: "Julia Nguyen"
-    title: "Two Households, Both Alike in Dignity: A Not-So-Tragedy of Refactoring Front-end APIs"
-    speaker-affiliation: "Indiegogo"
-    url: "sessions/two-households-both-alike-in-dignity-a-not-so-tragedy-of-refactoring-front-end-apis.html"
-
-  - speaker-name: "Radu Popescu"
-    title: "The CernVM File System - Beyond Static Content Distribution"
-    speaker-affiliation: "CERN"
-    url: "sessions/the-cernvm-file-system-beyond-static-content-distribution.html"
-
-  - speaker-name: "Marijn Haverbeke"
-    title: "Grammar-based language modes for text editors"
-    speaker-affiliation: "Independent"
-    url: "sessions/grammar-based-language-modes-for-text-editors.html"
-
-
-
+  # INVITED TALKS
+  - type: invited
+    title: Preventing Information Leaks by Construction
+    speaker:
+      id: jean_yang
+      name: Jean Yang
+      affiliation: Carnegie Mellon University
+      url: http://jeanyang.com/
+      known-for: Privacy & Security + PL
+    url: sessions/preventing-information-leaks-by-construction.html
+  - type: invited
+    title: 'Rust: Putting Ownership to Use'
+    speaker:
+      id: niko_matsakis
+      name: Niko Matsakis
+      affiliation: Mozilla Research
+      url: http://smallcultfollowing.com/babysteps/
+      known-for: Rust
+    url: sessions/rust-putting-ownership-to-use.html
+  - type: invited
+    title: 'Julien Verlaguet' # TODO: fill
+    speaker:
+      id: julien_verlaguet
+      name: Julien Verlaguet
+      affiliation: Facebook
+      url: https://www.facebook.com/julien.verlaguet
+      known-for: Hack
+    url: '' # TODO: fill
+  - type: invited
+    title: 'The Joy of Vector Programming: Why Vector Programming Matters'
+    speaker:
+      id: dave_thomas
+      name: Dave Thomas
+      affiliation: Kx Systems
+      url: http://www.davethomas.net/
+      known-for: Array Programming
+    url: sessions/the-joy-of-vector-programming.html
+  - type: invited
+    title: 'Machine learning systems with privacy and for privacy: TensorFlow &amp; PATE-G'
+    speaker:
+      id: martin_abadi
+      name: Martín Abadi
+      affiliation: Google
+      url: https://research.google.com/pubs/abadi.html
+      known-for: Security, Programming Languages, TensorFlow
+    url: sessions/machine-learning-systems-with-privacy-and-for-privacy.html
+  - type: invited
+    title: 'Winning the War on Error: Solving the Halting Problem and Curing Cancer'
+    speaker:
+      id: matt_might
+      name: Matt Might
+      affiliation: Harvard Medical School
+      url: http://matt.might.net/
+      known-for: Precision Medicine, Static Analysis
+    url: sessions/winning-the-war-on-error.html
+  - type: invited
+    title: 'John Hughes' # TODO: fill
+    speaker:
+      id: john_hughes
+      name: John Hughes
+      affiliation: Chalmers University
+      url: http://www.cse.chalmers.se/~rjmh/
+      known-for: Quickcheck, FP, Haskell
+    url: '' # TODO: fill
+  
+  # REGULAR TALKS
+  - type: regular
+    title: 'Moving Fast with High Reliability: Program Analysis at Uber'
+    speaker:
+      name: Manu Sridharan
+      affiliation: Uber Technologies
+    url: sessions/moving-fast-with-high-reliability-program-analysis-at-uber.html
+  - type: regular
+    title: 'Flow Reloaded: New Challenges and New Opportunities'
+    speaker:
+      name: Avik Chaudhuri
+      affiliation: Facebook
+    url: sessions/flow-reloaded-new-challenges-and-new-opportunities.html
+  - type: regular
+    title: The Practice and Theory of TLA+
+    speaker:
+      name: Ron Pressler
+      affiliation: Oracle + Parallel Universe
+    url: sessions/the-practice-and-theory-of-tla-.html
+  - type: regular
+    title: Making decentralisation available for all
+    speaker:
+      name: Martin Kleppmann
+      affiliation: University of Cambridge
+    url: sessions/making-decentralisation-available-for-all.html
+  - type: regular
+    title: Helping communities &amp; products thrive by fostering empathy
+    speaker:
+      name: Erik Romijn
+      affiliation: ''
+    url: sessions/helping-communities-products-thrive-by-fostering-empathy.html
+  - type: regular
+    title: 'Building Tools and Languages for Terabyte Scale Biology: A Call to Action'
+    speaker:
+      name: Daniel King
+      affiliation: Broad Institute
+    url: sessions/building-tools-and-languages-for-terabyte-scale-biology-a-call-to-action.html
+  - type: regular
+    title: Modular Composition of Reactive Applications
+    speaker:
+      name: Mira Mezini
+      affiliation: TU Darmstadt
+    url: sessions/modular-composition-of-reactive-applications.html
+  - type: regular
+    title: 'Compiled Machine Learning: Accelerated Linear Algebra (XLA) for TensorFlow'
+    speaker:
+      name: Peter Hawkins
+      affiliation: Google
+    url: sessions/compiled-machine-learning-accelerated-linear-algebra-xla-for-tensorflow.html
+  - type: regular
+    title: "The Programmer's Guide to Ideology"
+    speaker:
+      name: Silvia Moura Pina
+      affiliation: Zalando SE
+    url: sessions/the-programmer-s-guide-to-ideology.html
+  - type: regular
+    title: Carpenters &amp; Cartographers
+    speaker:
+      name: Valentin Kasas
+      affiliation: self-employed @ Kanaka
+    url: sessions/carpenters-cartographers.html
+  - type: regular
+    title: Building Web Apps with Reason
+    speaker:
+      name: Brandon Dail
+      affiliation: Formidable Labs
+    url: sessions/building-web-apps-with-reason.html
+  - type: regular
+    title: Composable Caching in Swift
+    speaker:
+      name: Brandon Kase
+      affiliation: Pinterest
+    url: sessions/composable-caching-in-swift.html
+  - type: regular
+    title: Orchestrate ING with Petri Net
+    speaker:
+      name: Adil Akhter
+      affiliation: ING
+    url: sessions/orchestrate-ing-with-petri-net.html
+  - type: regular
+    title: Reactive Programming in the Browser with Scala.js and PureScript
+    speaker:
+      name: Luka Jacobowitz
+      affiliation: codecentric AG
+    url: sessions/reactive-programming-in-the-browser-with-scala-js-and-purescript.html
+  - type: regular
+    title: Scalable cross-references across languages
+    speaker:
+      name: Luke Zarko
+      affiliation: Google, Inc
+    url: sessions/scalable-cross-references-across-languages.html
+  - type: regular
+    title: 'Pony: 714 Days Later'
+    speaker:
+      name: Sylvan Clebsch
+      affiliation: Microsoft Research
+    url: sessions/pony-714-days-later.html
+  - type: regular
+    title: On Being a type-heavy Scheme programer in InfoSec, or, how I learnt to hate
+      everything &amp; love better type systems
+    speaker:
+      name: Sztefan Edwards
+      affiliation: nVisium LLC
+    url: sessions/on-being-a-type-heavy-scheme-programer-in-infosec-or-how-i-learnt-to-hate-everything-love-better-type-systems.html
+  - type: regular
+    title: Making Science Reproducible with Functional Programming Concepts
+    speaker:
+      name: Martin Kavalar
+      affiliation: Nextjournal
+    url: sessions/making-science-reproducible-with-functional-programming-concepts.html
+  - type: regular
+    title: Finding and Preventing Bugs in JavaScript Bindings
+    speaker:
+      name: Deian Stefan
+      affiliation: UC San Diego
+    url: sessions/finding-and-preventing-bugs-in-javascript-bindings.html
+  - type: regular
+    title: Domain-Specific Type Error Diagnosis in the Glasgow Haskell Compiler
+    speaker:
+      name: Jurriaan Hage
+      affiliation: Utrecht University
+    url: sessions/domain-specific-type-error-diagnosis-in-the-glasgow-haskell-compiler.html
+  - type: regular
+    title: Computational Musicology, ????, Profit
+    speaker:
+      name: Chris Ford
+      affiliation: ThoughtWorks
+    url: sessions/computational-musicology-profit.html
+  - type: regular
+    title: The Sharp Edges of Leaky Abstraction
+    speaker:
+      name: Mark Allen
+      affiliation: Alert Logic
+    url: sessions/the-sharp-edges-of-leaky-abstraction.html
+  - type: regular
+    title: 'Profunctor Optics: Modular Data Accessors'
+    speaker:
+      name: Jeremy Gibbons
+      affiliation: University of Oxford
+    url: sessions/profunctor-optics-modular-data-accessors.html
+  - type: regular
+    title: Angelina Ballerina Learns About Memory Allocation
+    speaker:
+      name: Allison McMillan
+      affiliation: Collective Idea
+    url: sessions/angelina-ballerina-learns-about-memory-allocation.html
+  - type: regular
+    title: 'Babelfish: Universal Code Parsing Server'
+    speaker:
+      name: Santiago M. Mola
+      affiliation: source{d}
+    url: sessions/babelfish-universal-code-parsing-server.html
+  - type: regular
+    title: There are no BFT Fans Anymore... About Secure Eventual Consistency
+    speaker:
+      name: Ali Shoker
+      affiliation: HASLab, INESC TEC &amp; University of Minho
+    url: sessions/there-are-no-bft-fans-anymore-about-secure-eventual-consistency.html
+  - type: regular
+    title: With Age comes Beauty - Past, Present, and Future of Efficient Immutable
+      Collections
+    speaker:
+      name: Michael Steindorfer
+      affiliation: Delft University of Technology
+    url: sessions/with-age-comes-beauty-past-present-and-future-of-efficient-immutable-collections.html
+  - type: regular
+    title: 'Channels, Concurrency, and Cores: A new Concurrent ML implementation'
+    speaker:
+      name: Andy Wingo
+      affiliation: Igalia, S.L.
+    url: sessions/channels-concurrency-and-cores-a-new-concurrent-ml-implementation.html
+  - type: regular
+    title: 'Centrifuge : Data quality in Spark without the costs!'
+    speaker:
+      name: Jonathan Winandy
+      affiliation: Univalence
+    url: sessions/centrifuge-data-quality-in-spark-without-the-costs-.html
+  - type: regular
+    title: How types can turn a SQL interpreter into a SQL compiler
+    speaker:
+      name: Tiark Rompf
+      affiliation: Purdue University
+    url: sessions/how-types-can-turn-a-sql-interpreter-into-a-sql-compiler.html
+  - type: regular
+    title: Haskell SpriteKit - A Case Study in Turning a Stateful into a Purely Functional
+      API
+    speaker:
+      name: Manuel Chakravarty
+      affiliation: UNSW Australia &amp; Applicative
+    url: sessions/haskell-spritekit-a-case-study-in-turning-a-stateful-into-a-purely-functional-api.html
+  - type: regular
+    title: 'Impromptu: A Lightweight, dependently-typed async framework for Scala'
+    speaker:
+      name: Jon Pretty
+      affiliation: Propensive Ltd
+    url: sessions/impromptu-a-lightweight-dependently-typed-async-framework-for-scala.html
+  - type: regular
+    title: Clojure Transducers In The Wild
+    speaker:
+      name: Renzo Borgatti
+      affiliation: uSwitch.com
+    url: sessions/clojure-transducers-in-the-wild.html
+  - type: regular
+    title: 'Scope Graphs: A Fresh Look at Name Binding in Programming Languages'
+    speaker:
+      name: Eelco Visser
+      affiliation: Delft University of Technology (TU Delft)
+    url: sessions/scope-graphs-a-fresh-look-at-name-binding-in-programming-languages.html
+  - type: regular
+    title: 'Two Households, Both Alike in Dignity: A Not-So-Tragedy of Refactoring Front-end
+      APIs'
+    speaker:
+      name: Julia Nguyen
+      affiliation: Indiegogo
+    url: sessions/two-households-both-alike-in-dignity-a-not-so-tragedy-of-refactoring-front-end-apis.html
+  - type: regular
+    title: The CernVM File System - Beyond Static Content Distribution
+    speaker:
+      name: Radu Popescu
+      affiliation: CERN
+    url: sessions/the-cernvm-file-system-beyond-static-content-distribution.html
+  - type: regular
+    title: Grammar-based language modes for text editors
+    speaker:
+      name: Marijn Haverbeke
+      affiliation: Independent
+    url: sessions/grammar-based-language-modes-for-text-editors.html
+ 
 program:
-  - day: Monday, July 18<sup>th</sup>
+  - day: Monday, June 18<sup>th</sup>
     sessions:
       - time: 8:45-9:00
         type: single
-        title: Curry On opening remarks
-        speaker:
-          name: Jan Vitek and Heather Miller
+        talk: Curry On opening remarks
 
       - time: 9:00-9:50
         type: keynote
-        room: Auditorium Loyola
-        title: How to Win Big With Old Ideas
-        speaker:
-          id: david_nolen
-          name: David Nolen
-          affiliation: Cognitect
-          twitter: swannodette
-        video: https://www.youtube.com/watch?v=JlgVSt-WWkA
-        tags:
-          - clojurescript
-          - clojure
+        talk: What to Leave Implicit
+        room: Big keynote room
 
-      - time: 9:50-10:05
+      - time: 9:50-10:30
         type: single
-        title: Coffee break
-        subtitle: served outside of lecture hall
+        talk: Coffee break
 
-      - time: 10:05-10:45
+      - time: 10:30-11:10
         type: parallel
         room-1:
-          title: Move Fast to Fix More Things
-          speaker:
-            name: "Peter O'Hearn"
-            affiliation: Facebook
-          video: https://www.youtube.com/watch?v=xc72SYVU2QY
-          tags:
-            - separation logic
-            - static analysis
+          talk: 'Flow Reloaded: New Challenges and New Opportunities'
         room-2:
-          title: The Functional Prohramming Languages Nomad
-          speaker:
-            name: Michael Sperber
-            affiliation: Active Group
-            twitter: sperbsen
-          video: https://www.youtube.com/watch?v=fd-92QqUdBU
-          tags:
-            - functional programming
+          talk: "The Programmer's Guide to Ideology"
+        room-3:
+          talk: 'Impromptu: A Lightweight, dependently-typed async framework for Scala'
+
+      - time: 11:20-12:00
+        type: parallel
+        room-1:
+          talk: 'Moving Fast with High Reliability: Program Analysis at Uber'
+        room-2:
+          talk: Composable Caching in Swift
+        room-3:
+          talk: 'Centrifuge : Data quality in Spark without the costs!'
+
+      - time: 12:10-12:50
+        type: parallel
+        room-1:
+          talk: 'The Practice and Theory of TLA+'
+        room-2:
+          talk: Building Web Apps with Reason
+        room-3:
+          talk: Angelina Ballerina Learns About Memory Allocation
+
+      - time: 12:50-14:00
+        type: single
+        talk: Lunch
+
+      - time: 13:50-14:40
+        type: keynote
+        talk: 'FP is Dead: Long Live FP'
+        room: Big keynote room
+
+      - time: 15:00-15:40
+        type: parallel
+        room-1:
+          talk: John Hughes
+        room-2:
+          talk: Carpenters &amp; Cartographers
+        room-3:
+          talk: Clojure Transducers In The Wild
+
+      - time: 15:40-16:10
+        type: single
+        talk: Coffee break
+
+      - time: 16:10-16:50
+        type: parallel
+        room-1:
+          talk: 'Building Tools and Languages for Terabyte Scale Biology: A Call to Action'
+        room-2:
+          talk: 'Profunctor Optics: Modular Data Accessors'
+        room-3:
+          talk: How types can turn a SQL interpreter into a SQL compiler
+
+      - time: 17:00-17:40
+        type: parallel
+        room-1:
+          talk: 'Rust: Putting Ownership to Use'
+        room-2:
+          talk: Making decentralisation available for all
+        room-3:
+          talk: Orchestrate ING with Petri Net
+
+      - time: 17:50-18:30
+        type: parallel
+        room-1:
+          talk: 'PLDI Keynote'
+        room-2:
+          talk: Reactive Programming in the Browser with Scala.js and PureScript
+        room-3:
+          talk: Haskell SpriteKit - A Case Study in Turning a Stateful into a Purely Functional API
+
+      - time: 19:30-22:00
+        type: single
+        talk: Curry On Party!
+
+  - day: Tuesday, June 19<sup>th</sup>
+    sessions:
+      - time: 9:00-9:50
+        type: keynote
+        talk: Idioms for building distributed fault-tolerant applications with Elixir
+        room: Big keynote room
+
+      - time: 9:50-10:25
+        type: single
+        talk: Coffee break
+
+      - time: 10:25-11:05
+        type: parallel
+        room-1:
+          talk: 'Winning the War on Error: Solving the Halting Problem and Curing Cancer'
+        room-2:
+          talk: Grammar-based language modes for text editors
+        room-3:
+          talk: 'The Joy of Vector Programming: Why Vector Programming Matters'
+
+      - time: 11:15-11:45
+        type: parallel
+        room-1:
+          talk: Preventing Information Leaks by Construction
+        room-2:
+          talk: Scalable cross-references across languages
+        room-3:
+          talk: Helping communities &amp; products thrive by fostering empathy
+
+      - time: 11:55-12:35
+        type: parallel
+        room-1:
+          talk: The Sharp Edges of Leaky Abstraction
+        room-2:
+          talk: 'Babelfish: Universal Code Parsing Server'
+        room-3:
+          talk: The CernVM File System - Beyond Static Content Distribution
 
       - time: 12:35-13:50
         type: single
-        title: Lunch
+        talk: Lunch
 
       - time: 13:50-14:30
         type: parallel
         room-1:
-          title: Building Scalable Stateful Services
-          speaker:
-            name: Caitie McCaffrey
-            affiliation: Twitter
-            twitter: caitie
-          video: https://www.youtube.com/watch?v=aJFxQAAMAQ
-          tags:
-            - distributed systems
-            - stateful services
+          talk: 'Machine learning systems with privacy and for privacy: TensorFlow &amp; PATE-G'
         room-2:
-          title: "Sieve: Cryptographically Enforced Access Control for User Data in Untrusted Cloud"
-          chess: true
-          speaker:
-            name: Frank Wang
-            affiliation: MIT
-            twitter: ffwang2
-          video: https://www.youtube.com/watch?v=bE-NQqhd3xo
-          tags:
-            - security
+          talk: There are no BFT Fans Anymore... About Secure Eventual Consistency
+        room-3:
+          talk: Modular Composition of Reactive Applications
+
+      - time: 14:40-15:20
+        type: parallel
+        room-1:
+          talk: 'Compiled Machine Learning: Accelerated Linear Algebra (XLA) for TensorFlow'
+        room-2:
+          talk: 'Channels, Concurrency, and Cores: A new Concurrent ML implementation'
+        room-3:
+          talk: 'On Being a type-heavy Scheme programer in InfoSec, or, how I learnt to hate everything &amp; love better type systems'
 
       - time: 15:30-16:00
         type: single
-        title: Coffee break
-        subtitle: served outside of lecture hall
+        talk: Coffee break
 
       - time: 16:00-16:40
         type: parallel
         room-1:
-          title: "Doing data science with Clojure: the ugly, the sad, the joyful"
-          chess: true
-          speaker:
-            name: Simon Belak
-            affiliation: GoOpti
-            twitter: sbelak
-          video: https://www.youtube.com/watch?v=6tZQqwil1c0
-          tags:
-            - data science
+          talk: 'Pony: 714 Days Later'
         room-2:
-          title: "Why The Free Monad isn't Free"
-          speaker:
-            name: Kelley Robinson
-            affiliation: Sharethrough
-            twitter: kelleyrobinson
-          video: https://www.youtube.com/watch?v=20WVE3bkYrQ
-          tags:
-            - functional programming
-            - monads
+          talk: 'Scope Graphs: A Fresh Look at Name Binding in Programming Languages'
+        room-3:
+          talk: Computational Musicology, ????, Profit
 
-      - time: 19:30-22:00
-        type: single
-        title: Curry On Party!
+      - time: 16:50-17:30
+        type: parallel
+        room-1:
+          talk: Finding and Preventing Bugs in JavaScript Bindings
+        room-2:
+          talk: Making Science Reproducible with Functional Programming Concepts
+        room-3:
+          talk: Domain-Specific Type Error Diagnosis in the Glasgow Haskell Compiler
 
-  - day: Tuesday, July 19<sup>th</sup>
-    sessions:
-      - time: 8:45-9:00
-        type: single
-        title: Curry On opening remarks
-        speaker:
-          name: Jan Vitek and Heather Miller
+      - time: 17:40-18:20
+        type: parallel
+        room-1:
+          talk: 'Julien Verlaguet'
+        room-2:
+          talk: 'Two Households, Both Alike in Dignity: A Not-So-Tragedy of Refactoring Front-end APIs'
+        room-3:
+          talk: With Age comes Beauty - Past, Present, and Future of Efficient Immutable Collections 
 
-      - time: 9:00-9:50
+      - time: 18:30-19:20
         type: keynote
-        room: Auditorium Loyola
-        title: How to Win Big With Old Ideas
-        speaker:
-          id: david_nolen
-          name: David Nolen
-          affiliation: Cognitect
-          twitter: swannodette
-        video: https://www.youtube.com/watch?v=JlgVSt-WWkA
-        tags:
-          - clojurescript
-          - clojure
+        talk: 'Roberto Ierusalimschy'
+        room: Big keynote room
 
-      - time: 9:50-10:05
-        type: single
-        title: Coffee break
-        subtitle: served outside of lecture hall
-
-      - time: 10:05-10:45
-        type: parallel
-        room-1:
-          title: Move Fast to Fix More Things
-          speaker:
-            name: "Peter O'Hearn"
-            affiliation: Facebook
-          video: https://www.youtube.com/watch?v=xc72SYVU2QY
-          tags:
-            - separation logic
-            - static analysis
-        room-2:
-          title: The Functional Prohramming Languages Nomad
-          speaker:
-            name: Michael Sperber
-            affiliation: Active Group
-            twitter: sperbsen
-          video: https://www.youtube.com/watch?v=fd-92QqUdBU
-          tags:
-            - functional programming
-
-      - time: 12:35-13:50
-        type: single
-        title: Lunch
-
-      - time: 13:50-14:30
-        type: parallel
-        room-1:
-          title: Building Scalable Stateful Services
-          speaker:
-            name: Caitie McCaffrey
-            affiliation: Twitter
-            twitter: caitie
-          video: https://www.youtube.com/watch?v=aJFxQAAMAQ
-          tags:
-            - distributed systems
-            - stateful services
-        room-2:
-          title: "Sieve: Cryptographically Enforced Access Control for User Data in Untrusted Cloud"
-          chess: true
-          speaker:
-            name: Frank Wang
-            affiliation: MIT
-            twitter: ffwang2
-          video: https://www.youtube.com/watch?v=bE-NQqhd3xo
-          tags:
-            - security
-
-      - time: 15:30-16:00
-        type: single
-        title: Coffee break
-        subtitle: served outside of lecture hall
-
-      - time: 16:00-16:40
-        type: parallel
-        room-1:
-          title: "Doing data science with Clojure: the ugly, the sad, the joyful"
-          chess: true
-          speaker:
-            name: Simon Belak
-            affiliation: GoOpti
-            twitter: sbelak
-          video: https://www.youtube.com/watch?v=6tZQqwil1c0
-          tags:
-            - data science
-        room-2:
-          title: "Why The Free Monad isn't Free"
-          speaker:
-            name: Kelley Robinson
-            affiliation: Sharethrough
-            twitter: kelleyrobinson
-          video: https://www.youtube.com/watch?v=20WVE3bkYrQ
-          tags:
-            - functional programming
-            - monads
-
-      - time: 19:30-22:00
-        type: single
-        title: Curry On Party!
 
 sponsors:
   - id: google

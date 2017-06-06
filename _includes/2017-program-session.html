@@ -1,27 +1,29 @@
-{% if include.session.chess %}
+{% assign settings = site.data["2017"] %}
+{% assign talk = settings.talks | where:"title", include.session.talk | first %}
+{% if talk.chess %}
 <div class="td-keynote">
   <span class="rounded-label">chess timer talk</span>
 </div>
 {% endif %}
 <div class="td-title">
-  <a href="{{ site.baseurl }}/2017/sessions/{{ include.session.title | downcase | replace: " ","-" }}.html">{{ include.session.title }}</a>
+  <a href="{{ site.baseurl }}/2017/{{ talk.url }}">{{ talk.title }}</a>
 </div>
-<div class="td-speaker">{{ include.session.speaker.name }}</div>
-<div class="td-affiliation">{{ include.session.speaker.affiliation }}</div>
-{% if include.session.twitter %}
+<div class="td-speaker">{{ talk.speaker.name }}</div>
+<div class="td-affiliation">{{ talk.speaker.affiliation }}</div>
+{% if talk.speaker.twitter %}
 <div class="td-twitter">
-  <a href="https://twitter.com/{{ include.session.speaker.twitter }}">@{{ include.session.speaker.twitter }}</a>
+  <a href="https://twitter.com/{{ talk.speaker.twitter }}">@{{ talk.speaker.twitter }}</a>
 </div>
 {% endif %}
-{% if include.session.video %}
+{% if talk.video %}
 <div class="td-video-link">
-  <a href="{{ include.session.vide }}">
+  <a href="{{ talk.video }}">
     <span class="fa fa-youtube-play" style="font-size: 18px;"></span>&nbsp;watch
   </a>
 </div>
 {% endif %}
 <div class="td-tags">
-  {% for tag in include.session.tags %}
+  {% for tag in talk.tags %}
   <span class="rounded-dark-blue">{{ tag }}</span>
   {% endfor %}
 </div>

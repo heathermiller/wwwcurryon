@@ -115,10 +115,9 @@
     </div>
     <div class="row">
       <!-- KEYNOTES -->
-      {% for talk in settings.promoted_talks %}
-      {% if talk.type == "keynote" %}
+      {% assign keynotes = settings.talks | where:'type', 'keynote' %}
+      {% for talk in keynotes %}
       {% include 2017-keynote.html keynote=talk %}
-      {% endif %}
       {% endfor %}
     </div>
     <br/>
@@ -127,10 +126,9 @@
     </div>
     <div class="row">
       <!-- INVITED -->
-      {% for talk in settings.promoted_talks %}
-      {% if talk.type == "invited" %}
+      {% assign keynotes = settings.talks | where:'type', 'invited' %}
+      {% for talk in keynotes %}
       {% include 2017-keynote.html keynote=talk %}
-      {% endif %}
       {% endfor %}
     </div>
     <div class="pad-bottom"></div>
@@ -156,23 +154,25 @@
 
     <!-- Join designers of exciting emerging languages, popular languages, emerging paradigms and more. Add your voice to the conversation. -->
 
+{% if settings.show_accepted_talks %}
 <div class="reddish-orange-stripe">
   <div class="container">
     <div id="accepted-talks" class="big-white-italic centered" style="font-weight: 700; font-size: 38px;">
       Accepted talks
     </div>
     <ul class="accepted-talks">
-    {% for talk in settings.accepted-talks %}
+    {% assign accepted_talks = settings.talks | where:'type', 'regular' %}
+    {% for talk in accepted_talks %}
       <li>
           <span class="talk-title"><a href="{{ talk.url }}">{{ talk.title }}</a></span>
-          <br/><span class="speaker-name">{{ talk.speaker-name }}</span>{% if talk.speaker-affiliation != "" %}, <span class="speaker-affiliation">{{ talk.speaker-affiliation }}</span>{% endif %}
+          <br/><span class="speaker-name">{{ talk.speaker.name }}</span>{% if talk.speaker.affiliation != "" %}, <span class="speaker-affiliation">{{ talk.speaker.affiliation }}</span>{% endif %}
       </li>
     {% endfor %}
     </ul>
     <div class="pad-bottom"></div>
   </div>
 </div>
-
+{% endif %}
 
 {% if settings.show_program %}
 <div class="purple-stripe">
@@ -191,11 +191,13 @@
       <col style="width: 200px">
       <col style="width: 500px">
       <col style="width: 500px">
+      <col style="width: 500px">
       </colgroup>
       <tr>
         <th class="tg-031e"></th>
-        <th class="tg-031e">Room 1: Auditorium Loyola</th>
-        <th class="tg-031e">Room 2: Foscolo</th>
+        <th class="tg-031e">Room 1</th>
+        <th class="tg-031e">Room 2</th>
+        <th class="tg-031e">Room 3</th>
       </tr>
       <!-- SESSIONS -->
       {% for session in day.sessions %}
@@ -219,6 +221,7 @@
 
 <div class="reddish-orange-stripe">
   <div class="container centered">
+    <div class="pad-top"></div>
     {% if settings.sold_out %}
     <div class="tagline">Sorry, we sold out of tickets! :/</div>
     <div class="subtagline" style="font-weight: 300; color: #073642; margin-bottom: 10px;">
