@@ -65,14 +65,14 @@ talks:
     tags:
       - elixir
   - type: keynote
-    title: 'Roberto Ierusalimschy' # TODO: fill
+    title: 'Scripting with Lua'
     speaker:
       id: roberto_ierusalimschy
       name: Roberto Ierusalimschy
       affiliation: PUC-Rio
       url: http://www.inf.puc-rio.br/~roberto/
       known-for: Lua
-    url: '' # TODO: fill
+    url: "sessions/scripting-with-lua.html"
     tags:
       - lua
 
@@ -562,7 +562,7 @@ program:
 
       - time: 18:30-19:20
         type: keynote
-        talk: 'Roberto Ierusalimschy'
+        talk: 'Scripting with Lua'
         room: Big keynote room
 
 
