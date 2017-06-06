@@ -43,6 +43,7 @@ promoted_talks:
     url: http://www.inf.puc-rio.br/~roberto/
     affiliation: PUC-Rio
     known-for: Lua
+    url: "sessions/scripting-with-lua.html"
 
   - id: jean_yang
     type: invited
