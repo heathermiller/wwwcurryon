@@ -21,7 +21,7 @@ talks:
       name: Jan Vitek and Heather Miller
 
   - type: misc
-    title: Coffee break
+    title: "PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
     subtitle: served outside of lecture hall
 
   - type: misc
@@ -374,7 +374,7 @@ talks:
     url: sessions/grammar-based-language-modes-for-text-editors.html
  
 program:
-  - day: Monday, June 18<sup>th</sup>
+  - day: Monday, June 19<sup>th</sup>
     sessions:
       - time: 8:45-9:00
         type: single
@@ -387,7 +387,7 @@ program:
 
       - time: 9:50-10:30
         type: single
-        talk: Coffee break
+        talk: "PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
 
       - time: 10:30-11:10
         type: parallel
@@ -420,7 +420,7 @@ program:
         type: single
         talk: Lunch
 
-      - time: 13:50-14:40
+      - time: 14:00-14:50
         type: keynote
         talk: 'FP is Dead: Long Live FP'
         room: Big keynote room
@@ -436,7 +436,7 @@ program:
 
       - time: 15:40-16:10
         type: single
-        talk: Coffee break
+        talk: "PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
 
       - time: 16:10-16:50
         type: parallel
@@ -469,7 +469,7 @@ program:
         type: single
         talk: Curry On Party!
 
-  - day: Tuesday, June 19<sup>th</sup>
+  - day: Tuesday, June 20<sup>th</sup>
     sessions:
       - time: 9:00-9:50
         type: keynote
@@ -478,7 +478,7 @@ program:
 
       - time: 9:50-10:25
         type: single
-        talk: Coffee break
+        talk: "PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
 
       - time: 10:25-11:05
         type: parallel
@@ -531,7 +531,7 @@ program:
 
       - time: 15:30-16:00
         type: single
-        talk: Coffee break
+        talk: "PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
 
       - time: 16:00-16:40
         type: parallel
