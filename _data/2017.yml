@@ -100,14 +100,14 @@ talks:
       known-for: Rust
     url: sessions/rust-putting-ownership-to-use.html
   - type: invited
-    title: 'Julien Verlaguet' # TODO: fill
+    title: 'Reflex: Reactive Programming at Facebook'
     speaker:
       id: julien_verlaguet
       name: Julien Verlaguet
       affiliation: Facebook
       url: https://www.facebook.com/julien.verlaguet
       known-for: Hack
-    url: '' # TODO: fill
+    url: 'sessions/reflex-reactive-programming-at-facebook.html'
   - type: invited
     title: 'The Joy of Vector Programming: Why Vector Programming Matters'
     speaker:
@@ -554,7 +554,7 @@ program:
       - time: 17:40-18:20
         type: parallel
         room-1:
-          talk: 'Julien Verlaguet'
+          talk: 'Reflex: Reactive Programming at Facebook'
         room-2:
           talk: 'Two Households, Both Alike in Dignity: A Not-So-Tragedy of Refactoring Front-end APIs'
         room-3:
