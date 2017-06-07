@@ -863,6 +863,17 @@ p.triangle  {
   }.
 }
 
+.circular.filip_krikava {
+  background-image: url('{{ site.baseurl }}/resources/img/filip_krikava.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.filip_krikava {
+    background-image: url('{{ site.baseurl }}/resources/img/filip_krikava@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .organizers-title, .title {
   font-family: "vinyl", sans-serif;
   font-style: normal;
