@@ -21,6 +21,10 @@ talks:
       name: Jan Vitek and Heather Miller
 
   - type: misc
+    title: "Coffee break"
+    subtitle: served outside of lecture hall
+
+  - type: misc
     title: "PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
     subtitle: served outside of lecture hall
 
@@ -436,7 +440,7 @@ program:
 
       - time: 15:40-16:10
         type: single
-        talk: "PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
+        talk: "Coffee break"
 
       - time: 16:10-16:50
         type: parallel
@@ -503,7 +507,7 @@ program:
         room-1:
           talk: The Sharp Edges of Leaky Abstraction
         room-2:
-          talk: 'Babelfish: Universal Code Parsing Server'
+          talk: There are no BFT Fans Anymore... About Secure Eventual Consistency
         room-3:
           talk: The CernVM File System - Beyond Static Content Distribution
 
@@ -516,7 +520,7 @@ program:
         room-1:
           talk: 'Machine learning systems with privacy and for privacy: TensorFlow &amp; PATE-G'
         room-2:
-          talk: There are no BFT Fans Anymore... About Secure Eventual Consistency
+          talk: 'Babelfish: Universal Code Parsing Server'
         room-3:
           talk: Modular Composition of Reactive Applications
 
@@ -531,7 +535,7 @@ program:
 
       - time: 15:30-16:00
         type: single
-        talk: "PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
+        talk: "Coffee break"
 
       - time: 16:00-16:40
         type: parallel
