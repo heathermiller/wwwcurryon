@@ -247,8 +247,7 @@ talks:
       affiliation: Microsoft Research
     url: sessions/pony-714-days-later.html
   - type: regular
-    title: On Being a type-heavy Scheme programer in InfoSec, or, how I learnt to hate
-      everything &amp; love better type systems
+    title: On Being a type-heavy Scheme programer in InfoSec, or, how I learnt to hate everything &amp; love better type systems
     speaker:
       name: Sztefan Edwards
       affiliation: nVisium LLC
@@ -308,8 +307,7 @@ talks:
       affiliation: HASLab, INESC TEC &amp; University of Minho
     url: sessions/there-are-no-bft-fans-anymore-about-secure-eventual-consistency.html
   - type: regular
-    title: With Age comes Beauty - Past, Present, and Future of Efficient Immutable
-      Collections
+    title: With Age comes Beauty - Past, Present, and Future of Efficient Immutable Collections
     speaker:
       name: Michael Steindorfer
       affiliation: Delft University of Technology
