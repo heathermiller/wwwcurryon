@@ -170,6 +170,7 @@ talks:
     url: sessions/the-practice-and-theory-of-tla-.html
   - type: regular
     title: Making decentralisation available for all
+    chess: true
     speaker:
       name: Martin Kleppmann
       affiliation: University of Cambridge
@@ -182,6 +183,7 @@ talks:
     url: sessions/helping-communities-products-thrive-by-fostering-empathy.html
   - type: regular
     title: 'Building Tools and Languages for Terabyte Scale Biology: A Call to Action'
+    chess: true
     speaker:
       name: Daniel King
       affiliation: Broad Institute
@@ -242,18 +244,21 @@ talks:
     url: sessions/scalable-cross-references-across-languages.html
   - type: regular
     title: 'Pony: 714 Days Later'
+    chess: true
     speaker:
       name: Sylvan Clebsch
       affiliation: Microsoft Research
     url: sessions/pony-714-days-later.html
   - type: regular
     title: On Being a type-heavy Scheme programer in InfoSec, or, how I learnt to hate everything &amp; love better type systems
+    chess: true
     speaker:
       name: Sztefan Edwards
       affiliation: nVisium LLC
     url: sessions/on-being-a-type-heavy-scheme-programer-in-infosec-or-how-i-learnt-to-hate-everything-love-better-type-systems.html
   - type: regular
     title: Making Science Reproducible with Functional Programming Concepts
+    chess: true
     speaker:
       name: Martin Kavalar
       affiliation: Nextjournal
@@ -272,12 +277,14 @@ talks:
     url: sessions/domain-specific-type-error-diagnosis-in-the-glasgow-haskell-compiler.html
   - type: regular
     title: Computational Musicology, ????, Profit
+    chess: true
     speaker:
       name: Chris Ford
       affiliation: ThoughtWorks
     url: sessions/computational-musicology-profit.html
   - type: regular
     title: The Sharp Edges of Leaky Abstraction
+    chess: true
     speaker:
       name: Mark Allen
       affiliation: Alert Logic
@@ -308,6 +315,7 @@ talks:
     url: sessions/there-are-no-bft-fans-anymore-about-secure-eventual-consistency.html
   - type: regular
     title: With Age comes Beauty - Past, Present, and Future of Efficient Immutable Collections
+    chess: true
     speaker:
       name: Michael Steindorfer
       affiliation: Delft University of Technology
@@ -370,6 +378,7 @@ talks:
     url: sessions/the-cernvm-file-system-beyond-static-content-distribution.html
   - type: regular
     title: Grammar-based language modes for text editors
+    chess: true
     speaker:
       name: Marijn Haverbeke
       affiliation: Independent
