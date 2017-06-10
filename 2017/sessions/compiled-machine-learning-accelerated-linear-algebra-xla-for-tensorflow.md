@@ -6,7 +6,7 @@ affiliation: Google
 profpic-class: peter_hawkins
 ---
 
-[@NA](https://twitter.com/NA)
+<br/>
 
 <br/>
 

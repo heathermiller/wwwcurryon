@@ -6,7 +6,7 @@ affiliation: Utrecht University
 profpic-class: jurriaan_hage
 ---
 
-[@NA](https://twitter.com/NA)
+<br/>
 
 <br/>
 
