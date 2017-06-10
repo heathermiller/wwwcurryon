@@ -393,7 +393,7 @@ program:
       - time: 9:00-9:50
         type: keynote
         talk: What to Leave Implicit
-        room: Big keynote room
+        room: Auditorium
 
       - time: 9:50-10:30
         type: single
@@ -433,7 +433,7 @@ program:
       - time: 14:00-14:50
         type: keynote
         talk: 'FP is Dead: Long Live FP'
-        room: Big keynote room
+        room: Auditorium
 
       - time: 15:00-15:40
         type: parallel
@@ -484,7 +484,7 @@ program:
       - time: 9:00-9:50
         type: keynote
         talk: Idioms for building distributed fault-tolerant applications with Elixir
-        room: Big keynote room
+        room: Auditorium
 
       - time: 9:50-10:25
         type: single
@@ -573,7 +573,7 @@ program:
       - time: 18:30-19:20
         type: keynote
         talk: 'Scripting with Lua'
-        room: Big keynote room
+        room: Auditorium
 
 
 sponsors:
