@@ -6,7 +6,7 @@ affiliation: Google, Inc
 profpic-class: luke_zarko
 ---
 
-[@NA](https://twitter.com/NA)
+<br/>
 
 <br/>
 
