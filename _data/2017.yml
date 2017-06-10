@@ -339,8 +339,7 @@ talks:
       affiliation: Purdue University
     url: sessions/how-types-can-turn-a-sql-interpreter-into-a-sql-compiler.html
   - type: regular
-    title: Haskell SpriteKit - A Case Study in Turning a Stateful into a Purely Functional
-      API
+    title: Haskell SpriteKit - A Case Study in Turning a Stateful into a Purely Functional API
     speaker:
       name: Manuel Chakravarty
       affiliation: UNSW Australia &amp; Applicative
