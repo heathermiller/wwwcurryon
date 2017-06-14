@@ -140,14 +140,14 @@ talks:
       known-for: Precision Medicine, Static Analysis
     url: sessions/winning-the-war-on-error.html
   - type: invited
-    title: 'John Hughes' # TODO: fill
+    title: "Don't Write Tests!"
     speaker:
       id: john_hughes
       name: John Hughes
       affiliation: Chalmers University
       url: http://www.cse.chalmers.se/~rjmh/
       known-for: Quickcheck, FP, Haskell
-    url: '' # TODO: fill
+    url: 'sessions/dont-write-tests.html'
   
   # REGULAR TALKS
   - type: regular
@@ -439,7 +439,7 @@ program:
       - time: 15:00-15:40
         type: parallel
         room-1:
-          talk: John Hughes
+          talk: "Don't Write Tests!"
         room-2:
           talk: Carpenters &amp; Cartographers
         room-3:
@@ -452,7 +452,7 @@ program:
       - time: 16:10-16:50
         type: parallel
         room-1:
-          talk: 'Building Tools and Languages for Terabyte Scale Biology: A Call to Action'
+          talk: 'Winning the War on Error: Solving the Halting Problem and Curing Cancer'
         room-2:
           talk: 'Profunctor Optics: Modular Data Accessors'
         room-3:
@@ -494,13 +494,13 @@ program:
       - time: 10:25-11:05
         type: parallel
         room-1:
-          talk: 'Winning the War on Error: Solving the Halting Problem and Curing Cancer'
+          talk: 'Building Tools and Languages for Terabyte Scale Biology: A Call to Action'
         room-2:
           talk: Grammar-based language modes for text editors
         room-3:
           talk: 'The Joy of Vector Programming: Why Vector Programming Matters'
 
-      - time: 11:15-11:45
+      - time: 11:15-11:55
         type: parallel
         room-1:
           talk: Preventing Information Leaks by Construction
@@ -509,7 +509,7 @@ program:
         room-3:
           talk: Helping communities &amp; products thrive by fostering empathy
 
-      - time: 11:55-12:35
+      - time: 12:05-12:45
         type: parallel
         room-1:
           talk: The Sharp Edges of Leaky Abstraction
@@ -518,7 +518,7 @@ program:
         room-3:
           talk: The CernVM File System - Beyond Static Content Distribution
 
-      - time: 12:35-13:50
+      - time: 12:45-13:50
         type: single
         talk: Lunch
 
