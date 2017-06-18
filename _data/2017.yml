@@ -575,16 +575,3 @@ program:
         talk: 'Scripting with Lua'
         room: Auditorium
 
-
-sponsors:
-  - id: google
-    name: Google
-    url: http://www.google.com/
-
-  - id: oraclelabs
-    name: Oracle Labs
-    url: "https://labs.oracle.com/pls/apex/f?p=LABS:10::::::"
-
-  - id: huawei
-    name: Huawei
-    url: http://www.huawei.com/en/
