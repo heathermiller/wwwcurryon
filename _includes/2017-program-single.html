@@ -3,7 +3,12 @@
 <tr class="tr-dark pad">
   <td class="time">{{ include.session.time }}</td>
   <td class="pad" colspan="3">
-    <span class="td-title">{{ talk.title }}</span>{% if talk.subtitle %}, {{ talk.subtitle }}{% endif %}
+    <span class="td-title">
+      {% if talk.url %}<a href="{{ talk.url }}">{{ talk.title }}</a>
+      {% else %}
+      {{ talk.title }}
+      {% endif %}
+      </span>{% if talk.subtitle %}, {{ talk.subtitle }}{% endif %}
     {% if talk.speaker.name %}
     <br/>
     {{ talk.speaker.name }}

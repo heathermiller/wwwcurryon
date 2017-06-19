@@ -32,7 +32,8 @@ talks:
     title: Lunch
 
   - type: misc
-    title: Curry On Party!
+    title: Curry On Party at the Moritz Brewery
+    url: "https://www.google.es/maps/place/F%C3%A0brica+Moritz+Barcelona/@41.3826319,2.161253,17z/data=!3m1!4b1!4m5!3m4!1s0x12a4a28ac1c7d247:0x200341909d1e7213!8m2!3d41.3826279!4d2.1634417?hl=en"
 
   # KEYNOTES
   - type: keynote
@@ -477,7 +478,7 @@ program:
 
       - time: 19:30-22:00
         type: single
-        talk: Curry On Party!
+        talk: Curry On Party at the Moritz Brewery
 
   - day: Tuesday, June 20<sup>th</sup>
     sessions:
