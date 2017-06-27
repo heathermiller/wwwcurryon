@@ -19,14 +19,21 @@ talks:
     title: Curry On opening remarks
     speaker:
       name: Jan Vitek and Heather Miller
+    video: https://www.youtube.com/watch?v=ZIBVejUPqDc
 
   - type: misc
     title: "Coffee break"
     subtitle: served outside of lecture hall
 
   - type: misc
-    title: "PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
+    title: "Monday PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
     subtitle: served outside of lecture hall
+    video: https://www.youtube.com/watch?v=olMVD3j9V6g
+
+  - type: misc
+    title: "Tuesday PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
+    subtitle: served outside of lecture hall
+    video: https://www.youtube.com/watch?v=ZrEUuuS298Q
 
   - type: misc
     title: Lunch
@@ -45,6 +52,7 @@ talks:
       url: http://lampwww.epfl.ch/~odersky/
       known-for: Scala
     url: sessions/what-to-leave-implicit.html
+    video: https://www.youtube.com/watch?v=br6035SKu-0
     tags:
       - scala
   - type: keynote
@@ -56,6 +64,7 @@ talks:
       url: http://briangoetz.blogspot.com/
       known-for: Java
     url: "sessions/fp-is-dead-long-live-fp.html"
+    video: https://www.youtube.com/watch?v=ROL58LJGNfA
     tags:
       - java
   - type: keynote
@@ -67,6 +76,7 @@ talks:
       url: https://github.com/josevalim
       known-for: Elixir
     url: "sessions/idioms-for-building-distributed-fault-tolerant-applications-with-elixir.html"
+    video: https://www.youtube.com/watch?v=MMfYXEH9KsY
     tags:
       - elixir
   - type: keynote
@@ -78,6 +88,7 @@ talks:
       url: http://www.inf.puc-rio.br/~roberto/
       known-for: Lua
     url: "sessions/scripting-with-lua.html"
+    video: https://www.youtube.com/watch?v=57jKNEKSNWA
     tags:
       - lua
 
@@ -95,6 +106,7 @@ talks:
       url: http://jeanyang.com/
       known-for: Privacy & Security + PL
     url: sessions/preventing-information-leaks-by-construction.html
+    video: https://www.youtube.com/watch?v=Y6lHNoWC7M8
   - type: invited
     title: 'Rust: Putting Ownership to Use'
     speaker:
@@ -104,6 +116,7 @@ talks:
       url: http://smallcultfollowing.com/babysteps/
       known-for: Rust
     url: sessions/rust-putting-ownership-to-use.html
+    video: https://www.youtube.com/watch?v=wXoY91w4Agk
   - type: invited
     title: 'Reflex: Reactive Programming at Facebook'
     speaker:
@@ -113,6 +126,7 @@ talks:
       url: https://www.facebook.com/julien.verlaguet
       known-for: Hack
     url: 'sessions/reflex-reactive-programming-at-facebook.html'
+    video: https://www.youtube.com/watch?v=AGkSHE15BSs
   - type: invited
     title: 'The Joy of Vector Programming: Why Vector Programming Matters'
     speaker:
@@ -140,6 +154,7 @@ talks:
       url: http://matt.might.net/
       known-for: Precision Medicine, Static Analysis
     url: sessions/winning-the-war-on-error.html
+    video: https://www.youtube.com/watch?v=MdmQUlD7P40
   - type: invited
     title: "Don't Write Tests!"
     speaker:
@@ -149,6 +164,7 @@ talks:
       url: http://www.cse.chalmers.se/~rjmh/
       known-for: Quickcheck, FP, Haskell
     url: 'sessions/dont-write-tests.html'
+    video: https://www.youtube.com/watch?v=hXnS_Xjwk2Y
   
   # REGULAR TALKS
   - type: regular
@@ -157,18 +173,21 @@ talks:
       name: Manu Sridharan
       affiliation: Uber Technologies
     url: sessions/moving-fast-with-high-reliability-program-analysis-at-uber.html
+    video: https://www.youtube.com/watch?v=D26qNN06r4Y
   - type: regular
     title: 'Flow Reloaded: New Challenges and New Opportunities'
     speaker:
       name: Avik Chaudhuri
       affiliation: Facebook
     url: sessions/flow-reloaded-new-challenges-and-new-opportunities.html
+    video: https://www.youtube.com/watch?v=WgvAPzOmiP0
   - type: regular
     title: The Practice and Theory of TLA+
     speaker:
       name: Ron Pressler
       affiliation: Oracle + Parallel Universe
     url: sessions/the-practice-and-theory-of-tla-.html
+    video: https://www.youtube.com/watch?v=15uy9Ga-14I
   - type: regular
     title: Making decentralisation available for all
     chess: true
@@ -182,6 +201,7 @@ talks:
       name: Erik Romijn
       affiliation: ''
     url: sessions/helping-communities-products-thrive-by-fostering-empathy.html
+    video: https://www.youtube.com/watch?v=vsRRg0wfOMg
   - type: regular
     title: 'Building Tools and Languages for Terabyte Scale Biology: A Call to Action'
     chess: true
@@ -189,12 +209,14 @@ talks:
       name: Daniel King
       affiliation: Broad Institute
     url: sessions/building-tools-and-languages-for-terabyte-scale-biology-a-call-to-action.html
+    video: https://www.youtube.com/watch?v=B5l5H0LlBww
   - type: regular
     title: Modular Composition of Reactive Applications
     speaker:
       name: Mira Mezini
       affiliation: TU Darmstadt
     url: sessions/modular-composition-of-reactive-applications.html
+    video: https://www.youtube.com/watch?v=NQCc3SWROJ4
   - type: regular
     title: 'Compiled Machine Learning: Accelerated Linear Algebra (XLA) for TensorFlow'
     speaker:
@@ -207,42 +229,49 @@ talks:
       name: Silvia Moura Pina
       affiliation: Zalando SE
     url: sessions/the-programmer-s-guide-to-ideology.html
+    video: https://www.youtube.com/watch?v=nAkfBzUPkb0
   - type: regular
     title: Carpenters &amp; Cartographers
     speaker:
       name: Valentin Kasas
       affiliation: self-employed @ Kanaka
     url: sessions/carpenters-cartographers.html
+    video: https://www.youtube.com/watch?v=0akR7Vlgbvc
   - type: regular
     title: Building Web Apps with Reason
     speaker:
       name: Brandon Dail
       affiliation: Formidable Labs
     url: sessions/building-web-apps-with-reason.html
+    video: https://www.youtube.com/watch?v=Yflk43afWj4
   - type: regular
     title: Composable Caching in Swift
     speaker:
       name: Brandon Kase
       affiliation: Pinterest
     url: sessions/composable-caching-in-swift.html
+    video: https://www.youtube.com/watch?v=4oyauqLfIcM
   - type: regular
     title: Orchestrate ING with Petri Net
     speaker:
       name: Adil Akhter
       affiliation: ING
     url: sessions/orchestrate-ing-with-petri-net.html
+    video: https://www.youtube.com/watch?v=wICfskNsa2E
   - type: regular
     title: Reactive Programming in the Browser with Scala.js and PureScript
     speaker:
       name: Luka Jacobowitz
       affiliation: codecentric AG
     url: sessions/reactive-programming-in-the-browser-with-scala-js-and-purescript.html
+    video: https://www.youtube.com/watch?v=pE-3bg31Jlo
   - type: regular
     title: Scalable cross-references across languages
     speaker:
       name: Luke Zarko
       affiliation: Google, Inc
     url: sessions/scalable-cross-references-across-languages.html
+    video: https://www.youtube.com/watch?v=VYI3ji8aSM0
   - type: regular
     title: 'Pony: 714 Days Later'
     chess: true
@@ -250,6 +279,7 @@ talks:
       name: Sylvan Clebsch
       affiliation: Microsoft Research
     url: sessions/pony-714-days-later.html
+    video: https://www.youtube.com/watch?v=HGDSnOZaU7Y
   - type: regular
     title: On Being a type-heavy Scheme programer in InfoSec, or, how I learnt to hate everything &amp; love better type systems
     chess: true
@@ -257,6 +287,7 @@ talks:
       name: Sztefan Edwards
       affiliation: nVisium LLC
     url: sessions/on-being-a-type-heavy-scheme-programer-in-infosec-or-how-i-learnt-to-hate-everything-love-better-type-systems.html
+    video: https://www.youtube.com/watch?v=uXvvB8wKvwU
   - type: regular
     title: Making Science Reproducible with Functional Programming Concepts
     chess: true
@@ -264,18 +295,21 @@ talks:
       name: Martin Kavalar
       affiliation: Nextjournal
     url: sessions/making-science-reproducible-with-functional-programming-concepts.html
+    video: https://www.youtube.com/watch?v=KQWT9ZjudfU
   - type: regular
     title: Finding and Preventing Bugs in JavaScript Bindings
     speaker:
       name: Deian Stefan
       affiliation: UC San Diego
     url: sessions/finding-and-preventing-bugs-in-javascript-bindings.html
+    video: https://www.youtube.com/watch?v=zMwQ3X_Qjw4
   - type: regular
     title: Domain-Specific Type Error Diagnosis in the Glasgow Haskell Compiler
     speaker:
       name: Jurriaan Hage
       affiliation: Utrecht University
     url: sessions/domain-specific-type-error-diagnosis-in-the-glasgow-haskell-compiler.html
+    video: https://www.youtube.com/watch?v=LuqSkWOcnSA
   - type: regular
     title: Computational Musicology, ????, Profit
     chess: true
@@ -283,6 +317,7 @@ talks:
       name: Chris Ford
       affiliation: ThoughtWorks
     url: sessions/computational-musicology-profit.html
+    video: https://www.youtube.com/watch?v=-q5TiCAwwF8
   - type: regular
     title: The Sharp Edges of Leaky Abstraction
     chess: true
@@ -290,30 +325,35 @@ talks:
       name: Mark Allen
       affiliation: Alert Logic
     url: sessions/the-sharp-edges-of-leaky-abstraction.html
+    video: https://www.youtube.com/watch?v=2UJ5t2116lI
   - type: regular
     title: 'Profunctor Optics: Modular Data Accessors'
     speaker:
       name: Jeremy Gibbons
       affiliation: University of Oxford
     url: sessions/profunctor-optics-modular-data-accessors.html
+    video: https://www.youtube.com/watch?v=sfWzUMViP0M
   - type: regular
     title: Angelina Ballerina Learns About Memory Allocation
     speaker:
       name: Allison McMillan
       affiliation: Collective Idea
     url: sessions/angelina-ballerina-learns-about-memory-allocation.html
+    video: https://www.youtube.com/watch?v=cLbzAXOUpA0
   - type: regular
     title: 'Babelfish: Universal Code Parsing Server'
     speaker:
       name: Santiago M. Mola
       affiliation: source{d}
     url: sessions/babelfish-universal-code-parsing-server.html
+    video: https://www.youtube.com/watch?v=E-ZzIXXHjAU
   - type: regular
     title: There are no BFT Fans Anymore... About Secure Eventual Consistency
     speaker:
       name: Ali Shoker
       affiliation: HASLab, INESC TEC &amp; University of Minho
     url: sessions/there-are-no-bft-fans-anymore-about-secure-eventual-consistency.html
+    video: https://www.youtube.com/watch?v=iXxiefIMG5w
   - type: regular
     title: With Age comes Beauty - Past, Present, and Future of Efficient Immutable Collections
     chess: true
@@ -321,48 +361,56 @@ talks:
       name: Michael Steindorfer
       affiliation: Delft University of Technology
     url: sessions/with-age-comes-beauty-past-present-and-future-of-efficient-immutable-collections.html
+    video: https://www.youtube.com/watch?v=uyrY9UNO19k
   - type: regular
     title: 'Channels, Concurrency, and Cores: A new Concurrent ML implementation'
     speaker:
       name: Andy Wingo
       affiliation: Igalia, S.L.
     url: sessions/channels-concurrency-and-cores-a-new-concurrent-ml-implementation.html
+    video: https://www.youtube.com/watch?v=7IcI6sl5oBc
   - type: regular
     title: 'Centrifuge : Data quality in Spark without the costs!'
     speaker:
       name: Jonathan Winandy
       affiliation: Univalence
     url: sessions/centrifuge-data-quality-in-spark-without-the-costs-.html
+    video: https://www.youtube.com/watch?v=t24sUF2zWLY
   - type: regular
     title: How types can turn a SQL interpreter into a SQL compiler
     speaker:
       name: Tiark Rompf
       affiliation: Purdue University
     url: sessions/how-types-can-turn-a-sql-interpreter-into-a-sql-compiler.html
+    video: https://www.youtube.com/watch?v=cBj8EcX9Id0
   - type: regular
     title: Haskell SpriteKit - A Case Study in Turning a Stateful into a Purely Functional API
     speaker:
       name: Manuel Chakravarty
       affiliation: UNSW Australia &amp; Applicative
     url: sessions/haskell-spritekit-a-case-study-in-turning-a-stateful-into-a-purely-functional-api.html
+    video: https://www.youtube.com/watch?v=H_z4NKvxf1U
   - type: regular
     title: 'Impromptu: A Lightweight, dependently-typed async framework for Scala'
     speaker:
       name: Jon Pretty
       affiliation: Propensive Ltd
     url: sessions/impromptu-a-lightweight-dependently-typed-async-framework-for-scala.html
+    video: https://www.youtube.com/watch?v=yNa0qvgmWWI
   - type: regular
     title: Clojure Transducers In The Wild
     speaker:
       name: Renzo Borgatti
       affiliation: uSwitch.com
     url: sessions/clojure-transducers-in-the-wild.html
+    video: https://www.youtube.com/watch?v=Tn05cXrhBvg
   - type: regular
     title: 'Scope Graphs: A Fresh Look at Name Binding in Programming Languages'
     speaker:
       name: Eelco Visser
       affiliation: Delft University of Technology (TU Delft)
     url: sessions/scope-graphs-a-fresh-look-at-name-binding-in-programming-languages.html
+    video: https://www.youtube.com/watch?v=0Eg6RDUJGJQ
   - type: regular
     title: 'Two Households, Both Alike in Dignity: A Not-So-Tragedy of Refactoring Front-end
       APIs'
@@ -370,12 +418,14 @@ talks:
       name: Julia Nguyen
       affiliation: Indiegogo
     url: sessions/two-households-both-alike-in-dignity-a-not-so-tragedy-of-refactoring-front-end-apis.html
+    video: https://www.youtube.com/watch?v=6jqZQGc-hRA
   - type: regular
     title: The CernVM File System - Beyond Static Content Distribution
     speaker:
       name: Radu Popescu
       affiliation: CERN
     url: sessions/the-cernvm-file-system-beyond-static-content-distribution.html
+    video: https://www.youtube.com/watch?v=MyYx-xaL36k
   - type: regular
     title: Grammar-based language modes for text editors
     chess: true
@@ -383,6 +433,7 @@ talks:
       name: Marijn Haverbeke
       affiliation: Independent
     url: sessions/grammar-based-language-modes-for-text-editors.html
+    video: https://www.youtube.com/watch?v=1qIee0aHOhY
  
 program:
   - day: Monday, June 19<sup>th</sup>
@@ -398,7 +449,7 @@ program:
 
       - time: 9:50-10:30
         type: single
-        talk: "PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
+        talk: "Monday PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
 
       - time: 10:30-11:10
         type: parallel
@@ -489,7 +540,7 @@ program:
 
       - time: 9:50-10:25
         type: single
-        talk: "PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
+        talk: "Tuesday PLDI 1 minute madness (1 min research paper sales pitches) + Coffee break"
 
       - time: 10:25-11:05
         type: parallel
