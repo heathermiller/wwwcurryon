@@ -13,5 +13,12 @@
     <br/>
     {{ talk.speaker.name }}
     {% endif %}
+    {% if talk.video %}
+    <div class="td-video-link">
+      <a href="{{ talk.video }}">
+        <span class="fa fa-youtube-play" style="font-size: 18px;"></span>&nbsp;watch
+      </a>
+    </div>
+    {% endif %}
   </td>
 </tr>
