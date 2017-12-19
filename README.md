@@ -1,7 +1,9 @@
 # Website for Curry On
 
-Co-located with ECOOP. Two editions so far:
+Co-located with ECOOP. The following editions so far:
 
+- [Curry On Amsterdam 2018](http://curry-on.org/2018)
+- [Curry On Barcelona 2017](http://curry-on.org/2017)
 - [Curry On Rome 2016](http://curry-on.org/2016)
 - [Curry On Prague 2015](http://curry-on.org/2015)
 
