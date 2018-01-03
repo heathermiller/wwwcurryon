@@ -1,0 +1,18 @@
+city: Amsterdam
+year: 2018
+conference_dates: July 16-17<sup>th</sup>, 2018
+early_registration_deadline: May 26, 2018
+registration_countdown_url: false 
+tickets_sale_date: May 4<sup>th</sup>, at 5pm CEST
+register_url: false
+previous_editions:
+  - 2017
+  - 2016
+  - 2015
+
+show_program: false
+show_accepted_talks: false
+sold_out: false
+
+talks: 
+program:
