@@ -21,7 +21,7 @@ There are two ways of sponsoring Curry On.
 
 ## Sponsorship Levels
 
-### Bronze – $2,000
+### Bronze – 2,000 €
 
 Benefits include:
 
@@ -29,7 +29,7 @@ Benefits include:
 - Your logo on display on the conference website
 - Links to sponsor website
 
-### Silver – $5,000
+### Silver – 5,000 €
 
 Benefits include:
 
@@ -41,7 +41,7 @@ Benefits include:
 - Give presentations in the exhibition area or an industrial demo
 - Official support for one student volunteer in the name of your organization
 
-### Gold – $10,000
+### Gold – 10,000 €
 
 Benefits include:
 
@@ -55,8 +55,9 @@ Benefits include:
 - Inclusion of sponsor material in attendees' bags
 - Official support for two student volunteers in the name of your organization
 
-### Platinum – $15,000
+### Platinum – 15,000 €
 
+- **Exclusive support of the Curry On Party in your organization's name**
 - Your recognition on website and print at the **Platinum** level
 - Your logo on display on the conference website
 - Links to sponsor website
@@ -67,12 +68,12 @@ Benefits include:
 - Choice of one ticket for the conference or 3 one-day passes
 - Sponsor logo on attendees’ bags
 - Inclusion of sponsor material in attendees’ bags
-- **Exclusive support of the Curry On Party in your organization's name**
 - Official support for four student volunteers in the name of your organization
 
 ## à la carte Sponsorship
 
-### Diversity Sponsor – $3,000
+
+### Diversity Sponsor – 5,000 €
 
 Help us bring underrepresented groups to Curry On and ECOOP!
 
@@ -80,7 +81,8 @@ In return, you'll receive recognition on the website, Twitter, during the
 Curry On opening remarks, and in printed conference materials as a diversity
 sponsor.
 
-### Video Sponsor – $3,000
+
+### Video Sponsor – 3,000 € (0/2 available)
 
 Help us record Curry On talks and make them rapidly available (within days) on
 YouTube!
@@ -88,13 +90,6 @@ YouTube!
 In return, you'll receive recognition on the title screen of the videos, on the
 website, Twitter, and in printed conference materials.
 
-### Lanyard Sponsor – $2,000
-
-Help us provide lanyards and name tags for all conference attendees.
-
-In return, you'll have your organization's name printed on all lanyards, and
-you'll receive recognition on the website, Twitter, and in printed conference
-materials.
 
 ## Contact
 
