@@ -111,20 +111,23 @@
     <div class="big-white-italic centered">
       <span class="light-orange">Two</span> days, <span class="light-orange">three</span> tracks
       <br/><!-- <br/><img src="{{ site.baseurl }}/resources/img/two-tracks.png"/><br/> -->
-      <span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> exciting talks</span>
+      <span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> exciting keynotes</span>
       <!-- <span style="font-weight: 800; font-size: 44px;"><span class="light-orange">Four</span> exciting keynotes</span> -->
     </div>
     <div class="row">
+      <div class="col-md-3"></div>
       <!-- KEYNOTES -->
       {% assign keynotes = settings.talks | where:'type', 'keynote' %}
       {% for talk in keynotes %}
       {% include 2018-keynote.html keynote=talk %}
       {% endfor %}
+      <div class="col-md-3"></div>
     </div>
     <br/>
-    <!-- <div class="big-white-italic centered">
-         <span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> invited talks</span>
-         </div> -->
+    <div class="big-white-italic centered">
+        <!--<span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> invited talks</span>-->
+        <span style="font-weight: 800; font-size: 44px;"><span class="light-orange">and</span> invited talks</span>
+    </div>
     <div class="row">
       <!-- INVITED -->
       {% assign keynotes = settings.talks | where:'type', 'invited' %}

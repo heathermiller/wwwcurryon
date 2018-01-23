@@ -14,5 +14,23 @@ show_program: false
 show_accepted_talks: false
 sold_out: false
 
-talks: 
+talks:
+  # KEYNOTES
+  - type: keynote
+    title:
+    speaker:
+      id: simon_peyton_jones
+      name: Simon Peyton Jones
+      affiliation: Microsoft Research
+      url: https://www.microsoft.com/en-us/research/people/simonpj/
+      known-for: Haskell
+  - type: keynote
+    title: Neither Web nor Assembly
+    speaker:
+      id: ben_andreas
+      name: Ben Titzer & Andreas Rossberg
+      affiliation: Google & Dfinity Foundation
+      url: http://webassembly.org/
+      known-for: WebAssembly
+  # INVITED TALKS
 program:

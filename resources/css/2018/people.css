@@ -1,3 +1,25 @@
+.circular.simon_peyton_jones {
+  background-image: url('/resources/img/2018/people/simon_peyton_jones.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.avik_chaudhuri {
+    background-image: url('/resources/img/2018/people/simon_peyton_jones@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.ben_andreas {
+  background-image: url('/resources/img/2018/people/ben_andreas.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.ben_andreas {
+    background-image: url('/resources/img/2018/people/ben_andreas@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .circular.manu_sridharan {
   background-image: url('/resources/img/2017/people/manu_sridharan.png');
 }
@@ -5,17 +27,6 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.manu_sridharan {
     background-image: url('/resources/img/2017/people/manu_sridharan@2x.png');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.avik_chaudhuri {
-  background-image: url('/resources/img/2017/people/avik_chaudhuri.png');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.avik_chaudhuri {
-    background-image: url('/resources/img/2017/people/avik_chaudhuri@2x.png');
     background-size: 125px 125px;
   }
 }
