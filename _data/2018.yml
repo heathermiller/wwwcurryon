@@ -15,7 +15,6 @@ show_accepted_talks: false
 sold_out: false
 
 talks:
-  # KEYNOTES
   - type: keynote
     title:
     speaker:
@@ -33,4 +32,76 @@ talks:
       url: http://webassembly.org/
       known-for: WebAssembly
   # INVITED TALKS
+  # - type: invited
+  #   title:
+  #   speaker:
+  #     id: holden_karau
+  #     name: Holden Karau
+  #     affiliation:
+  #     url:
+  #     known-for:
+  - type: invited
+    title:
+    speaker:
+      id: thomas_wuerthinger
+      name: Thomas Würthinger
+      affiliation: Oracle Labs
+      url: https://github.com/thomaswue
+      known-for:
+  - type: invited
+    title: "Spoofax: Live Programming Language Design"
+    speaker:
+      id: eelco_visser
+      name: Eelco Visser
+      affiliation: TU Delft
+      url: https://github.com/eelcovisser
+      known-for:
+  - type: invited
+    title:
+    speaker:
+      id: chris_laffra
+      name: Chris Laffra
+      affiliation: Uber
+      url: https://github.com/laffra
+      known-for:
+  - type: invited
+    title:
+    speaker:
+      id: manu_shridharan
+      name: Manu Shridharan
+      affiliation: Uber
+      url: http://manu.sridharan.net/
+      known-for:
+  # - type: invited
+  #   title:
+  #   speaker:
+  #     id: jeniffer_mary_jacobs
+  #     name: Jennifer Mary Jacobs
+  #     affiliation:
+  #     url:
+  #     known-for:
+  # - type: invited
+  #   title:
+  #   speaker:
+  #     id: cliff_click
+  #     name: Cliff Click
+  #     affiliation:
+  #     url:
+  #     known-for:
+  # - type: invited
+  #   title:
+  #   speaker:
+  #     id: tomas_petricek
+  #     name: Tomas Petricek
+  #     affiliation:
+  #     url:
+  #     known-for:
+  # - type: invited
+  #   title:
+  #   speaker:
+  #     id: ron_pressler
+  #     name: Ron Pressler
+  #     affiliation:
+  #     url:
+  #     known-for:
 program:
