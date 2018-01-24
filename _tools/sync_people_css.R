@@ -10,6 +10,7 @@ stopifnot(dir.exists(dirname(css_file)))
 images <- list.files(image_path, pattern="\\.png$", recursive=FALSE, full.names=TRUE)
 people <- tools::file_path_sans_ext(basename(images[!grepl("@2x", images)]))
 people_2x <- tools::file_path_sans_ext(basename(images[grepl("@2x", images)]))
+people_2x <- sub("@2x", "", people_2x)
 
 missing <- people[!(people %in% people)]
 missing_2x <- people_2x[!(people_2x %in% people)]
@@ -19,7 +20,7 @@ if (length(missing)) {
 }
 
 if (length(missing_2x)) {
-    message("Missing 250x250 for:\n", paste(" -", missing, collapse="\n"))
+    message("Missing 250x250 for:\n", paste(" -", missing_2x, collapse="\n"))
 }
 
 stopifnot(length(missing) == 0 && length(missing_2x) == 0)

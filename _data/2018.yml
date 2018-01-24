@@ -16,6 +16,14 @@ sold_out: false
 
 talks:
   - type: keynote
+    title: Way, Way Back To The Future
+    speaker:
+      id: alan_kay
+      name: Alan Kay
+      affiliation:
+      url: https://en.wikipedia.org/wiki/Alan_Kay
+      known-for: Object-Oriented Programming
+  - type: keynote
     title:
     speaker:
       id: simon_peyton_jones
