@@ -34,6 +34,18 @@
 }
 
 
+.circular.cliff_click {
+  background-image: url('/resources/img/2018/people/cliff_click.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.cliff_click {
+    background-image: url('/resources/img/2018/people/cliff_click@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+
 .circular.eelco_visser {
   background-image: url('/resources/img/2018/people/eelco_visser.png');
 }
@@ -41,6 +53,30 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.eelco_visser {
     background-image: url('/resources/img/2018/people/eelco_visser@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+
+.circular.holden_karau {
+  background-image: url('/resources/img/2018/people/holden_karau.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.holden_karau {
+    background-image: url('/resources/img/2018/people/holden_karau@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+
+.circular.jennifer_jacobs {
+  background-image: url('/resources/img/2018/people/jennifer_jacobs.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.jennifer_jacobs {
+    background-image: url('/resources/img/2018/people/jennifer_jacobs@2x.png');
     background-size: 125px 125px;
   }
 }
@@ -58,6 +94,18 @@
 }
 
 
+.circular.ron_pressler {
+  background-image: url('/resources/img/2018/people/ron_pressler.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.ron_pressler {
+    background-image: url('/resources/img/2018/people/ron_pressler@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+
 .circular.simon_peyton_jones {
   background-image: url('/resources/img/2018/people/simon_peyton_jones.png');
 }
@@ -65,6 +113,18 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.simon_peyton_jones {
     background-image: url('/resources/img/2018/people/simon_peyton_jones@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+
+.circular.steve_francia {
+  background-image: url('/resources/img/2018/people/steve_francia.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.steve_francia {
+    background-image: url('/resources/img/2018/people/steve_francia@2x.png');
     background-size: 125px 125px;
   }
 }

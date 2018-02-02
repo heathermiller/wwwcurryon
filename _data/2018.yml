@@ -39,15 +39,23 @@ talks:
       affiliation: Google & Dfinity Foundation
       url: http://webassembly.org/
       known-for: WebAssembly
+  - type: keynote
+    title: "Go: building on the shoulders of giants and stepping on a few toes"
+    speaker:
+      id: steve_francia
+      name: Steve Francia
+      affiliation: Docker
+      url: http://github.com/spf13
+      known-for: 
   # INVITED TALKS
-  # - type: invited
-  #   title:
-  #   speaker:
-  #     id: holden_karau
-  #     name: Holden Karau
-  #     affiliation:
-  #     url:
-  #     known-for:
+  - type: invited
+    title:
+    speaker:
+      id: holden_karau
+      name: Holden Karau
+      affiliation: Spark Technology Center
+      url: https://github.com/holdenk
+      known-for:
   - type: invited
     title:
     speaker:
@@ -80,22 +88,22 @@ talks:
       affiliation: Uber
       url: http://manu.sridharan.net/
       known-for:
-  # - type: invited
-  #   title:
-  #   speaker:
-  #     id: jeniffer_mary_jacobs
-  #     name: Jennifer Mary Jacobs
-  #     affiliation:
-  #     url:
-  #     known-for:
-  # - type: invited
-  #   title:
-  #   speaker:
-  #     id: cliff_click
-  #     name: Cliff Click
-  #     affiliation:
-  #     url:
-  #     known-for:
+  - type: invited
+    title:
+    speaker:
+      id: jennifer_jacobs
+      name: Jennifer Mary Jacobs
+      affiliation: Stanford
+      url: https://github.com/pixelmaid
+      known-for:
+  - type: invited
+    title:
+    speaker:
+      id: cliff_click
+      name: Cliff Click
+      affiliation: Stealth
+      url: https://github.com/cliffclick
+      known-for:
   # - type: invited
   #   title:
   #   speaker:
@@ -104,12 +112,13 @@ talks:
   #     affiliation:
   #     url:
   #     known-for:
-  # - type: invited
-  #   title:
-  #   speaker:
-  #     id: ron_pressler
-  #     name: Ron Pressler
-  #     affiliation:
-  #     url:
-  #     known-for:
+  - type: invited
+    title:
+    speaker:
+      id: ron_pressler
+      name: Ron Pressler
+      affiliation: Oracle
+      url: https://github.com/pron
+      known-for:
+
 program:
