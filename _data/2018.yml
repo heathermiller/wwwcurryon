@@ -20,7 +20,7 @@ talks:
     speaker:
       id: alan_kay
       name: Alan Kay
-      affiliation:
+      affiliation: Viewpoints Research Institute
       url: https://en.wikipedia.org/wiki/Alan_Kay
       known-for: Object-Oriented Programming
   - type: keynote
