@@ -1,4 +1,4 @@
-{% assign settings = site.data["2018"] %}
+OA{% assign settings = site.data["2018"] %}
 
 <div class="purple-stripe-splash">
   <div class="container">
@@ -6,24 +6,37 @@
 </div>
 
 <div class="purple-stripe">
-  <div class="container centered">
-    <div class="speech-bubble-wrap">
-      <div class="speech-bubble">
-        <p class="triangle">this is a triangle</p>
-        <div class="speech-text">
-          A new and unusual <span class="reddish-orange">non-profit</span> conference focused on <span class="white normal">programming languages</span> <span class="amp">&amp;</span> <span class="white normal">emerging challenges in industry</span>.
-        </div>
-      </div>
+  <div class="container">
+    <!-- <div class="title centered">Keynotes</div> -->
+    <div class="big-white-italic centered">
+      <span class="light-orange">Two</span> days, <span class="light-orange">three</span> tracks
+      <br/><!-- <br/><img src="{{ site.baseurl }}/resources/img/two-tracks.png"/><br/> -->
+      <span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> exciting keynotes</span>
+      <!-- <span style="font-weight: 800; font-size: 44px;"><span class="light-orange">Four</span> exciting keynotes</span> -->
     </div>
-    <div class="tagline">
-      Academia and industry <span class="light-orange">need to have a talk</span>.
+    <div class="row">
+      <!-- KEYNOTES -->
+      {% assign keynotes = settings.talks | where:'type', 'keynote' %}
+      {% for talk in keynotes %}
+      {% include 2018-keynote.html keynote=talk %}
+      {% endfor %}
     </div>
-    <div class="subtagline">
-      Or rather, they just need to talk in general.
+    <br/>
+    <div class="big-white-italic centered">
+        <!--<span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> invited talks</span>-->
+        <span style="font-weight: 800; font-size: 44px;"><span class="light-orange">and</span> invited talks</span>
     </div>
-    <!-- <div class="pad-bottom"></div> -->
+    <div class="row">
+      <!-- INVITED -->
+      {% assign keynotes = settings.talks | where:'type', 'invited' %}
+      {% for talk in keynotes %}
+      {% include 2018-keynote.html keynote=talk %}
+      {% endfor %}
+    </div>
+    <div class="pad-bottom"></div>
   </div>
 </div>
+
 
 <div class="reddish-orange-stripe">
   <div class="container centered">
@@ -49,12 +62,24 @@
 </div>
 
 <div class="purple-stripe">
+  <div class="container centered">
+    <div class="tagline">
+      Academia and industry <span class="light-orange">need to have a talk</span>.
+    </div>
+    <div class="subtagline">
+      Or rather, they just need to talk in general.
+    </div>
+    <!-- <div class="pad-bottom"></div> -->
+  </div>
+</div>
+
+<div class="purple-stripe">
   <div class="container">
-   <div class="pad-top">&nbsp;</div>
+      <!-- <div class="pad-top">&nbsp;</div> -->
    <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-4 about">
-      Curry On is a new conference focused on the <b>intersection of emerging languages and emerging challenges in industry</b> (e.g. big data or security), as well as new ideas and paradigms in software development.
+      Curry On is a conference focused on the <b>intersection of emerging languages and emerging challenges in industry</b> (e.g. big data or security), as well as new ideas and paradigms in software development.
       <br/><br/>
       Curry On also seeks to act as a conduit for ferrying understanding and ideas back and forth between industry and academic programming languages, software engineering, and systems research communities (amongst others).
     </div>
@@ -80,7 +105,7 @@
 <div class="reddish-orange-stripe">
   <div class="container centered">
    <div class="pad-top">&nbsp;</div>
-   <div class="call-ends" style="color: #ffffff;">Atypical?</div>
+   <div class="call-ends" style="color: #ffffff;">Atypical conference?</div>
    <div class="row">
     <div class="col-md-2"></div>
     <div class="col-md-8 atypical">
@@ -103,40 +128,6 @@
   </div>
   </div>
   <div class="pad-bottom">&nbsp;</div>
-</div>
-
-<div class="purple-stripe">
-  <div class="container">
-    <!-- <div class="title centered">Keynotes</div> -->
-    <div class="big-white-italic centered">
-      <span class="light-orange">Two</span> days, <span class="light-orange">three</span> tracks
-      <br/><!-- <br/><img src="{{ site.baseurl }}/resources/img/two-tracks.png"/><br/> -->
-      <span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> exciting keynotes</span>
-      <!-- <span style="font-weight: 800; font-size: 44px;"><span class="light-orange">Four</span> exciting keynotes</span> -->
-    </div>
-    <div class="row">
-      <div class="col-md-1"></div>
-      <!-- KEYNOTES -->
-      {% assign keynotes = settings.talks | where:'type', 'keynote' %}
-      {% for talk in keynotes %}
-      {% include 2018-keynote.html keynote=talk %}
-      {% endfor %}
-      <div class="col-md-1"></div>
-    </div>
-    <br/>
-    <div class="big-white-italic centered">
-        <!--<span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> invited talks</span>-->
-        <span style="font-weight: 800; font-size: 44px;"><span class="light-orange">and</span> invited talks</span>
-    </div>
-    <div class="row">
-      <!-- INVITED -->
-      {% assign keynotes = settings.talks | where:'type', 'invited' %}
-      {% for talk in keynotes %}
-      {% include 2018-keynote.html keynote=talk %}
-      {% endfor %}
-    </div>
-    <div class="pad-bottom"></div>
-  </div>
 </div>
 
 <!-- <div class="reddish-orange-stripe">
