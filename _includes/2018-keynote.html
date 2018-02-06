@@ -2,7 +2,11 @@
   <br/>
   <div class="circular {{ include.keynote.speaker.id }}"></div>
   <span class="gray-text centered keynote-speaker">
-    <a href="{{ include.keynote.url }}">{{ include.keynote.speaker.name }}</a>
+    {% if include.keynote.url %}
+      <a href="{{ include.keynote.url }}">{{ include.keynote.speaker.name }}</a>
+    {% else %}
+      <span style="color: #6cb1dd; font-weight: 800;">{{ include.keynote.speaker.name }}</span>
+    {% endif %}
   </span>
   <br/>
   {% if include.keynote.speaker.affiliation %}
