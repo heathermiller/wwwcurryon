@@ -11,8 +11,9 @@ OA{% assign settings = site.data["2018"] %}
     <div class="big-white-italic centered">
       <span class="light-orange">Two</span> days, <span class="light-orange">three</span> tracks
       <br/><!-- <br/><img src="{{ site.baseurl }}/resources/img/two-tracks.png"/><br/> -->
-      <span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> exciting keynotes</span>
-      <!-- <span style="font-weight: 800; font-size: 44px;"><span class="light-orange">Four</span> exciting keynotes</span> -->
+      <span style="font-weight: 800; font-size: 44px;">with <span class="light-orange">many</span> exciting keynotes</span>
+      <br/>
+      <span style="font-weight: 700; font-size: 44px;"><span class="light-orange">and</span> invited talks</span>
     </div>
     <div class="row">
       <!-- KEYNOTES -->
@@ -22,10 +23,7 @@ OA{% assign settings = site.data["2018"] %}
       {% endfor %}
     </div>
     <br/>
-    <div class="big-white-italic centered">
-        <!--<span style="font-weight: 800; font-size: 44px;">and <span class="light-orange">many</span> invited talks</span>-->
-        <span style="font-weight: 800; font-size: 44px;"><span class="light-orange">and</span> invited talks</span>
-    </div>
+    <br/>
     <div class="row">
       <!-- INVITED -->
       {% assign keynotes = settings.talks | where:'type', 'invited' %}
