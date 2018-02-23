@@ -2,7 +2,7 @@ city: Amsterdam
 year: 2018
 conference_dates: July 16-17<sup>th</sup>, 2018
 early_registration_deadline: May 26, 2018
-registration_countdown_url: false 
+registration_countdown_url: false
 tickets_sale_date: May 4<sup>th</sup>, at 5pm CEST
 register_url: false
 previous_editions:
@@ -46,16 +46,16 @@ talks:
       name: Steve Francia
       affiliation: Docker
       url: http://github.com/spf13
-      known-for: 
+      known-for: Go
   # INVITED TALKS
   - type: invited
     title:
     speaker:
       id: holden_karau
       name: Holden Karau
-      affiliation: Spark Technology Center
+      affiliation: Google
       url: https://github.com/holdenk
-      known-for:
+      known-for: Spark
   - type: invited
     title:
     speaker:
@@ -63,7 +63,7 @@ talks:
       name: Thomas Würthinger
       affiliation: Oracle Labs
       url: https://github.com/thomaswue
-      known-for:
+      known-for: Graal VM
   - type: invited
     title: "Spoofax: Live Programming Language Design"
     speaker:
@@ -71,7 +71,7 @@ talks:
       name: Eelco Visser
       affiliation: TU Delft
       url: https://github.com/eelcovisser
-      known-for:
+      known-for: language workbenches
   - type: invited
     title:
     speaker:
@@ -87,15 +87,15 @@ talks:
       name: Manu Shridharan
       affiliation: Uber
       url: http://manu.sridharan.net/
-      known-for:
+      known-for: static analysis
   - type: invited
     title:
     speaker:
       id: jennifer_jacobs
       name: Jennifer Mary Jacobs
-      affiliation: Stanford
+      affiliation: Stanford University
       url: https://github.com/pixelmaid
-      known-for:
+      known-for: PL for creative expression
   - type: invited
     title:
     speaker:
@@ -103,7 +103,7 @@ talks:
       name: Cliff Click
       affiliation: Stealth
       url: https://github.com/cliffclick
-      known-for:
+      known-for: HotSpot JVM
   # - type: invited
   #   title:
   #   speaker:
