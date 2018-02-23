@@ -71,7 +71,7 @@ talks:
       name: Eelco Visser
       affiliation: TU Delft
       url: https://github.com/eelcovisser
-      known-for: language workbenches
+      known-for: Spoofax, Language Workbenches
   - type: invited
     title:
     speaker:
@@ -87,7 +87,7 @@ talks:
       name: Manu Shridharan
       affiliation: Uber
       url: http://manu.sridharan.net/
-      known-for: static analysis
+      known-for: Static Analysis
   - type: invited
     title:
     speaker:

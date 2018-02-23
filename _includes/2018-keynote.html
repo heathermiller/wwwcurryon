@@ -9,9 +9,8 @@
     {% endif %}
   </span>
   <br/>
-  {% if include.keynote.speaker.affiliation %}
   <span class="keynote-affiliation">{{ include.keynote.speaker.affiliation }}</span>
+    </br><span class="keynote-known-for">{% if include.keynote.speaker.known-for %}{{ include.keynote.speaker.known-for }}{% endif %}</span>
   <br/>
-  {% endif %}
   <!-- <span class="keynote-known-for">{{ include.keynote.speaker.known-for }}</span> -->
 </div>
