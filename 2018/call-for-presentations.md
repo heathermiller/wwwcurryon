@@ -87,7 +87,7 @@ We are striving to provide some form of travel grant to assist with the costs
 of attending. We'll post details here once a budget is finalized.
 
 
-<center><a href="https://docs.google.com/forms/d/e/1FAIpQLSf7-QMQBzAxhKaN5A39tRQuuHCEJBRAs546m3u-epLKvDYQ_A/viewform?usp=sf_link" class="btn btn-outline-inverse btn-lg">Propose a Talk</a></center>
+<center><a href="https://docs.google.com/forms/d/e/1FAIpQLScDveCANx1KjZHFJ9PgFmCWCKTvuuGVCBDU8zScMkoxUuCiOw/viewform" class="btn btn-outline-inverse btn-lg">Propose a Talk</a></center>
 
 
 <div class="pad-bottom"></div>
