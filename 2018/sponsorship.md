@@ -64,7 +64,6 @@ Benefits include:
 - Sponsor logo on shirts of student volunteers
 - One complimentary Curry On/ECOOP pass (good for the whole week)
 - Give presentations in the exhibition area or an industrial demo
-- Official support for one student volunteer named for your organisation
 - Choice of one ticket for the conference or 3 one-day passes
 - Sponsor logo on attendees’ bags
 - Inclusion of sponsor material in attendees’ bags
