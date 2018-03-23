@@ -11,11 +11,12 @@ OA{% assign settings = site.data["2018"] %}
     <div class="big-white-italic centered">
       <span class="light-orange">Two</span> days, <span class="light-orange">three</span> tracks
       <br/><!-- <br/><img src="{{ site.baseurl }}/resources/img/two-tracks.png"/><br/> -->
-      <span style="font-weight: 800; font-size: 44px;">with <span class="light-orange">many</span> exciting keynotes</span>
+      <span style="font-weight: 800; font-size: 44px;">with <span class="light-orange">four</span> exciting keynotes</span>
       <br/>
       <span style="font-weight: 700; font-size: 44px;"><span class="light-orange">and</span> invited talks</span>
     </div>
     <div class="row">
+      <div class="title centered">Keynotes</div>
       <!-- KEYNOTES -->
       {% assign keynotes = settings.talks | where:'type', 'keynote' %}
       {% for talk in keynotes %}
@@ -25,6 +26,7 @@ OA{% assign settings = site.data["2018"] %}
     <br/>
     <br/>
     <div class="row">
+      <div class="title centered">Invited Speakers</div>
       <!-- INVITED -->
       {% assign keynotes = settings.talks | where:'type', 'invited' %}
       {% for talk in keynotes %}
@@ -46,7 +48,8 @@ OA{% assign settings = site.data["2018"] %}
     <div class="call-ends">Tickets on sale now!</div>
     <a href="https://regmaster4.com/2018conf/CURRYON17/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
     {% endif %}
-    <div class="call-ends">Call for talks soon, stay tuned!</div>
+    <div class="call-ends">Tickets on sale now!</div>
+    <tito-widget event="curry-on/2018-amsterdam"></tito-widget>
     <!-- <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a> -->
     <!--<a href="{{ site.baseurl }}/{{ settings.year }}#accepted-talks" class="btn btn-outline-inverse btn-lg">Accepted Talks</a>-->
     {% if settings.show_program %}
