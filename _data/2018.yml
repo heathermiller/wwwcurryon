@@ -104,14 +104,14 @@ talks:
       affiliation: Stealth
       url: https://github.com/cliffclick
       known-for: HotSpot JVM
-  # - type: invited
-  #   title:
-  #   speaker:
-  #     id: tomas_petricek
-  #     name: Tomas Petricek
-  #     affiliation:
-  #     url:
-  #     known-for:
+  - type: invited
+    title: Rethinking Modern Web Browsers
+    speaker:
+      id: ben_livshits
+      name: Ben Livshits
+      affiliation: Brave
+      url: https://twitter.com/convoluted_code
+      known-for: Security
   - type: invited
     title:
     speaker:

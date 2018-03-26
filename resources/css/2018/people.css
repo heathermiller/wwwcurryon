@@ -22,6 +22,18 @@
 }
 
 
+.circular.ben_livshits {
+  background-image: url('/resources/img/2018/people/ben_livshits.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.ben_livshits {
+    background-image: url('/resources/img/2018/people/ben_livshits@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+
 .circular.chris_laffra {
   background-image: url('/resources/img/2018/people/chris_laffra.png');
 }
