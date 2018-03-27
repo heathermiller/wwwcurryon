@@ -120,5 +120,13 @@ talks:
       affiliation: Oracle
       url: https://github.com/pron
       known-for:
+  - type: invited
+    title: Simplicity - The Road Not Taken?
+    speaker:
+      id: dave_thomas
+      name: Dave Thomas
+      affiliation: Kx Systems
+      url: http://www.davethomas.net/
+      known-for: Array Programming
 
 program:
