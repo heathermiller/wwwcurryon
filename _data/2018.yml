@@ -104,14 +104,14 @@ talks:
       affiliation: Stealth
       url: https://github.com/cliffclick
       known-for: HotSpot JVM
-  # - type: invited
-  #   title:
-  #   speaker:
-  #     id: tomas_petricek
-  #     name: Tomas Petricek
-  #     affiliation:
-  #     url:
-  #     known-for:
+  - type: invited
+    title: Rethinking Modern Web Browsers
+    speaker:
+      id: ben_livshits
+      name: Ben Livshits
+      affiliation: Brave
+      url: https://twitter.com/convoluted_code
+      known-for: Security
   - type: invited
     title:
     speaker:
@@ -120,5 +120,13 @@ talks:
       affiliation: Oracle
       url: https://github.com/pron
       known-for:
+  - type: invited
+    title: Simplicity - The Road Not Taken?
+    speaker:
+      id: dave_thomas
+      name: Dave Thomas
+      affiliation: Kx Systems
+      url: http://www.davethomas.net/
+      known-for: Array Programming
 
 program:
