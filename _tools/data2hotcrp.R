@@ -35,7 +35,7 @@ convert_one <- function(x) {
     )
 
     abstract <-
-        if (nchar(x$url) > 0) {
+        if (!is.null(x$url) && nchar(x$url) > 0) {
             session_file <- str_c(tools::file_path_sans_ext(x$url), ".md")
             tryCatch(load_abstract(session_file), error=function(e) stop("Unable to convert: ", e$message, "\n", capture.output(str(x))))
         } else {
@@ -47,7 +47,7 @@ convert_one <- function(x) {
 }
 
 load_abstract <- function(f) {
-    fn <- file.path("2017", f)
+    fn <- file.path("2018", f)
     stopifnot(file.exists(fn))
 
     lines <- readLines(fn)
