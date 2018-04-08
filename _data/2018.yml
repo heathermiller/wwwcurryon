@@ -115,6 +115,14 @@ talks:
   - type: invited
     title:
     speaker:
+      id:
+      name:
+      affiliation:
+      url:
+      known-for:
+  - type: invited
+    title:
+    speaker:
       id: ron_pressler
       name: Ron Pressler
       affiliation: Oracle
