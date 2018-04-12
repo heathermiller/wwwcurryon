@@ -76,8 +76,10 @@ will still be standard conference talks.</p>
 
 ## Deadlines
 
-- **<span class="white">Call for presentations closes</span>**: Friday, April 14<sup>th</sup>, 2018
-- **<span class="white">Speakers notified/program announced</span>**: <del>Friday, April 21<sup>st</sup>, 2018</del>, Monday, April 24<sup>th</sup>, 2018
+- **<span class="white">Call for presentations closes</span>**: Friday, April 20<sup>th</sup>, 2018
+- **<span class="white">Speakers notified/program announced</span>**: <del>Friday, April 27<sup>th</sup>, 2018
+
+<!-- </del>, Monday, April 24<sup>th</sup>, 2018 -->
 
 ## Admission and Travel
 
