@@ -44,7 +44,7 @@ talks:
     speaker:
       id: steve_francia
       name: Steve Francia
-      affiliation: Docker
+      affiliation: Google
       url: http://github.com/spf13
       known-for: Go
   # INVITED TALKS
