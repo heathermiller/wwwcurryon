@@ -73,7 +73,7 @@ talks:
       url: https://github.com/eelcovisser
       known-for: Spoofax, Language Workbenches
   - type: invited
-    title:
+    title: Little Languages
     speaker:
       id: chris_laffra
       name: Chris Laffra
