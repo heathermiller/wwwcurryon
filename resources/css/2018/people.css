@@ -152,6 +152,17 @@
   }
 }
 
+.circular.adil_akhter {
+  background-image: url('/resources/img/2018/people/adil_akhter.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.adil_akhter {
+    background-image: url('/resources/img/2018/people/adil_akhter@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .circular.manuel_chakravarty {
   background-image: url('/resources/img/2018/people/manuel_chakravarty.png');
 }
@@ -181,6 +192,17 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.tamas_szabo {
     background-image: url('/resources/img/2018/people/tamas_szabo@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.yulia_startsev {
+  background-image: url('/resources/img/2018/people/yulia_startsev.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.yulia_startsev {
+    background-image: url('/resources/img/2018/people/yulia_startsev@2x.png');
     background-size: 125px 125px;
   }
 }

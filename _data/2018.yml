@@ -133,7 +133,7 @@ talks:
       name: "Ron Pressler"
       affiliation: "Oracle"
       url: ""
-      known-for: ""
+      known-for: "Continuations in JVM"
 
   - type: "invited"
     title: "Simplicity - The Road Not Taken?"
@@ -154,6 +154,16 @@ talks:
       affiliation: "Brave"
       url: ""
       known-for: "Security"
+
+  - type: "talk"
+    title: "Linguistic Abstraction in Streaming Analytics"
+    url: "sessions/linguistic-abstraction-in-streaming-analytics.html"
+    speaker:
+      id: "adil_akhter"
+      name: "Adil Akhter"
+      affiliation: "ING"
+      url: "http://coyoneda.xyz"
+      known-for: ""
 
   - type: "talk"
     title: "Do-It-Yourself Functional Reactive Programming"
@@ -183,6 +193,16 @@ talks:
       name: "Tamás Szabó"
       affiliation: "itemis"
       url: "https://szabta89.github.io"
+      known-for: ""
+
+  - type: "talk"
+    title: "Language Design in the Open"
+    url: "sessions/language-design-in-the-open.html"
+    speaker:
+      id: "yulia_startsev"
+      name: "Yulia Startsev"
+      affiliation: "Mozilla"
+      url: "http://hag.codes"
       known-for: ""
 
   - type: "talk"
