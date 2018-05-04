@@ -1,0 +1,19 @@
+---
+layout: 2018-abstract
+title: "Taming the C monster: Haskell FFI techniques"
+by: Fraser Tweedale
+affiliation: Red Hat
+profpic-class: fraser_tweedale
+---
+
+[@hackuador](https://twitter.com/hackuador)
+<br/>
+
+### Abstract
+
+Haskell has a powerful foreign function interface (FFI) for interfacing with C libraries.  Haskell is a great language for building libraries and tools, but interoperability requirements or time constraints can make the FFI a compelling option. Binding to a non-trivial C library presents several challenges including C idioms, memory management, error handling and more.  This presentation will address a selection of these concerns, using [hs-notmuch](https://github.com/purebred-mua/hs-notmuch), a binding to the &quot;notmuch&quot; mail indexer, as a case study.  We will discuss: - FFI basics and tools to assist binding authors - working with &quot;double pointer&quot;-style constructors - working with iterators; how to do lazy iteration - how to use Haskell's garbage collector to manage lifecycles of external objects, and &quot;gotchas&quot; encountered - using types to enforce correct use of unsafe APIs - performance considerations (including profiling results) The presentation will conclude with a mention of some important FFI concepts that were not covered (e.g. callbacks) and a look at how hs-notmuch is being used in the real world. Attendees will leave this presentation confident to write Haskell bindings to many kinds of C libraries.  Developers familiar with C will get the most out of this talk (because there will be limited time to explain C idioms, memory management, etc).  To varying degrees, most of the concepts and techniques discussed will apply to other languages' FFIs.
+
+### Bio
+
+Fraser works at Red Hat on the FreeIPA identity management system and Dogtag Certificate System.  He's interested in security, cryptography and functional programming.  Jalapeño aficionado from Down Under.
+
