@@ -7,44 +7,51 @@ library(whisker)
 library(stringr)
 
 # input spreadsheet downloaded from google sheets
-SHEET <- "~/Temp/curryon17.csv"
+SHEET <- "curryon18.csv"
 
 # where the images should go
-img_dir <- "resources/img/2017/people"
-sessions_dir <- "2017/sessions"
-css_file <- "resources/css/2017/people.css"
-speakers_file <- "speakers.yml"
+img_dir <- "resources/img/2018/people"
+sessions_dir <- "2018/sessions"
+css_file <- "resources/css/2018/people.css"
+data_yml_file <- "_data/2018.yml"
 
 template_css <-
 '.circular.{{id}} {
-  background-image: url(\'{{ site.baseurl }}/resources/img/2017/people/{{small_photo}}\');
+  background-image: url(\'{{ site.baseurl }}/resources/img/2018/people/{{small_photo}}\');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.{{id}} {
-    background-image: url(\'{{ site.baseurl }}/resources/img/2017/people/{{big_photo}}\');
+    background-image: url(\'{{ site.baseurl }}/resources/img/2018/people/{{big_photo}}\');
     background-size: 125px 125px;
   }
 }
 '
 
-template_speaker <-
-'  - speaker-name: "{{name}}"
+template_talk_yml <-
+'  - type: "{{type}}"
     title: "{{title}}"
-    speaker-affiliation: "{{affiliation}}"
     url: "sessions/{{session_id}}.html"
+    speaker:
+      id: "{{id}}"
+      name: "{{name}}"
+      affiliation: "{{affiliation}}"
+      url: "{{website}}"
+      known-for: "{{known_for}}"
 '
 
 template_session <-
 '---
-layout: 2017-abstract
+layout: 2018-abstract
 title: "{{title}}"
 by: {{name}}
 affiliation: {{affiliation}}
 profpic-class: {{id}}
 ---
 
+{{#has_twitter}}
 [@{{twitter}}](https://twitter.com/{{twitter}})
+{{/has_twitter}}
 
 <br/>
 
@@ -92,9 +99,14 @@ process_image <- function(row) {
         return()
     }
 
+    if (is.na(row$photo_url)) {
+        message("- ERROR: missing photo")
+        return()
+    }
+
     img <- load_image(row$photo_url)
     if (is.null(img)) {
-        message("- no image associated")
+        message("- ERROR: no image associated")
         return()
     }
 
@@ -102,7 +114,7 @@ process_image <- function(row) {
         info <- image_info(img)
 
         if (info$width < 250 || info$height < 250) {
-            message("- image is too small ", info$width, "x", info$height)
+            message("- ERROR: image is too small ", info$width, "x", info$height)
         } else {
             img1x <- image_scale(img, "125")
             image_write(img1x, img1x_fname, format="png")
@@ -115,34 +127,65 @@ process_image <- function(row) {
             message("- images done")
         }
     }, error=function(e) {
-        message("- image failed: ", e$message)
+        message("- ERROR: image failed: ", e$message)
     })
 }
 
+process_md <- function(row) {
+    fname <- file.path(sessions_dir, str_c(row$session_id, ".md"))
+    write(whisker.render(template_session, row), fname)
+    message("- written ", fname)
+}
+
+make_id <- function(name) {
+    name %>%
+        trimws(which="both") %>%
+        iconv(to="ASCII//TRANSLIT") %>%
+        str_replace_all("\\s+", "_") %>%
+        str_replace_all("&", "and") %>%
+        str_to_lower()
+}
+
+make_session_id <- function(title) {
+    title %>%
+        trimws(which="both") %>%
+        str_replace_all("[:?,_+'’&—().!]", "") %>%
+        str_replace_all("\\s+", "-") %>%
+        str_replace_all("[-]+", "-") %>%
+        str_to_lower()
+}
+
 data <- read_csv(SHEET, trim_ws=T, na="")
-data <-
+
+data_sorted <-
     data %>%
-    filter(Accepted=="y") %>%
-    transmute(
-        name=`First & Last Name`,
-        affiliation=ifelse(is.na(Affiliation), "", Affiliation),
-        twitter=`Twitter username`,
-        title=`Talk Title`,
-        abstract=`Talk Abstract`,
-        bio=`Short Bio`,
-        photo_url=`URL to a photo we can use as a profile picture`
-    ) %>%
     mutate(
-        # this is used for the speaker photo
-        id=str_to_lower(name) %>% str_replace_all("\\s+", "_"),
-        # this will be used to generate the filename so remove all rubbish
-        session_id=str_to_lower(title) %>% str_replace_all("\\s+|[:?,_+'’&—().!]", "-") %>% str_replace_all("[-]+", "-"),
-        name=name,
-        title=title,
+        type=factor(
+            type,
+            levels=c("keynote", "invited", "talk", "chesstalk")
+        )
+    ) %>%
+    arrange(type)
+
+data_filtered <-
+    data_sorted %>%
+    filter(accepted == "Yes")
+
+data_all <-
+    data_filtered %>%
+    mutate(
+        id=map_chr(name, make_id),
+        session_id=map_chr(title, make_session_id),
         twitter=str_replace(twitter, "^[@]?(.*)$", "\\1"),
+        twitter=ifelse(is.na(twitter), "", twitter),
+        has_twitter=nchar(twitter) > 0,
+        website=ifelse(is.na(website), "", website),
+        known_for=ifelse(is.na(known_for), "", known_for),
         small_photo=str_c(id, ".png"),
         big_photo=str_c(id, "@2x.png")
     )
+
+data_list <- split(data_all, seq(nrow(data_all)))
 
 if (!dir.exists(img_dir)) {
     stopifnot(dir.create(img_dir))
@@ -152,22 +195,40 @@ if (!dir.exists(sessions_dir)) {
     stopifnot(dir.create(sessions_dir))
 }
 
-apply(data, 1, function(x) {
-    row <- as.list(x)
+for (item in data_list) {
+    message("processing ", item$id)
+    process_image(item)
+    process_md(item)
+}
 
-    message("processing ", row$id)
+update_talks <- function(talks) {
+    data_yml <- readLines(data_yml_file)
 
-    process_image(row)
+    start <- which(!is.na(str_match(data_yml, "^talks:")))
+    stopifnot(start > 1)
 
-    fname <- file.path(sessions_dir, str_c(row$session_id, ".md"))
-    write(whisker.render(template_session, row), fname)
-    message("- written ", fname)
-})
+    end <- which(!is.na(str_match(data_yml, "^program:")))
+    stopifnot(end > 1)
 
-css <- apply(data, 1, function(x) whisker.render(template_css, as.list(x)))
-write(css, css_file)
-message("Written ", css_file)
+    new_data_yml <- c(
+        data_yml[1:start],
+        talks,
+        data_yml[end:length(data_yml)]
+    )
 
-speakers <- apply(data, 1, function(x) whisker.render(template_speaker, as.list(x)))
-write(speakers, speakers_file, append=TRUE)
-message("Written ", speakers_file)
+    writeLines(new_data_yml, data_yml_file)
+    message("Updated ", data_yml_file)
+}
+
+update_css <- function(css) {
+    write(css, css_file)
+}
+
+talks <- map_chr(data_list, ~ whisker.render(template_talk_yml, .))
+update_talks(talks)
+
+css <-
+    data_list %>%
+    map_chr(~ whisker.render(template_css, .)) %>%
+    str_replace_all("&amp;", "and")
+update_css(css)
