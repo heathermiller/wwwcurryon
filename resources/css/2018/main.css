@@ -1058,6 +1058,10 @@ a.btn-outline {
   margin-top: -270px;
   margin-left: -110px;
   margin-bottom: -60px;
+  background-image: url('/resources/img/hand-drawn.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 355px;
 }
 
 .call-ends {

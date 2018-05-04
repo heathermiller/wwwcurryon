@@ -11,130 +11,288 @@ previous_editions:
   - 2015
 
 show_program: false
-show_accepted_talks: false
+show_accepted_talks: true
 sold_out: false
 
 talks:
-  - type: keynote
-    title: Way, Way Back To The Future
+  - type: "keynote"
+    title: "Linear Haskell: practical linearity in a higher-order polymorphic language"
+    url: "sessions/linear-haskell-practical-linearity-in-a-higher-order-polymorphic-language.html"
     speaker:
-      id: alan_kay
-      name: Alan Kay
-      affiliation: Viewpoints Research Institute
-      url: https://en.wikipedia.org/wiki/Alan_Kay
-      known-for: Object-Oriented Programming
-  - type: keynote
-    title:
+      id: "simon_peyton_jones"
+      name: "Simon Peyton Jones"
+      affiliation: "Microsoft Research"
+      url: "https://www.microsoft.com/en-us/research/people/simonpj/"
+      known-for: "Haskell"
+
+  - type: "keynote"
+    title: "WebAssembly, Past, Present, and Future"
+    url: "sessions/webassembly-past-present-and-future.html"
     speaker:
-      id: simon_peyton_jones
-      name: Simon Peyton Jones
-      affiliation: Microsoft Research
-      url: https://www.microsoft.com/en-us/research/people/simonpj/
-      known-for: Haskell
-  - type: keynote
-    title: Neither Web nor Assembly
+      id: "ben_titzer_and_andreas_rossberg"
+      name: "Ben Titzer &amp; Andreas Rossberg"
+      affiliation: "Google &amp; Dfinity Foundation"
+      url: "https://github.com/thomaswu &amp; https://github.com/rossberg"
+      known-for: "WebAssembly"
+
+  - type: "keynote"
+    title: "Way, Way Back To The Future"
+    url: "sessions/way-way-back-to-the-future.html"
     speaker:
-      id: ben_andreas
-      name: Ben Titzer & Andreas Rossberg
-      affiliation: Google & Dfinity Foundation
-      url: http://webassembly.org/
-      known-for: WebAssembly
-  - type: keynote
+      id: "alan_kay"
+      name: "Alan Kay"
+      affiliation: "Viewpoints Research Institute"
+      url: ""
+      known-for: "Object-Oriented Programming"
+
+  - type: "keynote"
     title: "Go: building on the shoulders of giants and stepping on a few toes"
+    url: "sessions/go-building-on-the-shoulders-of-giants-and-stepping-on-a-few-toes.html"
     speaker:
-      id: steve_francia
-      name: Steve Francia
-      affiliation: Google
-      url: http://github.com/spf13
-      known-for: Go
-  # INVITED TALKS
-  - type: invited
-    title:
+      id: "steve_francia"
+      name: "Steve Francia"
+      affiliation: "Google"
+      url: ""
+      known-for: "Go"
+
+  - type: "invited"
+    title: "ApacheSpark as a gateway drug to FP: Concepts taught &amp; broken"
+    url: "sessions/apachespark-as-a-gateway-drug-to-fp-concepts-taught-broken.html"
     speaker:
-      id: holden_karau
-      name: Holden Karau
-      affiliation: Google
-      url: https://github.com/holdenk
-      known-for: Spark
-  - type: invited
-    title:
+      id: "holden_karau"
+      name: "Holden Karau"
+      affiliation: "Google"
+      url: "https://github.com/holdenk"
+      known-for: "Spark"
+
+  - type: "invited"
+    title: "Code into Data: Embedding programs into datastores with GraalVM"
+    url: "sessions/code-into-data-embedding-programs-into-datastores-with-graalvm.html"
     speaker:
-      id: thomas_wuerthinger
-      name: Thomas Würthinger
-      affiliation: Oracle Labs
-      url: https://github.com/thomaswue
-      known-for: Graal VM
-  - type: invited
+      id: "thomas_wurthinger"
+      name: "Thomas Würthinger"
+      affiliation: "Oracle"
+      url: "https://github.com/thomaswue"
+      known-for: "Graal VM"
+
+  - type: "invited"
     title: "Spoofax: Live Programming Language Design"
+    url: "sessions/spoofax-live-programming-language-design.html"
     speaker:
-      id: eelco_visser
-      name: Eelco Visser
-      affiliation: TU Delft
-      url: https://github.com/eelcovisser
-      known-for: Spoofax, Language Workbenches
-  - type: invited
-    title: Little Languages
+      id: "eelco_visser"
+      name: "Eelco Visser"
+      affiliation: "Delft"
+      url: "https://github.com/eelcovisser"
+      known-for: "Spoofax, Language Workbenches"
+
+  - type: "invited"
+    title: "Little Languages"
+    url: "sessions/little-languages.html"
     speaker:
-      id: chris_laffra
-      name: Chris Laffra
-      affiliation: Uber
-      url: https://github.com/laffra
-      known-for: Little Languages
-  - type: invited
-    title:
+      id: "chris_laffra"
+      name: "Chris Laffra"
+      affiliation: "Uber"
+      url: "https://github.com/laffra"
+      known-for: "Little Languages"
+
+  - type: "invited"
+    title: "Challenges in Large-Scale Mobile App Performance"
+    url: "sessions/challenges-in-large-scale-mobile-app-performance.html"
     speaker:
-      id: manu_shridharan
-      name: Manu Sridharan
-      affiliation: Uber
-      url: http://manu.sridharan.net/
-      known-for: Static Analysis
-  - type: invited
-    title:
+      id: "manu_sridharan"
+      name: "Manu Sridharan"
+      affiliation: "Uber"
+      url: "http://manu.sridharan.net/"
+      known-for: "Static Analysis"
+
+  - type: "invited"
+    title: "Domain Specific Programming Platforms for Creativity"
+    url: "sessions/domain-specific-programming-platforms-for-creativity.html"
     speaker:
-      id: jennifer_jacobs
-      name: Jennifer Mary Jacobs
-      affiliation: Stanford University
-      url: https://github.com/pixelmaid
-      known-for: PL for creative expression
-  - type: invited
-    title:
+      id: "jennifer_mary_jacobs"
+      name: "Jennifer Mary Jacobs"
+      affiliation: "Stanford"
+      url: "https://github.com/pixelmaid"
+      known-for: "PL for creative expression"
+
+  - type: "invited"
+    title: "Lessons from a Big Data Machine Learning Startup"
+    url: "sessions/lessons-from-a-big-data-machine-learning-startup.html"
     speaker:
-      id: cliff_click
-      name: Cliff Click
-      affiliation: Stealth
-      url: https://github.com/cliffclick
-      known-for: HotSpot JVM
-  - type: invited
-    title: Rethinking Modern Web Browsers
+      id: "cliff_click"
+      name: "Cliff Click"
+      affiliation: "Stealth"
+      url: "https://github.com/cliffclick"
+      known-for: "HotSpot JVM"
+
+  - type: "invited"
+    title: "Finite of Sense and Infinite of Thought: A History of Computation, Logic and Algebra"
+    url: "sessions/finite-of-sense-and-infinite-of-thought-a-history-of-computation-logic-and-algebra.html"
     speaker:
-      id: ben_livshits
-      name: Ben Livshits
-      affiliation: Brave
-      url: https://twitter.com/convoluted_code
-      known-for: Security
-  - type: invited
-    title:
+      id: "ron_pressler"
+      name: "Ron Pressler"
+      affiliation: "Oracle"
+      url: ""
+      known-for: ""
+
+  - type: "invited"
+    title: "Simplicity - The Road Not Taken?"
+    url: "sessions/simplicity-the-road-not-taken.html"
     speaker:
-      id:
-      name:
-      affiliation:
-      url:
-      known-for:
-  - type: invited
-    title:
+      id: "dave_thomas"
+      name: "Dave Thomas"
+      affiliation: "Kx Systems"
+      url: "http://www.davethomas.net/"
+      known-for: "Array Programming"
+
+  - type: "invited"
+    title: "Rethinking Modern Web Browsers"
+    url: "sessions/rethinking-modern-web-browsers.html"
     speaker:
-      id: ron_pressler
-      name: Ron Pressler
-      affiliation: Oracle
-      url: https://github.com/pron
-      known-for:
-  - type: invited
-    title: Simplicity - The Road Not Taken?
+      id: "ben_livshits"
+      name: "Ben Livshits"
+      affiliation: "Brave"
+      url: ""
+      known-for: "Security"
+
+  - type: "talk"
+    title: "Do-It-Yourself Functional Reactive Programming"
+    url: "sessions/do-it-yourself-functional-reactive-programming.html"
     speaker:
-      id: dave_thomas
-      name: Dave Thomas
-      affiliation: Kx Systems
-      url: http://www.davethomas.net/
-      known-for: Array Programming
+      id: "manuel_chakravarty"
+      name: "Manuel Chakravarty"
+      affiliation: "Applicative &amp; Tweag I/O"
+      url: "http://justtesting.org"
+      known-for: ""
+
+  - type: "talk"
+    title: "Why VM Benchmarking is Probably Misleading you"
+    url: "sessions/why-vm-benchmarking-is-probably-misleading-you.html"
+    speaker:
+      id: "edd_barrett"
+      name: "Edd Barrett"
+      affiliation: "King's College London"
+      url: "http://eddbarrett.co.uk/"
+      known-for: ""
+
+  - type: "talk"
+    title: "Better living through incrementality: Immediate static analysis feedback without loss of precision"
+    url: "sessions/better-living-through-incrementality-immediate-static-analysis-feedback-without-loss-of-precision.html"
+    speaker:
+      id: "tamas_szabo"
+      name: "Tamás Szabó"
+      affiliation: "itemis"
+      url: "https://szabta89.github.io"
+      known-for: ""
+
+  - type: "talk"
+    title: "Adding kind-polymorphism to the Scala programming language"
+    url: "sessions/adding-kind-polymorphism-to-the-scala-programming-language.html"
+    speaker:
+      id: "miles_sabin"
+      name: "Miles Sabin"
+      affiliation: "Underscore Consulting, Typelevel"
+      url: "http://milessabin.com/blog/"
+      known-for: ""
+
+  - type: "talk"
+    title: "Taming the C monster: Haskell FFI techniques"
+    url: "sessions/taming-the-c-monster-haskell-ffi-techniques.html"
+    speaker:
+      id: "fraser_tweedale"
+      name: "Fraser Tweedale"
+      affiliation: "Red Hat"
+      url: "https://github.com/frasertweedale"
+      known-for: ""
+
+  - type: "talk"
+    title: "Type-Safe GraphQL Servers with GADTs"
+    url: "sessions/type-safe-graphql-servers-with-gadts.html"
+    speaker:
+      id: "andreas_garnaes"
+      name: "Andreas Garnæs"
+      affiliation: "Zendesk"
+      url: "https://andreas.github.io"
+      known-for: ""
+
+  - type: "talk"
+    title: "DB ⋈ FP = Datafun: a new functional query language"
+    url: "sessions/db-⋈-fp-=-datafun-a-new-functional-query-language.html"
+    speaker:
+      id: "michael_arntzenius"
+      name: "Michael Arntzenius"
+      affiliation: "University of Birmingham"
+      url: "http://www.rntz.net"
+      known-for: ""
+
+  - type: "talk"
+    title: "It Ain't Necessarily So"
+    url: "sessions/it-aint-necessarily-so.html"
+    speaker:
+      id: "chris_ford"
+      name: "Chris Ford"
+      affiliation: "ThoughtWorks"
+      url: ""
+      known-for: ""
+
+  - type: "talk"
+    title: "SuperRecord: Practical Anonymous Records for Haskell"
+    url: "sessions/superrecord-practical-anonymous-records-for-haskell.html"
+    speaker:
+      id: "alexander_thiemann"
+      name: "Alexander Thiemann"
+      affiliation: "Stripe Inc"
+      url: "https://athiemann.net"
+      known-for: ""
+
+  - type: "talk"
+    title: "Papers we love - Elixir edition"
+    url: "sessions/papers-we-love-elixir-edition.html"
+    speaker:
+      id: "andrea_leopardi"
+      name: "Andrea Leopardi"
+      affiliation: "Weedmaps"
+      url: "http://andrealeopardi.com"
+      known-for: ""
+
+  - type: "chesstalk"
+    title: "Live, On Ice!"
+    url: "sessions/live-on-ice.html"
+    speaker:
+      id: "sztefan_edwards"
+      name: "Sztefan Edwards"
+      affiliation: "nVisium LLC"
+      url: "http://lojikil.com"
+      known-for: ""
+
+  - type: "chesstalk"
+    title: "Your inner compiler engineer wants out!"
+    url: "sessions/your-inner-compiler-engineer-wants-out.html"
+    speaker:
+      id: "jesse_alama"
+      name: "Jesse Alama"
+      affiliation: "Vicampo"
+      url: "https://lisp.sh/"
+      known-for: ""
+
+  - type: "chesstalk"
+    title: "Serverless Computing with Functions"
+    url: "sessions/serverless-computing-with-functions.html"
+    speaker:
+      id: "rodric_rabbah"
+      name: "Rodric Rabbah"
+      affiliation: "casm.io"
+      url: "http://rabbahs.com/"
+      known-for: ""
+
+  - type: "chesstalk"
+    title: "Transducing for fun and profit"
+    url: "sessions/transducing-for-fun-and-profit.html"
+    speaker:
+      id: "simon_belak"
+      name: "Simon Belak"
+      affiliation: "Metabase"
+      url: ""
+      known-for: ""
 
 program:

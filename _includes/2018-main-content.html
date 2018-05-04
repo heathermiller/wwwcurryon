@@ -1,4 +1,4 @@
-OA{% assign settings = site.data["2018"] %}
+{% assign settings = site.data["2018"] %}
 
 <div class="purple-stripe-splash">
   <div class="container">
@@ -33,6 +33,7 @@ OA{% assign settings = site.data["2018"] %}
       {% include 2018-keynote.html keynote=talk %}
       {% endfor %}
     </div>
+    {% unless settings.show_accepted_talks %}
     <div class="row" style="height: 40px;"></div>
     <div class="row">
       <div class="col-md-5 centered"></div>
@@ -44,13 +45,15 @@ OA{% assign settings = site.data["2018"] %}
       </div>
       <div class="col-md-5 centered"></div>
     </div>
+    {% endunless %}
     <div class="pad-bottom"></div>
   </div>
 </div>
 
+{% unless settings.show_accepted_talks %}
 <div class="reddish-orange-stripe">
   <div class="container centered">
-    <div class="hand-drawn"><img src="{{ site.baseurl }}/resources/img/hand-drawn.png"></div>
+      <div class="hand-drawn"><div></div></div>
     <div class="tagline">
       Add your voice to the conversation.
     </div>
@@ -63,8 +66,7 @@ OA{% assign settings = site.data["2018"] %}
     <div class="pad-bottom"></div>
   </div>
 </div>
-
-
+{% endunless %}
 
 <div class="reddish-orange-stripe">
   <div class="container centered">
@@ -165,7 +167,6 @@ OA{% assign settings = site.data["2018"] %}
     <div class="col-md-2"></div>
   </div>
   </div>
-  <div class="pad-bottom">&nbsp;</div>
 </div>
 
 
@@ -175,11 +176,9 @@ OA{% assign settings = site.data["2018"] %}
 {% if settings.show_accepted_talks %}
 <div class="reddish-orange-stripe">
   <div class="container">
-    <div id="accepted-talks" class="big-white-italic centered" style="font-weight: 700; font-size: 38px;">
-      Accepted talks
-    </div>
+      <div id="accepted-talks" class="big-white-vinyl centered"><span style="font-size: 44px;"><span class="light-orange">Accepted</span> talks</span></div>
     <ul class="accepted-talks">
-    {% assign accepted_talks = settings.talks | where:'type', 'regular' %}
+    {% assign accepted_talks = settings.talks | where_exp:"x", "x.type contains 'talk'" | sort:'title' %}
     {% for talk in accepted_talks %}
       <li>
           <span class="talk-title"><a href="{{ talk.url }}">{{ talk.title }}</a></span>
@@ -237,23 +236,17 @@ OA{% assign settings = site.data["2018"] %}
 </div>
 {% endif %}
 
+{% if settings.sold_out %}
 <div class="reddish-orange-stripe">
   <div class="container centered">
     <div class="pad-top"></div>
-    {% if settings.sold_out %}
     <div class="tagline">Sorry, we sold out of tickets! :/</div>
     <div class="subtagline" style="font-weight: 300; color: #073642; margin-bottom: 10px;">
       Ticket trasfers are allowed. If you're looking for a ticket, tweet to <a href="http://www.twitter.com/curry_on_conf">@curry_on_conf</a>, we're happy to RT all requests for ticket transfers!
     </div>
-    {% else %}
-    <!-- <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div> -->
-    {% if settings.register_url %}
-    <a href="https://regmaster4.com/2018conf/CURRYON17/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
-    {% endif %}
-    <div class="pad-bottom"></div>
-    {% endif %}
    </div>
 </div>
+{% endif %}
 
 <!-- Interested in joining us? If -->
 
