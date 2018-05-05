@@ -2,7 +2,7 @@
 layout: 2018-abstract
 title: "Serverless Computing with Functions"
 by: Rodric Rabbah
-affiliation: casm.io
+affiliation: CASM
 profpic-class: rodric_rabbah
 ---
 
