@@ -196,6 +196,16 @@ talks:
       known-for: ""
 
   - type: "talk"
+    title: "How does code sound?"
+    url: "sessions/how-does-code-sound.html"
+    speaker:
+      id: "felienne_hermans"
+      name: "Felienne Hermans"
+      affiliation: "Delft"
+      url: "http://www.felienne.com"
+      known-for: ""
+
+  - type: "talk"
     title: "Language Design in the Open"
     url: "sessions/language-design-in-the-open.html"
     speaker:
@@ -211,7 +221,7 @@ talks:
     speaker:
       id: "miles_sabin"
       name: "Miles Sabin"
-      affiliation: "Underscore Consulting, Typelevel"
+      affiliation: "Underscore Consulting"
       url: "http://milessabin.com/blog/"
       known-for: ""
 

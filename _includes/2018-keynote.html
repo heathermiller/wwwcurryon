@@ -1,4 +1,5 @@
 <div class="col-md-3 centered">
+    <div>
   <br/>
   <div class="circular {{ include.keynote.speaker.id }}"></div>
   <span class="gray-text centered keynote-speaker">
@@ -10,7 +11,7 @@
   </span>
   <br/>
   <span class="keynote-affiliation">{{ include.keynote.speaker.affiliation }}</span>
-    </br><span class="keynote-known-for">{% if include.keynote.speaker.known-for %}{{ include.keynote.speaker.known-for }}{% endif %}</span>
   <br/>
-  <!-- <span class="keynote-known-for">{{ include.keynote.speaker.known-for }}</span> -->
+  <span class="keynote-known-for">{% if include.keynote.speaker.known-for %}{{ include.keynote.speaker.known-for }}{% endif %}</span>
+  </div>
 </div>

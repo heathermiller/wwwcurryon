@@ -28,11 +28,24 @@
     <div class="row">
       <div class="title centered">Invited Speakers</div>
       <!-- INVITED -->
-      {% assign keynotes = settings.talks | where:'type', 'invited' %}
-      {% for talk in keynotes %}
+      {% assign invited_talks = settings.talks | where:'type', 'invited' %}
+      {% for talk in invited_talks %}
       {% include 2018-keynote.html keynote=talk %}
       {% endfor %}
     </div>
+    {% if settings.show_accepted_talks %}
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="title centered">Accepted Talks</div>
+        <!-- REGULAR -->
+        {% assign accepted_talks = settings.talks | where_exp:"x", "x.type contains 'talk'" | sort:'title' %}
+        {% for talk in accepted_talks %}
+        {% include 2018-keynote.html keynote=talk %}
+        {% endfor %}
+    </div>
+
+    {% endif %}
     {% unless settings.show_accepted_talks %}
     <div class="row" style="height: 40px;"></div>
     <div class="row">
@@ -49,6 +62,23 @@
     <div class="pad-bottom"></div>
   </div>
 </div>
+
+{% if settings.show_accepted_talks %}
+<div class="reddish-orange-stripe">
+    <div class="container">
+        <div id="accepted-talks" class="big-white-vinyl centered"><span style="font-size: 44px;"><span class="light-orange">All</span> Talks</span></div>
+        <ul class="accepted-talks">
+            {% assign all_talks = settings.talks | sort:'title' %}
+            {% for talk in all_talks %}
+            <li>
+                <span class="talk-title"><a href="{{ talk.url }}">{{ talk.title }}</a></span>
+                <br/><span class="speaker-name">{{ talk.speaker.name }}</span>{% if talk.speaker.affiliation != "" %}, <span class="speaker-affiliation">{{ talk.speaker.affiliation }}</span>{% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}
 
 {% unless settings.show_accepted_talks %}
 <div class="reddish-orange-stripe">
@@ -67,6 +97,10 @@
   </div>
 </div>
 {% endunless %}
+
+<div class="purple-stripe" style="min-height: 80px;">
+    <div class="pad-bottom"></div>
+</div>
 
 <div class="reddish-orange-stripe">
   <div class="container centered">
@@ -166,30 +200,9 @@
     </div>
     <div class="col-md-2"></div>
   </div>
+  <div class="pad-bottom">&nbsp;</div>
   </div>
 </div>
-
-
-
-    <!-- Join designers of exciting emerging languages, popular languages, emerging paradigms and more. Add your voice to the conversation. -->
-
-{% if settings.show_accepted_talks %}
-<div class="reddish-orange-stripe">
-  <div class="container">
-      <div id="accepted-talks" class="big-white-vinyl centered"><span style="font-size: 44px;"><span class="light-orange">Accepted</span> talks</span></div>
-    <ul class="accepted-talks">
-    {% assign accepted_talks = settings.talks | where_exp:"x", "x.type contains 'talk'" | sort:'title' %}
-    {% for talk in accepted_talks %}
-      <li>
-          <span class="talk-title"><a href="{{ talk.url }}">{{ talk.title }}</a></span>
-          <br/><span class="speaker-name">{{ talk.speaker.name }}</span>{% if talk.speaker.affiliation != "" %}, <span class="speaker-affiliation">{{ talk.speaker.affiliation }}</span>{% endif %}
-      </li>
-    {% endfor %}
-    </ul>
-    <div class="pad-bottom"></div>
-  </div>
-</div>
-{% endif %}
 
 {% if settings.show_program %}
 <div class="purple-stripe">
