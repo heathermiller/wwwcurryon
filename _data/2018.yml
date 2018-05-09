@@ -156,13 +156,13 @@ talks:
       known-for: "Security"
 
   - type: "talk"
-    title: "Linguistic Abstraction in Streaming Analytics"
-    url: "sessions/linguistic-abstraction-in-streaming-analytics.html"
+    title: "Luna - overview"
+    url: "sessions/luna-overview.html"
     speaker:
-      id: "adil_akhter"
-      name: "Adil Akhter"
-      affiliation: "ING"
-      url: "http://coyoneda.xyz"
+      id: "sylwia_brodacka"
+      name: "Sylwia Brodacka"
+      affiliation: "Luna"
+      url: ""
       known-for: ""
 
   - type: "talk"
@@ -293,6 +293,16 @@ talks:
       name: "Sztefan Edwards"
       affiliation: "nVisium LLC"
       url: "http://lojikil.com"
+      known-for: ""
+
+  - type: "chesstalk"
+    title: "Linguistic Abstraction in Streaming Analytics"
+    url: "sessions/linguistic-abstraction-in-streaming-analytics.html"
+    speaker:
+      id: "adil_akhter"
+      name: "Adil Akhter"
+      affiliation: "ING"
+      url: "http://coyoneda.xyz"
       known-for: ""
 
   - type: "chesstalk"
