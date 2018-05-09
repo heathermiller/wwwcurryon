@@ -152,13 +152,13 @@
   }
 }
 
-.circular.adil_akhter {
-  background-image: url('/resources/img/2018/people/adil_akhter.png');
+.circular.sylwia_brodacka {
+  background-image: url('/resources/img/2018/people/sylwia_brodacka.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.adil_akhter {
-    background-image: url('/resources/img/2018/people/adil_akhter@2x.png');
+  .circular.sylwia_brodacka {
+    background-image: url('/resources/img/2018/people/sylwia_brodacka@2x.png');
     background-size: 125px 125px;
   }
 }
@@ -302,6 +302,17 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.sztefan_edwards {
     background-image: url('/resources/img/2018/people/sztefan_edwards@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.adil_akhter {
+  background-image: url('/resources/img/2018/people/adil_akhter.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.adil_akhter {
+    background-image: url('/resources/img/2018/people/adil_akhter@2x.png');
     background-size: 125px 125px;
   }
 }
