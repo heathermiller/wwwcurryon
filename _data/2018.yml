@@ -295,6 +295,16 @@ talks:
       url: "http://andrealeopardi.com"
       known-for: ""
 
+  - type: "talk"
+    title: "Using APIs and micro-services as the glue between observed and derived facts"
+    url: "sessions/using-apis-and-micro-services-as-the-glue-between-observed-and-derived-facts.html"
+    speaker:
+      id: "faraz_babar"
+      name: "Faraz Babar"
+      affiliation: "American Express"
+      url: "https://www.linkedin.com/in/farazbabar"
+      known-for: ""
+
   - type: "chesstalk"
     title: "Live, On Ice!"
     url: "sessions/live-on-ice.html"
