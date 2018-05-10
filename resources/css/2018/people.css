@@ -163,6 +163,17 @@
   }
 }
 
+.circular.deian_stefan {
+  background-image: url('/resources/img/2018/people/deian_stefan.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.deian_stefan {
+    background-image: url('/resources/img/2018/people/deian_stefan@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .circular.manuel_chakravarty {
   background-image: url('/resources/img/2018/people/manuel_chakravarty.png');
 }
