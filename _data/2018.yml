@@ -166,6 +166,16 @@ talks:
       known-for: ""
 
   - type: "talk"
+    title: "Constant-time crypto programming with FaCT"
+    url: "sessions/constant-time-crypto-programming-with-fact.html"
+    speaker:
+      id: "deian_stefan"
+      name: "Deian Stefan"
+      affiliation: "UCSD"
+      url: "https://cseweb.ucsd.edu/~dstefan/"
+      known-for: ""
+
+  - type: "talk"
     title: "Do-It-Yourself Functional Reactive Programming"
     url: "sessions/do-it-yourself-functional-reactive-programming.html"
     speaker:
