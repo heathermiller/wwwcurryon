@@ -11,7 +11,7 @@ profpic-class: andrea_leopardi
 
 ### Abstract
 
-Elixir is a modern programming language built for concurrency, robustness, and maintainability. Although the Elixir team came from &quot;industry&quot; backgrounds, the history of Elixir is full of cases where the team has reached for existing research in order to solve problems arising with the language. For example, we based our implementation of a code formatter on a series of papers on pretty printing and formatting code. In this talk, I'd like to go share our learnings and experiences as a bunch of industry folks getting help from academia to approach and tackle real-world problems and come up with real-world solutions.
+Elixir is a modern programming language built for concurrency, robustness, and maintainability. Although the Elixir team came from "industry" backgrounds, the history of Elixir is full of cases where the team has reached for existing research in order to solve problems arising with the language. For example, we based our implementation of a code formatter on a series of papers on pretty printing and formatting code. In this talk, I'd like to go share our learnings and experiences as a bunch of industry folks getting help from academia to approach and tackle real-world problems and come up with real-world solutions.
 
 ### Bio
 

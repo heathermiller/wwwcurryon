@@ -133,7 +133,12 @@ process_image <- function(row) {
 
 process_md <- function(row) {
     fname <- file.path(sessions_dir, str_c(row$session_id, ".md"))
-    write(whisker.render(template_session, row), fname)
+    session <- whisker.render(template_session, row)
+
+    # it is not possible to turn off escaping in whisker!
+    session <- str_replace_all(session, "&quot;", '"')
+
+    write(session, fname)
     message("- written ", fname)
 }
 
