@@ -305,6 +305,56 @@ talks:
       url: "https://www.linkedin.com/in/farazbabar"
       known-for: ""
 
+  - type: "talk"
+    title: "Lector in Codigo"
+    url: "sessions/lector-in-codigo.html"
+    speaker:
+      id: "alvaro_videla"
+      name: "Alvaro Videla"
+      affiliation: "FaunaDB"
+      url: "http://alvaro-videla.com"
+      known-for: ""
+
+  - type: "talk"
+    title: "A CRDT Primer: Defanging Order Theory"
+    url: "sessions/a-crdt-primer-defanging-order-theory.html"
+    speaker:
+      id: "john_mumm"
+      name: "John Mumm"
+      affiliation: "Vectrology Solutions"
+      url: "http://jtfmumm.com"
+      known-for: ""
+
+  - type: "talk"
+    title: "Atom Heart Monad: FRP in C++"
+    url: "sessions/atom-heart-monad-frp-in-c.html"
+    speaker:
+      id: "ivan_cukic"
+      name: "Ivan Čukić"
+      affiliation: "KDE e.V."
+      url: "https://cukic.co"
+      known-for: ""
+
+  - type: "talk"
+    title: "Isolation Without Containers"
+    url: "sessions/isolation-without-containers.html"
+    speaker:
+      id: "tyler_mcmullen"
+      name: "Tyler McMullen"
+      affiliation: "Fastly"
+      url: ""
+      known-for: ""
+
+  - type: "talk"
+    title: "Hackett: a metaprogrammable Haskell"
+    url: "sessions/hackett-a-metaprogrammable-haskell.html"
+    speaker:
+      id: "alexis_king"
+      name: "Alexis King"
+      affiliation: "Northwestern University"
+      url: ""
+      known-for: ""
+
   - type: "chesstalk"
     title: "Live, On Ice!"
     url: "sessions/live-on-ice.html"
@@ -352,6 +402,16 @@ talks:
       id: "simon_belak"
       name: "Simon Belak"
       affiliation: "Metabase"
+      url: ""
+      known-for: ""
+
+  - type: "chesstalk"
+    title: "Akka.JS and why the actor model matters even in JS's world."
+    url: "sessions/akkajs-and-why-the-actor-model-matters-even-in-jss-world.html"
+    speaker:
+      id: "andrea_peruffo"
+      name: "Andrea Peruffo"
+      affiliation: "Nokia"
       url: ""
       known-for: ""
 
