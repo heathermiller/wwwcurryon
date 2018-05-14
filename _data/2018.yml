@@ -199,10 +199,10 @@ talks:
     title: "Better living through incrementality: Immediate static analysis feedback without loss of precision"
     url: "sessions/better-living-through-incrementality-immediate-static-analysis-feedback-without-loss-of-precision.html"
     speaker:
-      id: "tamas_szabo"
-      name: "Tamás Szabó"
-      affiliation: "itemis"
-      url: "https://szabta89.github.io"
+      id: "tamas_szabo_and_sebastian_erdweg"
+      name: "Tamás Szabó &amp; Sebastian Erdweg"
+      affiliation: "itemis &amp; TU Delft"
+      url: "https://szabta89.github.io &amp; http://erdweg.org/"
       known-for: ""
 
   - type: "talk"

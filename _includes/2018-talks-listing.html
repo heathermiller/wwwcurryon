@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="title centered">{{ include.title }}</div>
+</div>
+{% for talk in include.talks %}
+  {% assign idx = forloop.index | modulo: 4 %}
+  {% if idx == 1 %}
+  <div class="row">
+  {% endif %}
+  {% include 2018-keynote.html keynote=talk %}
+  {% if idx == 0 or forloop.last %}
+  </div>
+  {% endif %}
+{% endfor %}
+    
