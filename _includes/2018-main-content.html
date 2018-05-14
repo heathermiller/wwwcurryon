@@ -15,35 +15,21 @@
       <br/>
       <span style="font-weight: 700; font-size: 44px;"><span class="light-orange">and</span> invited talks</span>
     </div>
-    <div class="row">
-      <div class="title centered">Keynotes</div>
-      <!-- KEYNOTES -->
-      {% assign keynotes = settings.talks | where:'type', 'keynote' %}
-      {% for talk in keynotes %}
-      {% include 2018-keynote.html keynote=talk %}
-      {% endfor %}
-    </div>
+    <!-- KEYNOTES -->
+    {% assign keynotes = settings.talks | where:'type', 'keynote' %}
+    {% include 2018-talk-listing.html title='Keynotes' talks=keynotes %}
     <br/>
     <br/>
-    <div class="row">
-      <div class="title centered">Invited Speakers</div>
-      <!-- INVITED -->
-      {% assign invited_talks = settings.talks | where:'type', 'invited' %}
-      {% for talk in invited_talks %}
-      {% include 2018-keynote.html keynote=talk %}
-      {% endfor %}
-    </div>
+    <!-- INVITED TALKS -->
+    {% assign invited_talks = settings.talks | where:'type', 'invited' %}
+    {% include 2018-talk-listing.html title='Invited Speakers' talks=invited_talks %}
+
     {% if settings.show_accepted_talks %}
     <br/>
     <br/>
-    <div class="row">
-        <div class="title centered">Accepted Talks</div>
-        <!-- REGULAR -->
-        {% assign accepted_talks = settings.talks | where_exp:"x", "x.type contains 'talk'" | sort:'title' %}
-        {% for talk in accepted_talks %}
-        {% include 2018-keynote.html keynote=talk %}
-        {% endfor %}
-    </div>
+    <!-- REGULAR -->
+    {% assign accepted_talks = settings.talks | where_exp:"x", "x.type contains 'talk'" | sort:'title' %}
+    {% include 2018-talk-listing.html title='Accepted Talks' talks=accepted_talks %}
 
     {% endif %}
     {% unless settings.show_accepted_talks %}
