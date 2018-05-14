@@ -336,6 +336,16 @@ talks:
       known-for: ""
 
   - type: "talk"
+    title: "Strategies for Streaming"
+    url: "sessions/strategies-for-streaming.html"
+    speaker:
+      id: "arnout_engelen"
+      name: "Arnout Engelen"
+      affiliation: "Lightbend"
+      url: "https://arnout.engelen.eu/"
+      known-for: ""
+
+  - type: "talk"
     title: "Isolation Without Containers"
     url: "sessions/isolation-without-containers.html"
     speaker:
