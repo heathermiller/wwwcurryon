@@ -1,9 +1,9 @@
 ---
 layout: 2018-abstract
 title: "Better living through incrementality: Immediate static analysis feedback without loss of precision"
-by: Tamás Szabó
-affiliation: itemis
-profpic-class: tamas_szabo
+by: Tamás Szabó &amp; Sebastian Erdweg
+affiliation: itemis &amp; TU Delft
+profpic-class: tamas_szabo_and_sebastian_erdweg
 ---
 
 [@szabta89](https://twitter.com/szabta89)

@@ -196,13 +196,13 @@
   }
 }
 
-.circular.tamas_szabo {
-  background-image: url('/resources/img/2018/people/tamas_szabo.png');
+.circular.tamas_szabo_and_sebastian_erdweg {
+  background-image: url('/resources/img/2018/people/tamas_szabo_and_sebastian_erdweg.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.tamas_szabo {
-    background-image: url('/resources/img/2018/people/tamas_szabo@2x.png');
+  .circular.tamas_szabo_and_sebastian_erdweg {
+    background-image: url('/resources/img/2018/people/tamas_szabo_and_sebastian_erdweg@2x.png');
     background-size: 125px 125px;
   }
 }
