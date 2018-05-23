@@ -17,19 +17,19 @@
     </div>
     <!-- KEYNOTES -->
     {% assign keynotes = settings.talks | where:'type', 'keynote' %}
-    {% include 2018-talk-listing.html title='Keynotes' talks=keynotes %}
+    {% include 2018-talks-listing.html title='Keynotes' talks=keynotes %}
     <br/>
     <br/>
     <!-- INVITED TALKS -->
     {% assign invited_talks = settings.talks | where:'type', 'invited' %}
-    {% include 2018-talk-listing.html title='Invited Speakers' talks=invited_talks %}
+    {% include 2018-talks-listing.html title='Invited Speakers' talks=invited_talks %}
 
     {% if settings.show_accepted_talks %}
     <br/>
     <br/>
     <!-- REGULAR -->
     {% assign accepted_talks = settings.talks | where_exp:"x", "x.type contains 'talk'" | sort:'title' %}
-    {% include 2018-talk-listing.html title='Accepted Talks' talks=accepted_talks %}
+    {% include 2018-talks-listing.html title='Accepted Talks' talks=accepted_talks %}
 
     {% endif %}
     {% unless settings.show_accepted_talks %}
