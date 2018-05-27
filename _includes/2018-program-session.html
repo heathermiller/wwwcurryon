@@ -1,6 +1,5 @@
-{% assign settings = site.data["2018"] %}
-{% assign talk = settings.talks | where:"title", include.session.talk | first %}
-{% if talk.chess %}
+{% assign talk = include.talk %}
+{% if talk.type == 'chesstalk' %}
 <div class="td-keynote">
   <span class="rounded-label light-blue">chess timer talk</span>
 </div>

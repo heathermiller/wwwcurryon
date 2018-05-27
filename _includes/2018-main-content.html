@@ -32,7 +32,7 @@
     {% include 2018-talks-listing.html title='Accepted Talks' talks=accepted_talks %}
 
     {% endif %}
-    {% unless settings.show_accepted_talks %}
+    {% if settings.show_cfp %}
     <div class="row" style="height: 40px;"></div>
     <div class="row">
       <div class="col-md-5 centered"></div>
@@ -44,7 +44,7 @@
       </div>
       <div class="col-md-5 centered"></div>
     </div>
-    {% endunless %}
+    {% endif %}
     <div class="pad-bottom"></div>
   </div>
 </div>
@@ -66,7 +66,7 @@
 </div>
 {% endif %}
 
-{% unless settings.show_accepted_talks %}
+{% if settings.show_cfp %}
 <div class="reddish-orange-stripe">
   <div class="container centered">
       <div class="hand-drawn"><div></div></div>
@@ -82,7 +82,7 @@
     <div class="pad-bottom"></div>
   </div>
 </div>
-{% endunless %}
+{% endif %}
 
 <div class="purple-stripe" style="min-height: 80px;">
     <div class="pad-bottom"></div>
@@ -211,9 +211,9 @@
       </colgroup>
       <tr>
         <th class="tg-031e"></th>
-        <th class="tg-031e">Auditorium (Vertex)</th>
-        <th class="tg-031e">Sala d'Actes (Vertex)</th>
-        <th class="tg-031e">Sala d'Actes (Informatics)</th>
+        <th class="tg-031e">Track 1</th>
+        <th class="tg-031e">Track 2</th>
+        <th class="tg-031e">Track 3</th>
       </tr>
       <!-- SESSIONS -->
       {% for session in day.sessions %}

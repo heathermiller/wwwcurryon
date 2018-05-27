@@ -1,12 +1,16 @@
+{% assign settings = site.data["2018"] %}
+{% assign talk1 = settings.talks | where:"title", include.session.room-1.talk | first %}
+{% assign talk2 = settings.talks | where:"title", include.session.room-2.talk | first %}
+{% assign talk3 = settings.talks | where:"title", include.session.room-3.talk | first %}
 <tr class="tr-bottom">
   <td class="time">{{ include.session.time }}</td>
-  <td class="pad right {% if include.session.room-1.chess %}orange-bg{% endif %}">
-    {% include 2018-program-session.html session=include.session.room-1 %}
+  <td class="pad right" valign="top">
+    {% include 2018-program-session.html talk=talk1 %}
   </td>
-  <td class="pad {% if include.session.room-2.chess %}orange-bg{% endif %}">
-    {% include 2018-program-session.html session=include.session.room-2 %}
+  <td class="pad" valign="top">
+    {% include 2018-program-session.html talk=talk2 %}
   </td>
-  <td class="pad {% if include.session.room-3.chess %}orange-bg{% endif %}">
-    {% include 2018-program-session.html session=include.session.room-3 %}
+  <td class="pad" valign="top">
+    {% include 2018-program-session.html talk=talk3 %}
   </td>
 </tr>
