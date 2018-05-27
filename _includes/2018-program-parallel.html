@@ -2,12 +2,12 @@
 {% assign talk1 = settings.talks | where:"title", include.session.room-1.talk | first %}
 {% assign talk2 = settings.talks | where:"title", include.session.room-2.talk | first %}
 {% assign talk3 = settings.talks | where:"title", include.session.room-3.talk | first %}
-<tr class="tr-bottom">
+<tr class="tr-bottom" valign="top">
   <td class="time">{{ include.session.time }}</td>
   <td class="pad right" valign="top">
     {% include 2018-program-session.html talk=talk1 %}
   </td>
-  <td class="pad" valign="top">
+  <td class="pad right" valign="top">
     {% include 2018-program-session.html talk=talk2 %}
   </td>
   <td class="pad" valign="top">

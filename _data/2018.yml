@@ -12,6 +12,7 @@ previous_editions:
 
 show_cfp: false
 show_program: true
+show_accepted_talks_people: true
 show_accepted_talks: false
 sold_out: false
 
