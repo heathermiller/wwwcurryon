@@ -78,7 +78,7 @@ input <- args[1]
 data <- yaml.load_file(input)
 talks <- data$talks
 
-talks <- Filter(function(x) x$type %in% c("invited", "keynote", "regular"), talks)
+talks <- Filter(function(x) x$type %in% c("invited", "keynote", "talk", "chesstalk"), talks)
 converted <- lapply(talks, convert_one)
 
 cat(jsonlite::toJSON(converted, pretty=TRUE, auto_unbox=TRUE))
