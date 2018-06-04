@@ -1,12 +1,11 @@
 ---
 layout: 2018-abstract
 title: "Serverless Computing with Functions"
-by: Rodric Rabbah
-affiliation: CASM
-profpic-class: rodric_rabbah
+by: Nick Mitchell
+affiliation: IBM Research
+profpic-class: nick_mitchell
 ---
 
-[@rabbah](https://twitter.com/rabbah)
 <br/>
 
 ### Abstract
@@ -15,5 +14,5 @@ Apache OpenWhisk is an open-source, state-of-the-art, serverless computing platf
 
 ### Bio
 
-Rodric Rabbah was a principal researcher and the technical lead for serverless computing at IBM Research. He created and implemented the core architecture and remains the leading technical contributor to Apache OpenWhisk. His interests span the software stack and aimed at fostering a unified programming model and experience for the serverless cloud with enterprise applications in mind.
+Nick Mitchell is leading the effort on tooling and developer experience for serverless computing at IBM Research. He has made seminal contributions to the study of bloat in large systems. Of late, he has focused on adapting the programming experience to the functions-as-a-service paradigm. His interests span the stack, from infrastructure to graphical design, with an aim at revolutionizing the consumption of distributed services. You may find him heading up the nearest mountain.
 
