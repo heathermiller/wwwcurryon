@@ -401,10 +401,10 @@ talks:
     title: "Serverless Computing with Functions"
     url: "sessions/serverless-computing-with-functions.html"
     speaker:
-      id: "rodric_rabbah"
-      name: "Rodric Rabbah"
-      affiliation: "CASM"
-      url: "http://rabbahs.com/"
+      id: "nick_mitchell"
+      name: "Nick Mitchell"
+      affiliation: "IBM Research"
+      url: "https://researcher.watson.ibm.com/researcher/view.php?person=us-nickm"
       known-for: ""
 
   - type: "chesstalk"
@@ -426,19 +426,6 @@ talks:
       affiliation: "Nokia"
       url: ""
       known-for: ""
-
-  - type: misc
-    title: Curry On opening remarks
-    speaker:
-      name: Jan Vitek and Heather Miller
-
-  - type: misc
-    title: "Coffee break"
-    subtitle: served outside of lecture hall
-
-  - type: misc
-    title: Lunch
-
 
 program:
   - day: Monday, July 16<sup>th</sup>

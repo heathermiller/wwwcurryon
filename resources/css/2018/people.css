@@ -416,13 +416,13 @@
   }
 }
 
-.circular.rodric_rabbah {
-  background-image: url('/resources/img/2018/people/rodric_rabbah.png');
+.circular.nick_mitchell {
+  background-image: url('/resources/img/2018/people/nick_mitchell.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.rodric_rabbah {
-    background-image: url('/resources/img/2018/people/rodric_rabbah@2x.png');
+  .circular.nick_mitchell {
+    background-image: url('/resources/img/2018/people/nick_mitchell@2x.png');
     background-size: 125px 125px;
   }
 }
