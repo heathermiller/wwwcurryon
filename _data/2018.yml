@@ -18,6 +18,16 @@ sold_out: false
 
 talks:
   - type: "keynote"
+    title: "How does code sound?"
+    url: "sessions/how-does-code-sound.html"
+    speaker:
+      id: "felienne_hermans"
+      name: "Felienne Hermans"
+      affiliation: "TU Delft"
+      url: "http://www.felienne.com"
+      known-for: "Code Phonology"
+
+  - type: "keynote"
     title: "Linear Haskell: practical linearity in a higher-order polymorphic language"
     url: "sessions/linear-haskell-practical-linearity-in-a-higher-order-polymorphic-language.html"
     speaker:
@@ -36,16 +46,6 @@ talks:
       affiliation: "Google &amp; Dfinity Foundation"
       url: "https://github.com/thomaswu &amp; https://github.com/rossberg"
       known-for: "WebAssembly"
-
-  - type: "keynote"
-    title: "Way, Way Back To The Future"
-    url: "sessions/way-way-back-to-the-future.html"
-    speaker:
-      id: "alan_kay"
-      name: "Alan Kay"
-      affiliation: "Viewpoints Research Institute"
-      url: ""
-      known-for: "Object-Oriented Programming"
 
   - type: "keynote"
     title: "Go: building on the shoulders of giants and stepping on a few toes"
@@ -205,16 +205,6 @@ talks:
       name: "Tamás Szabó &amp; Sebastian Erdweg"
       affiliation: "itemis &amp; TU Delft"
       url: "https://szabta89.github.io &amp; http://erdweg.org/"
-      known-for: ""
-
-  - type: "talk"
-    title: "How does code sound?"
-    url: "sessions/how-does-code-sound.html"
-    speaker:
-      id: "felienne_hermans"
-      name: "Felienne Hermans"
-      affiliation: "Delft"
-      url: "http://www.felienne.com"
       known-for: ""
 
   - type: "talk"
@@ -459,7 +449,7 @@ program:
         room-2:
           talk: "Constant-time crypto programming with FaCT"
         room-3:
-          talk: "Taming the C monster: Haskell FFI techniques"
+          talk: "Atom Heart Monad: FRP in C++"
 
       - time: 12:30-13:50
         type: single
@@ -472,7 +462,7 @@ program:
         room-2:
           talk: "A CRDT Primer: Defanging Order Theory"
         room-3:
-          talk: "Atom Heart Monad: FRP in C++"
+          talk: "Taming the C monster: Haskell FFI techniques"
 
       - time: 14:40-15:20
         type: parallel

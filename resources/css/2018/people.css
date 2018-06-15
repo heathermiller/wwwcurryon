@@ -1,3 +1,14 @@
+.circular.felienne_hermans {
+  background-image: url('/resources/img/2018/people/felienne_hermans.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.felienne_hermans {
+    background-image: url('/resources/img/2018/people/felienne_hermans@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .circular.simon_peyton_jones {
   background-image: url('/resources/img/2018/people/simon_peyton_jones.png');
 }
@@ -16,17 +27,6 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.ben_titzer_and_andreas_rossberg {
     background-image: url('/resources/img/2018/people/ben_titzer_and_andreas_rossberg@2x.png');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.alan_kay {
-  background-image: url('/resources/img/2018/people/alan_kay.png');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.alan_kay {
-    background-image: url('/resources/img/2018/people/alan_kay@2x.png');
     background-size: 125px 125px;
   }
 }
@@ -203,17 +203,6 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.tamas_szabo_and_sebastian_erdweg {
     background-image: url('/resources/img/2018/people/tamas_szabo_and_sebastian_erdweg@2x.png');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.felienne_hermans {
-  background-image: url('/resources/img/2018/people/felienne_hermans.png');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.felienne_hermans {
-    background-image: url('/resources/img/2018/people/felienne_hermans@2x.png');
     background-size: 125px 125px;
   }
 }
