@@ -449,7 +449,7 @@ program:
         room-2:
           talk: "Constant-time crypto programming with FaCT"
         room-3:
-          talk: "Taming the C monster: Haskell FFI techniques"
+          talk: "Atom Heart Monad: FRP in C++"
 
       - time: 12:30-13:50
         type: single
@@ -462,7 +462,7 @@ program:
         room-2:
           talk: "A CRDT Primer: Defanging Order Theory"
         room-3:
-          talk: "Atom Heart Monad: FRP in C++"
+          talk: "Taming the C monster: Haskell FFI techniques"
 
       - time: 14:40-15:20
         type: parallel
