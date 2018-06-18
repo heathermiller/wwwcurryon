@@ -525,7 +525,7 @@ program:
         room-2:
           talk: "Little Languages"
         room-3:
-          talk: "How does code sound?"
+          talk: "Strategies for Streaming"
 
       - time: 11:50-12:30
         type: parallel
