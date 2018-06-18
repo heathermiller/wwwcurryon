@@ -498,7 +498,7 @@ program:
       - time: 17:40-18:30
         type: keynote
         talk: "Linear Haskell: practical linearity in a higher-order polymorphic language" 
-        room:
+
 
       # - time: 19:30-22:00
       #   type: single
@@ -512,8 +512,7 @@ program:
 
       - time: 9:30-10:20
         type: keynote
-        talk: "Way, Way Back To The Future" 
-        room: 
+        talk: "How does code sound?"
 
       - time: 10:30-11:00
         type: single
@@ -526,7 +525,7 @@ program:
         room-2:
           talk: "Little Languages"
         room-3:
-          talk: "How does code sound?"
+          talk: "Strategies for Streaming"
 
       - time: 11:50-12:30
         type: parallel
@@ -584,6 +583,6 @@ program:
       - time: 17:40-18:30
         type: keynote
         talk: "Go: building on the shoulders of giants and stepping on a few toes" 
-        room:
+
 
       # - time: 19:30-22:00
