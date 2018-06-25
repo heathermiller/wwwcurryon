@@ -9,9 +9,6 @@
               <li><h5>Conference</h5></li>
               <li><a href="{{ site.baseurl }}/2018/call-for-presentations.html">Call for Presentations</a></li>
               <li><a href="{{ site.baseurl }}/2018/sponsorship.html">Sponsorship</a></li>
-              {% for year in settings.previous_editions %}
-              <li><a href="{{ site.baseurl }}/{{ year }}">Curry On {{ year }}</a></li>
-              {% endfor %}
             </ul>
           </div>
           <div class="col-md-2">
@@ -20,7 +17,14 @@
                 <li><a href="{{ site.baseurl }}/2018/code-of-conduct.html">Code of Conduct</a></li>
                 <li><a href="https://2018.ecoop.org/venue/ecoop-issta-2018-venue">Venue</a></li>
             </ul>
-            <div class="col-md-2"></div>
+          </div>
+          <div class="col-md-2">
+            <ul>
+              <li><h5>Past Editions</h5></li>
+              {% for year in settings.previous_editions %}
+              <li><a href="{{ site.baseurl }}/{{ year }}">Curry On {{ year }}</a></li>
+              {% endfor %}
+            </ul>
           </div>
         </div>
       </div>

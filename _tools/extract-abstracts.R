@@ -209,10 +209,10 @@ for (item in data_list) {
 update_talks <- function(talks) {
     data_yml <- readLines(data_yml_file)
 
-    start <- which(!is.na(str_match(data_yml, "^talks:")))
+    start <- which(!is.na(str_match(data_yml, "# BEGIN_TALKS")))
     stopifnot(start > 1)
 
-    end <- which(!is.na(str_match(data_yml, "^program:")))
+    end <- which(!is.na(str_match(data_yml, "# END_TALKS")))
     stopifnot(end > 1)
 
     new_data_yml <- c(

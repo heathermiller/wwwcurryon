@@ -17,6 +17,7 @@ show_accepted_talks: false
 sold_out: false
 
 talks:
+  # BEGIN_TALKS
   - type: "keynote"
     title: "How does code sound?"
     url: "sessions/how-does-code-sound.html"
@@ -417,12 +418,25 @@ talks:
       url: ""
       known-for: ""
 
+  # END_TALKS
+
+  - type: misc
+    title: "Curry On opening remarks"
+    speaker:
+      name: Jan Vitek and Heather Miller
+
+  - type: misc
+    title: "Coffee break"
+    
+  - type: misc
+    title: "Lunch"
+
 program:
   - day: Monday, July 16<sup>th</sup>
     sessions:
       - time: 9:15-9:30
         type: single
-        talk: Curry On opening remarks
+        talk: "Curry On opening remarks"
 
       - time: 9:30-10:20
         type: keynote
