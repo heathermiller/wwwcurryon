@@ -1,11 +1,6 @@
 {% assign settings = site.data["2018"] %}
 <div class="splash">
   <div class="container">
-    <div class="looking-for">Looking for
-      {% for year in settings.previous_editions %}
-      <a href="{{ site.baseurl }}/{{ year }}">Curry On {{ year }}</a>
-      {% if forloop.last == false %} or {% endif %}
-      {% endfor %}
     <div class="curry-on-logo"></div>
     <div class="curry-on-wrap">
       <span class="curry-on">Curry On</span><br/>
