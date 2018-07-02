@@ -487,11 +487,11 @@ program:
         room-3:
           talk: "Akka.JS and why the actor model matters even in JS's world."
 
-      - time: 15:30-16:00
+      - time: 15:30-15:55
         type: single
         talk: "Coffee break"
 
-      - time: 16:00-16:40
+      - time: 15:55-16:35
         type: parallel
         room-1:
           talk: "Spoofax: Live Programming Language Design"
@@ -500,7 +500,7 @@ program:
         room-3:
           talk: "Papers we love - Elixir edition"
 
-      - time: 16:50-17:30
+      - time: 16:45-17:25
         type: parallel
         room-1:
           talk: "Transducing for fun and profit"
@@ -509,7 +509,7 @@ program:
         room-3:
           talk: "Hackett: a metaprogrammable Haskell"
 
-      - time: 17:40-18:30
+      - time: 17:50-18:40
         type: keynote
         talk: "Linear Haskell: practical linearity in a higher-order polymorphic language" 
 
@@ -572,11 +572,11 @@ program:
         room-3:
           talk: "Lector in Codigo"
 
-      - time: 15:30-16:00
+      - time: 15:30-15:55
         type: single
         talk: "Coffee break"
 
-      - time: 16:00-16:40
+      - time: 15:55-16:35
         type: parallel
         room-1:
           talk: "Do-It-Yourself Functional Reactive Programming"
@@ -585,7 +585,7 @@ program:
         room-3:
           talk: "Isolation Without Containers"
 
-      - time: 16:50-17:30
+      - time: 16:45-17:25
         type: parallel
         room-1:
           talk: "Luna - overview"
@@ -594,7 +594,7 @@ program:
         room-3:
           talk: "Using APIs and micro-services as the glue between observed and derived facts"
 
-      - time: 17:40-18:30
+      - time: 17:50-18:40
         type: keynote
         talk: "Go: building on the shoulders of giants and stepping on a few toes" 
 
