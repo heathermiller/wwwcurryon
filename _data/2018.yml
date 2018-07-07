@@ -172,8 +172,8 @@ talks:
     title: "Constant-time crypto programming with FaCT"
     url: "sessions/constant-time-crypto-programming-with-fact.html"
     speaker:
-      id: "deian_stefan"
-      name: "Deian Stefan"
+      id: "sunjay_cauligi"
+      name: "Sunjay Cauligi"
       affiliation: "UCSD"
       url: "https://cseweb.ucsd.edu/~dstefan/"
       known-for: ""

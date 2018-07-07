@@ -163,13 +163,13 @@
   }
 }
 
-.circular.deian_stefan {
-  background-image: url('/resources/img/2018/people/deian_stefan.png');
+.circular.sunjay_cauligi {
+  background-image: url('/resources/img/2018/people/sunjay_cauligi.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.deian_stefan {
-    background-image: url('/resources/img/2018/people/deian_stefan@2x.png');
+  .circular.sunjay_cauligi {
+    background-image: url('/resources/img/2018/people/sunjay_cauligi@2x.png');
     background-size: 125px 125px;
   }
 }
