@@ -1,12 +1,11 @@
 ---
 layout: 2018-abstract
 title: "Constant-time crypto programming with FaCT"
-by: Deian Stefan
+by: Sunjay Cauligi
 affiliation: UCSD
-profpic-class: deian_stefan
+profpic-class: sunjay_cauligi
 ---
 
-[@deiandelmars](https://twitter.com/deiandelmars)
 <br/>
 
 ### Abstract
@@ -15,5 +14,10 @@ Implementing cryptographic algorithms that do not inadvertently leak secret info
 
 ### Bio
 
-Deian is an Assistant Professor in the UCSD CSE Department. He is also the Chief Scientist at Intrinsic, a web security start-up he co-founded. Deian's research interests span security, programming languages, and systems. He is particularly interested in building secure systems, such as browsers and language runtime systems, by applying programming language techniques and analysis.  Deian is also a member of the W3C WebAppSec and the Node.js Security working groups.  He completed his Ph.D. in Computer Science at Stanford under David Mazières, John C. Mitchell, and Alejandro Russo. Prior to Stanford, he obtained a B.E. and M.E. in Electrical Engineering at the Cooper Union. At Cooper, he worked on GPU and FPGA crypto implementations.
+Sunjay is a Ph.D. student in Computer Science and Engineering at UC
+San Diego.  His research interests lie at the intersection of security
+and programming languages. In particular, he is interested in applying
+type theory and language design creating more secure systems. Prior to
+UCSD, Sunjay worked on security and privacy at the University of
+Washington.
 
