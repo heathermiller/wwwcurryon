@@ -358,14 +358,14 @@ talks:
       url: ""
       known-for: ""
 
-  - type: "chesstalk"
-    title: "Live, On Ice!"
-    url: "sessions/live-on-ice.html"
+  - type: "talk"
+    title: "Streaming analytics: How to Get Fast Predictions From Real-Time Data with Flink, Kafka, and Cassandra"
+    url: "sessions/streaming-analytics-how-to-get-fast-predictions-from-real-time-data-with-flink-kafka-and-cassandra.html"
     speaker:
-      id: "sztefan_edwards"
-      name: "Sztefan Edwards"
-      affiliation: "nVisium LLC"
-      url: "http://lojikil.com"
+      id: "bas_geerdink"
+      name: "Bas Geerdink"
+      affiliation: "ING"
+      url: "http://gdink.com/"
       known-for: ""
 
   - type: "chesstalk"
@@ -450,7 +450,7 @@ program:
       - time: 11:00-11:40
         type: parallel
         room-1:
-          talk: "Live, On Ice!" 
+          talk: "Streaming analytics: How to Get Fast Predictions From Real-Time Data with Flink, Kafka, and Cassandra"
         room-2:
           talk: "Your inner compiler engineer wants out!"
         room-3:
