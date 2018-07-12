@@ -159,6 +159,16 @@ talks:
       known-for: "Security"
 
   - type: "talk"
+    title: "Streaming analytics: How to Get Fast Predictions From Real-Time Data with Flink, Kafka, and Cassandra"
+    url: "sessions/streaming-analytics-how-to-get-fast-predictions-from-real-time-data-with-flink-kafka-and-cassandra.html"
+    speaker:
+      id: "bas_geerdink"
+      name: "Bas Geerdink"
+      affiliation: "ING"
+      url: "http://gdink.com/"
+      known-for: ""
+
+  - type: "talk"
     title: "Luna - overview"
     url: "sessions/luna-overview.html"
     speaker:
@@ -359,13 +369,13 @@ talks:
       known-for: ""
 
   - type: "talk"
-    title: "Streaming analytics: How to Get Fast Predictions From Real-Time Data with Flink, Kafka, and Cassandra"
-    url: "sessions/streaming-analytics-how-to-get-fast-predictions-from-real-time-data-with-flink-kafka-and-cassandra.html"
+    title: "Distributed Systems Protocols and their Vulnerabilities"
+    url: "sessions/distributed-systems-protocols-and-their-vulnerabilities.html"
     speaker:
-      id: "bas_geerdink"
-      name: "Bas Geerdink"
-      affiliation: "ING"
-      url: "http://gdink.com/"
+      id: "yifan_xing"
+      name: "Yifan Xing"
+      affiliation: "Northwestern University"
+      url: "https://xingyif.github.io/yifan"
       known-for: ""
 
   - type: "chesstalk"
@@ -548,7 +558,7 @@ program:
         room-2:
           talk: "Why VM Benchmarking is Probably Misleading you"
         room-3:
-          talk: "Linguistic Abstraction in Streaming Analytics"
+          talk: "Distributed Systems Protocols and their Vulnerabilities"
 
       - time: 12:30-13:50
         type: single
