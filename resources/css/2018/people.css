@@ -152,6 +152,17 @@
   }
 }
 
+.circular.bas_geerdink {
+  background-image: url('/resources/img/2018/people/bas_geerdink.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.bas_geerdink {
+    background-image: url('/resources/img/2018/people/bas_geerdink@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
 .circular.sylwia_brodacka {
   background-image: url('/resources/img/2018/people/sylwia_brodacka.png');
 }
@@ -372,13 +383,13 @@
   }
 }
 
-.circular.bas_geerdink {
-  background-image: url('/resources/img/2018/people/bas_geerdink.png');
+.circular.yifan_xing {
+  background-image: url('/resources/img/2018/people/yifan_xing.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.bas_geerdink {
-    background-image: url('/resources/img/2018/people/bas_geerdink@2x.png');
+  .circular.yifan_xing {
+    background-image: url('/resources/img/2018/people/yifan_xing@2x.png');
     background-size: 125px 125px;
   }
 }

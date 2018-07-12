@@ -159,6 +159,16 @@ talks:
       known-for: "Security"
 
   - type: "talk"
+    title: "Streaming analytics: How to Get Fast Predictions From Real-Time Data with Flink, Kafka, and Cassandra"
+    url: "sessions/streaming-analytics-how-to-get-fast-predictions-from-real-time-data-with-flink-kafka-and-cassandra.html"
+    speaker:
+      id: "bas_geerdink"
+      name: "Bas Geerdink"
+      affiliation: "ING"
+      url: "http://gdink.com/"
+      known-for: ""
+
+  - type: "talk"
     title: "Luna - overview"
     url: "sessions/luna-overview.html"
     speaker:
@@ -359,13 +369,13 @@ talks:
       known-for: ""
 
   - type: "talk"
-    title: "Streaming analytics: How to Get Fast Predictions From Real-Time Data with Flink, Kafka, and Cassandra"
-    url: "sessions/streaming-analytics-how-to-get-fast-predictions-from-real-time-data-with-flink-kafka-and-cassandra.html"
+    title: "Distributed Systems Protocols and their Vulnerabilities"
+    url: "sessions/distributed-systems-protocols-and-their-vulnerabilities.html"
     speaker:
-      id: "bas_geerdink"
-      name: "Bas Geerdink"
-      affiliation: "ING"
-      url: "http://gdink.com/"
+      id: "yifan_xing"
+      name: "Yifan Xing"
+      affiliation: "Northwestern University"
+      url: "https://xingyif.github.io/yifan"
       known-for: ""
 
   - type: "chesstalk"
@@ -452,9 +462,9 @@ program:
         room-1:
           talk: "Streaming analytics: How to Get Fast Predictions From Real-Time Data with Flink, Kafka, and Cassandra"
         room-2:
-          talk: "Your inner compiler engineer wants out!"
-        room-3:
           talk: "Adding kind-polymorphism to the Scala programming language"
+        room-3:
+          talk: "Your inner compiler engineer wants out!"
 
       - time: 11:50-12:30
         type: parallel
@@ -546,9 +556,9 @@ program:
         room-1:
           talk: "Challenges in Large-Scale Mobile App Performance"
         room-2:
-          talk: "Linguistic Abstraction in Streaming Analytics"
-        room-3:
           talk: "Why VM Benchmarking is Probably Misleading you"
+        room-3:
+          talk: "Distributed Systems Protocols and their Vulnerabilities"
 
       - time: 12:30-13:50
         type: single
@@ -557,9 +567,9 @@ program:
       - time: 13:50-14:30
         type: parallel
         room-1:
-          talk: "Simplicity - The Road Not Taken?"
-        room-2:
           talk: "Rethinking Modern Web Browsers"
+        room-2:
+          talk: "Simplicity - The Road Not Taken?"
         room-3:
           talk: "SuperRecord: Practical Anonymous Records for Haskell"
 
@@ -581,18 +591,18 @@ program:
         room-1:
           talk: "Do-It-Yourself Functional Reactive Programming"
         room-2:
-          talk: "Type-Safe GraphQL Servers with GADTs"
-        room-3:
           talk: "Isolation Without Containers"
+        room-3:
+          talk: "Type-Safe GraphQL Servers with GADTs"
 
       - time: 16:45-17:25
         type: parallel
         room-1:
-          talk: "Luna - overview"
-        room-2:
           talk: "DB ⋈ FP = Datafun: a new functional query language" 
-        room-3:
+        room-2:
           talk: "Using APIs and micro-services as the glue between observed and derived facts"
+        room-3:
+          talk: "Luna - overview"
 
       - time: 17:50-18:40
         type: keynote
