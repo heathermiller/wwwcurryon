@@ -441,6 +441,9 @@ talks:
   - type: misc
     title: "Lunch"
 
+  - type: misc
+    title: "Curry On Party at the <a href='https://goo.gl/maps/s5ddJMMzp8u'><u>Tobacco Theater</u></a>"
+
 program:
   - day: Monday, July 16<sup>th</sup>
     sessions:
@@ -525,15 +528,7 @@ program:
 
       - time: 19:30-22:00
         type: single
-        talk:
-          title: "Curry On Party at the Tobacco Theater"
-          url: "https://goo.gl/maps/s5ddJMMzp8u"
-
-        # talk: "Curry On Party at the <a href='https://goo.gl/maps/s5ddJMMzp8u'>Tobacco Theater</a>"
-
-        # - time: 19:30-22:00
-        #   type: single
-        #   talk: Curry On Party
+        talk: "Curry On Party at the <a href='https://goo.gl/maps/s5ddJMMzp8u'><u>Tobacco Theater</u></a>"
 
   - day: Tuesday, July 17<sup>th</sup>
     sessions:
