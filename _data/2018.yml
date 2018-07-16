@@ -437,7 +437,7 @@ talks:
 
   - type: misc
     title: "Coffee break"
-    
+
   - type: misc
     title: "Lunch"
 
@@ -451,7 +451,7 @@ program:
       - time: 9:30-10:20
         type: keynote
         talk: "WebAssembly, Past, Present, and Future"
-        room: 
+        room:
 
       - time: 10:30-11:00
         type: single
@@ -515,14 +515,17 @@ program:
         room-1:
           talk: "Transducing for fun and profit"
         room-2:
-          talk: "Language Design in the Open" 
+          talk: "Language Design in the Open"
         room-3:
           talk: "Hackett: a metaprogrammable Haskell"
 
       - time: 17:50-18:40
         type: keynote
-        talk: "Linear Haskell: practical linearity in a higher-order polymorphic language" 
+        talk: "Linear Haskell: practical linearity in a higher-order polymorphic language"
 
+      - type: 19:30-22:00
+        title: Curry On Party at the Tobacco Theater
+        url: "https://goo.gl/maps/s5ddJMMzp8u"
 
       # - time: 19:30-22:00
       #   type: single
@@ -545,7 +548,7 @@ program:
       - time: 11:00-11:40
         type: parallel
         room-1:
-          talk: "Code into Data: Embedding programs into datastores with GraalVM" 
+          talk: "Code into Data: Embedding programs into datastores with GraalVM"
         room-2:
           talk: "Little Languages"
         room-3:
@@ -598,7 +601,7 @@ program:
       - time: 16:45-17:25
         type: parallel
         room-1:
-          talk: "DB ⋈ FP = Datafun: a new functional query language" 
+          talk: "DB ⋈ FP = Datafun: a new functional query language"
         room-2:
           talk: "Using APIs and micro-services as the glue between observed and derived facts"
         room-3:
@@ -606,7 +609,7 @@ program:
 
       - time: 17:50-18:40
         type: keynote
-        talk: "Go: building on the shoulders of giants and stepping on a few toes" 
+        talk: "Go: building on the shoulders of giants and stepping on a few toes"
 
 
       # - time: 19:30-22:00
