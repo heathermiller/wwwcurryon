@@ -523,13 +523,17 @@ program:
         type: keynote
         talk: "Linear Haskell: practical linearity in a higher-order polymorphic language"
 
-      - type: 19:30-22:00
-        title: Curry On Party at the Tobacco Theater
-        url: "https://goo.gl/maps/s5ddJMMzp8u"
+      - time: 19:30-22:00
+        type: single
+        talk:
+          title: "Curry On Party at the Tobacco Theater"
+          url: "https://goo.gl/maps/s5ddJMMzp8u"
 
-      # - time: 19:30-22:00
-      #   type: single
-      #   talk: Curry On Party
+        # talk: "Curry On Party at the <a href='https://goo.gl/maps/s5ddJMMzp8u'>Tobacco Theater</a>"
+
+        # - time: 19:30-22:00
+        #   type: single
+        #   talk: Curry On Party
 
   - day: Tuesday, July 17<sup>th</sup>
     sessions:
