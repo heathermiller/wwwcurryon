@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Linguistic Abstraction in Streaming Analytics"
 by: Adil Akhter
 affiliation: ING
+video: 
 profpic-class: adil_akhter
 ---
 

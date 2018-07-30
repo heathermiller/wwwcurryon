@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "WebAssembly, Past, Present, and Future"
 by: Ben Titzer &amp; Andreas Rossberg
 affiliation: Google &amp; Dfinity Foundation
+video: https://www.youtube.com/watch?v=WTxPqDBo8CI
 profpic-class: ben_titzer_and_andreas_rossberg
 ---
 

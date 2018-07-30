@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Adding kind-polymorphism to the Scala programming language"
 by: Miles Sabin
 affiliation: Underscore Consulting
+video: https://www.youtube.com/watch?v=WtPFvLfHYtM
 profpic-class: miles_sabin
 ---
 

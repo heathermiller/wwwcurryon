@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Hackett: a metaprogrammable Haskell"
 by: Alexis King
 affiliation: Northwestern University
+video: https://www.youtube.com/watch?v=g6UCeHiKodo
 profpic-class: alexis_king
 ---
 

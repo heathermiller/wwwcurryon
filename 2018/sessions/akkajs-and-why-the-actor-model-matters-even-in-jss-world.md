@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Akka.JS and why the actor model matters even in JS's world."
 by: Andrea Peruffo
 affiliation: Nokia
+video: https://www.youtube.com/watch?v=_Py5LCO3mIw
 profpic-class: andrea_peruffo
 ---
 

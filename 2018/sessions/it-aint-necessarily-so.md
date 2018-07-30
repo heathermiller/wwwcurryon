@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "It Ain't Necessarily So"
 by: Chris Ford
 affiliation: ThoughtWorks
+video: https://www.youtube.com/watch?v=Lxmekot9WfA
 profpic-class: chris_ford
 ---
 

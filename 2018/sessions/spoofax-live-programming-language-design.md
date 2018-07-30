@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Spoofax: Live Programming Language Design"
 by: Eelco Visser
 affiliation: Delft
+video: https://www.youtube.com/watch?v=XAkBlrB9l9o
 profpic-class: eelco_visser
 ---
 

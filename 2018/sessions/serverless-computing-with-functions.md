@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Serverless Computing with Functions"
 by: Nick Mitchell
 affiliation: IBM Research
+video: https://www.youtube.com/watch?v=thGFG92hUmw
 profpic-class: nick_mitchell
 ---
 

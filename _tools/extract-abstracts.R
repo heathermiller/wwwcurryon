@@ -32,6 +32,7 @@ template_talk_yml <-
 '  - type: "{{type}}"
     title: "{{title}}"
     url: "sessions/{{session_id}}.html"
+    video: "{{video_url}}"
     speaker:
       id: "{{id}}"
       name: "{{name}}"
@@ -46,6 +47,7 @@ layout: 2018-abstract
 title: "{{title}}"
 by: {{name}}
 affiliation: {{affiliation}}
+video: {{video_url}}
 profpic-class: {{id}}
 ---
 
@@ -185,6 +187,7 @@ data_all <-
         twitter=ifelse(is.na(twitter), "", twitter),
         has_twitter=nchar(twitter) > 0,
         website=ifelse(is.na(website), "", website),
+        video_url=ifelse(is.na(video_url), "", video_url),
         known_for=ifelse(is.na(known_for), "", known_for),
         small_photo=str_c(id, ".png"),
         big_photo=str_c(id, "@2x.png")

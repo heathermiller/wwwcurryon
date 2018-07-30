@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Streaming analytics: How to Get Fast Predictions From Real-Time Data with Flink, Kafka, and Cassandra"
 by: Bas Geerdink
 affiliation: ING
+video: https://www.youtube.com/watch?v=A2nQzSfZ3fE
 profpic-class: bas_geerdink
 ---
 

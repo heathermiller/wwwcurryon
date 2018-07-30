@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Transducing for fun and profit"
 by: Simon Belak
 affiliation: Metabase
+video: https://www.youtube.com/watch?v=NXmmLpWC5MQ
 profpic-class: simon_belak
 ---
 

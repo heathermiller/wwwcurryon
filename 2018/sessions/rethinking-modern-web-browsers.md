@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Rethinking Modern Web Browsers"
 by: Ben Livshits
 affiliation: Brave
+video: 
 profpic-class: ben_livshits
 ---
 

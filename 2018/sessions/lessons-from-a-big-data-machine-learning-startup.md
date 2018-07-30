@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Lessons from a Big Data Machine Learning Startup"
 by: Cliff Click
 affiliation: Stealth
+video: https://www.youtube.com/watch?v=OYDrJAd-iuw
 profpic-class: cliff_click
 ---
 

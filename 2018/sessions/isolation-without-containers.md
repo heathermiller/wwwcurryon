@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Isolation Without Containers"
 by: Tyler McMullen
 affiliation: Fastly
+video: https://www.youtube.com/watch?v=4mKTESPTJXU
 profpic-class: tyler_mcmullen
 ---
 
