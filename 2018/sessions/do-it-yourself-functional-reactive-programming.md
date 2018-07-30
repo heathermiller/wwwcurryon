@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Do-It-Yourself Functional Reactive Programming"
 by: Manuel Chakravarty
 affiliation: Applicative &amp; Tweag I/O
+video: https://www.youtube.com/watch?v=Rm7rwWL6lIY
 profpic-class: manuel_chakravarty
 ---
 

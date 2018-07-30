@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Why VM Benchmarking is Probably Misleading you"
 by: Edd Barrett
 affiliation: King's College London
+video: https://www.youtube.com/watch?v=hj4VmvyqbKY
 profpic-class: edd_barrett
 ---
 

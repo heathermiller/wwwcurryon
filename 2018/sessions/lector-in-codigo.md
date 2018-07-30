@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Lector in Codigo"
 by: Alvaro Videla
 affiliation: FaunaDB
+video: https://www.youtube.com/watch?v=XUdV4emuxxQ
 profpic-class: alvaro_videla
 ---
 

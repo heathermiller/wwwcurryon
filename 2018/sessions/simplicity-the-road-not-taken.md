@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Simplicity - The Road Not Taken?"
 by: Dave Thomas
 affiliation: Kx Systems
+video: 
 profpic-class: dave_thomas
 ---
 

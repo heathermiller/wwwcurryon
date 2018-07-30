@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Papers we love - Elixir edition"
 by: Andrea Leopardi
 affiliation: Weedmaps
+video: https://www.youtube.com/watch?v=DuMp3362MsA
 profpic-class: andrea_leopardi
 ---
 

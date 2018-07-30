@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "A CRDT Primer: Defanging Order Theory"
 by: John Mumm
 affiliation: Vectrology Solutions
+video: https://www.youtube.com/watch?v=OOlnp2bZVRs
 profpic-class: john_mumm
 ---
 

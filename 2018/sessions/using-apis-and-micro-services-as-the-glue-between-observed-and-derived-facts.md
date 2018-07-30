@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Using APIs and micro-services as the glue between observed and derived facts"
 by: Faraz Babar
 affiliation: American Express
+video: https://www.youtube.com/watch?v=704_BNpS9pc
 profpic-class: faraz_babar
 ---
 

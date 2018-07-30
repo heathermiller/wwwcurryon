@@ -28,6 +28,13 @@ layout: default
         <div class="abstract-page-title">{{ page.title }}</div>
         <div class="abstract-page-by">{{ page.by }}</div>
         {% if page.affiliation != "" %}<div class="abstract-page-affiliation">{{ page.affiliation }}</div>{% endif %}
+        {% if page.video %}
+        <div class="td-video-link">
+            <a href="{{ page.video }}">
+                <span class="fa fa-youtube-play" style="font-size: 18px;" aria-hidden="true"></span>&nbsp;watch
+            </a>
+        </div>
+        {% endif %}
         {{ content }}
       </div>
       <div class="col-md-2"></div>

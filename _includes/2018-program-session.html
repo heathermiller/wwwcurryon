@@ -18,7 +18,7 @@
   <a href="https://twitter.com/{{ talk.speaker.twitter }}">@{{ talk.speaker.twitter }}</a>
 </div>
 {% endif %}
-{% if talk.video %}
+{% if talk.video != ''  %}
 <div class="td-video-link">
   <a href="{{ talk.video }}">
     <span class="fa fa-youtube-play" style="font-size: 18px;"></span>&nbsp;watch

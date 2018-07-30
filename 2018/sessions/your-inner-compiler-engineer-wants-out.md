@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Your inner compiler engineer wants out!"
 by: Jesse Alama
 affiliation: Vicampo
+video: https://www.youtube.com/watch?v=APrzlkY8QXI
 profpic-class: jesse_alama
 ---
 

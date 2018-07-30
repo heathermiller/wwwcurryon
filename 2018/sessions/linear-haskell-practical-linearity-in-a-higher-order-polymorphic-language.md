@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Linear Haskell: practical linearity in a higher-order polymorphic language"
 by: Simon Peyton Jones
 affiliation: Microsoft Research
+video: https://www.youtube.com/watch?v=t0mhvd3-60Y
 profpic-class: simon_peyton_jones
 ---
 

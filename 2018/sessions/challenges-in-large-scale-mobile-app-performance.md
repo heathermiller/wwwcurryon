@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Challenges in Large-Scale Mobile App Performance"
 by: Manu Sridharan
 affiliation: Uber
+video: https://www.youtube.com/watch?v=i-Xnubz-nzU
 profpic-class: manu_sridharan
 ---
 

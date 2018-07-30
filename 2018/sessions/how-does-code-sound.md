@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "How does code sound?"
 by: Felienne Hermans
 affiliation: TU Delft
+video: https://www.youtube.com/watch?v=--R-DVJrA6A
 profpic-class: felienne_hermans
 ---
 
