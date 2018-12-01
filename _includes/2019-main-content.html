@@ -1,0 +1,340 @@
+{% assign settings = site.data["2019"] %}
+
+<div class="purple-stripe-splash">
+  <div class="container">
+  </div>
+</div>
+
+<div class="purple-stripe">
+  <div class="container">
+    <!-- <div class="title centered">Keynotes</div> -->
+    <div class="big-white-italic centered">
+      <span class="light-orange">Two</span> days, <span class="light-orange">three</span> tracks
+      <br/><!-- <br/><img src="{{ site.baseurl }}/resources/img/two-tracks.png"/><br/> -->
+      <span style="font-weight: 800; font-size: 44px;">with <span class="light-orange">four</span> exciting keynotes</span>
+      <br/>
+      <span style="font-weight: 700; font-size: 44px;"><span class="light-orange">and</span> invited talks</span>
+    </div>
+  </div>
+</div>
+
+
+{% if settings.show_ticket_sale %}
+<div class="reddish-orange-stripe">
+  <div class="container centered">
+    <div class="pad-top">&nbsp;</div>
+    {% if settings.sold_out %}
+    <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div>
+    {% else if settings.register_url %}
+    <div class="call-ends">Early bird tickets coming in April!</div>
+    <a href="https://regmaster4.com/2019conf/CURRYON17/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    {% else %} 
+    <div class="call-ends">Tickets on Sale!</span>!</div>
+    <a href="https://regmaster4.com/2019conf/CURRYON18/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    {% endif %}
+
+    <!-- <tito-widget event="curry-on/2019-amsterdam"></tito-widget> -->
+    <!-- <div class="subtagline" style="margin-bottom: 20px; color: #ffffff;">
+      <b>Want us to email you when tickets are available?</b>
+      <br/><a style="color: #fdab40;" href="https://ti.to/curry-on/2019-amsterdam">Leave your name and email</a>, and we'll let you know when the next batch goes on sale!
+    </div> -->
+    <!-- <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a> -->
+    <!--<a href="{{ site.baseurl }}/{{ settings.year }}#accepted-talks" class="btn btn-outline-inverse btn-lg">Accepted Talks</a>-->
+    {% if settings.show_program %}
+    <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a>
+    {% endif %}
+    <!-- <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div> -->
+    <!--<br>
+    <div class="early-registration">Early Registration Deadline: {{ settings.early_registration_deadline }}</div>
+    <iframe src="{{ settings.registration_countdown_url }}" allowTransparency="true" frameborder="0" width="120" height="31"></iframe>
+    <div class="early-registration-prices">Early bird: €500, Late bird: €550</div>-->
+  </div>
+  <div class="pad-bottom">&nbsp;</div>
+</div>
+{% endif %}
+
+{% if settings.show_accepted_talks %}
+<div class="purple-stripe">
+    <div class="container">
+
+    <!-- KEYNOTES -->
+    {% assign keynotes = settings.talks | where:'type', 'keynote' %}
+    {% include 2019-talks-listing.html title='Keynotes' talks=keynotes %}
+    <br/>
+    <br/>
+    <!-- INVITED TALKS -->
+    {% assign invited_talks = settings.talks | where:'type', 'invited' %}
+    {% include 2019-talks-listing.html title='Invited Speakers' talks=invited_talks %}
+
+    {% if settings.show_accepted_talks_people %}
+    <br/>
+    <br/>
+    <!-- REGULAR -->
+    {% assign accepted_talks = settings.talks | where_exp:"x", "x.type contains 'talk'" | sort:'title' %}
+    {% include 2019-talks-listing.html title='Accepted Talks' talks=accepted_talks %}
+
+    {% endif %}
+    {% if settings.show_cfp %}
+    <div class="row" style="height: 40px;"></div>
+    <div class="row">
+      <div class="col-md-5 centered"></div>
+      <div class="col-md-2 centered">
+        <div class="circular silhouette"></div>
+        <span class="gray-text centered speaker"><a href="">Your Name Here</a></span><br/>
+        <!-- <span class="keynote-affiliation">INRIA</span><br/> -->
+        <!-- <span class="keynote-known-for">Coccinelle</span> -->
+      </div>
+      <div class="col-md-5 centered"></div>
+    </div>
+    {% endif %}
+    <div class="pad-bottom"></div>
+  </div>
+</div>
+{% endif %}
+
+{% if settings.show_accepted_talks %}
+<div class="reddish-orange-stripe">
+    <div class="container">
+        <div id="accepted-talks" class="big-white-vinyl centered"><span style="font-size: 44px;"><span class="light-orange">All</span> Talks</span></div>
+        <ul class="accepted-talks">
+            {% assign all_talks = settings.talks | sort:'title' %}
+            {% for talk in all_talks %}
+            <li>
+                <span class="talk-title"><a href="{{ talk.url }}">{{ talk.title }}</a></span>
+                <br/><span class="speaker-name">{{ talk.speaker.name }}</span>{% if talk.speaker.affiliation != "" %}, <span class="speaker-affiliation">{{ talk.speaker.affiliation }}</span>{% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+{% endif %}
+
+{% if settings.show_cfp %}
+<div class="reddish-orange-stripe">
+  <div class="container centered">
+      <div class="hand-drawn"><div></div></div>
+    <div class="tagline">
+      Add your voice to the conversation.
+    </div>
+    <div class="subtagline" style="margin-bottom: 20px; color: #ffffff;">
+      Join designers of exciting emerging languages, popular languages,
+      <br/>emerging paradigms and more.
+    </div>
+    <a href="{{ site.baseurl }}/2019/call-for-presentations.html" class="btn btn-outline-inverse btn-lg">Call for Presentations</a>
+    <div class="call-ends">Deadline: April 20<sup>th</sup></div>
+    <div class="pad-bottom"></div>
+  </div>
+</div>
+{% endif %}
+
+{% if settings.show_ticket_sale %}
+<div class="purple-stripe" style="min-height: 80px;">
+    <div class="pad-bottom"></div>
+</div>
+
+<div class="reddish-orange-stripe">
+  <div class="container centered">
+    <div class="pad-top">&nbsp;</div>
+    {% if settings.sold_out %}
+    <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div>
+    {% else if settings.register_url %}
+    <div class="call-ends">Early bird tickets coming in April!</div>
+    <a href="https://regmaster4.com/2019conf/CURRYON17/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    {% else %}
+    <div class="call-ends">Tickets on Sale!</span>!</div>
+    <a href="https://regmaster4.com/2019conf/CURRYON18/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    {% endif %}
+
+    <!-- <tito-widget event="curry-on/2019-amsterdam"></tito-widget> -->
+    <!-- <div class="subtagline" style="margin-bottom: 20px; color: #ffffff;">
+      <b>Want us to email you when tickets are available?</b>
+      <br/><a style="color: #fdab40;" href="https://ti.to/curry-on/2019-amsterdam">Leave your name and email</a>, and we'll let you know when the next batch goes on sale!
+    </div> -->
+    <!-- <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a> -->
+    <!--<a href="{{ site.baseurl }}/{{ settings.year }}#accepted-talks" class="btn btn-outline-inverse btn-lg">Accepted Talks</a>-->
+    {% if settings.show_program %}
+    <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a>
+    {% endif %}
+    <!-- <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div> -->
+    <!--<br>
+    <div class="early-registration">Early Registration Deadline: {{ settings.early_registration_deadline }}</div>
+    <iframe src="{{ settings.registration_countdown_url }}" allowTransparency="true" frameborder="0" width="120" height="31"></iframe>
+    <div class="early-registration-prices">Early bird: €500, Late bird: €550</div>-->
+  </div>
+  <div class="pad-bottom">&nbsp;</div>
+</div>
+{% endif %}
+
+<div class="purple-stripe">
+  <div class="container centered">
+    <div class="tagline">
+      Academia and industry <span class="light-orange">need to have a talk</span>.
+    </div>
+    <div class="subtagline">
+      Or rather, they just need to talk in general.
+    </div>
+    <!-- <div class="pad-bottom"></div> -->
+  </div>
+</div>
+
+<div class="purple-stripe">
+  <div class="container">
+      <!-- <div class="pad-top">&nbsp;</div> -->
+   <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-4 about">
+      Curry On is a conference focused on the <b>intersection of emerging languages and emerging challenges in industry</b> (e.g. big data or security), as well as new ideas and paradigms in software development.
+      <br/><br/>
+      Curry On also seeks to act as a conduit for ferrying understanding and ideas back and forth between industry and academic programming languages, software engineering, and systems research communities (amongst others).
+    </div>
+    <div class="col-md-4 about">
+      Curry On is a rare event where academic minds responsible for concepts and tools now invaluable to everyday software development – like functional programming, or generics in Java – collide with the movers and shakers in industry that are building next-generation systems and developing software engineering practices central to our entire industry.
+      <br/><br/>
+      Curry On will be held in a different European city year-to-year, and it will always be co-located with one of the top academic conferences in programming languages. This year, it's co-located with <a href="http://2019.ecoop.org/">ECOOP</a>.
+    </div>
+    <div class="col-md-2"></div>
+   </div>
+   <div class="row">
+   <div class="col-md-2"></div>
+     <div class="col-md-8 about">
+       <br/>
+       <b>Join us for two days of fruitful and mind-altering ideas and discussions, and maybe a few beers or a sip of coffee.</b>
+     </div>
+     <div class="col-md-2"></div>
+   </div>
+  </div>
+  <div class="pad-bottom">&nbsp;</div>
+</div>
+
+<div class="reddish-orange-stripe">
+  <div class="container centered">
+   <div class="pad-top">&nbsp;</div>
+   <div class="call-ends" style="color: #ffffff;">Atypical conference?</div>
+   <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8 atypical">
+      <div class="our-goal">Our goal:</div>
+      <div class="biggish"><span class="purple biggen">Bring industry and academia together to have a conversation.</span></div>
+      <div class="our-goal">But...</div>
+      <div class="biggish"><span class="purple biggen">One speaker addressing hundreds of people is hardly a conversation.</span></div>
+      <div class="big-white-vinyl centered"><span style="font-size: 44px;">So, let's change that.</span></div>
+      <div class="our-goal">Introducing</div>
+      <div class="call-ends" style="color: #fdaa40;">Chess-Timer talks</div>
+      <div class="chess-timer-text">
+        Chess-timer talks are our unusual solution to making tech conferences a more interactive, more fun, and better place for learning and discussions.
+        <br><br>
+        Speakers who choose to give a chess-timer talk are allowed 20 minutes of solo speaking time, and 20 minutes of discussion time. A Curry On representative operates a chess-timer during the presentation, switching between solo + discussion time budgets. When an audience member interrupts the talk to ask a question, for example, we switch the timer to deduct from discussion time.
+        <br><br>
+        Curry On will feature a limited number of chess-timer sessions, meaning that a majority of talks will still be standard conference talks.
+      </div>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+  <div class="pad-bottom">&nbsp;</div>
+  </div>
+</div>
+
+{% if settings.show_program %}
+<div class="purple-stripe">
+  <div class="container">
+    <div id="program" class="big-white-italic centered" style="font-weight: 700; font-size: 38px;">
+      Program
+    </div>
+    {% for day in settings.program %}
+    <div class="big-white-italic centered" style="font-weight: 700; font-size: 34px; margin-top: -20px; color: #fc5a4a">
+      {{ day.day }}
+    </div>
+    <div class="">
+      <table class="table-responsive program centered-div">
+      <!-- style="undefined;table-layout: fixed; width: 802px; text-alignment: left;" -->
+      <colgroup>
+      <col style="width: 200px">
+      <col style="width: 500px">
+      <col style="width: 500px">
+      <col style="width: 500px">
+      </colgroup>
+      <tr>
+        <th class="tg-031e"></th>
+        <th class="tg-031e">Track 1</th>
+        <th class="tg-031e">Track 2</th>
+        <th class="tg-031e">Track 3</th>
+      </tr>
+      <!-- SESSIONS -->
+      {% for session in day.sessions %}
+      {% if session.type == "single" %}
+      {% include 2019-program-single.html session=session %}
+      {% elsif session.type == "keynote" %}
+      {% include 2019-program-keynote.html session=session %}
+      {% elsif session.type == "parallel" %}
+      {% include 2019-program-parallel.html session=session %}
+      {% endif %}
+      {% endfor %}
+      </table>
+    </div>
+    {% if forloop.last == false %}
+    <br/><br/><br/><br/>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if settings.sold_out %}
+<div class="reddish-orange-stripe">
+  <div class="container centered">
+    <div class="pad-top"></div>
+    <div class="tagline">Sorry, we sold out of tickets! :/</div>
+    <div class="subtagline" style="font-weight: 300; color: #073642; margin-bottom: 10px;">
+      Ticket trasfers are allowed. If you're looking for a ticket, tweet to <a href="http://www.twitter.com/curry_on_conf">@curry_on_conf</a>, we're happy to RT all requests for ticket transfers!
+    </div>
+   </div>
+</div>
+{% endif %}
+
+<!-- Interested in joining us? If -->
+<div class="purple-stripe">
+  <div class="pad-top">&nbsp;</div>
+  <br/><br/>
+  <div class="container centered sponsorship">
+{% if settings.show_sponsors %}
+    <span class="big-white-italic">We <span style="color: #6cb1dd;" class="entypo heart"></span> these folks</span>
+    <br/><br/>
+    <a style="border: 0px;" href="https://www.ing.jobs/netherlands/expertise/information-technology.htm"><img style="width: 350px;" alt="ING" src="/resources/img/2019/logos/ING.png"></a>
+    <br/><br/><br/>
+    <a style="border: 0px;" href="http://www.huawei.com/"><img style="width: 150px;" alt="Huawei" src="/resources/img/logos/huawei.svg"></a>
+    <br/><br/>
+    <a style="border: 0px;" href="https://labs.oracle.com/pls/apex/f?p=LABS:10::::::"><img style="width: 450px;" alt="Oracle Labs" src="/resources/img/2019/logos/oracle.png"></a>
+    <br/><br/>
+    <a style="border: 0px;" href="https://nilenso.com"><img style="width: 400px;" alt="NILENSO" src="/resources/img/2019/logos/nilenso.png"></a>
+    <br/><br/>
+    <a style="border: 0px;" href="https://uber.com"><img style="width: 350px;" alt="UBER" src="/resources/img/2019/logos/uber.svg"></a>
+    <br/><br/><br/>
+    <a style="border: 0px;" href="https://www.fullcontact.com"><img style="width: 350px;" alt="FULLCONTACT" src="/resources/img/logos/fullcontact.png"></a>
+    <br/><br/>
+    <br/>
+{% endif %}
+    <div class="wanna-help" style="margin-bottom: 18px;">Wanna help?</div>
+    <a href="{{ site.baseurl }}/2019/sponsorship.html" class="btn btn-outline-inverse btn-lg">Sponsorship Opportunities</a>
+    <div class="pad-bottom"></div>
+  </div>
+  <br/>
+</div>
+
+
+<div class="purple-stripe">
+  <div class="container">
+    <div class="organizers-title centered">
+      Organizers
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-2"><div class="circular heather"></div><div class="white-text centered organizer"><a href="http://heather.miller.am">Heather Miller</a><br/>EPFL<br/><span class="organizer-chair"></span></div></div>
+      <div class="col-md-2"><div class="circular jan"></div><div class="white-text centered organizer"><a href="http://janvitek.github.io/">Jan Vitek</a><br/>Northeastern University<br/><span class="organizer-chair"></span></div></div>
+      <div class="col-md-2"><div class="circular chris"></div><div class="white-text centered organizer"><a href="http://christophermeiklejohn.com/">Christopher Meiklejohn</a><br/>UCL<br/><span class="organizer-chair"></span></div></div>
+      <div class="col-md-2"><div class="circular torsten"></div><div class="white-text centered organizer"><a href="https://www.linkedin.com/in/torsten-layda-964884">Torsten Layda</a><br/>SIX Global IT<br/><span class="organizer-chair"></span></div></div>
+      <div class="col-md-2"><div class="circular filip_krikava"></div><div class="white-text centered organizer"><a href="http://www.fikovnik.net">Filip Křikava</a><br/>Czech Technical University<br/><span class="organizer-chair"></span></div></div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="pad-bottom"></div>
+  </div>
+</div>
