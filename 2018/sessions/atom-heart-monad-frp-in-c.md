@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Atom Heart Monad: FRP in C++"
 by: Ivan Čukić
 affiliation: KDE e.V.
+video: https://www.youtube.com/watch?v=_Ji1HyZxXvo
 profpic-class: ivan_cukic
 ---
 

@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "DB ⋈ FP = Datafun: a new functional query language"
 by: Michael Arntzenius
 affiliation: University of Birmingham
+video: https://www.youtube.com/watch?v=7HUotKIVFig
 profpic-class: michael_arntzenius
 ---
 

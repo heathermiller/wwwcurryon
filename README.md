@@ -51,6 +51,8 @@ console in which you are running jekyll can work with UTF-8 characters. As descr
 [Solving UTF problem with Jekyll on Windows](http://joseoncode.com/2011/11/27/solving-utf-problem-with-jekyll-on-windows/)
 you have to execute `chcp 65001`. This command is best added to the `jekyll.bat`-script.
 
+There is also a `Makefile` that automates the above tasks.
+
 ## Content
 
 - `_data/2018-settings.yml` contains the conference configuration

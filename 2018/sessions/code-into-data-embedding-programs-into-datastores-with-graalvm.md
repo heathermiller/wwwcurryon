@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Code into Data: Embedding programs into datastores with GraalVM"
 by: Thomas Würthinger
 affiliation: Oracle
+video: https://www.youtube.com/watch?v=spOlw6uhxuc
 profpic-class: thomas_wurthinger
 ---
 

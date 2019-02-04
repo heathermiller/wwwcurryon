@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Strategies for Streaming"
 by: Arnout Engelen
 affiliation: Lightbend
+video: https://www.youtube.com/watch?v=GMUXXGJW7Qw
 profpic-class: arnout_engelen
 ---
 

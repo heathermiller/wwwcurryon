@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Go: building on the shoulders of giants and stepping on a few toes"
 by: Steve Francia
 affiliation: Google
+video: https://www.youtube.com/watch?v=sX8r6zATHGU
 profpic-class: steve_francia
 ---
 

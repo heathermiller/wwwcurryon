@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Taming the C monster: Haskell FFI techniques"
 by: Fraser Tweedale
 affiliation: Red Hat
+video: https://www.youtube.com/watch?v=y95WtkWCmKg
 profpic-class: fraser_tweedale
 ---
 

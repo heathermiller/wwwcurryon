@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Language Design in the Open"
 by: Yulia Startsev
 affiliation: Mozilla
+video: https://www.youtube.com/watch?v=RJBdLelTUls
 profpic-class: yulia_startsev
 ---
 

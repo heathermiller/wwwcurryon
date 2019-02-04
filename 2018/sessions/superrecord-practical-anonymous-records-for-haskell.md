@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "SuperRecord: Practical Anonymous Records for Haskell"
 by: Alexander Thiemann
 affiliation: Stripe Inc
+video: https://www.youtube.com/watch?v=Nh0XD2hPV8w
 profpic-class: alexander_thiemann
 ---
 

@@ -112,7 +112,7 @@ ul > li, ol > li  {
   background-color: transparent;
   border: 6px solid #fff;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   padding-top: 30px;
   padding-bottom: 28px;
   padding-left: 12px;

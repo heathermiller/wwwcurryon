@@ -21,6 +21,7 @@ talks:
   - type: "keynote"
     title: "How does code sound?"
     url: "sessions/how-does-code-sound.html"
+    video: "https://www.youtube.com/watch?v=--R-DVJrA6A"
     speaker:
       id: "felienne_hermans"
       name: "Felienne Hermans"
@@ -31,6 +32,7 @@ talks:
   - type: "keynote"
     title: "Linear Haskell: practical linearity in a higher-order polymorphic language"
     url: "sessions/linear-haskell-practical-linearity-in-a-higher-order-polymorphic-language.html"
+    video: "https://www.youtube.com/watch?v=t0mhvd3-60Y"
     speaker:
       id: "simon_peyton_jones"
       name: "Simon Peyton Jones"
@@ -41,6 +43,7 @@ talks:
   - type: "keynote"
     title: "WebAssembly, Past, Present, and Future"
     url: "sessions/webassembly-past-present-and-future.html"
+    video: "https://www.youtube.com/watch?v=WTxPqDBo8CI"
     speaker:
       id: "ben_titzer_and_andreas_rossberg"
       name: "Ben Titzer &amp; Andreas Rossberg"
@@ -51,6 +54,7 @@ talks:
   - type: "keynote"
     title: "Go: building on the shoulders of giants and stepping on a few toes"
     url: "sessions/go-building-on-the-shoulders-of-giants-and-stepping-on-a-few-toes.html"
+    video: "https://www.youtube.com/watch?v=sX8r6zATHGU"
     speaker:
       id: "steve_francia"
       name: "Steve Francia"
@@ -61,6 +65,7 @@ talks:
   - type: "invited"
     title: "ApacheSpark as a gateway drug to FP: Concepts taught &amp; broken"
     url: "sessions/apachespark-as-a-gateway-drug-to-fp-concepts-taught-broken.html"
+    video: "https://www.youtube.com/watch?v=EDJfpkDpoE4"
     speaker:
       id: "holden_karau"
       name: "Holden Karau"
@@ -71,6 +76,7 @@ talks:
   - type: "invited"
     title: "Code into Data: Embedding programs into datastores with GraalVM"
     url: "sessions/code-into-data-embedding-programs-into-datastores-with-graalvm.html"
+    video: "https://www.youtube.com/watch?v=spOlw6uhxuc"
     speaker:
       id: "thomas_wurthinger"
       name: "Thomas Würthinger"
@@ -81,6 +87,7 @@ talks:
   - type: "invited"
     title: "Spoofax: Live Programming Language Design"
     url: "sessions/spoofax-live-programming-language-design.html"
+    video: "https://www.youtube.com/watch?v=XAkBlrB9l9o"
     speaker:
       id: "eelco_visser"
       name: "Eelco Visser"
@@ -91,6 +98,7 @@ talks:
   - type: "invited"
     title: "Little Languages"
     url: "sessions/little-languages.html"
+    video: "https://www.youtube.com/watch?v=G166wZyfR9M"
     speaker:
       id: "chris_laffra"
       name: "Chris Laffra"
@@ -101,6 +109,7 @@ talks:
   - type: "invited"
     title: "Challenges in Large-Scale Mobile App Performance"
     url: "sessions/challenges-in-large-scale-mobile-app-performance.html"
+    video: "https://www.youtube.com/watch?v=i-Xnubz-nzU"
     speaker:
       id: "manu_sridharan"
       name: "Manu Sridharan"
@@ -111,6 +120,7 @@ talks:
   - type: "invited"
     title: "Domain Specific Programming Platforms for Creativity"
     url: "sessions/domain-specific-programming-platforms-for-creativity.html"
+    video: "https://www.youtube.com/watch?v=xvoJsymzRkw"
     speaker:
       id: "jennifer_mary_jacobs"
       name: "Jennifer Mary Jacobs"
@@ -121,6 +131,7 @@ talks:
   - type: "invited"
     title: "Lessons from a Big Data Machine Learning Startup"
     url: "sessions/lessons-from-a-big-data-machine-learning-startup.html"
+    video: "https://www.youtube.com/watch?v=OYDrJAd-iuw"
     speaker:
       id: "cliff_click"
       name: "Cliff Click"
@@ -131,6 +142,7 @@ talks:
   - type: "invited"
     title: "Finite of Sense and Infinite of Thought: A History of Computation, Logic and Algebra"
     url: "sessions/finite-of-sense-and-infinite-of-thought-a-history-of-computation-logic-and-algebra.html"
+    video: "https://www.youtube.com/watch?v=2oNmR0q1uA0"
     speaker:
       id: "ron_pressler"
       name: "Ron Pressler"
@@ -141,6 +153,7 @@ talks:
   - type: "invited"
     title: "Simplicity - The Road Not Taken?"
     url: "sessions/simplicity-the-road-not-taken.html"
+    video: ""
     speaker:
       id: "dave_thomas"
       name: "Dave Thomas"
@@ -151,6 +164,7 @@ talks:
   - type: "invited"
     title: "Rethinking Modern Web Browsers"
     url: "sessions/rethinking-modern-web-browsers.html"
+    video: ""
     speaker:
       id: "ben_livshits"
       name: "Ben Livshits"
@@ -161,6 +175,7 @@ talks:
   - type: "talk"
     title: "Streaming analytics: How to Get Fast Predictions From Real-Time Data with Flink, Kafka, and Cassandra"
     url: "sessions/streaming-analytics-how-to-get-fast-predictions-from-real-time-data-with-flink-kafka-and-cassandra.html"
+    video: "https://www.youtube.com/watch?v=A2nQzSfZ3fE"
     speaker:
       id: "bas_geerdink"
       name: "Bas Geerdink"
@@ -171,6 +186,7 @@ talks:
   - type: "talk"
     title: "Luna - overview"
     url: "sessions/luna-overview.html"
+    video: "https://www.youtube.com/watch?v=5JKkXWxLY5Y"
     speaker:
       id: "sylwia_brodacka"
       name: "Sylwia Brodacka"
@@ -181,6 +197,7 @@ talks:
   - type: "talk"
     title: "Constant-time crypto programming with FaCT"
     url: "sessions/constant-time-crypto-programming-with-fact.html"
+    video: "https://www.youtube.com/watch?v=SSEHF_u79e4"
     speaker:
       id: "sunjay_cauligi"
       name: "Sunjay Cauligi"
@@ -191,6 +208,7 @@ talks:
   - type: "talk"
     title: "Do-It-Yourself Functional Reactive Programming"
     url: "sessions/do-it-yourself-functional-reactive-programming.html"
+    video: "https://www.youtube.com/watch?v=Rm7rwWL6lIY"
     speaker:
       id: "manuel_chakravarty"
       name: "Manuel Chakravarty"
@@ -201,6 +219,7 @@ talks:
   - type: "talk"
     title: "Why VM Benchmarking is Probably Misleading you"
     url: "sessions/why-vm-benchmarking-is-probably-misleading-you.html"
+    video: "https://www.youtube.com/watch?v=hj4VmvyqbKY"
     speaker:
       id: "edd_barrett"
       name: "Edd Barrett"
@@ -211,6 +230,7 @@ talks:
   - type: "talk"
     title: "Better living through incrementality: Immediate static analysis feedback without loss of precision"
     url: "sessions/better-living-through-incrementality-immediate-static-analysis-feedback-without-loss-of-precision.html"
+    video: "https://www.youtube.com/watch?v=zuQf2E470RU"
     speaker:
       id: "tamas_szabo_and_sebastian_erdweg"
       name: "Tamás Szabó &amp; Sebastian Erdweg"
@@ -221,6 +241,7 @@ talks:
   - type: "talk"
     title: "Language Design in the Open"
     url: "sessions/language-design-in-the-open.html"
+    video: "https://www.youtube.com/watch?v=RJBdLelTUls"
     speaker:
       id: "yulia_startsev"
       name: "Yulia Startsev"
@@ -231,6 +252,7 @@ talks:
   - type: "talk"
     title: "Adding kind-polymorphism to the Scala programming language"
     url: "sessions/adding-kind-polymorphism-to-the-scala-programming-language.html"
+    video: "https://www.youtube.com/watch?v=WtPFvLfHYtM"
     speaker:
       id: "miles_sabin"
       name: "Miles Sabin"
@@ -241,6 +263,7 @@ talks:
   - type: "talk"
     title: "Taming the C monster: Haskell FFI techniques"
     url: "sessions/taming-the-c-monster-haskell-ffi-techniques.html"
+    video: "https://www.youtube.com/watch?v=y95WtkWCmKg"
     speaker:
       id: "fraser_tweedale"
       name: "Fraser Tweedale"
@@ -251,6 +274,7 @@ talks:
   - type: "talk"
     title: "Type-Safe GraphQL Servers with GADTs"
     url: "sessions/type-safe-graphql-servers-with-gadts.html"
+    video: "https://www.youtube.com/watch?v=jaKcEGkItsY"
     speaker:
       id: "andreas_garnaes"
       name: "Andreas Garnæs"
@@ -261,6 +285,7 @@ talks:
   - type: "talk"
     title: "DB ⋈ FP = Datafun: a new functional query language"
     url: "sessions/db-⋈-fp-=-datafun-a-new-functional-query-language.html"
+    video: "https://www.youtube.com/watch?v=7HUotKIVFig"
     speaker:
       id: "michael_arntzenius"
       name: "Michael Arntzenius"
@@ -271,6 +296,7 @@ talks:
   - type: "talk"
     title: "It Ain't Necessarily So"
     url: "sessions/it-aint-necessarily-so.html"
+    video: "https://www.youtube.com/watch?v=Lxmekot9WfA"
     speaker:
       id: "chris_ford"
       name: "Chris Ford"
@@ -281,6 +307,7 @@ talks:
   - type: "talk"
     title: "SuperRecord: Practical Anonymous Records for Haskell"
     url: "sessions/superrecord-practical-anonymous-records-for-haskell.html"
+    video: "https://www.youtube.com/watch?v=Nh0XD2hPV8w"
     speaker:
       id: "alexander_thiemann"
       name: "Alexander Thiemann"
@@ -291,6 +318,7 @@ talks:
   - type: "talk"
     title: "Papers we love - Elixir edition"
     url: "sessions/papers-we-love-elixir-edition.html"
+    video: "https://www.youtube.com/watch?v=DuMp3362MsA"
     speaker:
       id: "andrea_leopardi"
       name: "Andrea Leopardi"
@@ -301,6 +329,7 @@ talks:
   - type: "talk"
     title: "Using APIs and micro-services as the glue between observed and derived facts"
     url: "sessions/using-apis-and-micro-services-as-the-glue-between-observed-and-derived-facts.html"
+    video: "https://www.youtube.com/watch?v=704_BNpS9pc"
     speaker:
       id: "faraz_babar"
       name: "Faraz Babar"
@@ -311,6 +340,7 @@ talks:
   - type: "talk"
     title: "Lector in Codigo"
     url: "sessions/lector-in-codigo.html"
+    video: "https://www.youtube.com/watch?v=XUdV4emuxxQ"
     speaker:
       id: "alvaro_videla"
       name: "Alvaro Videla"
@@ -321,6 +351,7 @@ talks:
   - type: "talk"
     title: "A CRDT Primer: Defanging Order Theory"
     url: "sessions/a-crdt-primer-defanging-order-theory.html"
+    video: "https://www.youtube.com/watch?v=OOlnp2bZVRs"
     speaker:
       id: "john_mumm"
       name: "John Mumm"
@@ -331,6 +362,7 @@ talks:
   - type: "talk"
     title: "Atom Heart Monad: FRP in C++"
     url: "sessions/atom-heart-monad-frp-in-c.html"
+    video: "https://www.youtube.com/watch?v=_Ji1HyZxXvo"
     speaker:
       id: "ivan_cukic"
       name: "Ivan Čukić"
@@ -341,6 +373,7 @@ talks:
   - type: "talk"
     title: "Strategies for Streaming"
     url: "sessions/strategies-for-streaming.html"
+    video: "https://www.youtube.com/watch?v=GMUXXGJW7Qw"
     speaker:
       id: "arnout_engelen"
       name: "Arnout Engelen"
@@ -351,6 +384,7 @@ talks:
   - type: "talk"
     title: "Isolation Without Containers"
     url: "sessions/isolation-without-containers.html"
+    video: "https://www.youtube.com/watch?v=4mKTESPTJXU"
     speaker:
       id: "tyler_mcmullen"
       name: "Tyler McMullen"
@@ -361,6 +395,7 @@ talks:
   - type: "talk"
     title: "Hackett: a metaprogrammable Haskell"
     url: "sessions/hackett-a-metaprogrammable-haskell.html"
+    video: "https://www.youtube.com/watch?v=g6UCeHiKodo"
     speaker:
       id: "alexis_king"
       name: "Alexis King"
@@ -371,16 +406,18 @@ talks:
   - type: "talk"
     title: "Distributed Systems Protocols and their Vulnerabilities"
     url: "sessions/distributed-systems-protocols-and-their-vulnerabilities.html"
+    video: "https://www.youtube.com/watch?v=Gi1yrW8_EPk"
     speaker:
       id: "yifan_xing"
       name: "Yifan Xing"
-      affiliation: "Northwestern University"
+      affiliation: "Northeastern University"
       url: "https://xingyif.github.io/yifan"
       known-for: ""
 
   - type: "chesstalk"
     title: "Linguistic Abstraction in Streaming Analytics"
     url: "sessions/linguistic-abstraction-in-streaming-analytics.html"
+    video: ""
     speaker:
       id: "adil_akhter"
       name: "Adil Akhter"
@@ -391,6 +428,7 @@ talks:
   - type: "chesstalk"
     title: "Your inner compiler engineer wants out!"
     url: "sessions/your-inner-compiler-engineer-wants-out.html"
+    video: "https://www.youtube.com/watch?v=APrzlkY8QXI"
     speaker:
       id: "jesse_alama"
       name: "Jesse Alama"
@@ -401,6 +439,7 @@ talks:
   - type: "chesstalk"
     title: "Serverless Computing with Functions"
     url: "sessions/serverless-computing-with-functions.html"
+    video: "https://www.youtube.com/watch?v=thGFG92hUmw"
     speaker:
       id: "nick_mitchell"
       name: "Nick Mitchell"
@@ -411,6 +450,7 @@ talks:
   - type: "chesstalk"
     title: "Transducing for fun and profit"
     url: "sessions/transducing-for-fun-and-profit.html"
+    video: "https://www.youtube.com/watch?v=NXmmLpWC5MQ"
     speaker:
       id: "simon_belak"
       name: "Simon Belak"
@@ -421,6 +461,7 @@ talks:
   - type: "chesstalk"
     title: "Akka.JS and why the actor model matters even in JS's world."
     url: "sessions/akkajs-and-why-the-actor-model-matters-even-in-jss-world.html"
+    video: "https://www.youtube.com/watch?v=_Py5LCO3mIw"
     speaker:
       id: "andrea_peruffo"
       name: "Andrea Peruffo"
@@ -440,6 +481,9 @@ talks:
 
   - type: misc
     title: "Lunch"
+
+  - type: misc
+    title: "Curry On Party at the <a href='https://goo.gl/maps/s5ddJMMzp8u'><u>Tobacco Theater</u></a>"
 
 program:
   - day: Monday, July 16<sup>th</sup>
@@ -525,15 +569,7 @@ program:
 
       - time: 19:30-22:00
         type: single
-        talk:
-          title: "Curry On Party at the Tobacco Theater"
-          url: "https://goo.gl/maps/s5ddJMMzp8u"
-
-        # talk: "Curry On Party at the <a href='https://goo.gl/maps/s5ddJMMzp8u'>Tobacco Theater</a>"
-
-        # - time: 19:30-22:00
-        #   type: single
-        #   talk: Curry On Party
+        talk: "Curry On Party at the <a href='https://goo.gl/maps/s5ddJMMzp8u'><u>Tobacco Theater</u></a>"
 
   - day: Tuesday, July 17<sup>th</sup>
     sessions:

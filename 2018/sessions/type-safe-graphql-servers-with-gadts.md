@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Type-Safe GraphQL Servers with GADTs"
 by: Andreas Garnæs
 affiliation: Zendesk
+video: https://www.youtube.com/watch?v=jaKcEGkItsY
 profpic-class: andreas_garnaes
 ---
 

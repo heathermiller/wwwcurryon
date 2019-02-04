@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Little Languages"
 by: Chris Laffra
 affiliation: Uber
+video: https://www.youtube.com/watch?v=G166wZyfR9M
 profpic-class: chris_laffra
 ---
 

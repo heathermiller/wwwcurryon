@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Constant-time crypto programming with FaCT"
 by: Sunjay Cauligi
 affiliation: UCSD
+video: https://www.youtube.com/watch?v=SSEHF_u79e4
 profpic-class: sunjay_cauligi
 ---
 

@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Finite of Sense and Infinite of Thought: A History of Computation, Logic and Algebra"
 by: Ron Pressler
 affiliation: Oracle
+video: https://www.youtube.com/watch?v=2oNmR0q1uA0
 profpic-class: ron_pressler
 ---
 

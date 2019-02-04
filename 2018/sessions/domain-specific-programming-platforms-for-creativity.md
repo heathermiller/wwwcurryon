@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "Domain Specific Programming Platforms for Creativity"
 by: Jennifer Mary Jacobs
 affiliation: Stanford
+video: https://www.youtube.com/watch?v=xvoJsymzRkw
 profpic-class: jennifer_mary_jacobs
 ---
 

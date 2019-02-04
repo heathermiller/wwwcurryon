@@ -3,6 +3,7 @@ layout: 2018-abstract
 title: "ApacheSpark as a gateway drug to FP: Concepts taught &amp; broken"
 by: Holden Karau
 affiliation: Google
+video: https://www.youtube.com/watch?v=EDJfpkDpoE4
 profpic-class: holden_karau
 ---
 

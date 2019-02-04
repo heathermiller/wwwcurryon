@@ -1,0 +1,17 @@
+<div class="col-md-3 centered">
+    <div>
+  <br/>
+  <div class="circular {{ include.keynote.speaker.id }}"></div>
+  <span class="gray-text centered keynote-speaker">
+    {% if include.keynote.url %}
+      <a href="{{ include.keynote.url }}">{{ include.keynote.speaker.name }}</a>
+    {% else %}
+      <span style="color: #6cb1dd; font-weight: 800;">{{ include.keynote.speaker.name }}</span>
+    {% endif %}
+  </span>
+  <br/>
+  <span class="keynote-affiliation">{{ include.keynote.speaker.affiliation }}</span>
+  <br/>
+  <span class="keynote-known-for">{% if include.keynote.speaker.known-for %}{{ include.keynote.speaker.known-for }}{% endif %}</span>
+  </div>
+</div>

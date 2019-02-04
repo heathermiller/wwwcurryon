@@ -2,7 +2,8 @@
 layout: 2018-abstract
 title: "Distributed Systems Protocols and their Vulnerabilities"
 by: Yifan Xing
-affiliation: Northwestern University
+affiliation: Northeastern University
+video: https://www.youtube.com/watch?v=Gi1yrW8_EPk
 profpic-class: yifan_xing
 ---
 
