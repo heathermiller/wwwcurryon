@@ -109,24 +109,6 @@
 </div>
 {% endif %}
 
-{% if settings.show_cfp %}
-<div class="reddish-orange-stripe">
-  <div class="container centered">
-      <div class="hand-drawn"><div></div></div>
-    <div class="tagline">
-      Add your voice to the conversation.
-    </div>
-    <div class="subtagline" style="margin-bottom: 20px; color: #ffffff;">
-      Join designers of exciting emerging languages, popular languages,
-      <br/>emerging paradigms and more.
-    </div>
-    <a href="{{ site.baseurl }}/2019/call-for-presentations.html" class="btn btn-outline-inverse btn-lg">Call for Presentations</a>
-    <div class="call-ends">Deadline: April 20<sup>th</sup></div>
-    <div class="pad-bottom"></div>
-  </div>
-</div>
-{% endif %}
-
 {% if settings.show_ticket_sale %}
 <div class="purple-stripe" style="min-height: 80px;">
     <div class="pad-bottom"></div>
@@ -165,29 +147,29 @@
 </div>
 {% endif %}
 
-<div class="purple-stripe">
+<div class="reddish-orange-stripe">
   <div class="container centered">
     <div class="tagline">
       Academia and industry <span class="light-orange">need to have a talk</span>.
     </div>
-    <div class="subtagline">
+    <div class="subtagline" style="color: #fff">
       Or rather, they just need to talk in general.
     </div>
     <!-- <div class="pad-bottom"></div> -->
   </div>
 </div>
 
-<div class="purple-stripe">
+<div class="reddish-orange-stripe">
   <div class="container">
       <!-- <div class="pad-top">&nbsp;</div> -->
    <div class="row">
     <div class="col-md-2"></div>
-    <div class="col-md-4 about">
+    <div class="col-md-4 about" style="color: #fff">
       Curry On is a conference focused on the <b>intersection of emerging languages and emerging challenges in industry</b> (e.g. big data or security), as well as new ideas and paradigms in software development.
       <br/><br/>
       Curry On also seeks to act as a conduit for ferrying understanding and ideas back and forth between industry and academic programming languages, software engineering, and systems research communities (amongst others).
     </div>
-    <div class="col-md-4 about">
+    <div class="col-md-4 about" style="color: #fff">
       Curry On is a rare event where academic minds responsible for concepts and tools now invaluable to everyday software development – like functional programming, or generics in Java – collide with the movers and shakers in industry that are building next-generation systems and developing software engineering practices central to our entire industry.
       <br/><br/>
       Curry On will be held in a different European city year-to-year, and it will always be co-located with one of the top academic conferences in programming languages. This year, it's co-located with <a href="http://2019.ecoop.org/">ECOOP</a>.
@@ -196,7 +178,7 @@
    </div>
    <div class="row">
    <div class="col-md-2"></div>
-     <div class="col-md-8 about">
+   <div class="col-md-8 about" style="color: #fff">
        <br/>
        <b>Join us for two days of fruitful and mind-altering ideas and discussions, and maybe a few beers or a sip of coffee.</b>
      </div>
@@ -205,6 +187,23 @@
   </div>
   <div class="pad-bottom">&nbsp;</div>
 </div>
+
+{% if settings.show_cfp %}
+<div class="purple-stripe">
+    <div class="container centered">
+        <div class="tagline">
+            Add your voice to the conversation.
+        </div>
+        <div class="subtagline" style="margin-bottom: 20px; color: #ffffff;">
+            Join designers of exciting emerging languages, popular languages,
+            <br/>emerging paradigms and more.
+        </div>
+        <a href="{{ site.baseurl }}/2019/call-for-presentations.html" class="btn btn-outline-inverse btn-lg">Call for Presentations</a>
+        <div class="call-ends">Deadline: April 19<sup>th</sup></div>
+        <div class="pad-bottom"></div>
+    </div>
+</div>
+{% endif %}
 
 <div class="reddish-orange-stripe">
   <div class="container centered">
