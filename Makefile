@@ -4,6 +4,7 @@ GEM_CACHE_DIR := .gem-cache
 
 run:
 	[ -d $(GEM_CACHE_DIR) ] || mkdir -p $(GEM_CACHE_DIR)
+	[ -d _site ] || mkdir _site
 	docker run \
       --name curryon \
       --rm \
