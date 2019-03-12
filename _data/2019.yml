@@ -27,7 +27,7 @@ talks:
     speaker:
       id: "lars_bak"
       name: "Lars Bak"
-      affiliation: "Google?"
+      affiliation: "Google"
       url: ""
       known-for: "Dart"
 
@@ -36,7 +36,7 @@ talks:
     speaker:
       id: "cynthia_solomon"
       name: "Cynthia Solomon"
-      affiliation: "none"
+      affiliation: ""
       url: ""
       known-for: "Logo"
 
