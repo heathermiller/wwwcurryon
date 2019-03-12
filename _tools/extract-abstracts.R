@@ -7,31 +7,31 @@ library(whisker)
 library(stringr)
 
 # input spreadsheet downloaded from google sheets
-SHEET <- "curryon18.csv"
+SHEET <- "curryon19.csv"
 
 # where the images should go
-img_dir <- "resources/img/2018/people"
-sessions_dir <- "2018/sessions"
-css_file <- "resources/css/2018/people.css"
-data_yml_file <- "_data/2018.yml"
+img_dir <- "resources/img/2019/people"
+sessions_dir <- "2019/sessions"
+css_file <- "resources/css/2019/people.css"
+data_yml_file <- "_data/2019.yml"
 
 template_css <-
 '.circular.{{id}} {
-  background-image: url(\'{{ site.baseurl }}/resources/img/2018/people/{{small_photo}}\');
+  background-image: url(\'{{ site.baseurl }}/resources/img/2019/people/{{small_photo}}\');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.{{id}} {
-    background-image: url(\'{{ site.baseurl }}/resources/img/2018/people/{{big_photo}}\');
+    background-image: url(\'{{ site.baseurl }}/resources/img/2019/people/{{big_photo}}\');
     background-size: 125px 125px;
   }
 }
 '
 
 template_talk_yml <-
-'  - type: "{{type}}"
+'  - type: "{{type}}"{{#has_title?}}
     title: "{{title}}"
-    url: "sessions/{{session_id}}.html"
+    url: "sessions/{{session_id}}.html"{{/has_title?}}
     video: "{{video_url}}"
     speaker:
       id: "{{id}}"
@@ -43,7 +43,7 @@ template_talk_yml <-
 
 template_session <-
 '---
-layout: 2018-abstract
+layout: 2019-abstract
 title: "{{title}}"
 by: {{name}}
 affiliation: {{affiliation}}
@@ -182,6 +182,7 @@ data_all <-
     data_filtered %>%
     mutate(
         id=map_chr(name, make_id),
+        has_title=nchar(title) > 0,
         session_id=map_chr(title, make_session_id),
         twitter=str_replace(twitter, "^[@]?(.*)$", "\\1"),
         twitter=ifelse(is.na(twitter), "", twitter),
@@ -206,7 +207,9 @@ if (!dir.exists(sessions_dir)) {
 for (item in data_list) {
     message("processing ", item$id)
     process_image(item)
-    process_md(item)
+    if (!is.na(item$title)) {
+        process_md(item)
+    }
 }
 
 update_talks <- function(talks) {
