@@ -71,7 +71,7 @@
     <br/>
     <!-- REGULAR -->
     {% assign accepted_talks = settings.talks | where_exp:"x", "x.type contains 'talk'" | sort:'title' %}
-    {% include 2019-talks-listing.html title='Accepted Talks' talks=accepted_talks %}
+    {% include 2019-talks-listing.html title='Presentations' talks=accepted_talks %}
 
     {% endif %}
     {% if settings.show_cfp %}
@@ -80,7 +80,7 @@
       <div class="col-md-5 centered"></div>
       <div class="col-md-2 centered">
         <div class="circular silhouette"></div>
-        <span class="gray-text centered speaker"><a href="">Your Name Here</a></span><br/>
+        <span class="gray-text centered speaker"><a href="{{ site.baseurl }}/2019/call-for-presentations.html">Your Name Here</a></span><br/>
         <!-- <span class="keynote-affiliation">INRIA</span><br/> -->
         <!-- <span class="keynote-known-for">Coccinelle</span> -->
       </div>
@@ -92,7 +92,7 @@
 </div>
 {% endif %}
 
-{% if settings.show_accepted_talks %}
+{% if settings.show_talks_listing %}
 <div class="reddish-orange-stripe">
     <div class="container">
         <div id="accepted-talks" class="big-white-vinyl centered"><span style="font-size: 44px;"><span class="light-orange">All</span> Talks</span></div>

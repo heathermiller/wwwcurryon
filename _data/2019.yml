@@ -13,14 +13,105 @@ previous_editions:
 
 show_cfp: true
 show_program: false
-show_accepted_talks_people: false
-show_accepted_talks: false
+show_accepted_talks: true
+show_accepted_talks_people: true
+show_talks_listing: false
 show_ticket_sale: false
 show_sponsors: false
 sold_out: false
 
 talks:
   # BEGIN_TALKS
+  - type: "keynote"
+    video: ""
+    speaker:
+      id: "lars_bak"
+      name: "Lars Bak"
+      affiliation: "Google?"
+      url: ""
+      known-for: "Dart"
+
+  - type: "keynote"
+    video: ""
+    speaker:
+      id: "cynthia_solomon"
+      name: "Cynthia Solomon"
+      affiliation: "none"
+      url: ""
+      known-for: "Logo"
+
+  - type: "keynote"
+    video: ""
+    speaker:
+      id: "ashley_williams"
+      name: "Ashley Williams"
+      affiliation: "CloudFlare"
+      url: "https://ashleygwilliams.github.io"
+      known-for: "Node.js"
+
+  - type: "keynote"
+    video: ""
+    speaker:
+      id: "simon_marlow"
+      name: "Simon Marlow"
+      affiliation: "Facebook"
+      url: "https://simonmar.github.io"
+      known-for: "Haskell"
+
+  - type: "invited"
+    video: ""
+    speaker:
+      id: "markus_volter"
+      name: "Markus Völter"
+      affiliation: "Independent"
+      url: "http://voelter.de"
+      known-for: "DSL"
+
+  - type: "invited"
+    video: ""
+    speaker:
+      id: "tom_ball"
+      name: "Tom Ball"
+      affiliation: "Microsoft"
+      url: "https://www.microsoft.com/en-us/research/people/tball/"
+      known-for: ""
+
+  - type: "invited"
+    video: ""
+    speaker:
+      id: "lin_clark"
+      name: "Lin Clark"
+      affiliation: "Mozilla"
+      url: "https://code-cartoons.com"
+      known-for: ""
+
+  - type: "invited"
+    video: ""
+    speaker:
+      id: "stephen_kell"
+      name: "Stephen Kell"
+      affiliation: "University of Kent"
+      url: "https://www.cs.kent.ac.uk/people/staff/srk21/#publications"
+      known-for: ""
+
+  - type: "invited"
+    video: ""
+    speaker:
+      id: "tudor_girba"
+      name: "Tudor Girba"
+      affiliation: "feenk gmbh"
+      url: "http://www.tudorgirba.com"
+      known-for: ""
+
+  - type: "invited"
+    video: ""
+    speaker:
+      id: "alastair_donaldson"
+      name: "Alastair Donaldson"
+      affiliation: "Google"
+      url: "http://multicore.doc.ic.ac.uk"
+      known-for: ""
+
   # END_TALKS
 
 program:
