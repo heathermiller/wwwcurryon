@@ -45,9 +45,9 @@ talks:
     speaker:
       id: "ashley_williams"
       name: "Ashley Williams"
-      affiliation: "CloudFlare"
+      affiliation: "Cloudflare"
       url: "https://ashleygwilliams.github.io"
-      known-for: "Node.js"
+      known-for: "Rust/WebAssembly"
 
   - type: "keynote"
     video: ""
