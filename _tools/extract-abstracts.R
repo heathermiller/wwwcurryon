@@ -185,7 +185,9 @@ data_all <-
     mutate(
         id=map_chr(name, make_id),
         affiliation=ifelse(is.na(affiliation), "", affiliation),
-        has_title=nchar(title) > 0,
+        title=trimws(title, "both"),
+        title=ifelse(is.na(title), "", title),
+        has_title=str_length(title) > 0,
         session_id=map_chr(title, make_session_id),
         twitter=str_replace(twitter, "^[@]?(.*)$", "\\1"),
         twitter=ifelse(is.na(twitter), "", twitter),
