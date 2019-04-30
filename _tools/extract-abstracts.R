@@ -6,6 +6,8 @@ library(jpeg)
 library(whisker)
 library(stringr)
 
+options(timeout=30)
+
 # input spreadsheet downloaded from google sheets
 SHEET <- "curryon19.csv"
 
