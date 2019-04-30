@@ -64,13 +64,13 @@
   }
 }
 
-.circular.lin_clark {
-  background-image: url('/resources/img/2019/people/lin_clark.png');
+.circular.lin_clark_and_till_schneidereit {
+  background-image: url('/resources/img/2019/people/lin_clark_and_till_schneidereit.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.lin_clark {
-    background-image: url('/resources/img/2019/people/lin_clark@2x.png');
+  .circular.lin_clark_and_till_schneidereit {
+    background-image: url('/resources/img/2019/people/lin_clark_and_till_schneidereit@2x.png');
     background-size: 125px 125px;
   }
 }
@@ -104,6 +104,281 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .circular.alastair_donaldson {
     background-image: url('/resources/img/2019/people/alastair_donaldson@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.phil_wadler {
+  background-image: url('/resources/img/2019/people/phil_wadler.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.phil_wadler {
+    background-image: url('/resources/img/2019/people/phil_wadler@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.simon_danisch {
+  background-image: url('/resources/img/2019/people/simon_danisch.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.simon_danisch {
+    background-image: url('/resources/img/2019/people/simon_danisch@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.andrew_scott_and_johannes_bader_and_satish_chandra {
+  background-image: url('/resources/img/2019/people/andrew_scott_and_johannes_bader_and_satish_chandra.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.andrew_scott_and_johannes_bader_and_satish_chandra {
+    background-image: url('/resources/img/2019/people/andrew_scott_and_johannes_bader_and_satish_chandra@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.john_mumm {
+  background-image: url('/resources/img/2019/people/john_mumm.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.john_mumm {
+    background-image: url('/resources/img/2019/people/john_mumm@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.frank_luan {
+  background-image: url('/resources/img/2019/people/frank_luan.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.frank_luan {
+    background-image: url('/resources/img/2019/people/frank_luan@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.tomas_petricek {
+  background-image: url('/resources/img/2019/people/tomas_petricek.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.tomas_petricek {
+    background-image: url('/resources/img/2019/people/tomas_petricek@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.adam_welc {
+  background-image: url('/resources/img/2019/people/adam_welc.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.adam_welc {
+    background-image: url('/resources/img/2019/people/adam_welc@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.edwin_brady {
+  background-image: url('/resources/img/2019/people/edwin_brady.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.edwin_brady {
+    background-image: url('/resources/img/2019/people/edwin_brady@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.martin_kleppmann {
+  background-image: url('/resources/img/2019/people/martin_kleppmann.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.martin_kleppmann {
+    background-image: url('/resources/img/2019/people/martin_kleppmann@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.stefan_marr {
+  background-image: url('/resources/img/2019/people/stefan_marr.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.stefan_marr {
+    background-image: url('/resources/img/2019/people/stefan_marr@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.steven_pemberton {
+  background-image: url('/resources/img/2019/people/steven_pemberton.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.steven_pemberton {
+    background-image: url('/resources/img/2019/people/steven_pemberton@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.dhruv_makwana {
+  background-image: url('/resources/img/2019/people/dhruv_makwana.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.dhruv_makwana {
+    background-image: url('/resources/img/2019/people/dhruv_makwana@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.james_coglan {
+  background-image: url('/resources/img/2019/people/james_coglan.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.james_coglan {
+    background-image: url('/resources/img/2019/people/james_coglan@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.david_schmudde {
+  background-image: url('/resources/img/2019/people/david_schmudde.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.david_schmudde {
+    background-image: url('/resources/img/2019/people/david_schmudde@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.nate_foster {
+  background-image: url('/resources/img/2019/people/nate_foster.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.nate_foster {
+    background-image: url('/resources/img/2019/people/nate_foster@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.szymon_kaliski {
+  background-image: url('/resources/img/2019/people/szymon_kaliski.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.szymon_kaliski {
+    background-image: url('/resources/img/2019/people/szymon_kaliski@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.raj_saxena_and_chris_ford {
+  background-image: url('/resources/img/2019/people/raj_saxena_and_chris_ford.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.raj_saxena_and_chris_ford {
+    background-image: url('/resources/img/2019/people/raj_saxena_and_chris_ford@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.aidan_hobson_sayers {
+  background-image: url('/resources/img/2019/people/aidan_hobson_sayers.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.aidan_hobson_sayers {
+    background-image: url('/resources/img/2019/people/aidan_hobson_sayers@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.dmitry_petrashko {
+  background-image: url('/resources/img/2019/people/dmitry_petrashko.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.dmitry_petrashko {
+    background-image: url('/resources/img/2019/people/dmitry_petrashko@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.cam_tenny {
+  background-image: url('/resources/img/2019/people/cam_tenny.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.cam_tenny {
+    background-image: url('/resources/img/2019/people/cam_tenny@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.jordy_moos {
+  background-image: url('/resources/img/2019/people/jordy_moos.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.jordy_moos {
+    background-image: url('/resources/img/2019/people/jordy_moos@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.veit_heller {
+  background-image: url('/resources/img/2019/people/veit_heller.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.veit_heller {
+    background-image: url('/resources/img/2019/people/veit_heller@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.gargi_sharma {
+  background-image: url('/resources/img/2019/people/gargi_sharma.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.gargi_sharma {
+    background-image: url('/resources/img/2019/people/gargi_sharma@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.richard_millwood {
+  background-image: url('/resources/img/2019/people/richard_millwood.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.richard_millwood {
+    background-image: url('/resources/img/2019/people/richard_millwood@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.sebastian_blessing_and_tobias_wrigstad_and_sophia_drossopoulou {
+  background-image: url('/resources/img/2019/people/sebastian_blessing_and_tobias_wrigstad_and_sophia_drossopoulou.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.sebastian_blessing_and_tobias_wrigstad_and_sophia_drossopoulou {
+    background-image: url('/resources/img/2019/people/sebastian_blessing_and_tobias_wrigstad_and_sophia_drossopoulou@2x.png');
     background-size: 125px 125px;
   }
 }

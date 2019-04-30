@@ -12,7 +12,7 @@ profpic-class: alastair_donaldson
 
 ### Abstract
 
-_TBD_
+NA
 
 ### Bio
 
