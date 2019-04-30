@@ -31,9 +31,9 @@ template_css <-
 '
 
 template_talk_yml <-
-'  - type: "{{type}}"{{#has_title?}}
+'  - type: "{{type}}"{{#has_title}}
     title: "{{title}}"
-    url: "sessions/{{session_id}}.html"{{/has_title?}}
+    url: "sessions/{{session_id}}.html"{{/has_title}}
     video: "{{video_url}}"
     speaker:
       id: "{{id}}"
