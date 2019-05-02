@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "The Tricks of Game Programming in a Pure Functional Language"
-by: Jordy Moos
-affiliation: PB Web Media
-video: 
-profpic-class: jordy_moos
+speakers:
+  - id: "jordy_moos"
+    name: "Jordy Moos"
+    affiliation: "PB Web Media"
+    url: "https://github.com/jordymoos"
+    twitter: "JordyMoos"
+    known-for: ""
 ---
 
-[@JordyMoos](https://twitter.com/JordyMoos)
 <br/>
 
 ### Abstract

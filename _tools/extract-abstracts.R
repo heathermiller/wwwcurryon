@@ -18,44 +18,40 @@ css_file <- "resources/css/2019/people.css"
 data_yml_file <- "_data/2019.yml"
 
 template_css <-
-'.circular.{{id}} {
+'.circular.{{speaker_id}} {
   background-image: url(\'{{ site.baseurl }}/resources/img/2019/people/{{small_photo}}\');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.{{id}} {
+  .circular.{{speaker_id}} {
     background-image: url(\'{{ site.baseurl }}/resources/img/2019/people/{{big_photo}}\');
     background-size: 125px 125px;
   }
-}
-'
+}'
 
 template_talk_yml <-
-'  - type: "{{type}}"{{#has_title}}
-    title: "{{title}}"
-    url: "sessions/{{session_id}}.html"{{/has_title}}
-    video: "{{video_url}}"
-    speaker:
-      id: "{{id}}"
-      name: "{{name}}"
-      affiliation: "{{affiliation}}"
-      url: "{{website}}"
-      known-for: "{{known_for}}"
+'- type: "{{type}}"{{#has_title}}
+  title: "{{title}}"
+  url: "sessions/{{session_id}}.html"{{/has_title}}
+  video: "{{video_url}}"
+  speakers:
 '
+
+template_speaker_yml <-
+'  - id: "{{speaker_id}}"
+    name: "{{name}}"
+    affiliation: "{{affiliation}}"
+    url: "{{website}}"
+    twitter: "{{twitter}}"
+    known-for: "{{known_for}}"'
 
 template_session <-
 '---
 layout: 2019-abstract
 title: "{{title}}"
-by: {{name}}
-affiliation: {{affiliation}}
-video: {{video_url}}
-profpic-class: {{id}}
+speakers:
+{{speakers}}
 ---
-
-{{#has_twitter}}
-[@{{twitter}}](https://twitter.com/{{twitter}})
-{{/has_twitter}}
 
 <br/>
 
@@ -135,23 +131,37 @@ process_image <- function(row) {
     })
 }
 
-process_md <- function(row) {
-    fname <- file.path(sessions_dir, str_c(row$session_id, ".md"))
-    session <- whisker.render(template_session, row)
-
+process_md <- function(talk) {
+    speakers <- render_speakers(talk)
+    bio <- map_chr(talk, function(x) if (is.na(x$bio)) "" else x$bio)
+    bio <- str_c(bio[nchar(bio) > 0], collapse="\n\n\n")
+    talk <- talk[[1]]
+    title <- talk$title
+    abstract <- talk$abstract
+    
+    session <- whisker.render(
+      template_session, 
+      list(
+        title=title,
+        abstract=abstract,
+        bio=bio,
+        speakers=speakers
+      )
+    )
+    
     # it is not possible to turn off escaping in whisker!
     session <- str_replace_all(session, "&quot;", '"')
 
+    fname <- file.path(sessions_dir, str_c(talk$session_id, ".md"))
     write(session, fname)
     message("- written ", fname)
 }
 
-make_id <- function(name) {
+make_speaker_id <- function(name) {
     name %>%
         trimws(which="both") %>%
         iconv(to="ASCII//TRANSLIT") %>%
         str_replace_all("\\s+", "_") %>%
-        str_replace_all("&", "and") %>%
         str_to_lower()
 }
 
@@ -164,7 +174,66 @@ make_session_id <- function(title) {
         str_to_lower()
 }
 
-data <- read_csv(SHEET, trim_ws=T, na="")
+render_speakers <- function(talk) {
+  speakers <- map_chr(talk, ~ whisker.render(template_speaker_yml, .))
+  str_c(speakers, collapse = "\n")
+}
+ 
+render_talk <- function(talk) {
+  speakers <- render_speakers(talk)
+  # for the talk itself we use data in the first row
+  talk <- talk[[1]]
+  yml <- whisker.render(template_talk_yml, talk)
+  str_c(yml, speakers, collapse = "\n")
+}
+
+render_css <- function(talk) {
+  css <- map_chr(talk, ~ whisker.render(template_css, .))
+  str_c(css, collapse = "\n\n")
+}
+
+update_talks <- function(talks) {
+  data_yml <- readLines(data_yml_file)
+  
+  start <- which(!is.na(str_match(data_yml, "# BEGIN_TALKS")))
+  stopifnot(start > 1)
+  
+  end <- which(!is.na(str_match(data_yml, "# END_TALKS")))
+  stopifnot(end > 1)
+  
+  new_data_yml <- c(
+    data_yml[1:start],
+    talks,
+    data_yml[end:length(data_yml)]
+  )
+  
+  writeLines(new_data_yml, data_yml_file)
+  message("Updated ", data_yml_file)
+}
+
+update_css <- function(css) {
+  write(css, css_file)
+}
+
+data <- read_csv(SHEET, trim_ws=T, na="", col_types = cols(
+  type = col_character(),
+  name = col_character(),
+  accepted = col_character(),
+  email = col_character(),
+  affiliation = col_character(),
+  known_for = col_character(),
+  twitter = col_character(),
+  website = col_character(),
+  talk_id = col_integer(),
+  title = col_character(),
+  general_topic = col_character(),
+  fact = col_character(),
+  video_url = col_logical(),
+  abstract = col_character(),
+  bio = col_character(),
+  photo_url = col_character(),
+  recording = col_character()
+))
 
 data_sorted <-
     data %>%
@@ -183,7 +252,7 @@ data_filtered <-
 data_all <-
     data_filtered %>%
     mutate(
-        id=map_chr(name, make_id),
+        speaker_id=map_chr(name, make_speaker_id),
         affiliation=ifelse(is.na(affiliation), "", affiliation),
         title=trimws(title, "both"),
         title=ifelse(is.na(title), "", title),
@@ -195,11 +264,13 @@ data_all <-
         website=ifelse(is.na(website), "", website),
         video_url=ifelse(is.na(video_url), "", video_url),
         known_for=ifelse(is.na(known_for), "", known_for),
-        small_photo=str_c(id, ".png"),
-        big_photo=str_c(id, "@2x.png")
+        small_photo=str_c(speaker_id, ".png"),
+        big_photo=str_c(speaker_id, "@2x.png")
     )
 
-data_list <- split(data_all, seq(nrow(data_all)))
+data_list <- split(data_all, data_all$talk_id)
+# convert each row from a data frame into a list
+data_list <- lapply(data_list, function(x) split(x, seq(nrow(x))))
 
 if (!dir.exists(img_dir)) {
     stopifnot(dir.create(img_dir))
@@ -210,41 +281,20 @@ if (!dir.exists(sessions_dir)) {
 }
 
 for (item in data_list) {
-    message("processing ", item$id)
-    process_image(item)
-    if (!is.na(item$title)) {
-        process_md(item)
-    }
+  message("processing talk_id: ", item$talk_id)
+  
+  for (speaker in item) {
+    message("processing speaker_id: ", speaker$speaker_id)
+    process_image(speaker)
+  }
+  
+  if (nchar(item[[1]]$title) > 0) {
+    process_md(item)
+  }
 }
 
-update_talks <- function(talks) {
-    data_yml <- readLines(data_yml_file)
-
-    start <- which(!is.na(str_match(data_yml, "# BEGIN_TALKS")))
-    stopifnot(start > 1)
-
-    end <- which(!is.na(str_match(data_yml, "# END_TALKS")))
-    stopifnot(end > 1)
-
-    new_data_yml <- c(
-        data_yml[1:start],
-        talks,
-        data_yml[end:length(data_yml)]
-    )
-
-    writeLines(new_data_yml, data_yml_file)
-    message("Updated ", data_yml_file)
-}
-
-update_css <- function(css) {
-    write(css, css_file)
-}
-
-talks <- map_chr(data_list, ~ whisker.render(template_talk_yml, .))
+talks <- map_chr(data_list, ~ render_talk(.))
 update_talks(talks)
 
-css <-
-    data_list %>%
-    map_chr(~ whisker.render(template_css, .)) %>%
-    str_replace_all("&amp;", "and")
+css <- map_chr(data_list, ~ render_css(.))
 update_css(css)

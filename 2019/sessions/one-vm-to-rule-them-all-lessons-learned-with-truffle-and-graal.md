@@ -1,10 +1,13 @@
 ---
 layout: 2019-abstract
 title: "One VM to Rule Them All? Lessons Learned with Truffle and Graal"
-by: Dhruv Makwana
-affiliation: Goldman Sachs
-video: 
-profpic-class: dhruv_makwana
+speakers:
+  - id: "dhruv_makwana"
+    name: "Dhruv Makwana"
+    affiliation: "Goldman Sachs"
+    url: "https://dhruvmakwana.com"
+    twitter: ""
+    known-for: ""
 ---
 
 <br/>

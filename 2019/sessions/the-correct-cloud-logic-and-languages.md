@@ -1,18 +1,20 @@
 ---
 layout: 2019-abstract
 title: "The Correct Cloud: Logic and Languages"
-by: Tom Ball
-affiliation: Microsoft Research
-video: 
-profpic-class: tom_ball
+speakers:
+  - id: "tom_ball"
+    name: "Tom Ball"
+    affiliation: "Microsoft Research"
+    url: "https://www.microsoft.com/en-us/research/people/tball/"
+    twitter: "tballmsft"
+    known-for: ""
 ---
 
-[@tballmsft](https://twitter.com/tballmsft)
 <br/>
 
 ### Abstract
 
-What do the topics of data center configuration, device drivers, cryptography, message parsers and protocols have in common? In  three words: logic and languages! In this talk, I’ll describe how Microsoft Research has developed and applied logic engines (such as Z3) and new languages (such as IVy and F*) to the specification, proof and testing of critical subsystems of Microsoft Azure.  F*, Ivy, and Z3 are all open source technologies (https://github.com/fstarlang, https://github.com/Microsoft/ivy, https://github.com/Z3Prover).
+What do the topics of data center configuration, device drivers, cryptography, message parsers and protocols have in common? In  three words: logic and languages! In this talk, I’ll describe how Microsoft Research has developed and applied logic engines, such as Z3, and new languages, such as IVy and F*, to the specification, proof and testing of critical subsystems of Microsoft Azure.  F*, Ivy, and Z3 are all open source technologies.
 
 ### Bio
 

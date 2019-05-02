@@ -1,10 +1,13 @@
 ---
 layout: 2019-abstract
 title: "Beyond the Paper: End-to-End Program Analysis"
-by: Cam Tenny
-affiliation: r2c
-video: 
-profpic-class: cam_tenny
+speakers:
+  - id: "cam_tenny"
+    name: "Cam Tenny"
+    affiliation: "r2c"
+    url: "https://r2c.dev"
+    twitter: ""
+    known-for: ""
 ---
 
 <br/>

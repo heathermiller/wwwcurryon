@@ -1,10 +1,13 @@
 ---
 layout: 2019-abstract
 title: "Conflict resolution"
-by: James Coglan
-affiliation: 
-video: 
-profpic-class: james_coglan
+speakers:
+  - id: "james_coglan"
+    name: "James Coglan"
+    affiliation: ""
+    url: ""
+    twitter: ""
+    known-for: ""
 ---
 
 <br/>

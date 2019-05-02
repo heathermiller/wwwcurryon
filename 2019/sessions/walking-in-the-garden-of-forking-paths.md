@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "Walking In The Garden Of Forking Paths"
-by: Szymon Kaliski
-affiliation: 
-video: 
-profpic-class: szymon_kaliski
+speakers:
+  - id: "szymon_kaliski"
+    name: "Szymon Kaliski"
+    affiliation: ""
+    url: "https://szymonkaliski.com"
+    twitter: "szymon_k"
+    known-for: ""
 ---
 
-[@szymon_k](https://twitter.com/szymon_k)
 <br/>
 
 ### Abstract

@@ -1,13 +1,21 @@
 ---
 layout: 2019-abstract
 title: "Finite-State Machines: All models are wrong but this one is useful"
-by: Raj Saxena &amp; Chris Ford
-affiliation: N26 &amp; ThoughtWorks
-video: 
-profpic-class: raj_saxena_and_chris_ford
+speakers:
+  - id: "raj_saxena"
+    name: "Raj Saxena"
+    affiliation: "N26"
+    url: ""
+    twitter: "therajsaxena"
+    known-for: ""
+  - id: "chris_ford"
+    name: "Chris Ford"
+    affiliation: "ThoughtWorks"
+    url: "https://github.com/ctford"
+    twitter: "ctford"
+    known-for: ""
 ---
 
-[@therajsaxena &amp; ctford](https://twitter.com/therajsaxena &amp; ctford)
 <br/>
 
 ### Abstract
@@ -16,5 +24,8 @@ At N26, we are building a bank the world loves to use. As we expanded to the UK,
 
 ### Bio
 
-Raj is part of the core banking team at N26 and has lead the work of building the UK payment platform. He is a polyglot programmer having experience building JVM based backend systems and frontend apps. He likes to build systems and understands that one of the biggest challenge in building software is to take the team along.  He is thrilled by new technologies, best practices and promotes them. He can often be found playing devil's advocate in discussions. Very good at pretending to be an adult. Chris has coded both correct and incorrect programs for many years, though he prefers the former. He has also coded both correct and incorrect musical compositions for many years, though he doesn’t really mind which. As well as a longstanding interest in TDD, types and continuous delivery, Chris is always interested in learning better ways to write programs that do what they are supposed to do. He works as a Principal Consultant for ThoughtWorks Spain in Barcelona.
+_Raj_ is part of the core banking team at N26 and has lead the work of building the UK payment platform. He is a polyglot programmer having experience building JVM based backend systems and frontend apps. He likes to build systems and understands that one of the biggest challenge in building software is to take the team along.  He is thrilled by new technologies, best practices and promotes them. He can often be found playing devil's advocate in discussions. Very good at pretending to be an adult.
+
+
+_Chris_ has coded both correct and incorrect programs for many years, though he prefers the former. He has also coded both correct and incorrect musical compositions for many years, though he doesn’t really mind which. As well as a longstanding interest in TDD, types and continuous delivery, Chris is always interested in learning better ways to write programs that do what they are supposed to do. He works as a Principal Consultant for ThoughtWorks Spain in Barcelona.
 

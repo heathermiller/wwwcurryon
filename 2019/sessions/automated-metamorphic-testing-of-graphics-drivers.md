@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "Automated metamorphic testing of graphics drivers"
-by: Alastair Donaldson
-affiliation: Google
-video: 
-profpic-class: alastair_donaldson
+speakers:
+  - id: "alastair_donaldson"
+    name: "Alastair Donaldson"
+    affiliation: "Google"
+    url: "http://multicore.doc.ic.ac.uk"
+    twitter: "afd_icl"
+    known-for: ""
 ---
 
-[@afd_icl](https://twitter.com/afd_icl)
 <br/>
 
 ### Abstract

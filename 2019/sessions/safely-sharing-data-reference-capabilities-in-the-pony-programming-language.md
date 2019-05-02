@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "Safely Sharing Data: Reference Capabilities in the Pony Programming Language"
-by: John Mumm
-affiliation: Wallaroo Labs
-video: 
-profpic-class: john_mumm
+speakers:
+  - id: "john_mumm"
+    name: "John Mumm"
+    affiliation: "Wallaroo Labs"
+    url: "http://jtfmumm.com"
+    twitter: "jtfmumm"
+    known-for: ""
 ---
 
-[@jtfmumm](https://twitter.com/jtfmumm)
 <br/>
 
 ### Abstract

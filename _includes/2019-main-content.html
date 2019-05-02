@@ -25,12 +25,9 @@
     <div class="pad-top">&nbsp;</div>
     {% if settings.sold_out %}
     <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div>
-    {% else if settings.register_url %}
-    <div class="call-ends">Early bird tickets coming in April!</div>
-    <a href="https://regmaster4.com/2019conf/CURRYON17/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
     {% else %}
     <div class="call-ends">Tickets on Sale!</span>!</div>
-    <a href="https://regmaster4.com/2019conf/CURRYON18/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    <a href="https://regmaster4.com/2019conf/CURRYON19/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
     {% endif %}
 
     <!-- <tito-widget event="curry-on/2019-amsterdam"></tito-widget> -->
@@ -99,10 +96,15 @@
         <ul class="accepted-talks">
             {% assign all_talks = settings.talks | sort:'title' %}
             {% for talk in all_talks %}
+            {% if talk.title %}
             <li>
-                <span class="talk-title"><a href="{{ talk.url }}">{{ talk.title }}</a></span>
-                <br/><span class="speaker-name">{{ talk.speaker.name }}</span>{% if talk.speaker.affiliation != "" %}, <span class="speaker-affiliation">{{ talk.speaker.affiliation }}</span>{% endif %}
+              <span class="talk-title"><a href="{{ talk.url }}">{{ talk.title }}</a></span><br/>
+              {% for speaker in talk.speakers %}
+              <span class="speaker-name">{{ speaker.name }}</span>{% if speaker.affiliation != "" %}, <span class="speaker-affiliation">{{ speaker.affiliation }}</span>{% endif %}
+              {% if forloop.last == false %} &amp; {% endif %}
+              {% endfor %}
             </li>
+            {% endif %}
             {% endfor %}
         </ul>
     </div>
@@ -110,21 +112,14 @@
 {% endif %}
 
 {% if settings.show_ticket_sale %}
-<div class="purple-stripe" style="min-height: 80px;">
-    <div class="pad-bottom"></div>
-</div>
-
-<div class="reddish-orange-stripe">
+<div class="purple-stripe">
   <div class="container centered">
     <div class="pad-top">&nbsp;</div>
     {% if settings.sold_out %}
     <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div>
-    {% else if settings.register_url %}
-    <div class="call-ends">Early bird tickets coming in April!</div>
-    <a href="https://regmaster4.com/2019conf/CURRYON17/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
     {% else %}
     <div class="call-ends">Tickets on Sale!</span>!</div>
-    <a href="https://regmaster4.com/2019conf/CURRYON18/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    <a href="https://regmaster4.com/2019conf/CURRYON19/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
     {% endif %}
 
     <!-- <tito-widget event="curry-on/2019-amsterdam"></tito-widget> -->

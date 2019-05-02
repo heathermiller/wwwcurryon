@@ -1,14 +1,20 @@
 <div class="row">
     <div class="title centered">{{ include.title }}</div>
 </div>
+{% assign idx = 0 %}
 {% for talk in include.talks %}
-  {% assign idx = forloop.index | modulo: 4 %}
-  {% if idx == 1 %}
+{% for speaker in talk.speakers %}
+  {% assign idx = idx | plus: 1 %}
+  {% assign m = idx | modulo: 4 %}
+  {% if m == 1 %}
   <div class="row">
   {% endif %}
-  {% include 2019-keynote.html keynote=talk %}
-  {% if idx == 0 or forloop.last %}
+  {% include 2019-keynote.html speaker=speaker talk_url=talk.url %}
+  {% if m == 0 %}
   </div>
   {% endif %}
 {% endfor %}
-    
+{% if m != 0 and forloop.last %}
+</div>
+{% endif %}
+{% endfor %}    

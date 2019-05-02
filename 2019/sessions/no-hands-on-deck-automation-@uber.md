@@ -1,10 +1,13 @@
 ---
 layout: 2019-abstract
 title: "No Hands on Deck: Automation @Uber"
-by: Adam Welc
-affiliation: Uber
-video: 
-profpic-class: adam_welc
+speakers:
+  - id: "adam_welc"
+    name: "Adam Welc"
+    affiliation: "Uber"
+    url: ""
+    twitter: ""
+    known-for: ""
 ---
 
 <br/>

@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "Idris 2: Type-driven Development of Idris"
-by: Edwin Brady
-affiliation: U of St Andrews
-video: 
-profpic-class: edwin_brady
+speakers:
+  - id: "edwin_brady"
+    name: "Edwin Brady"
+    affiliation: "U of St Andrews"
+    url: "https://eb.host.cs.st-andrews.ac.uk/"
+    twitter: "edwinbrady"
+    known-for: ""
 ---
 
-[@edwinbrady](https://twitter.com/edwinbrady)
 <br/>
 
 ### Abstract

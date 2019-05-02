@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "A vision for debugging distributed applications"
-by: Aidan Hobson Sayers
-affiliation: Hadean Supercomputing Ltd.
-video: 
-profpic-class: aidan_hobson_sayers
+speakers:
+  - id: "aidan_hobson_sayers"
+    name: "Aidan Hobson Sayers"
+    affiliation: "Hadean Supercomputing Ltd."
+    url: ""
+    twitter: "aidanhs"
+    known-for: ""
 ---
 
-[@aidanhs](https://twitter.com/aidanhs)
 <br/>
 
 ### Abstract

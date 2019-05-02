@@ -21,20 +21,44 @@ layout: default
 
 <div class="inner-page-wrap">
   <div class="container">
+    {% for speaker in page.speakers %}
     <div class="row">
       <div class="col-md-2"></div>
       <div class="col-md-8">
-        <div class="circular {{ page.profpic-class }}" style="float: left; margin-top: 42px; margin-right: 18px; "></div>
+        {% if forloop.first == true %}
+        <div class="circular {{ speaker.id }}" style="float: left; margin-top: 42px; margin-right: 18px; "></div>
         <div class="abstract-page-title">{{ page.title }}</div>
-        <div class="abstract-page-by">{{ page.by }}</div>
-        {% if page.affiliation != "" %}<div class="abstract-page-affiliation">{{ page.affiliation }}</div>{% endif %}
-        {% if page.video %}
+        {% else %}
+        <div class="circular {{ speaker.id }}" style="float: left; margin-top: 22px; margin-right: 18px; "></div>
+        <div class="abstract-page-title"></div>
+        {% endif %}
+        <div class="abstract-page-by">
+          {{ speaker.name }}
+        </div>
+        {% if speaker.affiliation != "" %}
+        <div class="abstract-page-affiliation">
+          {{ speaker.affiliation }}
+        </div>
+        {% endif %}
+        {% if speaker.twitter != "" %}
+        <div class="td-twitter">
+          <a href="https://twitter.com/{{ talk.speaker.twitter }}">@{{ speaker.twitter }}</a>
+        </div>
+        {% endif %}
+        {% if speaker.video %}
         <div class="td-video-link">
             <a href="{{ page.video }}">
                 <span class="fa fa-youtube-play" style="font-size: 18px;" aria-hidden="true"></span>&nbsp;watch
             </a>
         </div>
         {% endif %}
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    {% endfor %}
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
         {{ content }}
       </div>
       <div class="col-md-2"></div>

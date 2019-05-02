@@ -1,10 +1,13 @@
 ---
 layout: 2019-abstract
 title: "Carp—A Language for the 21st Century"
-by: Veit Heller
-affiliation: Port Zero
-video: 
-profpic-class: veit_heller
+speakers:
+  - id: "veit_heller"
+    name: "Veit Heller"
+    affiliation: "Port Zero"
+    url: "https://veitheller.de"
+    twitter: ""
+    known-for: ""
 ---
 
 <br/>

@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "Moldable development"
-by: Tudor Girba
-affiliation: feenk gmbh
-video: 
-profpic-class: tudor_girba
+speakers:
+  - id: "tudor_girba"
+    name: "Tudor Girba"
+    affiliation: "feenk gmbh"
+    url: "http://www.tudorgirba.com"
+    twitter: "girba"
+    known-for: ""
 ---
 
-[@girba](https://twitter.com/girba)
 <br/>
 
 ### Abstract

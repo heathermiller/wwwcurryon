@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "Mental models for critiquing design of interactive development environments"
-by: Richard Millwood
-affiliation: Core Education UK &amp; Trinity College Dublin
-video: 
-profpic-class: richard_millwood
+speakers:
+  - id: "richard_millwood"
+    name: "Richard Millwood"
+    affiliation: "Core Education UK &amp;amp; Trinity College Dublin"
+    url: "http://richardmillwood.net"
+    twitter: "richardmillwood"
+    known-for: ""
 ---
 
-[@richardmillwood](https://twitter.com/richardmillwood)
 <br/>
 
 ### Abstract

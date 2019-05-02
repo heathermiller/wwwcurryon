@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "Say What You Mean: Exploring Declarative Computation in Art"
-by: David Schmudde
-affiliation: Nextjournal
-video: 
-profpic-class: david_schmudde
+speakers:
+  - id: "david_schmudde"
+    name: "David Schmudde"
+    affiliation: "Nextjournal"
+    url: "http://schmud.de/"
+    twitter: "dschmudde"
+    known-for: ""
 ---
 
-[@dschmudde](https://twitter.com/dschmudde)
 <br/>
 
 ### Abstract

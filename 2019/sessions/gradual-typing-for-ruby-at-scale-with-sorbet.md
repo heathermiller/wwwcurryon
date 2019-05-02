@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "Gradual typing for Ruby at Scale with Sorbet"
-by: Dmitry Petrashko
-affiliation: Stripe
-video: 
-profpic-class: dmitry_petrashko
+speakers:
+  - id: "dmitry_petrashko"
+    name: "Dmitry Petrashko"
+    affiliation: "Stripe"
+    url: ""
+    twitter: "darkdimius"
+    known-for: ""
 ---
 
-[@darkdimius](https://twitter.com/darkdimius)
 <br/>
 
 ### Abstract

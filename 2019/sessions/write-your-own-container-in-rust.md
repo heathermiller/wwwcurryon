@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "Write your own Container in Rust!"
-by: Gargi Sharma
-affiliation: Recurse Center
-video: 
-profpic-class: gargi_sharma
+speakers:
+  - id: "gargi_sharma"
+    name: "Gargi Sharma"
+    affiliation: "Recurse Center"
+    url: ""
+    twitter: "gawwrgi"
+    known-for: ""
 ---
 
-[@gawwrgi](https://twitter.com/gawwrgi)
 <br/>
 
 ### Abstract

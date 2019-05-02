@@ -1,13 +1,15 @@
 ---
 layout: 2019-abstract
 title: "Local-first software: Returning data ownership to users"
-by: Martin Kleppmann
-affiliation: University of Cambridge
-video: 
-profpic-class: martin_kleppmann
+speakers:
+  - id: "martin_kleppmann"
+    name: "Martin Kleppmann"
+    affiliation: "University of Cambridge"
+    url: "https://martin.kleppmann.com"
+    twitter: "martinkl"
+    known-for: ""
 ---
 
-[@martinkl](https://twitter.com/martinkl)
 <br/>
 
 ### Abstract
