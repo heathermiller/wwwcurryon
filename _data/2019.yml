@@ -34,6 +34,8 @@ talks:
     twitter: ""
     known-for: "Dart"
 - type: "keynote"
+  title: "Logo, A Computer Language to Grow With"
+  url: "sessions/logo-a-computer-language-to-grow-with.html"
   video: ""
   speakers:
   - id: "cynthia_solomon"
@@ -100,6 +102,9 @@ talks:
     twitter: "tschneidereit"
     known-for: ""
 - type: "invited"
+  title: "Dragging Unix into the 1980s (and beyond?): liveness and
+source-level reflection"
+  url: "sessions/dragging-unix-into-the-1980s-and-beyond-liveness-and-source-level-reflection.html"
   video: ""
   speakers:
   - id: "stephen_kell"
