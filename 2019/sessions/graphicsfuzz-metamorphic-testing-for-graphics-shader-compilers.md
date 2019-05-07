@@ -1,6 +1,6 @@
 ---
 layout: 2019-abstract
-title: "Automated metamorphic testing of graphics drivers"
+title: "GraphicsFuzz: Metamorphic Testing for Graphics Shader Compilers"
 speakers:
   - id: "alastair_donaldson"
     name: "Alastair Donaldson"
