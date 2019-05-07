@@ -54,6 +54,8 @@ talks:
     twitter: "ag_dubs"
     known-for: "Rust/WebAssembly"
 - type: "keynote"
+  title: "Glean: facts about code"
+  url: "sessions/glean-facts-about-code.html"
   video: ""
   speakers:
   - id: "simon_marlow"
