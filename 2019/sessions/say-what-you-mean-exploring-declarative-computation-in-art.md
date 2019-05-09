@@ -8,6 +8,7 @@ speakers:
     url: "http://schmud.de/"
     twitter: "dschmudde"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

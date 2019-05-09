@@ -4,6 +4,7 @@
 {% assign idx = 0 %}
 {% for talk in include.talks %}
 {% for speaker in talk.speakers %}
+  {% if speaker.list == "yes" %}
   {% assign idx = idx | plus: 1 %}
   {% assign m = idx | modulo: 4 %}
   {% if m == 1 %}
@@ -12,6 +13,7 @@
   {% include 2019-keynote.html speaker=speaker talk_url=talk.url %}
   {% if m == 0 %}
   </div>
+  {% endif %}
   {% endif %}
 {% endfor %}
 {% if m != 0 and forloop.last %}

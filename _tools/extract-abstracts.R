@@ -43,7 +43,8 @@ template_speaker_yml <-
     affiliation: "{{affiliation}}"
     url: "{{website}}"
     twitter: "{{twitter}}"
-    known-for: "{{known_for}}"'
+    known-for: "{{known_for}}"
+    list: "{{list}}"'
 
 template_session <-
 '---
@@ -232,7 +233,8 @@ data <- read_csv(SHEET, trim_ws=T, na="", col_types = cols(
   abstract = col_character(),
   bio = col_character(),
   photo_url = col_character(),
-  recording = col_character()
+  recording = col_character(),
+  list = col_character()
 ))
 
 data_sorted <-
@@ -265,7 +267,8 @@ data_all <-
         video_url=ifelse(is.na(video_url), "", video_url),
         known_for=ifelse(is.na(known_for), "", known_for),
         small_photo=str_c(speaker_id, ".png"),
-        big_photo=str_c(speaker_id, "@2x.png")
+        big_photo=str_c(speaker_id, "@2x.png"),
+        list=ifelse(is.na(list), "yes", list)
     )
 
 data_list <- split(data_all, data_all$talk_id)

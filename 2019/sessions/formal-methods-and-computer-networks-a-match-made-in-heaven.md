@@ -8,6 +8,7 @@ speakers:
     url: "https://www.cs.cornell.edu/~jnfoster/"
     twitter: "natefoster"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

@@ -8,6 +8,7 @@ speakers:
     url: "https://github.com/jordymoos"
     twitter: "JordyMoos"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

@@ -8,6 +8,7 @@ speakers:
     url: "https://martin.kleppmann.com"
     twitter: "martinkl"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

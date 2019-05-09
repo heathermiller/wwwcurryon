@@ -8,6 +8,7 @@ speakers:
     url: "https://veitheller.de"
     twitter: ""
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

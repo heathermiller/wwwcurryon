@@ -8,6 +8,7 @@ speakers:
     url: ""
     twitter: "gawwrgi"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

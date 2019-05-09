@@ -8,12 +8,14 @@ speakers:
     url: "https://code-cartoons.com"
     twitter: "linclark"
     known-for: ""
+    list: "yes"
   - id: "till_schneidereit"
     name: "Till Schneidereit"
     affiliation: "Mozilla"
     url: "https://github.com/tschneidereit/"
     twitter: "tschneidereit"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

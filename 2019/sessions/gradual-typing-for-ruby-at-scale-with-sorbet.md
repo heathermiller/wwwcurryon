@@ -8,6 +8,7 @@ speakers:
     url: ""
     twitter: "darkdimius"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

@@ -8,6 +8,7 @@ speakers:
     url: "https://simonmar.github.io"
     twitter: "simonmar"
     known-for: "Haskell"
+    list: "yes"
 ---
 
 <br/>

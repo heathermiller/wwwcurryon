@@ -8,6 +8,7 @@ speakers:
     url: "https://stefan-marr.de/"
     twitter: "smarr"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

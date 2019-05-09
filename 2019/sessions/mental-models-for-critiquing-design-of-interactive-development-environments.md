@@ -8,6 +8,7 @@ speakers:
     url: "http://richardmillwood.net"
     twitter: "richardmillwood"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

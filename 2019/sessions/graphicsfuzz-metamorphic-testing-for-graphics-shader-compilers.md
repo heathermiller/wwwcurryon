@@ -8,6 +8,7 @@ speakers:
     url: "http://multicore.doc.ic.ac.uk"
     twitter: "afd_icl"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

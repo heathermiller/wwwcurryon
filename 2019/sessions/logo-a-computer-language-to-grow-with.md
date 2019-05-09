@@ -8,6 +8,7 @@ speakers:
     url: "https://en.wikipedia.org/wiki/Cynthia_Solomon"
     twitter: ""
     known-for: "Logo"
+    list: "yes"
 ---
 
 <br/>

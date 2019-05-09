@@ -8,6 +8,7 @@ speakers:
     url: "https://eb.host.cs.st-andrews.ac.uk/"
     twitter: "edwinbrady"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

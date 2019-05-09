@@ -8,6 +8,7 @@ speakers:
     url: "http://jtfmumm.com"
     twitter: "jtfmumm"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

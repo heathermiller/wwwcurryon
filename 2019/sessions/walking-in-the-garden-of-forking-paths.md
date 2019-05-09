@@ -8,6 +8,7 @@ speakers:
     url: "https://szymonkaliski.com"
     twitter: "szymon_k"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

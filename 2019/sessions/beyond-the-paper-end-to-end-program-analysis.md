@@ -8,6 +8,7 @@ speakers:
     url: "https://r2c.dev"
     twitter: ""
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

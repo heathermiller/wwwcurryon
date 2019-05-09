@@ -4,10 +4,32 @@ title: "Using ML for Code Discovery at Facebook"
 speakers:
   - id: "frank_luan"
     name: "Frank Luan"
-    affiliation: "Facebook, Inc."
+    affiliation: "Facebook"
     url: ""
     twitter: ""
     known-for: ""
+    list: "yes"
+  - id: "celeste_barnaby"
+    name: "Celeste Barnaby"
+    affiliation: ""
+    url: ""
+    twitter: ""
+    known-for: ""
+    list: "yes"
+  - id: "koushik_sen"
+    name: "Koushik Sen"
+    affiliation: "UC Berkeley"
+    url: ""
+    twitter: ""
+    known-for: ""
+    list: "yes"
+  - id: "satish_chandra"
+    name: "Satish Chandra"
+    affiliation: "Facebook"
+    url: ""
+    twitter: ""
+    known-for: ""
+    list: "no"
 ---
 
 <br/>
@@ -18,5 +40,11 @@ For developers working with large codebases, finding the relevant code or APIs f
 
 ### Bio
 
-Frank Luan is a software engineer at Facebook. He works in the Big Code team (with the rest of the authors) to apply machine learning techniques to build intelligent assistants that help developers write code.
+Frank Luan is a software engineer at Facebook. He works in the Big Code team to apply machine learning techniques to build intelligent assistants that help developers write code. He graduated from the University of Chicago in 2017 with a B.S. in Computer Science and a B.A. in Statistics.
+
+
+Celeste Barnaby is a software engineer at Facebook. She works in the Big Code team to apply machine learning techniques to build intelligent assistants that help developers write code. She graduated from Wesleyan University in 2018 with a B.A. in Computer Science and a B.A. in Mathematics.
+
+
+Koushik Sen is a professor in the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley. His research interest lies in Software Engineering, Programming Languages, and Formal methods. He is interested in developing software tools and methodologies that improve programmer productivity and software quality. He is best known for his work on “DART: Directed Automated Random Testing” and concolic testing. He has received a NSF CAREER Award in 2008, a Haifa Verification Conference (HVC) Award in 2009, a IFIP TC2 Manfred Paul Award for Excellence in Software: Theory and Practice in 2010, a Sloan Foundation Fellowship in 2011, a Professor R. Narasimhan Lecture Award in 2014, an Okawa Foundation Research Grant in 2015, and an ACM SIGSOFT Impact Paper Award in 2019. He has won several ACM SIGSOFT Distinguished Paper Awards. He received the C.L. and Jane W-S. Liu Award in 2004, the C. W. Gear Outstanding Graduate Award in 2005, and the David J. Kuck Outstanding Ph.D. Thesis Award in 2007, and a Distinguished Alumni Educator Award in 2014 from the UIUC Department of Computer Science. He holds a B.Tech from Indian Institute of Technology, Kanpur, and M.S. and Ph.D. in CS from University of Illinois at Urbana-Champaign.
 

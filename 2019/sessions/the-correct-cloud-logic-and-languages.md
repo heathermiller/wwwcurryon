@@ -8,6 +8,7 @@ speakers:
     url: "https://www.microsoft.com/en-us/research/people/tball/"
     twitter: "tballmsft"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

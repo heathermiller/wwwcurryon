@@ -8,6 +8,7 @@ speakers:
     url: "http://www.tudorgirba.com"
     twitter: "girba"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

@@ -8,18 +8,21 @@ speakers:
     url: ""
     twitter: ""
     known-for: ""
+    list: "yes"
   - id: "johannes_bader"
     name: "Johannes Bader"
     affiliation: "Facebook"
     url: ""
     twitter: ""
     known-for: ""
+    list: "yes"
   - id: "satish_chandra"
     name: "Satish Chandra"
     affiliation: "Facebook"
     url: ""
     twitter: ""
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

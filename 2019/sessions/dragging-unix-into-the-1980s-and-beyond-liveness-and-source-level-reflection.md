@@ -9,6 +9,7 @@ speakers:
     url: "https://www.cs.kent.ac.uk/people/staff/srk21/#publications"
     twitter: "stephenrkell"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

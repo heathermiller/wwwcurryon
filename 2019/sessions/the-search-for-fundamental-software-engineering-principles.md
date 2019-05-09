@@ -8,6 +8,7 @@ speakers:
     url: "http://tomasp.net"
     twitter: "tomaspetricek"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

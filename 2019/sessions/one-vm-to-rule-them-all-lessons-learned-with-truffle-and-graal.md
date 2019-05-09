@@ -8,6 +8,7 @@ speakers:
     url: "https://dhruvmakwana.com"
     twitter: ""
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

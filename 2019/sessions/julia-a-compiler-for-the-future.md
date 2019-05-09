@@ -8,6 +8,7 @@ speakers:
     url: "https://github.com/SimonDanisch"
     twitter: "SimonDanisch"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

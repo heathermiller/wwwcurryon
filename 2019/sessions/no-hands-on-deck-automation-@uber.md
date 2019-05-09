@@ -8,6 +8,7 @@ speakers:
     url: ""
     twitter: ""
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

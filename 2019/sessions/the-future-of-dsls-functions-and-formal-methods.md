@@ -8,6 +8,7 @@ speakers:
     url: "http://voelter.de"
     twitter: "markusvoelter"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

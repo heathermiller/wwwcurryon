@@ -8,18 +8,21 @@ speakers:
     url: "https://www.doc.ic.ac.uk/~scb12/"
     twitter: "scblessing"
     known-for: ""
+    list: "yes"
   - id: "tobias_wrigstad"
     name: "Tobias Wrigstad"
     affiliation: "Uppsala University"
     url: "http://wrigstad.com/"
     twitter: "tobiaswrigstad"
     known-for: ""
+    list: "yes"
   - id: "sophia_drossopoulou"
     name: "Sophia Drossopoulou"
     affiliation: "Imperial College London"
     url: "https://wp.doc.ic.ac.uk/sd/"
     twitter: "SophiaGoulimis"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

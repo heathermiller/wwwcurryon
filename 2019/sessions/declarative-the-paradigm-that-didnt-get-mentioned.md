@@ -8,6 +8,7 @@ speakers:
     url: "http://www.cwi.nl/~steven"
     twitter: "stevenpemberton"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

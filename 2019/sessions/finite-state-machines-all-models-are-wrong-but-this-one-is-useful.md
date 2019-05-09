@@ -8,12 +8,14 @@ speakers:
     url: ""
     twitter: "therajsaxena"
     known-for: ""
+    list: "yes"
   - id: "chris_ford"
     name: "Chris Ford"
     affiliation: "ThoughtWorks"
     url: "https://github.com/ctford"
     twitter: "ctford"
     known-for: ""
+    list: "yes"
 ---
 
 <br/>

@@ -8,6 +8,7 @@ speakers:
     url: "https://en.wikipedia.org/wiki/Lars_Bak_(computer_programmer)"
     twitter: ""
     known-for: "Dart"
+    list: "yes"
 ---
 
 <br/>
