@@ -17,7 +17,7 @@ show_accepted_talks: true
 show_accepted_talks_people: true
 show_talks_listing: true
 show_ticket_sale: true
-show_sponsors: false
+show_sponsors: true
 sold_out: false
 
 talks:
