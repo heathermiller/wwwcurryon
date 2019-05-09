@@ -11,7 +11,7 @@ speakers:
     list: "yes"
   - id: "celeste_barnaby"
     name: "Celeste Barnaby"
-    affiliation: ""
+    affiliation: "Facebook"
     url: ""
     twitter: ""
     known-for: ""
