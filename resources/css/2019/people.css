@@ -119,6 +119,16 @@
     background-size: 125px 125px;
   }
 }
+.circular.christine_flood {
+  background-image: url('/resources/img/2019/people/christine_flood.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.christine_flood {
+    background-image: url('/resources/img/2019/people/christine_flood@2x.png');
+    background-size: 125px 125px;
+  }
+}
 .circular.simon_danisch {
   background-image: url('/resources/img/2019/people/simon_danisch.png');
 }
