@@ -15,7 +15,7 @@ speakers:
 
 ### Abstract
 
-What do the topics of data center configuration, device drivers, cryptography, message parsers and protocols have in common? In  three words: logic and languages! In this talk, I’ll describe how Microsoft Research has developed and applied logic engines, such as Z3, and new languages, such as IVy and F*, to the specification, proof and testing of critical subsystems of Microsoft Azure.  F*, Ivy, and Z3 are all open source technologies.
+What do the topics of data center configuration, device drivers, cryptography, message parsers and protocols have in common? In  three words: logic and languages! In this talk, I’ll describe how Microsoft Research has developed and applied logic engines, such as Z3, and new languages, such as Ivy and F\*, to the specification, proof and testing of critical subsystems of Microsoft Azure. F\*, Ivy, and Z3 are all open source technologies.
 
 ### Bio
 
