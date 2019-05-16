@@ -4,7 +4,7 @@ title: "Idris 2: Type-driven Development of Idris"
 speakers:
   - id: "edwin_brady"
     name: "Edwin Brady"
-    affiliation: "U of St Andrews"
+    affiliation: "University of St Andrews"
     url: "https://eb.host.cs.st-andrews.ac.uk/"
     twitter: "edwinbrady"
     known-for: ""
