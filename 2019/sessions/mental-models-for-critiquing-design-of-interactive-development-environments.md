@@ -4,7 +4,7 @@ title: "Mental models for critiquing design of interactive development environme
 speakers:
   - id: "richard_millwood"
     name: "Richard Millwood"
-    affiliation: "Core Education UK &amp;amp; Trinity College Dublin"
+    affiliation: "Core Education UK & Trinity College Dublin"
     url: "http://richardmillwood.net"
     twitter: "richardmillwood"
     known-for: ""
@@ -19,5 +19,5 @@ Mental models are the mind's 'mechanisms' for explaining and predicting phenomen
 
 ### Bio
 
-Dr Richard Millwood is director of Core Education UK and a researcher in the School of Computer Science &amp; Statistics, Trinity College Dublin. Current research interests include learning programming and computational thinking and in relation to this, he is currently engaged in the development of a community of practice for computer science teachers in Ireland and also creating workshops for families to develop creative use of computers together. He gained a BSc in Mathematics &amp; Physics at King's College London in 1976 and first became a secondary school teacher. From 1980 to 1990 he led the software development of educational simulations in the Computers in the Curriculum Project at Chelsea College London. He then worked with Professor Stephen Heppell to create Ultralab, the learning technology research centre at Anglia Polytechnic University, acting as head from 2005 to 2007. He researched innovation in online higher education in the Institute for Educational Cybernetics at the University of Bolton until 2013, gaining a PhD by Practice 'The Design of Learner-centred, Technology-enhanced Education'. Until September 2017, he was Assistant Professor for four years directing the MSc in Technology &amp; Learning and supervising six PhD students.
+Dr Richard Millwood is director of Core Education UK and a researcher in the School of Computer Science & Statistics, Trinity College Dublin. Current research interests include learning programming and computational thinking and in relation to this, he is currently engaged in the development of a community of practice for computer science teachers in Ireland and also creating workshops for families to develop creative use of computers together. He gained a BSc in Mathematics & Physics at King's College London in 1976 and first became a secondary school teacher. From 1980 to 1990 he led the software development of educational simulations in the Computers in the Curriculum Project at Chelsea College London. He then worked with Professor Stephen Heppell to create Ultralab, the learning technology research centre at Anglia Polytechnic University, acting as head from 2005 to 2007. He researched innovation in online higher education in the Institute for Educational Cybernetics at the University of Bolton until 2013, gaining a PhD by Practice 'The Design of Learner-centred, Technology-enhanced Education'. Until September 2017, he was Assistant Professor for four years directing the MSc in Technology & Learning and supervising six PhD students.
 

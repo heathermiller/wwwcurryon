@@ -132,6 +132,13 @@ process_image <- function(row) {
     })
 }
 
+render_whisker <- function(...) {
+    # it is not possible to turn off escaping in whisker!
+    whisker.render(...) %>%
+    str_replace_all(fixed("&quot;"), '"') %>%
+    str_replace_all(fixed("&amp;"), "&")
+}
+
 process_md <- function(talk) {
     speakers <- render_speakers(talk)
     bio <- map_chr(talk, function(x) if (is.na(x$bio)) "" else x$bio)
@@ -140,7 +147,7 @@ process_md <- function(talk) {
     title <- talk$title
     abstract <- talk$abstract
     
-    session <- whisker.render(
+    session <- render_whisker(
       template_session, 
       list(
         title=title,
@@ -150,9 +157,6 @@ process_md <- function(talk) {
       )
     )
     
-    # it is not possible to turn off escaping in whisker!
-    session <- str_replace_all(session, "&quot;", '"')
-
     fname <- file.path(sessions_dir, str_c(talk$session_id, ".md"))
     write(session, fname)
     message("- written ", fname)
@@ -176,7 +180,7 @@ make_session_id <- function(title) {
 }
 
 render_speakers <- function(talk) {
-  speakers <- map_chr(talk, ~ whisker.render(template_speaker_yml, .))
+  speakers <- map_chr(talk, ~ render_whisker(template_speaker_yml, .))
   str_c(speakers, collapse = "\n")
 }
  
@@ -184,12 +188,12 @@ render_talk <- function(talk) {
   speakers <- render_speakers(talk)
   # for the talk itself we use data in the first row
   talk <- talk[[1]]
-  yml <- whisker.render(template_talk_yml, talk)
+  yml <- render_whisker(template_talk_yml, talk)
   str_c(yml, speakers, collapse = "\n")
 }
 
 render_css <- function(talk) {
-  css <- map_chr(talk, ~ whisker.render(template_css, .))
+  css <- map_chr(talk, ~ render_whisker(template_css, .))
   str_c(css, collapse = "\n\n")
 }
 

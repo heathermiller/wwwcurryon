@@ -4,7 +4,7 @@ title: "Formal Methods and Computer Networks: A Match Made in Heaven?"
 speakers:
   - id: "nate_foster"
     name: "Nate Foster"
-    affiliation: "Cornell University &amp;amp; Barefoot Networks"
+    affiliation: "Cornell University & Barefoot Networks"
     url: "https://www.cs.cornell.edu/~jnfoster/"
     twitter: "natefoster"
     known-for: ""

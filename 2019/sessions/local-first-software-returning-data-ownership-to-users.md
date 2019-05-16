@@ -19,5 +19,5 @@ Cloud applications such as Google Docs are popular because they enable real-time
 
 ### Bio
 
-Dr Martin Kleppmann is a researcher in distributed systems at the University of Cambridge, and author of the acclaimed “Designing Data-Intensive Applications” (O’Reilly Media, 2017). Previously he was a software engineer and entrepreneur at Internet companies including LinkedIn and Rapportive, where he worked on large-scale data infrastructure. He developed the concept of local-first in collaboration with the Ink&amp;Switch research lab.
+Dr Martin Kleppmann is a researcher in distributed systems at the University of Cambridge, and author of the acclaimed “Designing Data-Intensive Applications” (O’Reilly Media, 2017). Previously he was a software engineer and entrepreneur at Internet companies including LinkedIn and Rapportive, where he worked on large-scale data infrastructure. He developed the concept of local-first in collaboration with the Ink&Switch research lab.
 
