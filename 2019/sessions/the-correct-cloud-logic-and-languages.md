@@ -19,6 +19,5 @@ What do the topics of data center configuration, device drivers, cryptography, m
 
 ### Bio
 
-Thomas (Tom) Ball is a principal researcher and manager at Microsoft Research. In 1999, He initiated the influential SLAM software model-checking project with Sriram Rajamani, which led to the creation of the Static Driver Verifier tool for finding defects in Windows device drivers. Tom is a 2011 ACM Fellow for ‘contributions to software analysis and defect detection’. As a manager, he has nurtured research areas such as automated theorem proving, program testing/verification and empirical software engineering. His current focus is the Microsoft MakeCode platform for programming with physical computers (www.makecode.com). 
-
+Thomas (Tom) Ball is a principal researcher and manager at Microsoft Research. In 1999, He initiated the influential SLAM software model-checking project with Sriram Rajamani, which led to the creation of the Static Driver Verifier tool for finding defects in Windows device drivers. Tom is a 2011 ACM Fellow for ‘contributions to software analysis and defect detection’. As a manager, he has nurtured research areas such as automated theorem proving, program testing/verification and empirical software engineering. His current focus is the Microsoft MakeCode platform for programming with physical computers (www.makecode.com).
 

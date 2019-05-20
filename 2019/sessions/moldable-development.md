@@ -21,4 +21,3 @@ Software is data. Data is shapeless. We, humans, need a shape to reason about an
 
 Tudor Gîrba is a software environmentalist and co-founder of feenk.com where he works with an amazing team on Glamorous Toolkit, the moldable development environment (gtoolkit.com). He built all sorts of projects like the Moose platform for software and data analysis (moosetechnology.org), and he authored a couple of methods like humane assessment (humane-assessment.com). In 2014, he won the prestigious Dahl-Nygaard Junior Prize for his research (aito.org). This was particularly unusual as he is the only recipient of that prize that was not a university professor, even if he does hold a PhD from the University of Bern from a previous life. These days he likes to talk about moldable development.
 
-

@@ -30,8 +30,7 @@ very detailed language-specific information needed by analysers, to
 the high-level language-independent relationships typically needed by
 IDEs.
 
-
 ### Bio
 
-Simon Marlow
+Simon Marlow is a Software Engineer on Facebook's Abuse Detection Systems team in London. He is working on Haxl, a Haskell-based domain-specific language that is used by the teams fighting spam and malware. Simon is a co-author of the Glasgow Haskell Compiler, author of the book "Parallel and Concurrent Programming in Haskell", and has a string of research publications in functional programming, language design, compilers, and language implementation.
 
