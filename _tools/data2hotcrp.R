@@ -14,6 +14,18 @@ if (length(args) != 1) {
 e <- new.env(parent=emptyenv())
 e$counter <- 1
 
+convert_speaker <- function(speaker) {
+    names <- str_split(speaker$name, pattern=" ")[[1]]
+    first <- str_c(names[1:length(names)-1], collapse=" ")
+    last <- names[length(names)]
+    list(
+        first=first,
+        last=last,
+        email=speaker$email,
+        affiliation=speaker$affiliation
+    )
+}
+
 convert_one <- function(x) {
     converted <- list()
 
@@ -22,17 +34,7 @@ convert_one <- function(x) {
     converted$pid <- e$counter
     e$counter <- e$counter + 1
 
-    names <- str_split(x$speaker$name, pattern=" ")[[1]]
-    first <- str_c(names[1:length(names)-1], collapse=" ")
-    last <- names[length(names)]
-    converted$authors <- list(
-        list(
-            first=first,
-            last=last,
-            email=x$speaker$email,
-            affiliation=x$speaker$affiliation
-        )
-    )
+    converted$authors <- lapply(x$speakers, convert_speaker)
 
     abstract <-
         if (!is.null(x$url) && nchar(x$url) > 0) {
@@ -47,7 +49,7 @@ convert_one <- function(x) {
 }
 
 load_abstract <- function(f) {
-    fn <- file.path("2018", f)
+    fn <- file.path("2019", f)
     stopifnot(file.exists(fn))
 
     lines <- readLines(fn)
