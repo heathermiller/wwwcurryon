@@ -89,6 +89,113 @@
 </div>
 {% endif %}
 
+{% if settings.show_ticket_sale %}
+<div class="reddish-orange-stripe">
+  <div class="container centered">
+    <div class="pad-top">&nbsp;</div>
+    {% if settings.sold_out %}
+    <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div>
+    {% else %}
+    <div class="call-ends">Tickets on Sale!</span>!</div>
+    <a href="https://regmaster4.com/2019conf/CURRYON19/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    {% endif %}
+
+    <!-- <tito-widget event="curry-on/2019-amsterdam"></tito-widget> -->
+    <!-- <div class="subtagline" style="margin-bottom: 20px; color: #ffffff;">
+      <b>Want us to email you when tickets are available?</b>
+      <br/><a style="color: #fdab40;" href="https://ti.to/curry-on/2019-amsterdam">Leave your name and email</a>, and we'll let you know when the next batch goes on sale!
+    </div> -->
+    <!-- <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a> -->
+    <!--<a href="{{ site.baseurl }}/{{ settings.year }}#accepted-talks" class="btn btn-outline-inverse btn-lg">Accepted Talks</a>-->
+    {% if settings.show_program %}
+    <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a>
+    {% endif %}
+    <!-- <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div> -->
+    <!--<br>
+    <div class="early-registration">Early Registration Deadline: {{ settings.early_registration_deadline }}</div>
+    <iframe src="{{ settings.registration_countdown_url }}" allowTransparency="true" frameborder="0" width="120" height="31"></iframe>
+    <div class="early-registration-prices">Early bird: €500, Late bird: €550</div>-->
+  </div>
+  <div class="pad-bottom">&nbsp;</div>
+</div>
+{% endif %}
+
+{% if settings.show_program %}
+<div class="purple-stripe">
+  <div class="container">
+    <div id="program" class="big-white-italic centered" style="font-weight: 700; font-size: 38px;">
+      Program
+    </div>
+    {% for day in settings.program %}
+    <div class="big-white-italic centered" style="font-weight: 700; font-size: 34px; margin-top: -20px; color: #fc5a4a">
+      {{ day.day }}
+    </div>
+    <div class="">
+      <table class="table-responsive program centered-div">
+      <!-- style="undefined;table-layout: fixed; width: 802px; text-alignment: left;" -->
+      <colgroup>
+      <col style="width: 200px">
+      <col style="width: 500px">
+      <col style="width: 500px">
+      <col style="width: 500px">
+      </colgroup>
+      <tr>
+        <th class="tg-031e"></th>
+        <th class="tg-031e">Track 1</th>
+        <th class="tg-031e">Track 2</th>
+        <th class="tg-031e">Track 3</th>
+      </tr>
+      <!-- SESSIONS -->
+      {% for session in day.sessions %}
+      {% if session.type == "single" %}
+      {% include 2019-program-single.html session=session %}
+      {% elsif session.type == "keynote" %}
+      {% include 2019-program-keynote.html session=session %}
+      {% elsif session.type == "parallel" %}
+      {% include 2019-program-parallel.html session=session %}
+      {% endif %}
+      {% endfor %}
+      </table>
+    </div>
+    {% if forloop.last == false %}
+    <br/><br/><br/><br/>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if settings.show_ticket_sale %}
+<div class="purple-stripe">
+  <div class="container centered">
+    <div class="pad-top">&nbsp;</div>
+    {% if settings.sold_out %}
+    <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div>
+    {% else %}
+    <div class="call-ends">Tickets on Sale!</span>!</div>
+    <a href="https://regmaster4.com/2019conf/CURRYON19/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
+    {% endif %}
+
+    <!-- <tito-widget event="curry-on/2019-amsterdam"></tito-widget> -->
+    <!-- <div class="subtagline" style="margin-bottom: 20px; color: #ffffff;">
+      <b>Want us to email you when tickets are available?</b>
+      <br/><a style="color: #fdab40;" href="https://ti.to/curry-on/2019-amsterdam">Leave your name and email</a>, and we'll let you know when the next batch goes on sale!
+    </div> -->
+    <!-- <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a> -->
+    <!--<a href="{{ site.baseurl }}/{{ settings.year }}#accepted-talks" class="btn btn-outline-inverse btn-lg">Accepted Talks</a>-->
+    {% if settings.show_program %}
+    <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a>
+    {% endif %}
+    <!-- <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div> -->
+    <!--<br>
+    <div class="early-registration">Early Registration Deadline: {{ settings.early_registration_deadline }}</div>
+    <iframe src="{{ settings.registration_countdown_url }}" allowTransparency="true" frameborder="0" width="120" height="31"></iframe>
+    <div class="early-registration-prices">Early bird: €500, Late bird: €550</div>-->
+  </div>
+  <div class="pad-bottom">&nbsp;</div>
+</div>
+{% endif %}
+
 {% if settings.show_talks_listing %}
 <div class="reddish-orange-stripe">
     <div class="container">
@@ -197,79 +304,6 @@
         <div class="call-ends">Deadline: April 19<sup>th</sup></div>
         <div class="pad-bottom"></div>
     </div>
-</div>
-{% endif %}
-
-<div class="reddish-orange-stripe">
-  <div class="container centered">
-   <div class="pad-top">&nbsp;</div>
-   <div class="call-ends" style="color: #ffffff;">Atypical conference?</div>
-   <div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8 atypical">
-      <div class="our-goal">Our goal:</div>
-      <div class="biggish"><span class="purple biggen">Bring industry and academia together to have a conversation.</span></div>
-      <div class="our-goal">But...</div>
-      <div class="biggish"><span class="purple biggen">One speaker addressing hundreds of people is hardly a conversation.</span></div>
-      <div class="big-white-vinyl centered"><span style="font-size: 44px;">So, let's change that.</span></div>
-      <div class="our-goal">Introducing</div>
-      <div class="call-ends" style="color: #fdaa40;">Chess-Timer talks</div>
-      <div class="chess-timer-text">
-        Chess-timer talks are our unusual solution to making tech conferences a more interactive, more fun, and better place for learning and discussions.
-        <br><br>
-        Speakers who choose to give a chess-timer talk are allowed 20 minutes of solo speaking time, and 20 minutes of discussion time. A Curry On representative operates a chess-timer during the presentation, switching between solo + discussion time budgets. When an audience member interrupts the talk to ask a question, for example, we switch the timer to deduct from discussion time.
-        <br><br>
-        Curry On will feature a limited number of chess-timer sessions, meaning that a majority of talks will still be standard conference talks.
-      </div>
-    </div>
-    <div class="col-md-2"></div>
-  </div>
-  <div class="pad-bottom">&nbsp;</div>
-  </div>
-</div>
-
-{% if settings.show_program %}
-<div class="purple-stripe">
-  <div class="container">
-    <div id="program" class="big-white-italic centered" style="font-weight: 700; font-size: 38px;">
-      Program
-    </div>
-    {% for day in settings.program %}
-    <div class="big-white-italic centered" style="font-weight: 700; font-size: 34px; margin-top: -20px; color: #fc5a4a">
-      {{ day.day }}
-    </div>
-    <div class="">
-      <table class="table-responsive program centered-div">
-      <!-- style="undefined;table-layout: fixed; width: 802px; text-alignment: left;" -->
-      <colgroup>
-      <col style="width: 200px">
-      <col style="width: 500px">
-      <col style="width: 500px">
-      <col style="width: 500px">
-      </colgroup>
-      <tr>
-        <th class="tg-031e"></th>
-        <th class="tg-031e">Track 1</th>
-        <th class="tg-031e">Track 2</th>
-        <th class="tg-031e">Track 3</th>
-      </tr>
-      <!-- SESSIONS -->
-      {% for session in day.sessions %}
-      {% if session.type == "single" %}
-      {% include 2019-program-single.html session=session %}
-      {% elsif session.type == "keynote" %}
-      {% include 2019-program-keynote.html session=session %}
-      {% elsif session.type == "parallel" %}
-      {% include 2019-program-parallel.html session=session %}
-      {% endif %}
-      {% endfor %}
-      </table>
-    </div>
-    {% if forloop.last == false %}
-    <br/><br/><br/><br/>
-    {% endif %}
-    {% endfor %}
-  </div>
 </div>
 {% endif %}
 
