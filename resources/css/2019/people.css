@@ -254,16 +254,6 @@
     background-size: 125px 125px;
   }
 }
-.circular.martin_kleppmann {
-  background-image: url('/resources/img/2019/people/martin_kleppmann.png');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.martin_kleppmann {
-    background-image: url('/resources/img/2019/people/martin_kleppmann@2x.png');
-    background-size: 125px 125px;
-  }
-}
 .circular.sebastian_blessing {
   background-image: url('/resources/img/2019/people/sebastian_blessing.png');
 }

@@ -292,18 +292,6 @@ source-level reflection"
     twitter: "edwinbrady"
     known-for: ""
     list: "yes"
-- type: "talk"
-  title: "Local-first software: Returning data ownership to users"
-  url: "sessions/local-first-software-returning-data-ownership-to-users.html"
-  video: ""
-  speakers:
-  - id: "martin_kleppmann"
-    name: "Martin Kleppmann"
-    affiliation: "University of Cambridge"
-    url: "https://martin.kleppmann.com"
-    twitter: "martinkl"
-    known-for: ""
-    list: "yes"
 - type: "chesstalk"
   title: "Run, actor, run"
   url: "sessions/run-actor-run.html"
@@ -643,7 +631,7 @@ program:
         room-1:
           talk: "Plutus and Marlowe"
         room-2:
-          talk: "Local-first software: Returning data ownership to users"
+          talk: "Dynamic Languages and Parallelism: How to Go from Broken or Slow to Safe and Efficient?"
         room-3:
           talk: "Finite-State Machines: All models are wrong but this one is useful"
 
@@ -696,7 +684,7 @@ program:
         room-1:
           talk: "Walking In The Garden Of Forking Paths"
         room-2:
-          talk: "Dynamic Languages and Parallelism: How to Go from Broken or Slow to Safe and Efficient?"
+          talk: ""
         room-3:
           talk: ""
 
