@@ -12,7 +12,7 @@ previous_editions:
   - 2015
 
 show_cfp: false
-show_program: false
+show_program: true
 show_accepted_talks: true
 show_accepted_talks_people: true
 show_talks_listing: true
@@ -47,6 +47,7 @@ talks:
     known-for: "Logo"
     list: "yes"
 - type: "keynote"
+  title: "Keynote by Ashley Williams"
   video: ""
   speakers:
   - id: "ashley_williams"
@@ -518,4 +519,191 @@ source-level reflection"
     list: "yes"
   # END_TALKS
 
+- type: misc
+  title: "Curry On opening remarks"
+  speaker:
+    name: Jan Vitek and Heather Miller
+
+- type: misc
+  title: "Coffee break"
+
+- type: misc
+  title: "Lunch"
+
+- type: misc
+  title: "Curry On Party"
+
 program:
+  - day: Monday, July 15<sup>th</sup>
+    sessions:
+      - time: 9:00-9:15
+        type: single
+        talk: "Curry On opening remarks"
+
+      - time: 9:15-10:15
+        type: keynote
+        talk: "Glean: facts about code"
+        room:
+
+      - time: 10:15-10:45
+        type: single
+        talk: "Coffee break"
+
+      - time: 10:45-11:30
+        type: parallel
+        room-1:
+          talk: "The Correct Cloud: Logic and Languages"
+        room-2:
+          talk: "Declarative - The paradigm that didn't get mentioned"
+        room-3:
+          talk: "Run, actor, run"
+
+      - time: 11:30-12:15
+        type: parallel
+        room-1:
+          talk: "Beyond the Paper: End-to-End Program Analysis"
+        room-2:
+          talk: "Say What You Mean: Exploring Declarative Computation in Art"
+        room-3:
+          talk: "Mental models for critiquing design of interactive development environments"
+
+      - time: 12:15-13:30
+        type: single
+        talk: Lunch
+
+      - time: 13:30-14:15
+        type: parallel
+        room-1:
+          talk: "Bringing WebAssembly outside the web with WASI"
+        room-2:
+          talk: "Julia: A Compiler for the Future"
+        room-3:
+          talk: "Formal Methods and Computer Networks: A Match Made in Heaven?"
+
+      - time: 14:15-15:00
+        type: parallel
+        room-1:
+          talk: "Write your own Container in Rust!"
+        room-2:
+          talk: "No Hands on Deck: Automation @Uber"
+        room-3:
+          talk: "Using ML for Code Discovery at Facebook"
+
+      - time: 15:00-15:30
+        type: single
+        talk: "Coffee break"
+
+      - time: 15:30-16:15
+        type: parallel
+        room-1:
+          talk: "Idris 2: Type-driven Development of Idris"
+        room-2:
+          talk: "Checkpointing for Java"
+        room-3:
+          talk: ""
+
+      - time: 16:15-17:00
+        type: parallel
+        room-1:
+          talk: "GraphicsFuzz: Metamorphic Testing for Graphics Shader Compilers"
+        room-2:
+          talk: "One VM to Rule Them All? Lessons Learned with Truffle and Graal"
+        room-3:
+          talk: ""
+
+      - time: 17:00-17:30
+        type: single
+        talk: "Coffee break"
+
+      - time: 17:30-18:30
+        type: keynote
+        talk: "Keynote by Ashley Williams"
+
+      - time: 19:30-22:00
+        type: single
+        talk: "Curry On Party"
+
+  - day: Tuesday, July 16<sup>th</sup>
+    sessions:
+      - time: 9:00-9:15
+        type: single
+        talk: "Curry On opening remarks"
+
+      - time: 9:15-10:15
+        type: keynote
+        talk: "Logo, A Computer Language to Grow With"
+        room:
+
+      - time: 10:15-10:45
+        type: single
+        talk: "Coffee break"
+
+      - time: 10:45-11:30
+        type: parallel
+        room-1:
+          talk: "Plutus and Marlowe"
+        room-2:
+          talk: "Local-first software: Returning data ownership to users"
+        room-3:
+          talk: "Finite-State Machines: All models are wrong but this one is useful"
+
+      - time: 11:30-12:15
+        type: parallel
+        room-1:
+          talk: "The search for fundamental software engineering principles"
+        room-2:
+          talk: "Safely Sharing Data: Reference Capabilities in the Pony Programming Language"
+        room-3:
+          talk: "The Tricks of Game Programming in a Pure Functional Language"
+
+      - time: 12:15-13:30
+        type: single
+        talk: Lunch
+
+      - time: 13:30-14:15
+        type: parallel
+        room-1:
+          talk: "The Tricks of Game Programming in a Pure Functional Language"
+        room-2:
+          talk: "Moldable development"
+        room-3:
+          talk: "Conflict resolution"
+
+      - time: 14:15-15:00
+        type: parallel
+        room-1:
+          talk: "Carp—A Language for the 21st Century"
+        room-2:
+          talk: "A vision for debugging distributed applications"
+        room-3:
+          talk: "Dragging Unix into the 1980s (and beyond?): liveness and source-level reflection"
+
+      - time: 15:00-15:30
+        type: single
+        talk: "Coffee break"
+
+      - time: 15:30-16:15
+        type: parallel
+        room-1:
+          talk: "Gradual typing for Ruby at Scale with Sorbet"
+        room-2:
+          talk: "The future of DSLs: functions and formal methods"
+        room-3:
+          talk: ""
+
+      - time: 16:15-17:00
+        type: parallel
+        room-1:
+          talk: "Walking In The Garden Of Forking Paths"
+        room-2:
+          talk: "Dynamic Languages and Parallelism: How to Go from Broken or Slow to Safe and Efficient?"
+        room-3:
+          talk: ""
+
+      - time: 17:00-17:30
+        type: single
+        talk: "Coffee break"
+
+      - time: 17:30-18:30
+        type: keynote
+        talk: "The Making of a Secure and Robust IoT Development Platform"

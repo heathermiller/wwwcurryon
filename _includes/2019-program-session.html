@@ -1,6 +1,8 @@
 {% assign talk = include.talk %}
+{% assign speakers = talk.speakers | map: "name" | join: " & " %}
+{% assign affiliations = talk.speakers | map: "affiliation" | join: " & " %}
 {% if talk.type == 'keynote' %}
-<div class="circular {{ talk.speaker.id }}" style="float: left; margin-right: 20px; margin-bottom: 20px;"></div>
+<div class="circular {{ talk.speakers[0].id }}" style="float: left; margin-right: 20px; margin-bottom: 20px;"></div>
 <div class="td-keynote"><span class="rounded-label">keynote</span></div>
 {% else %}
 <!-- <div class="circular {{ talk.speaker.id }}" style=""></div> -->
@@ -11,14 +13,10 @@
 <div class="td-title">
   <a href="{{ site.baseurl }}/2019/{{ talk.url }}">{{ talk.title }}</a>
 </div>
-<div class="td-speaker">{{ talk.speaker.name }}</div>
-<div class="td-affiliation">{{ talk.speaker.affiliation }}</div>
-{% if talk.speaker.twitter %}
-<div class="td-twitter">
-  <a href="https://twitter.com/{{ talk.speaker.twitter }}">@{{ talk.speaker.twitter }}</a>
-</div>
-{% endif %}
-{% if talk.video != ''  %}
+<div class="td-speaker">{{ speakers }}</div>
+<div class="td-affiliation">{{ affiliations }}</div>
+{% if talk and talk.video != ''  %}
+<div id="VIDEO"> {{ talk.video }}</div>
 <div class="td-video-link">
   <a href="{{ talk.video }}">
     <span class="fa fa-youtube-play" style="font-size: 18px;"></span>&nbsp;watch
