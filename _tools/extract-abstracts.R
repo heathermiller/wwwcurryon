@@ -257,10 +257,10 @@ data_filtered <-
 
 data_all <-
     data_filtered %>%
+    mutate_if(is.character, trimws, "both") %>%
     mutate(
         speaker_id=map_chr(name, make_speaker_id),
         affiliation=ifelse(is.na(affiliation), "", affiliation),
-        title=trimws(title, "both"),
         title=ifelse(is.na(title), "", title),
         has_title=str_length(title) > 0,
         session_id=map_chr(title, make_session_id),
