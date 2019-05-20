@@ -1475,7 +1475,8 @@ a.btn.btn-outline-inverse.btn-lg:hover {
 
 .time {
   font-style: normal;
-  /*vertical-align: to p;*/
+  vertical-align: middle;
+  text-align: center;
   padding-left: 6px;
 }
 
