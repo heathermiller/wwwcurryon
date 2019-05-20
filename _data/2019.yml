@@ -149,6 +149,8 @@ source-level reflection"
     known-for: ""
     list: "yes"
 - type: "invited"
+  title: "Plutus and Marlowe"
+  url: "sessions/plutus-and-marlowe.html"
   video: ""
   speakers:
   - id: "phil_wadler"
