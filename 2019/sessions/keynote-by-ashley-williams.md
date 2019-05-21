@@ -6,7 +6,6 @@ speakers:
     name: "Ashley Williams"
     affiliation: "Cloudflare"
     url: "https://ashleygwilliams.github.io"
-    email: "ashley666ashley@gmail.com"
     twitter: "ag_dubs"
     known-for: "Rust/WebAssembly"
     list: "yes"

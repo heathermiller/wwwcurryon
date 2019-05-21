@@ -48,6 +48,7 @@ talks:
     list: "yes"
 - type: "keynote"
   title: "Keynote by Ashley Williams"
+  url: "sessions/keynote-by-ashley-williams.html"
   video: ""
   speakers:
   - id: "ashley_williams"
