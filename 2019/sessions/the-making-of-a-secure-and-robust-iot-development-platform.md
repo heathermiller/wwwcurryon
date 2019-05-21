@@ -4,7 +4,7 @@ title: "The Making of a Secure and Robust IoT Development Platform"
 speakers:
   - id: "lars_bak"
     name: "Lars Bak"
-    affiliation: "Google"
+    affiliation: "Toitware"
     url: "https://en.wikipedia.org/wiki/Lars_Bak_(computer_programmer)"
     twitter: ""
     known-for: "Dart"
