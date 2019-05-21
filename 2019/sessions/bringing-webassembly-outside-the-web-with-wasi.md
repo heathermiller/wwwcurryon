@@ -29,7 +29,5 @@ Earlier this year, we announced WASI, the WebAssembly system interface. With thi
 _Lin Clark_ makes code cartoons and is a Principal Research Engineer on Mozilla's Advanced Development team, focusing on WebAssembly and Rust.
 
 
-
-
 _Till Schneidereit_ directs the WebAssembly tooling and runtime, and the Rust efforts at Mozilla. His team is responsible for Mozilla’s contributions to the Rust programming language; driving the Rust to WebAssembly compilation efforts; the Cranelift WebAssembly code generator; the Wasmtime WebAssembly runtime; and other projects around WebAssembly development and deployment. He’s also a delegate to the language standardization bodies for both JavaScript and WebAssembly.
 
