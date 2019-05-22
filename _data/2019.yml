@@ -697,7 +697,7 @@ program:
         room-1:
           talk: "Walking In The Garden Of Forking Paths"
         room-2:
-          talk: ""
+          talk: "Fabulous - Functional programming for cross-platform mobile apps"
         room-3:
           talk: ""
 
