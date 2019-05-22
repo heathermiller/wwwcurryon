@@ -506,6 +506,18 @@ source-level reflection"
     twitter: "richardmillwood"
     known-for: ""
     list: "yes"
+- type: "invited"
+  title: "Fabulous - Functional programming for cross-platform mobile apps"
+  url: "sessions/fabulous-functional-programming-for-cross-platform-mobile-apps.html"
+  video: ""
+  speakers:
+  - id: "don_syme"
+    name: "Don Syme"
+    affiliation: "Microsoft"
+    url: ""
+    twitter: ""
+    known-for: ""
+    list: "yes"
   # END_TALKS
 
 - type: misc
