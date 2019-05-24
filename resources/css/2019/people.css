@@ -457,3 +457,13 @@
     background-size: 125px 125px;
   }
 }
+.circular.jan_vitek {
+  background-image: url('/resources/img/2019/people/jan_vitek.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.jan_vitek {
+    background-image: url('/resources/img/2019/people/jan_vitek@2x.png');
+    background-size: 125px 125px;
+  }
+}

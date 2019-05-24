@@ -518,6 +518,18 @@ source-level reflection"
     twitter: ""
     known-for: ""
     list: "yes"
+- type: "invited"
+  title: "Getting everything wrong without doing anything right! On the perils of large-scale analysis of Github data"
+  url: "sessions/getting-everything-wrong-without-doing-anything-right-on-the-perils-of-large-scale-analysis-of-github-data.html"
+  video: ""
+  speakers:
+  - id: "jan_vitek"
+    name: "Jan Vitek"
+    affiliation: "Northeastern University"
+    url: "http://janvitek.org"
+    twitter: ""
+    known-for: ""
+    list: "yes"
   # END_TALKS
 
 - type: misc
@@ -690,7 +702,7 @@ program:
         room-2:
           talk: "The future of DSLs: functions and formal methods"
         room-3:
-          talk: ""
+          talk: "Getting everything wrong without doing anything right! On the perils of large-scale analysis of Github data"
 
       - time: 16:15-17:00
         type: parallel
