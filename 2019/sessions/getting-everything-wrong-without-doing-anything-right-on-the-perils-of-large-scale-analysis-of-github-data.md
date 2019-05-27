@@ -6,7 +6,7 @@ speakers:
     name: "Jan Vitek"
     affiliation: "Northeastern University"
     url: "http://janvitek.org"
-    twitter: ""
+    twitter: "j_v_66"
     known-for: ""
     list: "yes"
 ---
