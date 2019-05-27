@@ -542,6 +542,18 @@ source-level reflection"
     twitter: "pressron"
     known-for: ""
     list: "yes"
+- type: "talk"
+  title: "Microservice architecture, a programming languages perspective"
+  url: "sessions/microservice-architecture-a-programming-languages-perspective.html"
+  video: ""
+  speakers:
+  - id: "adelbert_chang"
+    name: "Adelbert Chang"
+    affiliation: "Target"
+    url: "https://adelbertc.github.io/"
+    twitter: "adelbertchang"
+    known-for: ""
+    list: "yes"
   # END_TALKS
 
 - type: misc
@@ -625,7 +637,7 @@ program:
         room-2:
           talk: "Checkpointing for Java"
         room-3:
-          talk: ""
+          talk: "Microservice architecture, a programming languages perspective"
 
       - time: 16:15-17:00
         type: parallel
