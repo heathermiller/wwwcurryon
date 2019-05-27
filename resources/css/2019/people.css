@@ -467,3 +467,13 @@
     background-size: 125px 125px;
   }
 }
+.circular.ron_pressler {
+  background-image: url('/resources/img/2019/people/ron_pressler.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.ron_pressler {
+    background-image: url('/resources/img/2019/people/ron_pressler@2x.png');
+    background-size: 125px 125px;
+  }
+}

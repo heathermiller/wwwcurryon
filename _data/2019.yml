@@ -530,6 +530,18 @@ source-level reflection"
     twitter: ""
     known-for: ""
     list: "yes"
+- type: "talk"
+  title: "Loom: Bringing Lightweight Threads and Delimited Continuations to the JVM"
+  url: "sessions/loom-bringing-lightweight-threads-and-delimited-continuations-to-the-jvm.html"
+  video: ""
+  speakers:
+  - id: "ron_pressler"
+    name: "Ron Pressler"
+    affiliation: "Oracle"
+    url: "https://pron.github.io"
+    twitter: "pressron"
+    known-for: ""
+    list: "yes"
   # END_TALKS
 
 - type: misc
@@ -702,7 +714,7 @@ program:
         room-2:
           talk: "The future of DSLs: functions and formal methods"
         room-3:
-          talk: "Getting everything wrong without doing anything right! On the perils of large-scale analysis of Github data"
+          talk: "Loom: Bringing Lightweight Threads and Delimited Continuations to the JVM"
 
       - time: 16:15-17:00
         type: parallel
@@ -711,7 +723,7 @@ program:
         room-2:
           talk: "Fabulous - Functional programming for cross-platform mobile apps"
         room-3:
-          talk: ""
+          talk: "Getting everything wrong without doing anything right! On the perils of large-scale analysis of Github data"
 
       - time: 17:00-17:30
         type: single
