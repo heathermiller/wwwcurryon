@@ -487,3 +487,13 @@
     background-size: 125px 125px;
   }
 }
+.circular.tadeu_zagallo {
+  background-image: url('/resources/img/2019/people/tadeu_zagallo.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.tadeu_zagallo {
+    background-image: url('/resources/img/2019/people/tadeu_zagallo@2x.png');
+    background-size: 125px 125px;
+  }
+}

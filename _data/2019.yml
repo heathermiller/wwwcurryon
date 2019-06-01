@@ -554,6 +554,18 @@ source-level reflection"
     twitter: "adelbertchang"
     known-for: ""
     list: "yes"
+- type: "invited"
+  title: "A compact bytecode format for JavaScriptCore"
+  url: "sessions/a-compact-bytecode-format-for-javascriptcore.html"
+  video: ""
+  speakers:
+  - id: "tadeu_zagallo"
+    name: "Tadeu Zagallo"
+    affiliation: "Apple"
+    url: "https://tadeuzagallo.com"
+    twitter: "tadeuzagallo"
+    known-for: ""
+    list: "yes"
   # END_TALKS
 
 - type: misc
@@ -646,7 +658,7 @@ program:
         room-2:
           talk: "One VM to Rule Them All? Lessons Learned with Truffle and Graal"
         room-3:
-          talk: ""
+          talk: "A compact bytecode format for JavaScriptCore"
 
       - time: 17:00-17:30
         type: single
