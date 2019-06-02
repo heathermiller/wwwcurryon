@@ -649,16 +649,16 @@ program:
         room-2:
           talk: "Checkpointing for Java"
         room-3:
-          talk: "Microservice architecture, a programming languages perspective"
+          talk: "Finite-State Machines: All models are wrong but this one is useful"
 
       - time: 16:15-17:00
         type: parallel
         room-1:
           talk: "GraphicsFuzz: Metamorphic Testing for Graphics Shader Compilers"
         room-2:
-          talk: "One VM to Rule Them All? Lessons Learned with Truffle and Graal"
+          talk: "Loom: Bringing Lightweight Threads and Delimited Continuations to the JVM"
         room-3:
-          talk: "A compact bytecode format for JavaScriptCore"
+          talk: "The Tricks of Game Programming in a Pure Functional Language"
 
       - time: 17:00-17:30
         type: single
@@ -694,7 +694,7 @@ program:
         room-2:
           talk: "Dynamic Languages and Parallelism: How to Go from Broken or Slow to Safe and Efficient?"
         room-3:
-          talk: "Finite-State Machines: All models are wrong but this one is useful"
+          talk: "One VM to Rule Them All? Lessons Learned with Truffle and Graal"
 
       - time: 11:30-12:15
         type: parallel
@@ -703,7 +703,7 @@ program:
         room-2:
           talk: "Safely Sharing Data: Reference Capabilities in the Pony Programming Language"
         room-3:
-          talk: "The Tricks of Game Programming in a Pure Functional Language"
+          talk: "A compact bytecode format for JavaScriptCore"
 
       - time: 12:15-13:30
         type: single
@@ -738,7 +738,7 @@ program:
         room-2:
           talk: "The future of DSLs: functions and formal methods"
         room-3:
-          talk: "Loom: Bringing Lightweight Threads and Delimited Continuations to the JVM"
+          talk: "Microservice architecture, a programming languages perspective"
 
       - time: 16:15-17:00
         type: parallel
