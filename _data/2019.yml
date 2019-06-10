@@ -580,7 +580,7 @@ source-level reflection"
   title: "Lunch"
 
 - type: misc
-  title: "Curry On Party"
+  title: "Curry On Party (<a href='https://2019.ecoop.org/attending/curry-on-banquet' style='color:#fdaa40;'>more info</a>)"
 
 program:
   - day: Monday, July 15<sup>th</sup>
@@ -670,7 +670,7 @@ program:
 
       - time: 19:30-22:00
         type: single
-        talk: "Curry On Party"
+        talk: "Curry On Party (<a href='https://2019.ecoop.org/attending/curry-on-banquet' style='color:#fdaa40;'>more info</a>)"
 
   - day: Tuesday, July 16<sup>th</sup>
     sessions:
