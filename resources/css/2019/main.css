@@ -156,12 +156,12 @@ ul > li, ol > li  {
   letter-spacing: .08em;
   font-size: 18px;
   padding-top: 4px;
-  padding-left: 184px;
+  padding-left: 15%;
 }
 
 .curry-on-logo {
   position: relative;
-  margin: 180px auto 20px auto;
+  margin: 95px auto 20px auto;
   height: 200px;
   width: 200px;
   background-image: url('{{ site.baseurl }}/resources/img/curry-on-logo.png');
@@ -314,7 +314,7 @@ p.triangle  {
   /*border-bottom: 24px solid rgba(28, 123, 115, 0.45);*/
   border-bottom: 24px solid rgba(175, 144, 149, 0.35); /*rgba(23, 21, 42, 0.55);*/
   border-left: 34px solid transparent;
-  margin-left: 18px;
+  margin-left: 60px;
   margin-bottom: 10px;
 }
 
@@ -340,14 +340,18 @@ p.triangle  {
   z-index: 100;
   position: relative;
   width: 490px;
-  /*margin-left: 50px;*/
-  margin-top: -60px;
+  margin-left: 0px;
+}
+
+.speech-bubble a {
+  color: #fdaa40;
 }
 
 .speech-bubble-wrap {
   position: relative;
   width: 400px;
   margin: 0 auto;
+  margin-top: 22px;
 }
 
 .centered {
