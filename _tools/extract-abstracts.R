@@ -30,7 +30,8 @@ template_css <-
 }'
 
 template_talk_yml <-
-'- type: "{{type}}"{{#has_title}}
+'- type: "{{type}}"
+  chesstalk: {{chesstalk}}{{#has_title}}
   title: "{{title}}"
   url: "sessions/{{session_id}}.html"{{/has_title}}
   video: "{{video_url}}"
@@ -222,6 +223,7 @@ update_css <- function(css) {
 
 data <- read_csv(SHEET, trim_ws=T, na="", col_types = cols(
   type = col_character(),
+  chesstalk = col_character(),
   name = col_character(),
   accepted = col_character(),
   email = col_character(),
@@ -246,8 +248,9 @@ data_sorted <-
     mutate(
         type=factor(
             type,
-            levels=c("keynote", "invited", "talk", "chesstalk")
-        )
+            levels=c("keynote", "invited", "talk")
+        ),
+        chesstalk=tolower(chesstalk) == "yes"
     ) %>%
     arrange(type)
 
