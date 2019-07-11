@@ -367,8 +367,8 @@ source-level reflection"
     list: "yes"
 - type: "talk"
   chesstalk: FALSE
-  title: "One VM to Rule Them All? Lessons Learned with Truffle and Graal"
-  url: "sessions/one-vm-to-rule-them-all-lessons-learned-with-truffle-and-graal.html"
+  title: "One VM to Rule Them All? Lessons Learned with GraalVM"
+  url: "sessions/one-vm-to-rule-them-all-lessons-learned-with-graalvm.html"
   video: ""
   speakers:
   - id: "dhruv_makwana"

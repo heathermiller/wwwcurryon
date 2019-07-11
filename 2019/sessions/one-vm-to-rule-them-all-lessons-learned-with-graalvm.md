@@ -1,6 +1,6 @@
 ---
 layout: 2019-abstract
-title: "One VM to Rule Them All? Lessons Learned with Truffle and Graal"
+title: "One VM to Rule Them All? Lessons Learned with GraalVM"
 speakers:
   - id: "dhruv_makwana"
     name: "Dhruv Makwana"
