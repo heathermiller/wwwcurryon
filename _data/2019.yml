@@ -734,7 +734,7 @@ program:
         room-2:
           talk: "Safely Sharing Data: Reference Capabilities in the Pony Programming Language"
         room-3:
-          talk: "One VM to Rule Them All? Lessons Learned with Truffle and Graal"
+          talk: "One VM to Rule Them All? Lessons Learned with GraalVM"
 
       - time: 11:30-12:15
         type: parallel
