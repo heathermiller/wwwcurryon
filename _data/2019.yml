@@ -50,16 +50,23 @@ talks:
     list: "yes"
 - type: "keynote"
   chesstalk: FALSE
-  title: "Keynote by Ashley Williams"
-  url: "sessions/keynote-by-ashley-williams.html"
+  title: "Bringing WebAssembly outside the web with WASI"
+  url: "sessions/bringing-webassembly-outside-the-web-with-wasi.html"
   video: ""
   speakers:
-  - id: "ashley_williams"
-    name: "Ashley Williams"
-    affiliation: "Cloudflare"
-    url: "https://ashleygwilliams.github.io"
-    twitter: "ag_dubs"
-    known-for: "Rust/WebAssembly"
+  - id: "lin_clark"
+    name: "Lin Clark"
+    affiliation: "Mozilla"
+    url: "https://code-cartoons.com"
+    twitter: "linclark"
+    known-for: ""
+    list: "yes"
+  - id: "till_schneidereit"
+    name: "Till Schneidereit"
+    affiliation: "Mozilla"
+    url: "https://github.com/tschneidereit/"
+    twitter: "tschneidereit"
+    known-for: ""
     list: "yes"
 - type: "keynote"
   chesstalk: FALSE
@@ -102,22 +109,15 @@ talks:
     list: "yes"
 - type: "invited"
   chesstalk: FALSE
-  title: "Bringing WebAssembly outside the web with WASI"
-  url: "sessions/bringing-webassembly-outside-the-web-with-wasi.html"
+  title: "Asynchronous streams in direct style with and without macros"
+  url: "sessions/asynchronous-streams-in-direct-style-with-and-without-macros.html"
   video: ""
   speakers:
-  - id: "lin_clark"
-    name: "Lin Clark"
-    affiliation: "Mozilla"
-    url: "https://code-cartoons.com"
-    twitter: "linclark"
-    known-for: ""
-    list: "yes"
-  - id: "till_schneidereit"
-    name: "Till Schneidereit"
-    affiliation: "Mozilla"
-    url: "https://github.com/tschneidereit/"
-    twitter: "tschneidereit"
+  - id: "philipp_haller"
+    name: "Philipp Haller"
+    affiliation: "KTH"
+    url: "http://www.csc.kth.se/~phaller/"
+    twitter: "philippkhaller"
     known-for: ""
     list: "yes"
 - type: "invited"
@@ -425,7 +425,7 @@ source-level reflection"
   speakers:
   - id: "szymon_kaliski"
     name: "Szymon Kaliski"
-    affiliation: "flow/control "
+    affiliation: "flow/control"
     url: "https://szymonkaliski.com"
     twitter: "szymon_k"
     known-for: ""
@@ -663,7 +663,7 @@ program:
       - time: 13:30-14:15
         type: parallel
         room-1:
-          talk: "Bringing WebAssembly outside the web with WASI"
+          talk: "Asynchronous streams in direct style with and without macros"
         room-2:
           talk: "Julia: A Compiler for the Future"
         room-3:
@@ -706,7 +706,7 @@ program:
 
       - time: 17:30-18:30
         type: keynote
-        talk: "Keynote by Ashley Williams"
+        talk: "Bringing WebAssembly outside the web with WASI"
 
       - time: 19:30-22:00
         type: single
