@@ -18,13 +18,24 @@
     background-size: 125px 125px;
   }
 }
-.circular.ashley_williams {
-  background-image: url('/resources/img/2019/people/ashley_williams.png');
+.circular.lin_clark {
+  background-image: url('/resources/img/2019/people/lin_clark.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.ashley_williams {
-    background-image: url('/resources/img/2019/people/ashley_williams@2x.png');
+  .circular.lin_clark {
+    background-image: url('/resources/img/2019/people/lin_clark@2x.png');
+    background-size: 125px 125px;
+  }
+}
+
+.circular.till_schneidereit {
+  background-image: url('/resources/img/2019/people/till_schneidereit.png');
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .circular.till_schneidereit {
+    background-image: url('/resources/img/2019/people/till_schneidereit@2x.png');
     background-size: 125px 125px;
   }
 }
@@ -58,24 +69,13 @@
     background-size: 125px 125px;
   }
 }
-.circular.lin_clark {
-  background-image: url('/resources/img/2019/people/lin_clark.png');
+.circular.philipp_haller {
+  background-image: url('/resources/img/2019/people/philipp_haller.png');
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.lin_clark {
-    background-image: url('/resources/img/2019/people/lin_clark@2x.png');
-    background-size: 125px 125px;
-  }
-}
-
-.circular.till_schneidereit {
-  background-image: url('/resources/img/2019/people/till_schneidereit.png');
-}
-
-@media all and (-webkit-min-device-pixel-ratio: 1.5) {
-  .circular.till_schneidereit {
-    background-image: url('/resources/img/2019/people/till_schneidereit@2x.png');
+  .circular.philipp_haller {
+    background-image: url('/resources/img/2019/people/philipp_haller@2x.png');
     background-size: 125px 125px;
   }
 }
