@@ -1798,3 +1798,18 @@ code {
 .tito-wrapper {
   background-color: white;
 }
+
+div.sponsor-group {
+  color: #6DAFDE;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "ronnia",sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.3em
+}
+
+img.sponsor {
+    margin: 20px;
+}
