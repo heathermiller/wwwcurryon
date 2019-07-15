@@ -696,7 +696,7 @@ program:
         room-1:
           talk: "Loom: Bringing Lightweight Threads and Delimited Continuations to the JVM"
         room-2:
-          talk: "GraphicsFuzz: Metamorphic Testing for Graphics Shader Compilers"
+          talk: "Microservice architecture, a programming languages perspective"
         room-3:
           talk: "The Tricks of Game Programming in a Pure Functional Language"
 
@@ -778,7 +778,7 @@ program:
         room-2:
           talk: "The future of DSLs: functions and formal methods"
         room-3:
-          talk: "Microservice architecture, a programming languages perspective"
+          talk: "GraphicsFuzz: Metamorphic Testing for Graphics Shader Compilers"
 
       - time: 16:15-17:00
         type: parallel
