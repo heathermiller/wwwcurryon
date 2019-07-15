@@ -676,7 +676,7 @@ program:
         room-2:
           talk: "No Hands on Deck: Automation @Uber"
         room-3:
-          talk: "Write your own Container in Rust!"
+          talk: "Getting everything wrong without doing anything right! On the perils of large-scale analysis of Github data"
 
       - time: 15:00-15:30
         type: single
@@ -787,7 +787,7 @@ program:
         room-2:
           talk: "Walking In The Garden Of Forking Paths"
         room-3:
-          talk: "Getting everything wrong without doing anything right! On the perils of large-scale analysis of Github data"
+          talk: "Write your own Container in Rust!"
 
       - time: 17:00-17:30
         type: single
