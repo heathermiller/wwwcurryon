@@ -638,7 +638,7 @@ program:
         type: single
         talk: "Coffee break"
 
-      - time: 10:45-11:30
+      - time: 10:45-11:25
         type: parallel
         room-1:
           talk: "The Correct Cloud: Logic and Languages"
@@ -660,7 +660,7 @@ program:
         type: single
         talk: Lunch
 
-      - time: 13:30-14:15
+      - time: 13:30-14:10
         type: parallel
         room-1:
           talk: "Asynchronous streams in direct style with and without macros"
@@ -682,7 +682,7 @@ program:
         type: single
         talk: "Coffee break"
 
-      - time: 15:30-16:15
+      - time: 15:30-16:10
         type: parallel
         room-1:
           talk: "Idris 2: Type-driven Development of Idris"
@@ -727,7 +727,7 @@ program:
         type: single
         talk: "Coffee break"
 
-      - time: 10:45-11:30
+      - time: 10:45-11:25
         type: parallel
         room-1:
           talk: "Plutus and Marlowe"
@@ -749,7 +749,7 @@ program:
         type: single
         talk: Lunch
 
-      - time: 13:30-14:15
+      - time: 13:30-14:10
         type: parallel
         room-1:
           talk: "Getafix: Learning to fix bugs automatically"
@@ -771,7 +771,7 @@ program:
         type: single
         talk: "Coffee break"
 
-      - time: 15:30-16:15
+      - time: 15:30-16:10
         type: parallel
         room-1:
           talk: "Gradual typing for Ruby at Scale with Sorbet"
