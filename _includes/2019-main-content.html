@@ -14,13 +14,13 @@
 </div>
 
 
-{% if settings.show_ticket_sale %}
+{% if settings.show_ticket_sale or settings.videos_online %}
 <div class="reddish-orange-stripe">
   <div class="container centered">
     <div class="pad-top">&nbsp;</div>
     {% if settings.sold_out %}
     <div id="tickets" class="call-ends" style="color: #fff;">Sold out!</div>
-    {% else %}
+    {% elsif settings.show_ticket_sale %}
     <div class="call-ends">Tickets on Sale!</span>!</div>
     <a href="https://regmaster4.com/2019conf/CURRYON19/register.php" class="btn btn-outline-inverse btn-lg">Register Now!</a>
     {% endif %}
@@ -32,8 +32,13 @@
     </div> -->
     <!-- <a href="{{ site.baseurl }}/{{ settings.year }}/diversity.html" class="btn btn-outline-inverse btn-lg">Diversity Scholarships</a> -->
     <!--<a href="{{ site.baseurl }}/{{ settings.year }}#accepted-talks" class="btn btn-outline-inverse btn-lg">Accepted Talks</a>-->
-    {% if settings.show_program %}
+    <!-- {% if settings.show_program %}
     <a href="#program" class="btn btn-outline-inverse btn-lg">Program</a>
+    {% endif %} -->
+
+    {% if settings.videos_online %}
+    <div class="call-ends">Talk videos online!</span>!</div>
+    <a href="#program" class="btn btn-outline-inverse btn-lg">Video Links In Program</a>
     {% endif %}
     <!-- <div class="call-ends">Tickets go on sale {{ settings.tickets_sale_date }}</div> -->
     <!--<br>
