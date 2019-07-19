@@ -9,6 +9,7 @@ speakers:
     twitter: "edwinbrady"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=DRq2NgeFcO0&t=86s"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ We've been having lots of fun over the last couple of years investigating the po
 ### Bio
 
 Edwin is a Lecturer in Computer Science at the University of St Andrews in Scotland, interested in type-driven development, domain specific languages and reasoning about effectful programs. When he's not doing that, he might be playing Go, watching cricket, or wandering around Scotland's countryside.
-

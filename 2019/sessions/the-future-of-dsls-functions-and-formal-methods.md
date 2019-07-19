@@ -9,6 +9,7 @@ speakers:
     twitter: "markusvoelter"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=Ud5OQN6e4as"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ I have used domain-specific languages to empower non-programmers in healthcare, 
 ### Bio
 
 Markus Voelter works as a language engineer, bridging the gap from industry, business and science domains to software systems. He designs user-friendly languages, implements analyses, tools and IDEs, and  architects backends based on interpreters and generators. He also workson meta-tools for language engineering. Markus publishes papers and books on the subject and regularly speaks at conferences world-wide. Markus has a diploma in technical physics from FH Ravensburg-Weingarten and a PhD in computer science from TU Delft.
-

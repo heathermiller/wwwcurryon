@@ -9,6 +9,7 @@ speakers:
     twitter: ""
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=Ei7zVDulN14"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Automated program analysis is responsible for a majority of vulnerability discov
 ### Bio
 
 Before joining r2c to lead program analysis, Cam worked on compilers and build systems at Microsoft, Facebook, and Instagram. Prior to that, he left PL research at MIT for the siren song of silicon valley. In his spare time, he maintains a motley crew of wheeled vehicles in advanced stages of decomposition and lives with his elderly cat.
-

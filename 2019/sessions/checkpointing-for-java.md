@@ -9,6 +9,7 @@ speakers:
     twitter: ""
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=jCxgw5i9rEs"
 ---
 
 <br/>
@@ -30,7 +31,6 @@ Java API, and then discuss some interesting use cases.
 
 ### Bio
 
-Christine H. Flood is a software developer at Red Hat working on OpenJDK.  She's committed 
-to bringing new programming language design features to Java so that it remains relevant for 
+Christine H. Flood is a software developer at Red Hat working on OpenJDK.  She's committed
+to bringing new programming language design features to Java so that it remains relevant for
 another 20 years.
-

@@ -9,6 +9,7 @@ speakers:
     twitter: "aidanhs"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=KHmrvLBbW7Y"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Many applications today can be analysed and debugged from a single node (or even
 ### Bio
 
 Aidan works at Hadean in London to create a platform for distributed computing and key libraries on top. His previous experience was in devops and in his spare time participates in the Rust Infrastructure and Core Teams.
-

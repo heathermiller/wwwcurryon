@@ -16,6 +16,7 @@ speakers:
     twitter: "tschneidereit"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=Bi7IV-8e2uA"
 ---
 
 <br/>
@@ -30,4 +31,3 @@ _Lin Clark_ makes code cartoons and is a Principal Research Engineer on Mozilla'
 
 
 _Till Schneidereit_ directs the WebAssembly tooling and runtime, and the Rust efforts at Mozilla. His team is responsible for Mozilla’s contributions to the Rust programming language; driving the Rust to WebAssembly compilation efforts; the Cranelift WebAssembly code generator; the Wasmtime WebAssembly runtime; and other projects around WebAssembly development and deployment. He’s also a delegate to the language standardization bodies for both JavaScript and WebAssembly.
-

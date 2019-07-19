@@ -10,6 +10,7 @@ speakers:
     twitter: "stephenrkell"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=nwrCestQTaw"
 ---
 
 <br/>
@@ -37,4 +38,3 @@ using the latter to provide new kinds of dynamic checking in C and other
 [traditionally] unsafe languages.
 
 Currently he is a Lecturer at the University of Kent.
-

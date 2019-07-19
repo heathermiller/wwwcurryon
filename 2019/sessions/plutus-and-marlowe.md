@@ -9,6 +9,7 @@ speakers:
     twitter: ""
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=jQddA20MZXs"
 ---
 
 <br/>
@@ -47,4 +48,3 @@ Experts (Addison Wesley, 2004), Generics and Collections in
 Java (O'Reilly, 2006), and Programming Language Foundations
 in Agda (2018). He has delivered invited talks in locations
 ranging from Aizu to Zurich.
-

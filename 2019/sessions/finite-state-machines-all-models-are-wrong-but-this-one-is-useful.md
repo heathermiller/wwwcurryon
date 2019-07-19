@@ -16,6 +16,7 @@ speakers:
     twitter: "ctford"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=WVFxuM_PwmQ"
 ---
 
 <br/>
@@ -30,4 +31,3 @@ _Raj_ is part of the core banking team at N26 and has lead the work of building 
 
 
 _Chris_ has coded both correct and incorrect programs for many years, though he prefers the former. He has also coded both correct and incorrect musical compositions for many years, though he doesn’t really mind which. As well as a longstanding interest in TDD, types and continuous delivery, Chris is always interested in learning better ways to write programs that do what they are supposed to do. He is Head of Technology for ThoughtWorks Spain and is based in Barcelona.
-

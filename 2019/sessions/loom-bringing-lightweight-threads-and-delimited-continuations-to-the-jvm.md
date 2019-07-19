@@ -9,6 +9,7 @@ speakers:
     twitter: "pressron"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=r6P0_FDr53Q"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Various asynchronous programming techniques, from simple callbacks, through so-c
 ### Bio
 
 Ron works on OpenJDK in Oracle's Java Platform Group as the technical lead of Project Loom.
-

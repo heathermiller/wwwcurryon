@@ -9,6 +9,7 @@ speakers:
     twitter: ""
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=hPjDWzPiaCs"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Goldman Sachs has an in-house programming language, Slang, used for its critical
 ### Bio
 
 Dhruv is an Indian-Scot working as a Software Engineer at Goldman Sachs, on the SecDb Architecture team. He recently graduated with a Masters in Computer Science from Trinity College at the University of Cambridge, where he specialised in verification and programming languages. When not coding or thinking about coding, he can be found reading fairy-tales, learning about philosophy, dancing to Hindi film songs or teaching a new generation of CompScis on the joys of PL research.
-

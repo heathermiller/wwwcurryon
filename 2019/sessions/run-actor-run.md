@@ -23,6 +23,7 @@ speakers:
     twitter: "SophiaGoulimis"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=tCa7WpHtkgM"
 ---
 
 <br/>
@@ -40,4 +41,3 @@ _Tobias Wrigstad_  is an associate professor at Uppsala University in Sweden wor
 
 
 _Sophia Drossopoulou_ is a Professor at Imperial College London, working on Programming Languages, Program Verification and Specification, and Object Capabilities. She is optimistic that most things have reasons, and is passionate about finding and formulating  the most elegant, succinct and precise explanations.
-

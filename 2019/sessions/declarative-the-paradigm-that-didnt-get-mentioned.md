@@ -9,6 +9,7 @@ speakers:
     twitter: "stevenpemberton"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=nRIL3yGnmqY"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Declarative programming is a programming paradigm that allows you describe what 
 ### Bio
 
 Steven Pemberton is a researcher at CWI Amsterdam, the Dutch national research centre for mathematics and informatics. His research is in interaction, and how the underlying software architecture can support users. He co-designed the ABC programming language that formed the basis for Python and was one of the first handful of people on the open internet in Europe, when the CWI set it up in 1988. Involved with the Web from the beginning, he organised two workshops at the first Web Conference in 1994. For the best part of a decade he chaired the W3C HTML working group, and has co-authored many web standards, including HTML, XHTML, CSS, XForms and RDFa. He now chairs the W3C XForms group, and was until recently a member of the ODF (Open Document Format) technical committee. More details at http://www.cwi.nl/~steven
-

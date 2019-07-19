@@ -9,6 +9,7 @@ speakers:
     twitter: ""
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=tyj390blxPc"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ How is a Git branch like a database transaction? Git, like a database, is design
 ### Bio
 
 James is the author of several open-source tools for Ruby and JavaScript, including the Faye WebSocket messaging system and the parsing toolkit Canopy. He is the author of "Building Git", a book about the computer science behind Git.
-

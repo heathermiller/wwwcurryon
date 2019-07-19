@@ -9,6 +9,7 @@ speakers:
     twitter: ""
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=Q1BVfGIhwZI"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ The last few years have been exciting for programming languages enthusiasts. Rus
 ### Bio
 
 Veit is one of the core maintainers of Carp. As his day job, he is the CTO of Port Zero, a small consultancy based in Berlin. He does a lot of open source work and likes to build programs for domains he knows nothing about.
-

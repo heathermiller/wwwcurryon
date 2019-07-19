@@ -9,6 +9,7 @@ speakers:
     twitter: "natefoster"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=aAPqkeaQZiY"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Computer networks provide the essential communication fabric that underpins almo
 ### Bio
 
 Nate Foster is an Associate Professor of Computer Science at Cornell University and a Principal Research Engineer at Barefoot Networks. The goal of his research is to develop languages and tools that make it easy for programmers to build secure and reliable systems. His current work focuses on the design and implementation of languages for programming software-defined networks. In the past he has also worked on bidirectional languages (also known as "lenses"), database query languages, data provenance, type systems, mechanized proof, and formal semantics. He received a PhD in Computer Science from the University of Pennsylvania. His honors include a Sloan Research Fellowship, an NSF CAREER Award, a Most Influential POPL Paper Award, and the SIGCOMM Rising Star Award.
-

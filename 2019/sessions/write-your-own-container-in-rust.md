@@ -9,6 +9,7 @@ speakers:
     twitter: "gawwrgi"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=pCRnMrDeLV4"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ You might have seen a few cool looking charts in various presentations about  Do
 ### Bio
 
 Gargi is a Software Engineer who is currently at the Recurse Center. Gargi loves everything about Systems Programming, shady syscalls and Modern Art. In her spare time, Gargi loves bouldering, hiking and travelling.
-

@@ -9,6 +9,7 @@ speakers:
     twitter: "SimonDanisch"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=DCs0_T9BRp0"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Compiler research offers lots of challenges. We want our languages to be faster,
 ### Bio
 
 While studying Cognitive Science, Simon developed a great interest for Machine Learning and Computer Vision. During his one-year stay at the the Volkswagen Research lab in San Francisco, he was working on computer vision in C++. Looking for better alternatives to a cumbersome language like C++ or a slow language like Python got him interested in language design. This quickly led him to pick up Julia, where he supported work by the Julia MIT lab and authored a number of open source libraries for plotting, GPU acceleration and Machine Learning. Today, Simon is a researcher at Nextjournal, where he is responsible for making Julia easily accessible.
-

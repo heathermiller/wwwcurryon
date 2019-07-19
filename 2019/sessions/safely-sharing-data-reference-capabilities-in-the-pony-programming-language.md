@@ -9,6 +9,7 @@ speakers:
     twitter: "jtfmumm"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=l0qECc-tzUI"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Many frustrating concurrency bugs arise from unsafely sharing data. But the Pony
 ### Bio
 
 John Mumm is a Netherlands-based lead software engineer at Wallaroo Labs, where he works on an open source high-performance framework for building stateful distributed applications. John holds a PhD in philosophy.
-

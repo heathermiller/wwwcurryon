@@ -9,6 +9,7 @@ speakers:
     twitter: ""
     known-for: "Dart"
     list: "yes"
+    video: "https://www.youtube.com/watch?v=mPna6D21Eqg"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Generic small IoT devices are cheap and computational powerful. However, we foun
 ### Bio
 
 Lars Bak spent the last three decades designing and implementing object-oriented programming languages. His passion for this area started in 1986 when implementing a runtime system for BETA. Since then, Lars has left his mark on several software systems: Self, Strongtalk, JVM HotSpot, JVM CLDC HI, OOVM Smalltalk, V8, Dart, and lately Toit. In 2018, he received the Dahl-Nygaard prize for design and implementation of several object-oriented systems. Lars has a master’s degree in computer science at Aarhus University from 1988. Lars founded Toitware with Kasper Lund in in early 2018.
-

@@ -9,6 +9,7 @@ speakers:
     twitter: "JordyMoos"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=Ok0gTvn-gs8"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Do you want to play your own levels in Boulder Dash? Well, you actually can! And
 ### Bio
 
 Jordy Moos is a self-taught developer with a broad scale of interests but mainly passionate about databases, reactive-, functional- and game- programming. At the age of 12 he started with php and Javascript and at the age of 14 he built a text based browser game. At the moment he works at high traffic company PB Web Media were he increases his programming skills by combining multiple disciplines using Couchbase, Elasticsearch, Scala and many others. Next to work he spent most of his time Kite Surfing and building useless stuff with Arduino and Raspberry Pi.
-

@@ -9,6 +9,7 @@ speakers:
     twitter: "dschmudde"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=HalZfFdWuP4"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ speakers:
 ### Bio
 
 D. Schmüdde is a computational artist who creates experiences that examine the everyday realities of our post-digital society. Over the last fifteen years, he has installed interactive work at the Center for Holographic Arts in New York City, projected video art in the Schusev Museum of Architecture in Moscow, performed at the Chicago Museum of Contemporary Art, screened at the Chinese Theater in Los Angeles, and given talks around the world. He holds a bachelor's degree in computer science, a masters in music technology, and currently teaches science and technology studies at Stevens Institute of Technology while building a next generation computational notebook at Nextjournal. He's always ready to discuss big ideas - find him at http://schmud.de.
-

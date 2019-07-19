@@ -9,6 +9,7 @@ speakers:
     twitter: "tomaspetricek"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=wYMzMuBO_8M"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Many fundamental ideas in theoretical computer science will still be true and im
 ### Bio
 
 Tomas is an academic, open-source developer and a book author. He is a lecturer at University of Kent and is interested in making programming easier and data science more accessible. He also studies history of programming and writes about it from a philosophical perspective. Tomas wrote a popular F# book "Real-World Functional Programming", helped to create a number of F# open-source libraries such as F# Data and created coeffects, a theory of context aware programming languages. His most recent work includes programming tools for data journalism, but also three essays that understand programming concepts such as types, monads and errors from philosophical perspective.
-

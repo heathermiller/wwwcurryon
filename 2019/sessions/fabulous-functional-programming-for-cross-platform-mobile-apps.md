@@ -9,6 +9,7 @@ speakers:
     twitter: ""
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=ieS3S9y9BV8"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ I will describe Fabulous, a thin framework for using functional programming to b
 ### Bio
 
 Don is an Australian computer scientist researcher working for Microsoft, based in London.  He is the BDFL for the F# programming language and contributes regularly to its design and tooling.
-

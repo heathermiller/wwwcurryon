@@ -30,6 +30,7 @@ speakers:
     twitter: ""
     known-for: ""
     list: "no"
+    video: "https://www.youtube.com/watch?v=2WIwx02t4PQ"
 ---
 
 <br/>
@@ -50,4 +51,3 @@ _Koushik Sen_ is a professor in the Department of Electrical Engineering and Com
 
 
 _Satish Chandra_ obtained jis PhD from the University of Wisconsin-Madison in 1997, and a B.Tech. from the Indian Institute of Technology-Kanpur in 1991, both in computer science. From 1997 to 2002, he was a member of technical staff at Bell Laboratories, where his research focused on program analysis, domain-specific languages, and data-communication protocols. From 2002 to 2013, he was a research staff member at IBM Research, where his research focused on bug finding and verification, software synthesis, and test automation. From 2013 to 2016, he worked at Samsung Research America, where he led the advanced programming tools research team. In 2016, he started working at Facebook. He is an ACM Distinguished Scientist.
-

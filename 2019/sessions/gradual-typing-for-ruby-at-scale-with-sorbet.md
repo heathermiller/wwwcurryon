@@ -9,6 +9,7 @@ speakers:
     twitter: "darkdimius"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=Sjjc94Ocyhk"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Stripe maintains an extremely large and growing Ruby code base in which ~3/4 of 
 ### Bio
 
 Dmitry works on developer productivity at Stripe, Making it easy to confidently write maintainable, fast, and reliable code at Stripe by improving language, core abstractions, tools and educational materials. Before this, Dmitry co-architected Dotty, the compiler slated to become Scala3.
-

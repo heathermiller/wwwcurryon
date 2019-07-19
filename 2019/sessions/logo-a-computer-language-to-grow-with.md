@@ -9,6 +9,7 @@ speakers:
     twitter: ""
     known-for: "Logo"
     list: "yes"
+    video: "https://www.youtube.com/watch?v=MyF8QY2ySTA"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Logo was the first computer language designed for children. It became a banner f
 ### Bio
 
 Cynthia Solomon is an American computer scientist known for her work in artificial intelligence and popularizing computer science for students. She is a pioneer in the fields of artificial intelligence, computer science, and educational computing. While working as a researcher at Massachusetts Institute of Technology, Dr. Solomon took it upon herself to understand and program in the programming language Lisp. As she began learning this language she realized the need for a programming language that was more accessible and understandable for children. Throughout her research studies in education, Dr. Solomon worked full-time as a computer teacher in elementary and secondary schools. Her work has mainly focused on research on human-computer interaction and children as designers. While working at Bolt, Beranek and Newman, she created the first programming language for children, Logo, with Wally Feurzeig and Seymour Papert.
-

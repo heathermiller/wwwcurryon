@@ -9,6 +9,7 @@ speakers:
     twitter: ""
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=n0xt2ODTGRI"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ At Uber we operate at a scale that rivals some of the largest engineering organi
 ### Bio
 
 Adam Welc is a Senior Engineer at Uber's Programming Systems Team, where he currently works on application analysis and performance tuning as well as on developing tools to improve developers' experience. More generally, his professional interests are in the area of programming language design, implementation, and tooling with specific focus on run-time system and compiler optimizations. Adam has over ten years of experience working with with different types of virtual machines, compilers, and other large and complicated frameworks and systems. He holds a PhD in Computer Science from Purdue University.
-

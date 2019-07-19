@@ -9,6 +9,7 @@ speakers:
     twitter: "philippkhaller"
     known-for: ""
     list: "yes"
+    video: "https://www.youtube.com/watch?v=XzhZDhXTsEA"
 ---
 
 <br/>
@@ -20,4 +21,3 @@ Scala-async is a macro for simplifying the use of futures. This talk presents an
 ### Bio
 
 Philipp Haller is an associate professor in the department of computer science at KTH Royal Institute of Technology in Stockholm, the leading technical university in Sweden. Philipp is co-author of Scala's async/await extension for asynchronous programming, and one of the lead designers of Scala's futures library. Main author of the book "Actors in Scala," he created Scala's first widely-used actor library. Previously, Philipp held positions at Typesafe, Stanford University, and EPFL.
-
