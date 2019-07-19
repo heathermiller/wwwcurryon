@@ -26,7 +26,7 @@ talks:
   chesstalk: FALSE
   title: "The Making of a Secure and Robust IoT Development Platform"
   url: "sessions/the-making-of-a-secure-and-robust-iot-development-platform.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=mPna6D21Eqg"
   speakers:
   - id: "lars_bak"
     name: "Lars Bak"
@@ -39,20 +39,20 @@ talks:
   chesstalk: FALSE
   title: "Logo, A Computer Language to Grow With"
   url: "sessions/logo-a-computer-language-to-grow-with.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=MyF8QY2ySTA"
   speakers:
   - id: "cynthia_solomon"
     name: "Cynthia Solomon"
     affiliation: ""
     url: "https://en.wikipedia.org/wiki/Cynthia_Solomon"
-    twitter: ""
+    twitter: "cynthiasolomon"
     known-for: "Logo"
     list: "yes"
 - type: "keynote"
   chesstalk: FALSE
   title: "Bringing WebAssembly outside the web with WASI"
   url: "sessions/bringing-webassembly-outside-the-web-with-wasi.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=Bi7IV-8e2uA"
   speakers:
   - id: "lin_clark"
     name: "Lin Clark"
@@ -72,7 +72,7 @@ talks:
   chesstalk: FALSE
   title: "Glean: facts about code"
   url: "sessions/glean-facts-about-code.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=-OPN7QPsYKE"
   speakers:
   - id: "simon_marlow"
     name: "Simon Marlow"
@@ -85,7 +85,7 @@ talks:
   chesstalk: FALSE
   title: "The future of DSLs: functions and formal methods"
   url: "sessions/the-future-of-dsls-functions-and-formal-methods.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=Ud5OQN6e4as"
   speakers:
   - id: "markus_volter"
     name: "Markus Völter"
@@ -98,7 +98,7 @@ talks:
   chesstalk: FALSE
   title: "The Correct Cloud: Logic and Languages"
   url: "sessions/the-correct-cloud-logic-and-languages.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=sBlaySntWcQ"
   speakers:
   - id: "tom_ball"
     name: "Tom Ball"
@@ -111,7 +111,7 @@ talks:
   chesstalk: FALSE
   title: "Asynchronous streams in direct style with and without macros"
   url: "sessions/asynchronous-streams-in-direct-style-with-and-without-macros.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=XzhZDhXTsEA"
   speakers:
   - id: "philipp_haller"
     name: "Philipp Haller"
@@ -125,7 +125,7 @@ talks:
   title: "Dragging Unix into the 1980s (and beyond?): liveness and
 source-level reflection"
   url: "sessions/dragging-unix-into-the-1980s-and-beyond-liveness-and-source-level-reflection.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=nwrCestQTaw"
   speakers:
   - id: "stephen_kell"
     name: "Stephen Kell"
@@ -138,7 +138,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Moldable development"
   url: "sessions/moldable-development.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=Pot9GnHFOVU"
   speakers:
   - id: "tudor_girba"
     name: "Tudor Girba"
@@ -151,7 +151,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "GraphicsFuzz: Metamorphic Testing for Graphics Shader Compilers"
   url: "sessions/graphicsfuzz-metamorphic-testing-for-graphics-shader-compilers.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=vN-9aJzbRKE"
   speakers:
   - id: "alastair_donaldson"
     name: "Alastair Donaldson"
@@ -164,7 +164,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Plutus and Marlowe"
   url: "sessions/plutus-and-marlowe.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=jQddA20MZXs"
   speakers:
   - id: "phil_wadler"
     name: "Phil Wadler"
@@ -177,7 +177,7 @@ source-level reflection"
   chesstalk: TRUE
   title: "Checkpointing for Java"
   url: "sessions/checkpointing-for-java.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=jCxgw5i9rEs"
   speakers:
   - id: "christine_flood"
     name: "Christine Flood"
@@ -190,7 +190,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Julia: A Compiler for the Future"
   url: "sessions/julia-a-compiler-for-the-future.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=DCs0_T9BRp0"
   speakers:
   - id: "simon_danisch"
     name: "Simon Danisch"
@@ -203,7 +203,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Getafix: Learning to fix bugs automatically"
   url: "sessions/getafix-learning-to-fix-bugs-automatically.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=9QvcUNBPw4A"
   speakers:
   - id: "andrew_scott"
     name: "Andrew Scott"
@@ -230,7 +230,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Safely Sharing Data: Reference Capabilities in the Pony Programming Language"
   url: "sessions/safely-sharing-data-reference-capabilities-in-the-pony-programming-language.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=l0qECc-tzUI"
   speakers:
   - id: "john_mumm"
     name: "John Mumm"
@@ -243,7 +243,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Using ML for Code Discovery at Facebook"
   url: "sessions/using-ml-for-code-discovery-at-facebook.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=2WIwx02t4PQ"
   speakers:
   - id: "frank_luan"
     name: "Frank Luan"
@@ -277,7 +277,7 @@ source-level reflection"
   chesstalk: TRUE
   title: "The search for fundamental software engineering principles"
   url: "sessions/the-search-for-fundamental-software-engineering-principles.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=wYMzMuBO_8M"
   speakers:
   - id: "tomas_petricek"
     name: "Tomas Petricek"
@@ -290,7 +290,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "No Hands on Deck: Automation @Uber"
   url: "sessions/no-hands-on-deck-automation-@uber.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=n0xt2ODTGRI"
   speakers:
   - id: "adam_welc"
     name: "Adam Welc"
@@ -303,7 +303,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Idris 2: Type-driven Development of Idris"
   url: "sessions/idris-2-type-driven-development-of-idris.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=DRq2NgeFcO0&t=86s"
   speakers:
   - id: "edwin_brady"
     name: "Edwin Brady"
@@ -316,7 +316,7 @@ source-level reflection"
   chesstalk: TRUE
   title: "Run, actor, run"
   url: "sessions/run-actor-run.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=tCa7WpHtkgM"
   speakers:
   - id: "sebastian_blessing"
     name: "Sebastian Blessing"
@@ -356,7 +356,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Declarative - The paradigm that didn't get mentioned"
   url: "sessions/declarative-the-paradigm-that-didnt-get-mentioned.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=nRIL3yGnmqY"
   speakers:
   - id: "steven_pemberton"
     name: "Steven Pemberton"
@@ -369,7 +369,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "One VM to Rule Them All? Lessons Learned with GraalVM"
   url: "sessions/one-vm-to-rule-them-all-lessons-learned-with-graalvm.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=hPjDWzPiaCs"
   speakers:
   - id: "dhruv_makwana"
     name: "Dhruv Makwana"
@@ -382,7 +382,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Conflict resolution"
   url: "sessions/conflict-resolution.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=tyj390blxPc"
   speakers:
   - id: "james_coglan"
     name: "James Coglan"
@@ -395,7 +395,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Say What You Mean: Exploring Declarative Computation in Art"
   url: "sessions/say-what-you-mean-exploring-declarative-computation-in-art.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=HalZfFdWuP4"
   speakers:
   - id: "david_schmudde"
     name: "David Schmudde"
@@ -408,7 +408,7 @@ source-level reflection"
   chesstalk: TRUE
   title: "Formal Methods and Computer Networks: A Match Made in Heaven?"
   url: "sessions/formal-methods-and-computer-networks-a-match-made-in-heaven.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=aAPqkeaQZiY"
   speakers:
   - id: "nate_foster"
     name: "Nate Foster"
@@ -421,7 +421,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Walking In The Garden Of Forking Paths"
   url: "sessions/walking-in-the-garden-of-forking-paths.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=055M-I8DlRs"
   speakers:
   - id: "szymon_kaliski"
     name: "Szymon Kaliski"
@@ -434,7 +434,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Finite-State Machines: All models are wrong but this one is useful"
   url: "sessions/finite-state-machines-all-models-are-wrong-but-this-one-is-useful.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=WVFxuM_PwmQ"
   speakers:
   - id: "raj_saxena"
     name: "Raj Saxena"
@@ -454,7 +454,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "A vision for debugging distributed applications"
   url: "sessions/a-vision-for-debugging-distributed-applications.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=KHmrvLBbW7Y"
   speakers:
   - id: "aidan_hobson_sayers"
     name: "Aidan Hobson Sayers"
@@ -467,7 +467,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Gradual typing for Ruby at Scale with Sorbet"
   url: "sessions/gradual-typing-for-ruby-at-scale-with-sorbet.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=Sjjc94Ocyhk"
   speakers:
   - id: "dmitry_petrashko"
     name: "Dmitry Petrashko"
@@ -480,7 +480,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Beyond the Paper: End-to-End Program Analysis"
   url: "sessions/beyond-the-paper-end-to-end-program-analysis.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=Ei7zVDulN14"
   speakers:
   - id: "cam_tenny"
     name: "Cam Tenny"
@@ -493,7 +493,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "The Tricks of Game Programming in a Pure Functional Language"
   url: "sessions/the-tricks-of-game-programming-in-a-pure-functional-language.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=Ok0gTvn-gs8"
   speakers:
   - id: "jordy_moos"
     name: "Jordy Moos"
@@ -506,7 +506,7 @@ source-level reflection"
   chesstalk: TRUE
   title: "Carp—A Language for the 21st Century"
   url: "sessions/carpa-language-for-the-21st-century.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=Q1BVfGIhwZI"
   speakers:
   - id: "veit_heller"
     name: "Veit Heller"
@@ -519,7 +519,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Write your own Container in Rust!"
   url: "sessions/write-your-own-container-in-rust.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=pCRnMrDeLV4"
   speakers:
   - id: "gargi_sharma"
     name: "Gargi Sharma"
@@ -532,7 +532,7 @@ source-level reflection"
   chesstalk: TRUE
   title: "Mental models for critiquing design of interactive development environments"
   url: "sessions/mental-models-for-critiquing-design-of-interactive-development-environments.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=wYdSyU2U9IU"
   speakers:
   - id: "richard_millwood"
     name: "Richard Millwood"
@@ -545,7 +545,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Fabulous - Functional programming for cross-platform mobile apps"
   url: "sessions/fabulous-functional-programming-for-cross-platform-mobile-apps.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=ieS3S9y9BV8"
   speakers:
   - id: "don_syme"
     name: "Don Syme"
@@ -558,7 +558,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Getting everything wrong without doing anything right! On the perils of large-scale analysis of Github data"
   url: "sessions/getting-everything-wrong-without-doing-anything-right-on-the-perils-of-large-scale-analysis-of-github-data.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=ePCpq0AMyVk"
   speakers:
   - id: "jan_vitek"
     name: "Jan Vitek"
@@ -571,7 +571,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Loom: Bringing Lightweight Threads and Delimited Continuations to the JVM"
   url: "sessions/loom-bringing-lightweight-threads-and-delimited-continuations-to-the-jvm.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=r6P0_FDr53Q"
   speakers:
   - id: "ron_pressler"
     name: "Ron Pressler"
@@ -584,7 +584,7 @@ source-level reflection"
   chesstalk: FALSE
   title: "Microservice architecture, a programming languages perspective"
   url: "sessions/microservice-architecture-a-programming-languages-perspective.html"
-  video: ""
+  video: "https://www.youtube.com/watch?v=OTcbp1fk0JY"
   speakers:
   - id: "adelbert_chang"
     name: "Adelbert Chang"
