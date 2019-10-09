@@ -86,14 +86,14 @@ ul > li, ol > li  {
 }
 
 .splash {
-  position: relative;
-  background: url({{ site.baseurl }}/resources/img/2020/berlin.jpg) no-repeat center;
+  background: url({{ site.baseurl }}/resources/img/2020/berlin.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: 100%;
-  height: 620px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .curry-on-wrap {
@@ -149,7 +149,7 @@ ul > li, ol > li  {
 
 .dates {
   font-family: "petala-pro",sans-serif;
-  font-style: normal;
+  font-style: bold;
   font-weight: 400;
   text-transform: uppercase;
   color: #6cb1dd; /*fdaa40*/ /*9CC47C*/
@@ -161,7 +161,7 @@ ul > li, ol > li  {
 
 .curry-on-logo {
   position: relative;
-  margin: 95px auto 20px auto;
+  margin: 295px auto 20px auto;
   height: 200px;
   width: 200px;
   background-image: url('{{ site.baseurl }}/resources/img/curry-on-logo.png');
@@ -1415,6 +1415,22 @@ a.btn.btn-outline-inverse.btn-lg:hover {
 .footer ul li a:hover {
     text-decoration: none;
     color: #6cb1dd;
+}
+
+.past {
+    padding-top: 20px;
+    margin-right: 20px;
+    text-align: right;
+    font-family: "vinyl", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /*line-height: 20px;*/
+    color: #fff;
+    /*margin-bottom: 10px;*/
+    /*padding-bottom: 10px;*/
+    /*text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);*/
+    text-transform: uppercase;
 }
 
 .footer ul li h5 {
