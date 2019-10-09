@@ -133,6 +133,7 @@ ul > li, ol > li  {
   font-style: normal;
   font-weight: 400;
   font-size: 100pt;
+  line-height: .8em;
 }
 
 .rome-inner {
