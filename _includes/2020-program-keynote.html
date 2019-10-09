@@ -1,0 +1,17 @@
+{% assign settings = site.data["2020"] %}
+{% assign talk = settings.talks | where:"title", include.session.talk | first %}
+<tr class="tr-keynote-bg">
+  <td class="time">
+    {{ include.session.time }}
+    <!--
+    <div class="td-room">
+      <span class="light">Keynote Room:</span>
+      <br/>
+      {{ include.session.room }}
+    </div>
+    -->
+  </td>
+  <td class="pad centered-div" colspan="3">
+    {% include 2020-program-session.html talk=talk %}
+  </td>
+</tr>
