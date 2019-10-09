@@ -1,0 +1,29 @@
+city: Coming in 2020
+year: 2020
+conference_dates: July, 2020
+early_registration_deadline: May 26, 2020
+registration_countdown_url: false
+tickets_sale_date: May 4<sup>th</sup>, at 5pm CEST
+register_url: false
+previous_editions:
+  - 2019
+  - 2018
+  - 2017
+  - 2016
+  - 2015
+
+show_cfp: false
+show_program: false
+show_accepted_talks: false
+show_accepted_talks_people: false
+show_talks_listing: false
+show_ticket_sale: false
+show_sponsors: false
+sold_out: false
+videos_online: false
+
+talks:
+  # BEGIN_TALKS
+  # END_TALKS
+
+program:

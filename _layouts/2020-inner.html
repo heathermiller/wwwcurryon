@@ -1,0 +1,27 @@
+{% include 2020-header.html %}
+
+<div class="reddish-orange-stripe centered">
+  <br/><br/>
+  <a href="{{ site.baseurl }}/2020">
+    <div class="curry-on-wrap">
+      <span class="curry-on">Curry On</span><br/>
+      <span class="rome">{{ settings.city  }}!</span>
+      <div class="dates">{{ settings.conference_dates }}</div>
+      <br/><br/>
+    </div>
+  </a>
+</div>
+
+<!-- <div class="inner-page-wrap"> -->
+  <div class="container inner-page-wrap">
+    <div class="row">
+      <div class="col-md-2">&nbsp;</div>
+      <div class="col-md-8">
+        <div class="inner-page-title">{{ page.title }}</div>
+        {{ content }}
+      </div>
+      <div class="col-md-2">&nbsp;</div>
+    </div>
+  </div>
+
+{% include 2020-footer.html %}

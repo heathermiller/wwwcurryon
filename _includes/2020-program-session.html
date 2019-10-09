@@ -1,0 +1,31 @@
+{% assign talk = include.talk %}
+{% assign speakers = talk.speakers | map: "name" | join: " & " %}
+{% assign affiliations = talk.speakers | map: "affiliation" | join: " & " %}
+{% if talk.type == 'keynote' %}
+{% for speaker in talk.speakers %}
+<div class="circular {{ speaker.id }}" style="float: left; margin-right: 20px; margin-bottom: 20px;"></div>
+{% endfor %}
+<div class="td-keynote"><span class="rounded-label">keynote</span></div>
+{% else %}
+<!-- <div class="circular {{ talk.speaker.id }}" style=""></div> -->
+{% endif %}
+{% if talk.chesstalk %}
+<div class="td-keynote"><span class="rounded-label light-blue"><a style="color: #ffffff" href="#chesstalk">chess timer talk</a></span></div>
+{% endif %}
+<div class="td-title">
+  <a href="{{ site.baseurl }}/2020/{{ talk.url }}">{{ talk.title }}</a>
+</div>
+<div class="td-speaker">{{ speakers }}</div>
+<div class="td-affiliation">{{ affiliations }}</div>
+{% if talk and talk.video != ''  %}
+<div class="td-video-link">
+  <a href="{{ talk.video }}">
+    <span class="fa fa-youtube-play" style="font-size: 18px;"></span>&nbsp;watch
+  </a>
+</div>
+{% endif %}
+<div class="td-tags">
+  {% for tag in talk.tags %}
+  <span class="rounded-dark-blue">{{ tag }}</span>
+  {% endfor %}
+</div>

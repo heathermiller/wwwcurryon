@@ -1,0 +1,16 @@
+{% assign settings = site.data["2020"] %}
+<div class="splash">
+    <div class="past">
+    Past editions:
+    {% for year in settings.previous_editions %}
+    <a href="{{ site.baseurl }}/{{ year }}" style="color: white;">{{ year }}</a>
+    {% endfor %}
+    </div>
+  <div class="container">
+    <div class="curry-on-logo"></div>
+    <div class="curry-on-wrap">
+      <span class="curry-on">Curry On</span><br/>
+      <span class="rome">{{ settings.city }}!</span>
+    </div>
+ </div>
+</div>
